@@ -4,10 +4,10 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<key>contact_IT_or_data_management_expert</key>
 		<dc:comment/>
-		<title lang="en">Contact IT or data management expert</title>
-		<title lang="de">IT- oder Datenmanagementexpertin/en kontaktieren</title>
-		<text lang="en">Please contact an IT or data management expert to get support in terms of data usage.</text>
-		<text lang="de">Bitte kontaktieren Sie Personen mit IT- oder Datenmanagementexpertise, um die notwendige Unterstützung für geplante Datennutzungsszenarien zu erhalten.</text>
+		<title lang="en">Contact your IT Department</title>
+		<title lang="de">IT-Kolleg_innen kontaktieren</title>
+		<text lang="en">Please contact your local IT staff at your Max Planck Institute to get support in terms of data usage.</text>
+		<text lang="de">Bitte kontaktieren Sie Ihre lokale IT-Kolleg_innen an ihrem Max-Planck-Institut, um die notwendige Unterstützung für geplante Datennutzungsszenarien zu erhalten.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -20,8 +20,8 @@
 		<dc:comment/>
 		<title lang="en">Clarify consequences of different international jurisdictions</title>
 		<title lang="de">Konsequenzen verschiedener relevanter Gesetzgebungen klären</title>
-		<text lang="en">Please get in touch with the legal department or a respective contact person at your institution to clarify if this has consequences for the project and its data management and if yes, what consequences these are.</text>
-		<text lang="de">Setzen Sie sich bitte mit der Rechtsabteilung bzw. einem/r entsprechenden Ansprechpartner/in an Ihrer Institution in Verbindung, um zu klären, ob sich daraus Konsequenzen für Ihr Projekt ergeben und wenn ja, welche dies sind.</text>
+		<text lang="en">Please get in touch with the legal department at your Max Planck Institute to clarify if this has consequences for the project and its data management and if yes, what consequences these are.</text>
+		<text lang="de">Setzen Sie sich bitte mit der Rechtsabteilung an Ihrem Max-Planck-Institut in Verbindung, um zu klären, ob sich daraus Konsequenzen für Ihr Projekt ergeben und wenn ja, welche dies sind.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -38,11 +38,11 @@
 		<title lang="de">Datenschutzbeauftragten bzgl. spezieller Anforderungen kontaktieren.</title>
 		<text lang="en">At least one of the datasets contains particularly sensitive personal information according ot BDSG § 3, 9. 
 
-Please get in touch with the data protection officer of your institution to check which additional protection measures are necessary.</text>
+Please get in touch with your local data protection officer of your Max Planck Institute to check which additional protection measures are necessary.  If this is not possible, it might be helpful to contact the Data Protection Officer at the Administrative Headquarter (<a href= "mailto:datenschutz@mpg.de">datenschutz@mpg.de</a>).</text>
 		<text lang="de">Mindestens einer der Datensätze enthält besonders sensible personenbezogene Daten
  nach BDSG §3, Abs. 9. 
 
-Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution, welche zusätzlichen Schutzmaßnahmen notwendig sind.</text>
+Infomieren Sie sich bitte bei Ihrem lokalen Datenschutzbeauftragten an Ihrem Max-Planck-Institut, welche zusätzlichen Schutzmaßnahmen notwendig sind.  Sollte dies nicht möglich sein wäre es eventuell ebenfalls hilfreich sich die Datenschutzbeauftragte der Max-Planck-Gesellschaft (<a href= "mailto:datenschutz@mpg.de">datenschutz@mpg.de</a>) zu wenden.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -55,8 +55,8 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<dc:comment/>
 		<title lang="en">Contact IT department to acquire infrastructure resources</title>
 		<title lang="de">IT-Abteilung kontaktieren, um Infrastrukturressourcen zu organisieren</title>
-		<text lang="en">Please get in touch with your IT department to arrange that the required infrastructure resources are provided.</text>
-		<text lang="de">Bitte nehmen Sie Kontakt mit der IT-Abteilung auf, um die Bereitstellung der benötigten Infrastrukturressourcen zu organisieren.</text>
+		<text lang="en">Please get in touch with your IT department at your Max Planck Institute to arrange that the required infrastructure resources are provided.</text>
+		<text lang="de">Bitte nehmen Sie Kontakt mit der IT-Abteilung an Ihrem Max-Planck-Institut auf, um die Bereitstellung der benötigten Infrastrukturressourcen zu organisieren.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -87,8 +87,8 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<dc:comment/>
 		<title lang="en">Create data organisation policy</title>
 		<title lang="de">Richtlinien zur Datenorganisation erstellen</title>
-		<text lang="en">Create a policy for a consistent data organisation in the project.</text>
-		<text lang="de">Erstellen Sie eine Richtlinie zur einheitlichen Organisation der Daten im Projekt.</text>
+		<text lang="en">Create a policy for a consistent data organisation in the project. If you need help with that, please contact your local RDM experts or the <a href="https://rdm.mpdl.mpg.de/mpdl-services/support/" target="_blank">RDM Support by the Max Planck Digital Library</a> for more information.</text>
+		<text lang="de">Erstellen Sie eine Richtlinie zur einheitlichen Organisation der Daten im Projekt. Benötigen Sie hierbei Unterstützung, dann kontaktieren Sie bitte Ihre lokalen FDM-Experten oder den <a href="https://rdm.mpdl.mpg.de/mpdl-services/support/" target="_blank">RDM Support der Max Planck Digital Library</a> für mehr Informationen.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -101,8 +101,8 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<dc:comment/>
 		<title lang="en">Create data naming policy</title>
 		<title lang="de">Richtlinie zur Benennung der Daten erstellen</title>
-		<text lang="en">Create a guideline for a consistent naming of the data within the project.</text>
-		<text lang="de">Erstellen Sie eine Richtlinie zur einheitlichen Benennung der Daten innerhalb des Projekts.</text>
+		<text lang="en">Create a guideline for a consistent naming of the data within the project. The <a href="https://rdm.mpdl.mpg.de/before-research/file-handling/" target="_blank">RDM Information Platform for Max Planck Research</a> gives you more information on that. If you need help with that, please contact your local RDM experts or the <a href="https://rdm.mpdl.mpg.de/mpdl-services/support/" target="_blank">RDM Support by the Max Planck Digital Library</a> for more information.</text>
+		<text lang="de">Erstellen Sie eine Richtlinie zur einheitlichen Benennung der Daten innerhalb des Projekts. Die <a href="https://rdm.mpdl.mpg.de/before-research/file-handling/" target="_blank">RDM Information Platform for Max Planck Research</a> gibt hierzu einige hilfreiche Informationen. Benötigen Sie hierbei Unterstützung, dann kontaktieren Sie bitte Ihre lokalen FDM-Experten oder den <a href="https://rdm.mpdl.mpg.de/mpdl-services/support/" target="_blank">RDM Support der Max Planck Digital Library</a> für mehr Informationen.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -115,8 +115,8 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<dc:comment/>
 		<title lang="en">Determine Versioning Tool</title>
 		<title lang="de">Versionierungstool bestimmen</title>
-		<text lang="en">Determine, which versioning tool will be used for the versioning.</text>
-		<text lang="de">Legen Sie fest, welches Versionierungstool genutzt werden soll.</text>
+		<text lang="en">Determine, which versioning tool will be used for the versioning. The <a href="https://rdm.mpdl.mpg.de/before-research/file-handling/" target="_blank">RDM Information Platform for Max Planck Research</a> gives you more information on that.</text>
+		<text lang="de">Legen Sie fest, welches Versionierungstool genutzt werden soll. Die <a href="https://rdm.mpdl.mpg.de/before-research/file-handling/" target="_blank">RDM Information Platform for Max Planck Research</a> gibt hierzu einige hilfreiche Informationen.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -160,7 +160,7 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<title lang="en">Inform data security officer</title>
 		<title lang="de">Datenschutzbeauftragte/n informieren</title>
 		<text lang="en">At least one dataset contains personal data. Please contact the data security officer in charge.</text>
-		<text lang="de">Mindestens ein Datensatz enthält personenbezogene Daten. Bitte infomieren Sie den oder die zuständige/n Datenschutzbeauftragte/n Ihrer Institution.</text>
+		<text lang="de">Mindestens ein Datensatz enthält personenbezogene Daten. Bitte infomieren Sie den oder die zuständige/n Datenschutzbeauftragte/n Ihrem Max-Planck-Institut.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
