@@ -407,11 +407,11 @@
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<help lang="en">More and more universities and scientific institutions adopt research data management policies. These contain, among other things, recommendations and / or demands concerning the handling of research data by researchers of the institution.</help>
-		<text lang="en">Does your institution have rules or guidelines for the handling of research data? If yes, please briefly outline them and refer to more detailed sources of information if necessary. Please also indicate, if the rules / guidelines are mandatory or optional.</text>
+		<text lang="en">Does your institute have rules or guidelines for the handling of research data? If yes, please briefly outline them and refer to more detailed sources of information if necessary. Please also indicate, if the rules / guidelines are mandatory or optional.</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Immer mehr Hochschulen und wissenschaftliche Einrichtungen verabschieden Leitlinien oder Richtlinien (oft auch als &quot;Policies&quot; bezeichnet) zum Forschungsdatenmanagement. Diese enthalten unter anderem Empfehlungen und/oder Vorgaben zum Umgang mit Forschungsdaten, die die Wissenschaftlerinnen und Wissenschaftler der Einrichtung beachten sollten oder müssen (je nach Grad der Verbindlichkeit), zum Beispiel die &lt;a href=&quot;http://www.uni-goettingen.de/de/01-juli-2014-forschungsdaten-leitlinie-der-universitaet-goettingen-einschl-umg/488918.html&quot; target=&quot;_blank&quot;&gt;Leitlinien zum Umgang mit Forschungsdaten&lt;/a&gt; der Georg-August-Universität Göttingen.</help>
-		<text lang="de">Gibt es an Ihrer Einrichtung Regeln oder Richtlinien zum Umgang mit den im Projekt erhobenen Forschungsdaten? Wenn ja, skizzieren Sie diese kurz und verweisen Sie ggf. auf weiterführende Informationen. Geben Sie bitte auch an, welchen Grad an Verbindlichkeit sie haben.</text>
+		<text lang="de">Gibt es an Ihrem Institut Regeln oder Richtlinien zum Umgang mit den im Projekt erhobenen Forschungsdaten? Wenn ja, skizzieren Sie diese kurz und verweisen Sie ggf. auf weiterführende Informationen. Geben Sie bitte auch an, welchen Grad an Verbindlichkeit sie haben.</text>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
 		<help lang="fr">De plus en plus d'universités et d'institutions scientifiques adoptent des politiques de gestion des données de recherche. Celles-ci contiennent, entre autres, des recommandations et / ou des exigences concernant le traitement des données de recherche par les chercheurs de l'établissement.</help>
@@ -630,8 +630,9 @@
 		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/rdmo/general/other-requirements-yesno"/>
 		<is_collection>False</is_collection>
 		<order>0</order>
-		<help lang="en">Examples of discipline-specific requirements:  
+		<help lang="en">Examples of specific requirements:  
 
+- &lt;a href=&quot;https://www.mpg.de/197494/rulesScientificPractice.pdf&quot; target=&quot;_blank&quot;&gt;Rules of Good Scientific Practice for the Max Planck Society&lt;/a&gt;  
 - &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/guidelines_biodiversity_research.pdf&quot; target=&quot;_blank&quot;&gt;Guidelines on the Handling of Research Data in Biodiversity Research&lt;/a&gt;  
 - &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/guidelines_review_board_linguistics_corpora.pdf&quot; target=&quot;_blank&quot;&gt;Guidelines by the DFG Review Board on Linguistics Language Corpora&lt;/a&gt;. 
 
@@ -639,8 +640,9 @@ Further discipline-specific guidelines on the handling of Research Data are prov
 		<text lang="en">Are there requirements regarding the data management from other parties (e.g. the scholarly/scientific community)?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Beispiele für fachspezifische Empfehlungen und Richtlinien sind:  
+		<help lang="de">Beispiele für Empfehlungen und Richtlinien sind:  
 
+- &lt;a href=&quot;https://www.mpg.de/229457/Regeln_guter_wiss_Praxis__Volltext-Dokument_.pdf&quot; target=&quot;_blank&quot;&gt;Regeln zur Sicherung guter wissenschaftlicher Praxis der Max-Planck-Gesellschaft&lt;/a&gt;
 - &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=&quot;_blank&quot;&gt;Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt;  
 - Empfehlungen zur &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot; target=&quot;_blank&quot;&gt;Bereitstellung und Nutzung quantitativer Daten in der Bildungsforschung&lt;/a&gt;  
 - &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=&quot;_blank&quot;&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;  
