@@ -4,8 +4,8 @@
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>costs</key>
 		<dc:comment/>
-		<title lang="en">Cost overview</title>
-		<help lang="en">Overview of the personnel and non_personnel costs</help>
+		<title lang="en">Kostenübersicht</title>
+		<help lang="en">Übersicht der Personal- und Sachkosten</help>
 		<title lang="de">Kostenübersicht</title>
 		<help lang="de">Übersicht der Personal- und Sachkosten</help>
 		<catalogs/>
