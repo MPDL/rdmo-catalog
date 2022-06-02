@@ -5,16 +5,16 @@
 		<key>economics_dfg</key>
 		<dc:comment>Dieser Fragenkatalog ist eine Teilmenge des Katalogs &quot;RDMO&quot; und enthält nur die Fragen, die die Anforderungen
 
-- des DFG Fachkollegiums 112 &quot;Wirtschaftswissenschaften&quot;, https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/fachkollegium112_forschungsdatenmanagement_de_1811.pdf
+- des DFG Fachkollegiums 112 &quot;Wirtschaftswissenschaften&quot;, https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/fachkollegium112_forschungsdatenmanagement_de.pdf
 
- - in den &quot;Basisinformationen zum Forschungsdatenmanagement&quot; des Rats für Sozial- und WirtschaftsDaten (RatSWD), http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/basisinformationen_forschungsdatenmanagement.pdf, und
+ - in den &quot;Basisinformationen zum Forschungsdatenmanagement&quot; des Rats für Sozial- und WirtschaftsDaten (RatSWD), https://www.konsortswd.de/wp-content/uploads/RatSWD_Output3_Forschungsdatenmanagement.pdf, und
 
  - in den &quot;Leitlinien zum Umgang mit Forschungsdaten&quot; der DFG, http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten 
 
 abdecken. Die Fragen sind somit ausgesucht für wirtschaftswissenschaftliche Datenmanagementpläne, die Förderanträgen an die Deutsche Forschungsgemeinschaft (DFG) beigelegt werden sollen.</dc:comment>
 		<order>112</order>
-		<title lang="en">DFG 112 Economics</title>
-		<title lang="de">DFG 112 Wirtschaftswiss.</title>
+		<title lang="en">DFG Economics</title>
+		<title lang="de">DFG Wirtschaftswissenschaften</title>
 	</catalog>
 	<section dc:uri="https://rdmo.fodako.nrw/questions/economics_dfg/general">
 		<uri_prefix>https://rdmo.fodako.nrw</uri_prefix>
@@ -56,9 +56,9 @@ abdecken. Die Fragen sind somit ausgesucht für wirtschaftswissenschaftliche Dat
 		<order>0</order>
 		<help lang="en">This catalog contains only the questions that the requirements
 
-- of the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/fachkollegium112_forschungsdatenmanagement_de_1811.pdf&quot; target=_blank&gt;DFG Review Board 112 &quot;Economics&quot;&lt;/a&gt; (German)
+- of the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/fachkollegium112_forschungsdatenmanagement_de.pdf&quot; target=_blank&gt;DFG Review Board 112 &quot;Economics&quot;&lt;/a&gt; (German)
 
-  - in the &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/basisinformationen_forschungsdatenmanagement.pdf&quot; target=_blank&gt;Basic Information on Research Data Management&lt;/a&gt; (German) of the Council for Social and Economic Data (RatSWD) and
+  - in the &lt;a href=&quot;https://www.konsortswd.de/wp-content/uploads/RatSWD_Output3_Forschungsdatenmanagement.pdf&quot; target=_blank&gt;Basic Information on Research Data Management&lt;/a&gt; (German) of the Council for Social and Economic Data (RatSWD) and
 
   - in the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_research_data.pdf&quot; target=_blank&gt;DFG Guidelines on the Handling of Research Data&lt;/a&gt; (for all subjects)
 
@@ -72,9 +72,9 @@ cover. The questions are thus selected for economic data management plans, which
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Dieser Fragenkatalog enthält nur die Fragen, die die Anforderungen
 
-* des &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/fachkollegium112_forschungsdatenmanagement_de_1811.pdf&quot; target=_blank&gt;DFG Fachkollegiums 112 &quot;Wirtschaftswissenschaften&quot;&lt;/a&gt;
+* des &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/fachkollegium112_forschungsdatenmanagement_de.pdf&quot; target=_blank&gt;DFG Fachkollegiums 112 &quot;Wirtschaftswissenschaften&quot;&lt;/a&gt;
 
-* in den &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/basisinformationen_forschungsdatenmanagement.pdf&quot; target=_blank&gt;Basisinformationen zum Forschungsdatenmanagement&lt;/a&gt; des Rats für Sozial- und WirtschaftsDaten (RatSWD) und
+* in den &lt;a href=&quot;https://www.konsortswd.de/wp-content/uploads/RatSWD_Output3_Forschungsdatenmanagement.pdf&quot; target=_blank&gt;Basisinformationen zum Forschungsdatenmanagement&lt;/a&gt; des Rats für Sozial- und WirtschaftsDaten (RatSWD) und
 
 * in den fachübergreifenden &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf&quot; target=_blank&gt;Leitlinien zum Umgang mit Forschungsdaten&lt;/a&gt; der DFG 
 

@@ -9,12 +9,12 @@
 
 und
 
-&quot;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&quot;, https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf
+&quot;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&quot;, https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf
 
 abdecken. Die Ausfüllhilfen geben Hinweise für Editionsprojekte.</dc:comment>
 		<order>105</order>
-		<title lang="en">DFG 105 Edition</title>
-		<title lang="de">DFG 105 Edition</title>
+		<title lang="en">DFG Edition</title>
+		<title lang="de">DFG Editionen</title>
 	</catalog>
 	<section dc:uri="https://rdmo.fodako.nrw/questions/edition_dfg/general">
 		<uri_prefix>https://rdmo.fodako.nrw</uri_prefix>
@@ -54,11 +54,11 @@ abdecken. Die Ausfüllhilfen geben Hinweise für Editionsprojekte.</dc:comment>
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edition_dfg/general/other-requirements-yesno"/>
 		<is_collection>False</is_collection>
 		<order>0</order>
-		<help lang="en">Edition projects in literature studies funded by the DFG should always observe the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German). Accordingly, this questionnaire takes into account the recommendations in this manual. This questionnaire takes into account these funding criteria and the interdisplinary &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_research_data.pdf&quot; target=_blank&gt;DFG Guidelines on the Handling of Research Data&lt;/a&gt;.</help>
+		<help lang="en">Edition projects in literature studies funded by the DFG should always observe the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German). Accordingly, this questionnaire takes into account the recommendations in this manual. This questionnaire takes into account these funding criteria and the interdisplinary &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_research_data.pdf&quot; target=_blank&gt;DFG Guidelines on the Handling of Research Data&lt;/a&gt;.</help>
 		<text lang="en">Are there requirements regarding the data management from your scholarly/scientific community?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Von der DFG geförderte Editionsprojekte in der Literaturwissenschaft sollten die &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt; beachten. Dieser Fragenkatalog berücksichtigt dementsprechend die Empfehlungen in dieser Handreichung. Dieser Fragenkatalog berücksichtigt diese Förderkriterien und die fachübergreifenden &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf&quot; target=_blank&gt;Leitlinien zum Umgang mit Forschungsdaten&lt;/a&gt;.</help>
+		<help lang="de">Von der DFG geförderte Editionsprojekte in der Literaturwissenschaft sollten die &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt; beachten. Dieser Fragenkatalog berücksichtigt dementsprechend die Empfehlungen in dieser Handreichung. Dieser Fragenkatalog berücksichtigt diese Förderkriterien und die fachübergreifenden &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf&quot; target=_blank&gt;Leitlinien zum Umgang mit Forschungsdaten&lt;/a&gt;.</help>
 		<text lang="de">Gibt es von Seiten Ihrer Fachcommunity Anforderungen an das Datenmanagement, die beachtet werden müssen?</text>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -106,7 +106,7 @@ abdecken. Die Ausfüllhilfen geben Hinweise für Editionsprojekte.</dc:comment>
 		<help lang="en">At least, the following requirements and recommendations of the German Research Foundation must be observed:
 
   * &lt;a href=&quot;https://www.dfg.de/formulare/12_151/12_151_en.pdf&quot; target=_blank&gt;DFG Practical Guidelines on Digitisation&lt;/a&gt;
-  * &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Funding criteria for scientific editions in literary studies&lt;/a&gt; (in German)
+  * &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Funding criteria for scientific editions in literary studies&lt;/a&gt; (in German)
   * the interdisplinary &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_research_data.pdf&quot; target=_blank&gt;DFG Guidelines on the Handling of Research Data&lt;/a&gt;</help>
 		<text lang="en">Which are these additional requirements regarding data management?</text>
 		<verbose_name lang="en"/>
@@ -114,7 +114,7 @@ abdecken. Die Ausfüllhilfen geben Hinweise für Editionsprojekte.</dc:comment>
 		<help lang="de">Zu beachten sind die folgenden Anforderungen und Empfehlungen der Deutschen Forschungsgemeinschaft:
 
   * &lt;a href=&quot;https://www.dfg.de/formulare/12_151/12_151_de.pdf&quot; target=_blank&gt;DFG-Praxisregeln „Digitalisierung“&lt;/a&gt;
-  * &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;
+  * &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;
   * die fachübergreifenden &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf&quot; target=_blank&gt;Leitlinien zum Umgang mit Forschungsdaten&lt;/a&gt;</help>
 		<text lang="de">Welche Anforderungen an das Datenmanagement sind dies?</text>
 		<verbose_name lang="de"/>
@@ -156,13 +156,13 @@ abdecken. Die Ausfüllhilfen geben Hinweise für Editionsprojekte.</dc:comment>
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edition_dfg/general/support"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
-		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
+		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
 
 If the project team does not have sufficient expertise to provide texts in the basic format, it is recommended that additional project partners, e.g. libraries, archives, data centers or other service providers, who may be responsible for the training of employees, for the takeover, processing and - after the end of the project - for backing up the data.</help>
 		<text lang="en">Who provides support for research data management issues for the project?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
+		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
 
 Sofern im Projektteam keine ausreichende Expertise vorhanden ist, Texte im Basisformat bereitzustellen, empfiehlt es sich, weitere Projektpartner, z. B. Bibliotheken, Archive, Daten- und Rechenzentren oder andere Dienstleister, einzubeziehen, die ggf. für die Schulung der Mitarbeitenden, für die Übernahme, Verarbeitung und – nach Projektende – auch für die Sicherung der Daten verantwortlich sein können.</help>
 		<text lang="de">Wer leistet Unterstützung in Fragen des Forschungsdatenmanagements für das Projekt?</text>
@@ -215,7 +215,7 @@ Sofern im Projektteam keine ausreichende Expertise vorhanden ist, Texte im Basis
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edition_dfg/content-classification/data-dataset"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
-		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
+		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
 
 A digital form of publication is not expected for every edition project, in any case, however, the backup and provision of the text data in digital form.
 
@@ -223,7 +223,7 @@ Regardless of the specific form of publication of the edition, the underlying te
 		<text lang="en">What kind of dataset is it?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
+		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
 
 Nicht für jedes Editionsprojekt wird eine digitale Veröffentlichungsform erwartet – in jedem Fall jedoch eine Sicherung und Bereitstellung der Textdaten in digitaler Form.
 
@@ -323,7 +323,7 @@ Unabhängig von der spezifischen Form der Veröffentlichung der Edition sollten 
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edition_dfg/technical-classification/data-formats"/>
 		<is_collection>False</is_collection>
 		<order>4</order>
-		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
+		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
 
 &lt;i&gt; Basic format for the digital backup of text data from scientific edition projects &lt;/i&gt;
 
@@ -335,7 +335,7 @@ Other requirements, e.g. on image formats, can be found in the &lt;a href=&quot;
 		<text lang="en">Which file formats are used?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
+		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
 
 &lt;i&gt;Basisformat zur digitalen Sicherung von Textdaten aus wissenschaftlichen Editionsprojekten&lt;/i&gt;
 
@@ -493,13 +493,13 @@ Weitere Anforderungen, z.B. zu Bildformaten, können in den &lt;a href=&quot;htt
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edition_dfg/data-usage/data-sharing-and-re-use-publication"/>
 		<is_collection>True</is_collection>
 		<order>3</order>
-		<help lang="en">The options refer to the licenses of the &lt;a href=&quot;https://creativecommons.org/share-your-work/licensing-types-examples/&quot; target=_blank&quot;&gt;Creative Commons family&lt;/a&gt;. From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
+		<help lang="en">The options refer to the licenses of the &lt;a href=&quot;https://creativecommons.org/share-your-work/licensing-types-examples/&quot; target=_blank&quot;&gt;Creative Commons family&lt;/a&gt;. From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
 
 Electronic filing is expressly carried out under a license that permits free subsequent use for scientific purposes, e.g. under the Creative Commons Licenses &lt;a href=&quot;https://creativecommons.org/licenses/by/3.0/&quot; target=_blank&gt;CC-BY&lt;/a&gt; or &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/3.0/&quot; target=_blank&gt;CC-BY SA&lt;/a&gt;.</help>
 		<text lang="en">If yes, under which terms of use or license will the dataset be published or shared?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Die Auswahlmöglichkeiten orientieren sich an Lizenzen der &lt;a href=&quot;http://de.creativecommons.org/&quot; target=_blank&gt;Creative-Commons-Familie&lt;/a&gt;. Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
+		<help lang="de">Die Auswahlmöglichkeiten orientieren sich an Lizenzen der &lt;a href=&quot;http://de.creativecommons.org/&quot; target=_blank&gt;Creative-Commons-Familie&lt;/a&gt;. Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
 
 Die elektronische Ablage erfolgt ausdrücklich unter einer Lizenz, die eine freie Nachnutzung zu wissenschaftlichen Zwecken erlaubt, z. B. unter den Creative Commons Lizenzen &lt;a href=&quot;https://creativecommons.org/licenses/by/3.0/de/&quot; target=_blank&gt;CC-BY&lt;/a&gt; oder &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/3.0/de/&quot; target=_blank&gt;CC-BY SA&lt;/a&gt;.</help>
 		<text lang="de">Wenn ja, unter welchen Nutzungsbedingungen oder welcher Lizenz sollen die Daten veröffentlicht bzw. geteilt werden?</text>
@@ -525,7 +525,7 @@ Die elektronische Ablage erfolgt ausdrücklich unter einer Lizenz, die eine frei
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edition_dfg/data-usage/data-sharing-and-re-use-publication"/>
 		<is_collection>False</is_collection>
 		<order>6</order>
-		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
+		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
 
 The application must state and justify when and in what form the edition will be published.
 
@@ -533,7 +533,7 @@ Priority will be given to projects whose texts, prepared in “basic format”, 
 		<text lang="en">When will the data be published (if they are)?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
+		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
 
 Im Antrag ist darzulegen und zu begründen, wann und in welcher Form die Edition veröffentlicht wird.
 
@@ -635,7 +635,7 @@ Prioritär gefördert werden Projekte, deren im „Basisformat“ aufbereitete T
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edition_dfg/doc/metadata-dataset"/>
 		<is_collection>False</is_collection>
 		<order>4</order>
-		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
+		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
 
 In order to enable interchangeability and re-use, the project-specific XML elements and attribute-value pairs are documented in the TEI header.
 
@@ -643,7 +643,7 @@ The stored data should ideally correspond to the version of the text that also c
 		<text lang="en">Which components of the data documentation are available together with the dataset?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
+		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
 
 Um die Austauschbarkeit und Nachnutzung zu ermöglichen, werden die projektspezifisch verwendeten XML-Elemente und Attribut-Wert-Paare im TEI-Header dokumentiert.
 
@@ -1032,13 +1032,13 @@ Nach § 3 sind auch „Übersetzungen und andere Bearbeitungen“ von Werken ges
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edition_dfg/storage-and-long-term-preservation/long-term-preservation-datasets"/>
 		<is_collection>True</is_collection>
 		<order>5</order>
-		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
+		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
 
 The texts are stored for archiving in an institutional or subject-specific repository, which can ensure long-term availability and citability through persistent identifiers.</help>
 		<text lang="en">Where will the data (including metadata, documentation and, if applicable, relevant code) be stored or archived after the end of the project?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
+		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
 
 Die Texte werden zur Archivierung in einem institutionellen oder fachlichen Repositorium abgelegt, das die langfristige Verfügbarkeit und Zitierfähigkeit – durch persistente Identifikatoren – gewährleisten kann.</help>
 		<text lang="de">Wo werden die Daten (einschließlich Metadaten, Dokumentation und ggf. relevantem Code bzw. relevanter Software) nach Projektende gespeichert bzw. archiviert?</text>
@@ -1064,15 +1064,15 @@ Die Texte werden zur Archivierung in einem institutionellen oder fachlichen Repo
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edition_dfg/storage-and-long-term-preservation/long-term-preservation-datasets"/>
 		<is_collection>False</is_collection>
 		<order>6</order>
-		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
+		<help lang="en">From the&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Funding criteria for scientific editions in literary studies &lt;/a&gt; (in German):
 
 The repository should be awarded a &lt;a href=&quot;https://dini.de/dienste-projekte/dini-zertifikat/english/about-the-certificate/&quot; target=_blank&gt; DINI certificate &lt;/a&gt; or a comparable quality seal.</help>
-		<text lang="en">Is the repository or data centre chosen certified (e.g. Core Trust Seal, nestor Seal or ISO 16363)? (If the dataset is archived at several places, you may answer this question with yes, if this applies to at least one of these.)</text>
+		<text lang="en">Is the repository or data centre certified? (If the dataset is archived at several places, you may answer this question with yes, if this applies to at least one of these.)</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
+		<help lang="de">Aus den DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;:
 
-Das Repositorium sollte durch ein &lt;a href=&quot;https://dini.de/dienste-projekte/dini-zertifikat/&quot; target=_blank&gt;DINI-Zertifikat&lt;/a&gt; oder ein vergleichbares Qualitätssiegel ausgezeichnet sein.</help>
+Das Repositorium sollte durch ein Qualitätssiegel ausgezeichnet sein.</help>
 		<text lang="de">Handelt es sich dabei um ein zertifiziertes Repositorium oder Datenzentrum (z.B. durch das Core Trust Seal, nestor-Siegel oder ISO 16363)? (Wurden mehrere Langzeitarchivierungsoptionen ausgewählt, kann die Frage bejaht werden,                                        wenn dies auf mindestens eine der Optionen zutrifft).</text>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>

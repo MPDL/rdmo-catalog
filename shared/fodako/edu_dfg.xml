@@ -5,14 +5,14 @@
 		<key>edu_dfg</key>
 		<dc:comment>Dieser Fragenkatalog ist eine Teilmenge des Katalogs &quot;RDMO&quot; und enthält nur die Fragen, die die Anforderungen
 
- - im Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG &quot;Bereitstellung und Nutzung quantitativer Forschungsdaten in der Bildungsforschung&quot;, https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf, und
+ - im Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG &quot;Bereitstellung und Nutzung quantitativer Forschungsdaten in der Bildungsforschung&quot;, https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf, und
 
  - in den &quot;Leitlinien zum Umgang mit Forschungsdaten&quot; der DFG, http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten 
 
 abdecken. Die Fragen sind somit ausgesucht für bildungswissenschaftliche Datenmanagementpläne, die Förderanträgen an die Deutsche Forschungsgemeinschaft (DFG) beigelegt werden sollen.</dc:comment>
 		<order>109</order>
-		<title lang="en">DFG 109 Educational Research</title>
-		<title lang="de">DFG 109 Bildungswiss.</title>
+		<title lang="en">DFG Educational Research</title>
+		<title lang="de">DFG Bildungswissenschaften</title>
 	</catalog>
 	<section dc:uri="https://rdmo.fodako.nrw/questions/edu_dfg/general">
 		<uri_prefix>https://rdmo.fodako.nrw</uri_prefix>
@@ -71,7 +71,7 @@ cover. The questions are thus selected for educational data management plans, wh
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Dieser Fragenkatalog enthält nur die Fragen, die die Anforderungen
 
-* im Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf&quot; target=_blank&quot;&gt;Bereitstellung und Nutzung quantitativer Forschungsdaten in der Bildungsforschung&lt;/a&gt;, und
+* im Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot; target=_blank&quot;&gt;Bereitstellung und Nutzung quantitativer Forschungsdaten in der Bildungsforschung&lt;/a&gt;, und
 
 * in den fachübergreifenden &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf&quot; target=_blank&gt;Leitlinien zum Umgang mit Forschungsdaten&lt;/a&gt; der DFG
 
@@ -126,11 +126,11 @@ abdecken. Die Fragen sind somit ausgesucht für bildungswissenschaftliche Datenm
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edu_dfg/general/other-requirements-requirements"/>
 		<is_collection>False</is_collection>
 		<order>0</order>
-		<help lang="en">Please briefly outline them and refer to more detailed sources of information if necessary. At least the ones mentioned in the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf&quot; target=_blank&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt; should be met.</help>
+		<help lang="en">Please briefly outline them and refer to more detailed sources of information if necessary. At least the ones mentioned in the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot; target=_blank&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt; should be met.</help>
 		<text lang="en">Which are these additional requirements regarding data management?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Bitte skizzieren Sie sie kurz und verweisen Sie ggf. auf weiterführende Informationen. Zumindest die im &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf&quot; target=_blank&quot;&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt;  genannten Anforderungen sollten erfüllt werden.</help>
+		<help lang="de">Bitte skizzieren Sie sie kurz und verweisen Sie ggf. auf weiterführende Informationen. Zumindest die im &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot; target=_blank&quot;&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt;  genannten Anforderungen sollten erfüllt werden.</help>
 		<text lang="de">Welche Anforderungen an das Datenmanagement sind dies?</text>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -337,7 +337,7 @@ abdecken. Die Fragen sind somit ausgesucht für bildungswissenschaftliche Datenm
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edu_dfg/content-classification/data-reuse"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
-		<help lang="en">According to the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf&quot; target=_blank&quot;&gt;Memorandum of the review board Educational Science of the DFG (in German)&lt;/a&gt; you should weigh up the re-use potential against the deployment effort, choose one of the following three possible consequences and justify your selection:
+		<help lang="en">According to the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot; target=_blank&quot;&gt;Memorandum of the review board Educational Science of the DFG (in German)&lt;/a&gt; you should weigh up the re-use potential against the deployment effort, choose one of the following three possible consequences and justify your selection:
 
 a) Archiving and on demand user-friendly provision directly by the data producer for the purpose of checking published results (in the sense of good scientific practice)
 
@@ -349,7 +349,7 @@ Of course, legal obstacles (privacy, intellectual property rights, contracts) mu
 		<text lang="en">If created, which individuals, groups or institutions could be interested in re-using this dataset? What are possible scenarios? What consequences does the re-use potential have for the provision of the data later?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Im &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf&quot; target=_blank&quot;&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt; werden Sie ersucht, das Nachnutzungspotential gegen den Bereitstellungsaufwand abzuwägen, unter den folgenden drei möglichen Konsequenzen eine auszuwählen und Ihre Auswahl zu begründen:
+		<help lang="de">Im &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot; target=_blank&quot;&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt; werden Sie ersucht, das Nachnutzungspotential gegen den Bereitstellungsaufwand abzuwägen, unter den folgenden drei möglichen Konsequenzen eine auszuwählen und Ihre Auswahl zu begründen:
 
 a) Archivierung und auf Nachfrage nutzerfreundliche Bereitstellung direkt durch den Datenproduzenten zwecks Prüfung   publizierter Ergebnisse (im Sinne guter wissenschaftlicher Praxis)
 
@@ -379,14 +379,14 @@ Selbstverständlich müssen rechtliche Hinderungsgründe (Datenschutz, Urheberre
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edu_dfg/content-classification/data-reuse"/>
 		<is_collection>False</is_collection>
 		<order>3</order>
-		<help lang="en">From &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf&quot;
+		<help lang="en">From &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot;
                                 target=_blank&quot;&gt;Bereitstellung und Nutzung quantitativer Forschungsdaten in der Bildungsforschung: Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt;: 
 
 For project applications that involve the collection of new data, it should always be checked whether comparable data sets are already available and available that could be used to investigate the research questions. If this is the case, it may be necessary to prove why re-use is not meaningful and that new data should be collected. This point would then also be included as an object of the review.</help>
 		<text lang="en">If created, are already existing, similar research data available and why is their subsequent use not possible or useful here?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf&quot;
+		<help lang="de">Aus &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot;
                                 target=_blank&quot;&gt;Bereitstellung und Nutzung quantitativer Forschungsdaten in der Bildungsforschung: Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt;: 
 
 &quot;Bei  Projektanträgen, die eine Erhebung neuer Daten beinhalten, sollte grundsätzlich geprüft  werden, ob nicht bereits  vergleichbare Datensätze vorliegen und  verfügbar sind,  die sich zur Untersuchung der Forschungsfragen eignen könnten.  Sofern  dies der Fall ist, wäre ggf. der Nachweis zu führen, warum eine Nachnutzung nicht sinnvoll ist und neue Daten erhoben werden sollen. Dieser Punkt wäre dann auch als Gegenstand der Begutachtung einzubeziehen.&quot;</help>
@@ -752,13 +752,13 @@ For project applications that involve the collection of new data, it should alwa
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edu_dfg/doc/general"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
-		<help lang="en">According to &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf&quot; target=_blank&quot;&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG (in German)&lt;/a&gt;, the documentation of data records can be designed in different ways: It can range from raw data with traceable labels and a codebook to datasets that contain raw data as well as scales and metadata and that contain detailed technical reports and scale manuals (meta and paradata).
+		<help lang="en">According to &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot; target=_blank&quot;&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG (in German)&lt;/a&gt;, the documentation of data records can be designed in different ways: It can range from raw data with traceable labels and a codebook to datasets that contain raw data as well as scales and metadata and that contain detailed technical reports and scale manuals (meta and paradata).
 
 In this field, enter the components of the data documentation that are available with the data set and are not only supplied on request in the context of good scientific practice later.</help>
 		<text lang="en">Which components of the data documentation are available together with the dataset?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Laut &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf&quot; target=_blank&quot;&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt; kann die Dokumentation von Datensätzen unterschiedlich aufwändig gestaltet werden: &quot;Diese reicht von Rohdaten mit nachvollziehbaren Labels und einem Codebuch bis hin zu Datensätzen, die neben Rohdaten auch Skalen und Metadaten umfassen und zu denen detaillierte technische Berichte und Skalenhandbücher vorliegen (also Meta- und Paradaten).&quot;
+		<help lang="de">Laut &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot; target=_blank&quot;&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt; kann die Dokumentation von Datensätzen unterschiedlich aufwändig gestaltet werden: &quot;Diese reicht von Rohdaten mit nachvollziehbaren Labels und einem Codebuch bis hin zu Datensätzen, die neben Rohdaten auch Skalen und Metadaten umfassen und zu denen detaillierte technische Berichte und Skalenhandbücher vorliegen (also Meta- und Paradaten).&quot;
 
 Tragen Sie in dieses Feld die Bestandteile der Datendokumentation ein, die mit dem Datensatz zur Verfügung stehen und nicht nur später auf Anfrage geliefert werden.</help>
 		<text lang="de">Welche Komponenten der Datendokumentation stehen zusammen mit dem Datensatz zur Verfügung?</text>
@@ -782,7 +782,7 @@ Tragen Sie in dieses Feld die Bestandteile der Datendokumentation ein, die mit d
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edu_dfg/doc/general"/>
 		<is_collection>False</is_collection>
 		<order>2</order>
-		<help lang="en">According to &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf&quot; target=_blank&quot;&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt;, the provision is expressly provided upon request in the case of the following &lt;i&gt;forms of deployment&lt;/ i&gt;:
+		<help lang="en">According to &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot; target=_blank&quot;&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt;, the provision is expressly provided upon request in the case of the following &lt;i&gt;forms of deployment&lt;/ i&gt;:
 
 a) Archiving and on demand user-friendly provision directly by the data producer for the purpose of checking published results (in the sense of good scientific practice)
 
@@ -792,7 +792,7 @@ So do not be afraid to mention here the parts of the data documentation that wil
 		<text lang="en">Which components of the data documentation are provided on request?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Im &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf&quot; target=_blank&quot;&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt;, ist die Bereitstellung auf Anfrage ausdrücklich vorgesehen im Falle der folgenden &lt;i&gt;Formen der Bereitstellung&lt;/i&gt;:
+		<help lang="de">Im &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot; target=_blank&quot;&gt;Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG&lt;/a&gt;, ist die Bereitstellung auf Anfrage ausdrücklich vorgesehen im Falle der folgenden &lt;i&gt;Formen der Bereitstellung&lt;/i&gt;:
 
 a) &lt;i&gt;Archivierung und auf Nachfrage nutzerfreundliche Bereitstellung direkt durch den Datenproduzenten zwecks Prüfung   publizierter Ergebnisse (im Sinne guter wissenschaftlicher Praxis). &lt;/i&gt;
 
@@ -1211,7 +1211,7 @@ Nach § 3 sind auch „Übersetzungen und andere Bearbeitungen“ von Werken ges
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/edu_dfg/storage-and-long-term-preservation/long-term-preservation-datasets"/>
 		<is_collection>False</is_collection>
 		<order>8</order>
-		<help lang="en">An embargo period is an exclusion period for subsequent use by third parties. The memorandum of the review board &quot;Educational Science&quot; of the DFG &lt;a href = &quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf&quot; target = _ blank &quot;&gt;&quot;Bereitstellung und Nutzung quantitativer Forschungsdaten in der Bildungsforschung&quot; (in German)&lt;/a&gt; states the following: 
+		<help lang="en">An embargo period is an exclusion period for subsequent use by third parties. The memorandum of the review board &quot;Educational Science&quot; of the DFG &lt;a href = &quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot; target = _ blank &quot;&gt;&quot;Bereitstellung und Nutzung quantitativer Forschungsdaten in der Bildungsforschung&quot; (in German)&lt;/a&gt; states the following: 
 
 &lt;i&gt;Internationally, the standard seems to be the expectation that the transfer of the complete data set of a study takes place about 2 years after the collection of the data (or after transfer of the data records to the primary scientists by a commissioned survey institute). For longer-term longitudinal surveys this period refers to the respective survey wave. In well-founded exceptions, which may relate above all to unreasonable hardships for junior researchers, it should be possible to extend the deadline. However, this should never exceed 3 to 4 years.
 
@@ -1219,7 +1219,7 @@ Additionally, it should be possible to block the subsequent use of data which ar
 		<text lang="en">Shall there be an embargo period before the data are made available? If yes, why? How long should the embargo period be?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Eine Sperrfrist ist eine Ausschlussfrist für die Nachnutzung durch Dritte. Im Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf&quot; target=_blank&quot;&gt;&quot;Bereitstellung und Nutzung quantitativer Forschungsdaten in der Bildungsforschung&quot;&lt;/a&gt; heißt es dazu:
+		<help lang="de">Eine Sperrfrist ist eine Ausschlussfrist für die Nachnutzung durch Dritte. Im Memorandum des Fachkollegiums „Erziehungswissenschaft“ der DFG &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/forschungsdaten_memorandum_fk_109.pdf&quot; target=_blank&quot;&gt;&quot;Bereitstellung und Nutzung quantitativer Forschungsdaten in der Bildungsforschung&quot;&lt;/a&gt; heißt es dazu:
 
 &lt;i&gt;International scheint sich als Standard die Erwartung zu etablieren, wonach die Übergabe des Gesamtdatensatzes einer Studie  etwa 2 Jahre nach Erhebung der Daten (bzw. nach Übergabe der Datensätze an die Primärwissenschaftlerinnen und –wissenschaftler durch ein beauftragtes Erhebungsinstitut) erfolgt. Bei längerfristigen Längsschnitterhebungen bezieht sich diese Frist auf die  jeweilige Erhebungswelle.  In gut begründeten Ausnahmen, die sich vor allem auf unzumutbare Härten für Nachwuchswissenschaftlerinnen und Nachwuchswissenschaftler beziehen können, sollte es möglich sein, die Frist zu verlängern.  Diese sollte jedoch in keinem Fall 3 bis 4 Jahre überschreiten.
 

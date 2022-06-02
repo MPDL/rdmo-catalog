@@ -3256,11 +3256,9 @@ Analogamente ai formati, si raccomanda di adottare metodi il più standard, aper
 		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/rdmo/metadata-and-referencing/metadata-dataset"/>
 		<is_collection>False</is_collection>
 		<order>2</order>
-		<help lang="en">This information is needed for a Horizon 2020 data management plan.</help>
 		<text lang="en">In case it is unavoidable that you use uncommon or generate project-specific ontologies or vocabularies, will you provide mappings to more commonly used ontologies?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Diese Information wird für einen Horizon 2020 Datenmanagementplan benötigt.</help>
 		<text lang="de">Sollte es unvermeidbar sein, projektspezifische oder seltene Ontologien, Metadatenschemata oder Vokabulare zu nutzen, werden Mappings zu gängigen Ontologien etc. erstellt?</text>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -5446,11 +5444,11 @@ Weitere relevante Schutzrechte können gewerbliche Schutzrechte wie Patente, Geb
 		<is_collection>False</is_collection>
 		<order>6</order>
 		<help lang="en">If the dataset is archived at several places, you may answer this question with yes, if this applies to at least one of these.</help>
-		<text lang="en">Is the repository or data centre chosen certified (e.g. Data Seal of Approval, nestor Seal or ISO 16363)?</text>
+		<text lang="en">Is the repository or data centre chosen certified (e.g. CoreTrustSeal, nestor Seal or ISO 16363)?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Wurde der Datensatz an mehreren Orten archiviert, kann die Frage bejaht werden, wenn dies auf mindestens eine der Optionen zutrifft.</help>
-		<text lang="de">Handelt es sich dabei um ein zertifiziertes Repositorium oder Datenzentrum (z. B. durch das Data Seal of Approval, nestor-Siegel oder ISO 16363)?</text>
+		<text lang="de">Handelt es sich dabei um ein zertifiziertes Repositorium oder Datenzentrum (z. B. durch das CoreTrustSeal, nestor-Siegel oder ISO 16363)?</text>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
 		<help lang="fr">Si le jeu de données est archivé à plusieurs endroits, vous pouvez répondre à cette question par oui, si cela s'applique à au moins l'un d'entre eux.</help>
@@ -5479,11 +5477,9 @@ Weitere relevante Schutzrechte können gewerbliche Schutzrechte wie Patente, Geb
 		<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/rdmo/storage-and-long-term-preservation/long-term-preservation-datasets"/>
 		<is_collection>False</is_collection>
 		<order>7</order>
-		<help lang="en">(original question from Horizon 2020 FAIR Data Management Plan)</help>
 		<text lang="en">Have you explored appropriate arrangements with the identified repository?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">(Diese Frage stammt ursprünglich aus dem Horizon 2020 FAIR Datenmanagementplan.)</help>
 		<text lang="de">Wurde mit dem Repositorium oder Datenzentrum bereits angemessene Archivierungslösungen besprochen?</text>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
