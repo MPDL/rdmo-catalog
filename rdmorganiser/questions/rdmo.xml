@@ -2520,16 +2520,12 @@ Analogamente ai formati, si raccomanda di adottare metodi il più standard, aper
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
-		<help lang="en">
-		With <a href="https://www.re3data.org" target="_blank">www.re3data.org</a> you will find a large list of possible data repositories which could be interesting for the publication of the research data. MPDL RDM Support recommends using a data repository that is listed with re3data. If you need advice on this question, please contact our <a href="mailto:rdm@mpdl.mpg.de?subject=Support for Selecting a Data Repository"">MPDL RDM support</a>.
-		</help>
+		<help lang="en">With &lt;a href=&quot;https://www.re3data.org&quot; target=&quot;_blank&quot;&gt;www.re3data.org&lt;/a&gt; you will find a large list of possible data repositories which could be interesting for the publication of the research data. MPDL RDM Support recommends using a data repository that is listed with re3data. If you need advice on this question, please contact our &lt;a href=&quot;mailto:rdm@mpdl.mpg.de?subject=Support for Selecting a Data Repository&quot;&quot;&gt;MPDL RDM support&lt;/a&gt;.</help>
 		<text lang="en">Are repositories listed with re3data eligible?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">
-		Mit <a href="https://www.re3data.org" target="_blank">www.re3data.org</a> finden Sie eine große Liste an möglichen Datenrepositorien, welche für die Veröffentlichung der Forschungsdaten interessant sein könnten. Der MPDL-FDM-Support empfiehlt die Nutzung eines Datenrepositoriums, das bei re3data gelistet ist. Falls Sie eine Beratung bei dieser Frage benötigen, wenn Sie sich bitte an unseren <a href="mailto:rdm@mpdl.mpg.de?subject=Hilfe bei der Auswahl eines Datenrepositoriums"">MPDL-FDM-Support</a>.
-		</help>
+		<help lang="de">Mit &lt;a href=&quot;https://www.re3data.org&quot; target=&quot;_blank&quot;&gt;www.re3data.org&lt;/a&gt; finden Sie eine große Liste an möglichen Datenrepositorien, welche für die Veröffentlichung der Forschungsdaten interessant sein könnten. Der MPDL-FDM-Support empfiehlt die Nutzung eines Datenrepositoriums, das bei re3data gelistet ist. Falls Sie eine Beratung bei dieser Frage benötigen, wenn Sie sich bitte an unseren &lt;a href=&quot;mailto:rdm@mpdl.mpg.de?subject=Hilfe bei der Auswahl eines Datenrepositoriums&quot;&quot;&gt;MPDL-FDM-Support&lt;/a&gt;.</help>
 		<text lang="de">Kommen Repositorien infrage, die bei re3data gelistet sind?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
