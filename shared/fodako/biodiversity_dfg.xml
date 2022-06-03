@@ -32,7 +32,7 @@
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<title lang="de">Anforderungen I</title>
-		<help lang="de">Mindestens die &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=_blank&gt;Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt; sollten Beachtung finden. Die dort genannten Empfehlungen und die in den die fachübergreifenden DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf&quot; target=_blank&gt;Leitlinien zum Umgang mit Forschungsdaten&lt;/a&gt; sind durch diesen Fragenkatalog abgedeckt. In DFG-geförderten Projekten sollten in jedem Falle die &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf&quot; target=_blank&gt;Leitlinien zum Umgang mit Forschungsdaten&lt;/a&gt; der DFG beachtet werden. Bitte denken Sie hierbei ebenso schon an die verschiedenen, &lt;a href=&quot;https://www.mpg.de/ueber_uns/verfahren&quot; target=_blank&gt;internen Regelungen innerhalb der Max-Planck-Gesellschaft&lt;/a&gt;, wie etwa die Gute Wissenschaftliche Praxis (GWP).</help>
+		<help lang="de">Mindestens die &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=_blank&gt;Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt; sollten Beachtung finden. Die dort genannten Empfehlungen und die in den die fachübergreifenden DFG-&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf&quot; target=_blank&gt;Leitlinien zum Umgang mit Forschungsdaten&lt;/a&gt; sind durch diesen Fragenkatalog abgedeckt. In DFG-geförderten Projekten sollten in jedem Falle die &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf&quot; target=_blank&gt;Leitlinien zum Umgang mit Forschungsdaten&lt;/a&gt; der DFG beachtet werden. Bitte denken Sie hierbei ebenso schon an die verschiedenen, &lt;a href=&quot;https://www.mpg.de/ueber_uns/verfahren&quot; target=_blank&gt;internen Regelungen innerhalb der Max-Planck-Gesellschaft&lt;/a&gt;, wie etwa die Gute Wissenschaftliche Praxis (GWP).</help>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
 		<conditions/>
@@ -199,7 +199,7 @@
 		<text lang="en">What kind of dataset is it?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">In den &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=_blank&gt;Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt; werden Angaben &quot;zu Art  (Individuum, Gewebe,… ) und Typ der Daten (Bild, Audio, Text, Sourcecode, Zahlen)&quot; empfohlen.</help>
+		<help lang="de">In den &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=_blank&gt;Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt; werden Angaben &quot;zu Art  (Individuum, Gewebe,… ) und Typ der Daten (Bild, Audio, Text, Sourcecode, Zahlen)&quot; empfohlen.</help>
 		<text lang="de">Um was für einen Datensatz handelt es sich?</text>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -765,7 +765,7 @@ Die Ermöglichung des öffentlichen, kostenlosen Zugangs zu Daten, die aus DFG f
 		<text lang="en">If yes, under which terms of use or license will the dataset be published or shared?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Die Auswahlmöglichkeiten orientieren sich hier an Lizenzen der &lt;a href=&quot;http://de.creativecommons.org/&quot; target=_blank&quot;&gt;Creative-Commons-Familie&lt;/a&gt;. In den &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=_blank&gt;Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt; werden Angaben empfohlen, &quot;unter welchen Bedingungen eine Nachnutzung ermöglicht wird und ggfls. wer hierüber langfristig entscheidet&quot;.</help>
+		<help lang="de">Die Auswahlmöglichkeiten orientieren sich hier an Lizenzen der &lt;a href=&quot;http://de.creativecommons.org/&quot; target=_blank&quot;&gt;Creative-Commons-Familie&lt;/a&gt;. In den &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=_blank&gt;Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt; werden Angaben empfohlen, &quot;unter welchen Bedingungen eine Nachnutzung ermöglicht wird und ggfls. wer hierüber langfristig entscheidet&quot;.</help>
 		<text lang="de">Wenn ja, unter welchen Nutzungsbedingungen oder welcher Lizenz sollen die Daten veröffentlicht bzw. geteilt werden?</text>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -1252,7 +1252,7 @@ Die Ermöglichung des öffentlichen, kostenlosen Zugangs zu Daten, die aus DFG f
 		<text lang="en">What is the structure of the data? How are the individual components of the dataset related to each other? How is the dataset related to other datasets and to physical objects used in the project?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Nach den &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=_blank&gt;Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt; werden Angaben &quot;zu dem Bezug auf Forschungsobjekte (etwa Belegexemplare oder Bodenproben) und andere referenzierte Daten&quot; erwartet.</help>
+		<help lang="de">Nach den &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=_blank&gt;Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt; werden Angaben &quot;zu dem Bezug auf Forschungsobjekte (etwa Belegexemplare oder Bodenproben) und andere referenzierte Daten&quot; erwartet.</help>
 		<text lang="de">Wie sind die Daten strukturiert? In welchem Verhältnis stehen die einzelnen Komponenten zueinander? In welchem Verhältnis steht der Datensatz zu anderen im Projekt erhobenen oder genutzten Datensätzen und zu physischen Objekten?</text>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>

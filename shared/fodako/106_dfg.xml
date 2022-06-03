@@ -9,7 +9,7 @@ den &quot;Leitlinien zum Umgang mit Forschungsdaten&quot; der DFG, http://www.df
 
 und
 
-der &quot;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&quot;, https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf
+der &quot;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&quot;, https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf
 
 abdecken. Die Ausfüllhilfen geben Hinweise für Forschungsprojekte der Fächer Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft.</dc:comment>
 		<order>106</order>
@@ -58,7 +58,7 @@ abdecken. Die Ausfüllhilfen geben Hinweise für Forschungsprojekte der Fächer 
 		<text lang="en">Are there requirements regarding the data management from your scholarly/scientific community?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Von der DFG geförderte Forschungsprojekte in den Fächern Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft sollten die &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt; beachten. Dieser Fragenkatalog berücksichtigt diese Handreichung und die fachübergreifenden &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf&quot; target=_blank&gt;Leitlinien zum Umgang mit Forschungsdaten&lt;/a&gt;.</help>
+		<help lang="de">Von der DFG geförderte Forschungsprojekte in den Fächern Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft sollten die &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt; beachten. Dieser Fragenkatalog berücksichtigt diese Handreichung und die fachübergreifenden &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf&quot; target=_blank&gt;Leitlinien zum Umgang mit Forschungsdaten&lt;/a&gt;.</help>
 		<text lang="de">Gibt es von Seiten Ihrer Fachcommunity Anforderungen an das Datenmanagement, die beachtet werden müssen?</text>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -118,7 +118,7 @@ The handling of research data and materials should be in accordance with the res
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Zu beachten sind unter anderem die folgenden Anforderungen und Empfehlungen der Deutschen Forschungsgemeinschaft:
 
-  * &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;
+  * &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;
   * die fachübergreifenden &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten.pdf&quot; target=_blank&gt;Leitlinien zum Umgang mit Forschungsdaten&lt;/a&gt;
   * &lt;a href=&quot;https://www.dfg.de/formulare/12_151/12_151_de.pdf&quot; target=_blank&gt;DFG-Praxisregeln „Digitalisierung“&lt;/a&gt;
   * verschiedene, &lt;a href=&quot;https://www.mpg.de/ueber_uns/verfahren&quot; target=_blank&gt;interne Regelungen innerhalb der Max-Planck-Gesellschaft&lt;/a&gt;, wie etwa die Gute Wissenschaftliche Praxis (GWP)
@@ -239,7 +239,7 @@ The application should state whether, in addition to backing up research data an
 		<text lang="en">Which individuals, groups or institutions could be interested in re-using this dataset? What are possible scenarios? What consequences does the re-use potential have for the provision of the data later?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
+		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
 
 Im Antrag soll dargelegt werden, ob zusätzlich zur Sicherung von Forschungsdaten und Materialien eine Bereitstellung für die Nach- und Weiternutzung durch Dritte geplant ist oder nicht. Antragstellende sollten darlegen, ob und inwiefern Nachnutzung von Daten sinnvoll und angemessen ist.</help>
 		<text lang="de">Für welche Personen, Gruppen oder Institutionen könnte dieser Datensatz (für die Nachnutzung) von Interesse sein? Für welche Szenarien ist dies denkbar? Welche Konsequenzen hat das Nachnutzungspotential später für die Bereitstellung der Daten?</text>
@@ -302,7 +302,7 @@ In the case of digital data, it is recommended to prepare it in such a way that 
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Bei der Wahl des Dateiformates sollten auch die Konsequenzen für die kollaborative Nutzung, die Langzeitarchivierung sowie die Nachnutzung beachtet werden. Es empfiehlt sich, möglichst standardisierte, nicht-proprietäre und allgemein bzw. in der spezifischen Community verbreitete Formate zu nutzen. Weitere Kriterien sowie detaillierte Erläuterungen sind z.B. im &lt;a href=&quot;http://nestor.sub.uni-goettingen.de/handbuch/&quot;  target=_blank&quot;&gt;nestor Handbuch&lt;/a&gt; zu finden.
 
-Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
+Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
 
 Im Falle von digitalen Daten wird empfohlen, sie so aufzubereiten, dass sie unabhängig von Technologiewandel archivierbar und verfügbar bleiben, und digitale Infrastrukturen zu nutzen, die diese Aufbereitung unterstützen.</help>
 		<text lang="de">In welchen Formaten liegen die Daten vor?</text>
@@ -406,7 +406,7 @@ If it turns out in the research process that there is a special need for protect
 		<text lang="en">Will this dataset be published or shared?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
+		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
 
 Sollte sich im Forschungsprozess herausstellen, dass eine besondere Schutzbedürftigkeit von Forschungsdaten und Materialien bzw. involvierten Personen besteht, so kann auch nachträglich auf die Bereitstellung von Daten zur Nachnutzung verzichtet werden. Den Rechten von Forschenden und an Forschung beteiligten Personen gebührt ein besonderer Schutz, dies ist gegenüber den Interessen von Nach- und Weiternutzung und unter forschungsethischen Reflexionen abzuwägen.</help>
 		<text lang="de">Soll dieser Datensatz veröffentlicht oder geteilt werden?</text>
@@ -464,7 +464,7 @@ In the case of open digital provision of artifacts and publications, legally sec
 		<text lang="en">If yes, under which terms of use or license will the dataset be published or shared?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Die Auswahlmöglichkeiten orientieren sich an Lizenzen der &lt;a href=&quot;http://de.creativecommons.org/&quot; target=_blank&quot;&gt;Creative-Commons-Familie&lt;/a&gt;. Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
+		<help lang="de">Die Auswahlmöglichkeiten orientieren sich an Lizenzen der &lt;a href=&quot;http://de.creativecommons.org/&quot; target=_blank&quot;&gt;Creative-Commons-Familie&lt;/a&gt;. Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
 
 Im Falle offener digitaler Bereitstellung von Artefakten und Veröffentlichungen ist die rechtsichere Nachnutzung durch die Wahl geeigneter Open Content-Lizenzen zu gewährleisten.</help>
 		<text lang="de">Wenn ja, unter welchen Nutzungsbedingungen oder welcher Lizenz sollen die Daten veröffentlicht bzw. geteilt werden?</text>
@@ -496,7 +496,7 @@ Procedure for granting access to others</help>
 		<text lang="en">If there are any restrictions on the re-use of this dataset, please explain which restrictions and why.</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
+		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
 
 Verfahren für die Gewährung von Zugangsmöglichkeiten für Dritte</help>
 		<text lang="de">Sollte die Nachnutzung dieses Datensatzes Einschränkungen unterliegen, erläutern Sie bitte, welche Einschränkungen das sind und die Gründe hierfür.</text>
@@ -628,7 +628,7 @@ For publications that include the edition, digital provision and visualization o
 		<text lang="en">Which components of the data documentation are available together with the dataset?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
+		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
 
 Bei Veröffentlichungen, die die Edition, digitale Bereitstellung und Sichtbarmachung der materiellen Dokumente einschließen, muss die Erlaubnis der Rechte-Inhaber (Archive, Bibliotheken, Museen, Privatpersonen, Sammlungen) geklärt und dokumentiert werden.</help>
 		<text lang="de">Welche Komponenten der Datendokumentation stehen zusammen mit dem Datensatz zur Verfügung?</text>
@@ -762,7 +762,7 @@ In the case of projects that collect or evaluate personal data, the application 
 		<text lang="en">To what extent is the &quot;informed consent&quot; obtained from the persons concerned?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
+		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
 
 Bei Vorhaben, die personenbezogene Daten erheben oder auswerten, sollte der Antrag Auskunft darüber geben, ob informierte Einwilligungserklärungen (informed consent) eingeholt werden sollen. Dies kann beispielsweise erforderlich sein, wenn Forschungsmaterialien (Interviewaufzeichnungen, Photographien) ohne Anonymisierung für Dritte zugänglich gemacht werden sollen.</help>
 		<text lang="de">In welchem Umfang wird die &quot;informierte Einwilligung&quot; der Betroffenen eingeholt?</text>
@@ -794,7 +794,7 @@ If informed consent is not to be given (e.g. due to deadline regulations, limita
 		<text lang="en">If no &quot;informed consent&quot; is obtained, please give the reasons for not doing so.</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
+		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
 
 Falls auf eine informierte Einwilligung verzichtet werden soll (z.B. wegen Fristenregelungen, Begrenzung der Zugänglichkeit, Anonymisierung im Erhebungsprozess oder im Anschluss), ist dies zu begründen.</help>
 		<text lang="de">Wenn keine &quot;informierte Einwilligung&quot; eingeholt wird, begründen Sie dies bitte.</text>
@@ -1104,7 +1104,7 @@ According to the rules of good scientific practice, research data should be arch
 		<text lang="en">How long will the data be stored?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
+		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
 
 Den Regeln der Guten Wissenschaftlichen Praxis folgend sollen Forschungsdaten in der eigenen Einrichtung oder in einer fachlich einschlägigen, überregionalen Infrastruktur für mindestens 10 Jahre archiviert werden.</help>
 		<text lang="de">Wie lange müssen die Daten aufbewahrt werden?</text>
@@ -1134,7 +1134,7 @@ Archiving can be done digitally or in analog form. The application must state wh
 		<text lang="en">Where will the data (including metadata, documentation and, if applicable, relevant code) be stored or archived after the end of the project?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
+		<help lang="de">Aus der &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt;Handreichung des Fachkollegiums 106 Sozial- und Kulturanthropologie, Außereuropäische Kulturen, Judaistik und Religionswissenschaft zum Umgang mit Forschungsdaten&lt;/a&gt;:
 
 Die Archivierung kann digital oder in analoger Form erfolgen. Im Antrag ist anzugeben, wo (z.B. in einem universitären, fachspezifischen oder sonstigen externen Repositorium) und in welcher Form die Forschungsdaten und Materialien aufgehoben werden, z.B. ob diese ganz oder teilweise in einem Archiv (Papierform) oder einem Repositorium (digitale Form) abgelegt werden sollen.</help>
 		<text lang="de">Wo werden die Daten (einschließlich Metadaten, Dokumentation und ggf. relevantem Code bzw. relevanter Software) nach Projektende gespeichert bzw. archiviert?</text>
