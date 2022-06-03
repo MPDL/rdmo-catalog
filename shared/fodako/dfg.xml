@@ -4,7 +4,7 @@
 		<uri_prefix>https://rdmo.fodako.nrw</uri_prefix>
 		<key>dfg</key>
 		<dc:comment>Dieser Fragenkatalog ist eine Teilmenge des Katalogs &quot;RDMO&quot; und enthält nur die Fragen, die die Anforderungen in den &quot;Leitlinien zum Umgang mit Forschungsdaten&quot; der DFG, http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten, abdecken. Die Fragen sind somit ausgesucht für Datenmanagementpläne, die Förderanträgen an die Deutsche Forschungsgemeinschaft (DFG) beigelegt werden sollen und keine fachspezifischen Zusatzanforderungen zu erfüllen haben.</dc:comment>
-		<order>3</order>
+		<order>4</order>
 		<title lang="en">DFG</title>
 		<title lang="de">DFG</title>
 	</catalog>
@@ -51,7 +51,7 @@
 - &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_biodiversity_research.pdf&quot; target=_blank&quot;&gt;Guidelines on the Handling of Research
                                 Data in Biodiversity Research&lt;/a&gt; 
 
-- &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&quot;&gt;Elegibility criteria for funding for
+- &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&quot;&gt;Elegibility criteria for funding for
                                 scholarly editions in the literary studies (German)&lt;/a&gt; 
 
 - Recommendations on &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_sprachkorpora.pdf&quot;
@@ -64,7 +64,7 @@
 
 - &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=_blank&quot;&gt;Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt;
 
-- &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&quot;&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt; 
+- &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&quot;&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt; 
 
 - Empfehlungen zu &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_sprachkorpora.pdf&quot; target=_blank&quot;&gt;datentechnischen Standards und Tools&lt;/a&gt;
                                 sowie zu &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_recht.pdf&quot; target=_blank&quot;&gt;rechtlichen Fragen&lt;/a&gt; bei der Erhebung von Sprachkorpora</help>
