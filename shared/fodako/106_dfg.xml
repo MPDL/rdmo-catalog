@@ -54,7 +54,7 @@ abdecken. Die Ausfüllhilfen geben Hinweise für Forschungsprojekte der Fächer 
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/106_dfg/general/other-requirements-yesno"/>
 		<is_collection>False</is_collection>
 		<order>0</order>
-		<help lang="en">Research projects in the subjects Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies funded by the DFG should always observe the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German). This questionnaire takes into account this handout and the interdisplinary &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_research_data.pdf&quot; target=_blank&gt;DFG Guidelines on the Handling of Research Data&lt;/a&gt;.</help>
+		<help lang="en">Research projects in the subjects Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies funded by the DFG should always observe the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German). This questionnaire takes into account this handout and the interdisplinary &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_research_data.pdf&quot; target=_blank&gt;DFG Guidelines on the Handling of Research Data&lt;/a&gt;.</help>
 		<text lang="en">Are there requirements regarding the data management from your scholarly/scientific community?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -105,7 +105,7 @@ abdecken. Die Ausfüllhilfen geben Hinweise für Forschungsprojekte der Fächer 
 		<order>0</order>
 		<help lang="en">Amongst others, the following requirements and recommendations of the German Research Foundation must be observed:
 
-  * &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German)
+  * &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German)
   * the interdisplinary &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_research_data.pdf&quot; target=_blank&gt;DFG Guidelines on the Handling of Research Data&lt;/a&gt;
   * &lt;a href=&quot;https://www.dfg.de/formulare/12_151/12_151_en.pdf&quot; target=_blank&gt;DFG Practical Guidelines on Digitisation&lt;/a&gt;
   * various &lt;a href=&quot;https://www.mpg.de/about_us/procedures&quot; target=_blank&gt;internal regulations within the Max Planck Society&lt;/a&gt;, such as the Good Scientific Practice (GWP)
@@ -233,7 +233,7 @@ Der Umgang mit Forschungsdaten und Materialien soll im Einklang mit der jeweilig
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/106_dfg/content-classification/data-reuse"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
-		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
+		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
 
 The application should state whether, in addition to backing up research data and materials, a provision for reuse and further use by third parties is planned or not. Applicants should explain whether and to what extent subsequent use of data makes sense and is appropriate.</help>
 		<text lang="en">Which individuals, groups or institutions could be interested in re-using this dataset? What are possible scenarios? What consequences does the re-use potential have for the provision of the data later?</text>
@@ -294,7 +294,7 @@ Im Antrag soll dargelegt werden, ob zusätzlich zur Sicherung von Forschungsdate
 		<order>4</order>
 		<help lang="en">When choosing a data format, one should consider the consequences for collaborative use, long-term preservation as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in the respective scholarly community. A table with recommended file formats can be found in Kristin Briney, &lt;i&gt;Data Management for Researchers&lt;/i&gt;, Pelargic, 2015, pages 133-134.
 
-From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
+From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
 
 In the case of digital data, it is recommended to prepare it in such a way that it can be archived and available regardless of technological change, and to use digital infrastructures that support this preparation.</help>
 		<text lang="en">Which file formats are used?</text>
@@ -400,7 +400,7 @@ Im Falle von digitalen Daten wird empfohlen, sie so aufzubereiten, dass sie unab
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/106_dfg/data-usage/data-sharing-and-re-use-publication"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
-		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
+		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
 
 If it turns out in the research process that there is a special need for protection of research data and materials or the persons involved, the provision of data for subsequent use can also be dispensed with. The rights of researchers and persons involved in research deserve special protection; this must be weighed against the interests of reuse and under research-ethical reflections.</help>
 		<text lang="en">Will this dataset be published or shared?</text>
@@ -458,7 +458,7 @@ Sollte sich im Forschungsprozess herausstellen, dass eine besondere Schutzbedür
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/106_dfg/data-usage/data-sharing-and-re-use-publication"/>
 		<is_collection>True</is_collection>
 		<order>3</order>
-		<help lang="en">The options refer to the licenses of the &lt;a href=&quot;https://creativecommons.org/share-your-work/licensing-types-examples/&quot; target=_blank&quot;&gt;Creative Commons family&lt;/a&gt;. From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
+		<help lang="en">The options refer to the licenses of the &lt;a href=&quot;https://creativecommons.org/share-your-work/licensing-types-examples/&quot; target=_blank&quot;&gt;Creative Commons family&lt;/a&gt;. From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
 
 In the case of open digital provision of artifacts and publications, legally secure reuse must be guaranteed by choosing suitable open content licenses.</help>
 		<text lang="en">If yes, under which terms of use or license will the dataset be published or shared?</text>
@@ -490,7 +490,7 @@ Im Falle offener digitaler Bereitstellung von Artefakten und Veröffentlichungen
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/106_dfg/data-usage/data-sharing-and-re-use-publication"/>
 		<is_collection>False</is_collection>
 		<order>4</order>
-		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
+		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
 
 Procedure for granting access to others</help>
 		<text lang="en">If there are any restrictions on the re-use of this dataset, please explain which restrictions and why.</text>
@@ -622,7 +622,7 @@ Verfahren für die Gewährung von Zugangsmöglichkeiten für Dritte</help>
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/106_dfg/doc/metadata-dataset"/>
 		<is_collection>False</is_collection>
 		<order>4</order>
-		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
+		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
 
 For publications that include the edition, digital provision and visualization of the material documents, the permission of the rights holder (archives, libraries, museums, private individuals, collections) must be clarified and documented.</help>
 		<text lang="en">Which components of the data documentation are available together with the dataset?</text>
@@ -756,7 +756,7 @@ Bei Veröffentlichungen, die die Edition, digitale Bereitstellung und Sichtbarma
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/106_dfg/legal-and-ethics/sensitive-data-personal_data"/>
 		<is_collection>False</is_collection>
 		<order>3</order>
-		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
+		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
 
 In the case of projects that collect or evaluate personal data, the application should provide information on whether informed consent should be obtained. This may be necessary, for example, if research materials (interview recordings, photographs) are to be made accessible to third parties without anonymization.</help>
 		<text lang="en">To what extent is the &quot;informed consent&quot; obtained from the persons concerned?</text>
@@ -788,7 +788,7 @@ Bei Vorhaben, die personenbezogene Daten erheben oder auswerten, sollte der Antr
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/106_dfg/legal-and-ethics/sensitive-data-personal_data"/>
 		<is_collection>False</is_collection>
 		<order>4</order>
-		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
+		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
 
 If informed consent is not to be given (e.g. due to deadline regulations, limitation of accessibility, anonymization in the survey process or afterwards), this must be justified.</help>
 		<text lang="en">If no &quot;informed consent&quot; is obtained, please give the reasons for not doing so.</text>
@@ -1098,7 +1098,7 @@ Nach § 3 sind auch „Übersetzungen und andere Bearbeitungen“ von Werken ges
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/106_dfg/storage-and-long-term-preservation/long-term-preservation-datasets"/>
 		<is_collection>False</is_collection>
 		<order>3</order>
-		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
+		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
 
 According to the rules of good scientific practice, research data should be archived for at least 10 years in your own institution or in a relevant, national infrastructure.</help>
 		<text lang="en">How long will the data be stored?</text>
@@ -1128,7 +1128,7 @@ Den Regeln der Guten Wissenschaftlichen Praxis folgend sollen Forschungsdaten in
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/106_dfg/storage-and-long-term-preservation/long-term-preservation-datasets"/>
 		<is_collection>True</is_collection>
 		<order>5</order>
-		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
+		<help lang="en">From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegium_106_forschungsdaten.pdf&quot; target=_blank&gt; Handout from the Review Board 106  Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies on handling research data &lt;/a&gt; (in German):
 
 Archiving can be done digitally or in analog form. The application must state where (e.g. in a university, subject-specific or other external repository) and in what form the research data and materials are stored, e.g. whether all or part of these should be stored in an archive (paper form) or a repository (digital form).</help>
 		<text lang="en">Where will the data (including metadata, documentation and, if applicable, relevant code) be stored or archived after the end of the project?</text>

@@ -110,60 +110,6 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/fhpshort/general/repository">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>repository</key>
-		<path>fhpshort/general/repository</path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
-		<section dc:uri="https://rdmo.fh-potsdam.de/terms/questions/fhpshort/general"/>
-		<questionset/>
-		<is_collection>True</is_collection>
-		<order>2</order>
-		<title lang="en">Repository or archive</title>
-		<help lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<title lang="de">Repositorium oder Archiv</title>
-		<help lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<conditions/>
-		</questionset>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/fhpshort/general/repository/repositoy">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<key>repositoy</key>
-		<path>fhpshort/general/repository/repositoy</path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
-	<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/fhpshort/general/repository"/>
-		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<order>0</order>
-		<help lang="en"/>
-		<text lang="en">In which repository or archive will the data be held?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de"/>
-		<text lang="de">In welchem Repositorium oder Archiv werden die Daten aufbewahrt?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-		<optionset dc:uri="https://rdmorganiser.github.io/terms/options/re3data"/>
-		</optionsets>
-		<conditions/>
-	</question>
 	<questionset dc:uri="https://rdmo.fh-potsdam.de/terms/questions/fhpshort/general/project-schedule-schedule">
 		<uri_prefix>https://rdmo.fh-potsdam.de/terms</uri_prefix>
 		<key>project-schedule-schedule</key>
