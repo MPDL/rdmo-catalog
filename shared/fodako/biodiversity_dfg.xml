@@ -28,7 +28,7 @@
 		<is_collection>False</is_collection>
 		<order>50</order>
 		<title lang="en">Requirements I</title>
-		<help lang="en">At least the &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_biodiversity_research.pdf&quot; target=_blank&gt;Guidelines on the Handling of Research Data in Biodiversity Research&lt;/a&gt; should be considered. The recommendations mentioned there and those in the interdisplinary &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_research_data.pdf&quot; target=_blank&gt;DFG Guidelines on the Handling of Research Data&lt;/a&gt; are covered by this questionnaire. In DFG-funded projects, the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_research_data.pdf&quot; target=_blank&gt;DFG Guidelines on the Handling of Research Data&lt;/a&gt; guidelines for dealing with DFG research data &lt;/a&gt; are taken into account. Please also bear in mind the various &lt;a href=&quot;https://www.mpg.de/about_us/procedures&quot; target=_blank&gt;internal regulations within the Max Planck Society&lt;/a&gt;, such as the Good Scientific Practice (GWP).</help>
+		<help lang="en">At least the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=_blank&gt;Guidelines on the Handling of Research Data in Biodiversity Research&lt;/a&gt; should be considered. The recommendations mentioned there and those in the interdisplinary &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_research_data.pdf&quot; target=_blank&gt;DFG Guidelines on the Handling of Research Data&lt;/a&gt; are covered by this questionnaire. In DFG-funded projects, the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_research_data.pdf&quot; target=_blank&gt;DFG Guidelines on the Handling of Research Data&lt;/a&gt; guidelines for dealing with DFG research data &lt;/a&gt; are taken into account. Please also bear in mind the various &lt;a href=&quot;https://www.mpg.de/about_us/procedures&quot; target=_blank&gt;internal regulations within the Max Planck Society&lt;/a&gt;, such as the Good Scientific Practice (GWP).</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<title lang="de">Anforderungen I</title>
@@ -195,7 +195,7 @@
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/biodiversity_dfg/content-classification/data-dataset"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
-		<help lang="en">In the &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_biodiversity_research.pdf&quot; target=_blank&gt;Guidelines on the Handling of Research Data in Biodiversity Research&lt;/a&gt;, &quot;kind (individual, tissue, etc.) and type of data (picture, audio, text, source code, numbers)&quot; are recommended.</help>
+		<help lang="en">In the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=_blank&gt;Guidelines on the Handling of Research Data in Biodiversity Research&lt;/a&gt;, &quot;kind (individual, tissue, etc.) and type of data (picture, audio, text, source code, numbers)&quot; are recommended.</help>
 		<text lang="en">What kind of dataset is it?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -761,7 +761,7 @@ Die Ermöglichung des öffentlichen, kostenlosen Zugangs zu Daten, die aus DFG f
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/biodiversity_dfg/data-usage/data-sharing-and-re-use-publication"/>
 		<is_collection>True</is_collection>
 		<order>3</order>
-		<help lang="en">The options refer to the licenses of the &lt;a href=&quot;https://creativecommons.org/share-your-work/licensing-types-examples/&quot; target=_blank&quot;&gt;Creative Commons family&lt;/a&gt;. From the &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_biodiversity_research.pdf&quot; target=_blank&gt;Guidelines on the Handling of Research Data in Biodiversity Research&lt;/a&gt;: Expected is information &quot;on which conditions re-use will be rendered possible and, if applicable, who will decide this in the long term&quot;.</help>
+		<help lang="en">The options refer to the licenses of the &lt;a href=&quot;https://creativecommons.org/share-your-work/licensing-types-examples/&quot; target=_blank&quot;&gt;Creative Commons family&lt;/a&gt;. From the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=_blank&gt;Guidelines on the Handling of Research Data in Biodiversity Research&lt;/a&gt;: Expected is information &quot;on which conditions re-use will be rendered possible and, if applicable, who will decide this in the long term&quot;.</help>
 		<text lang="en">If yes, under which terms of use or license will the dataset be published or shared?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -1248,7 +1248,7 @@ Die Ermöglichung des öffentlichen, kostenlosen Zugangs zu Daten, die aus DFG f
 		<questionset dc:uri="https://rdmo.fodako.nrw/questions/biodiversity_dfg/referencing/structure-granularity-and-referencing-structure"/>
 		<is_collection>False</is_collection>
 		<order>0</order>
-		<help lang="en">According to the &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_biodiversity_research.pdf&quot; target=_blank&gt;Guidelines on the Handling of Research Data in Biodiversity Research&lt;/a&gt; information concerning &quot;the connection to research objects (e.g. voucher specimen or soil samples) and other referenced data&quot; is expected.</help>
+		<help lang="en">According to the &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf&quot; target=_blank&gt;Guidelines on the Handling of Research Data in Biodiversity Research&lt;/a&gt; information concerning &quot;the connection to research objects (e.g. voucher specimen or soil samples) and other referenced data&quot; is expected.</help>
 		<text lang="en">What is the structure of the data? How are the individual components of the dataset related to each other? How is the dataset related to other datasets and to physical objects used in the project?</text>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
