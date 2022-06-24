@@ -1,0 +1,2347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo created="2022-06-24T15:26:19.378867+02:00" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>mpifg</key>
+		<dc:comment>This questionnaire is intended to help you organize your project at the MPIfG and at the same time keep tracks 
+with institutional policies on “good scientific practice”, data storage and publication repository integration.
+The questionnaire is based on the brief questionnaire &quot;fhpshort.xml&quot; by the FH Potsdam.</dc:comment>
+		<order>1</order>
+		<title lang="en">MPIfG Project Management Plan</title>
+		<help lang="en"/>
+		<title lang="de">MPIfG Project Management Plan</title>
+		<help lang="de"/>
+	</catalog>
+	<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>general</key>
+		<path>mpifg/general</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
+		<order>0</order>
+		<title lang="en">General</title>
+		<title lang="de">Allgemein</title>
+	</section>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/project-member">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>project-member</key>
+		<path>mpifg/general/project-member</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en">Who are the project member(s)?</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Wer sind die Projektbeteiligten?</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/project-member/project-member">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>project-member</key>
+		<path>mpifg/general/project-member/project-member</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/contact_person/name"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/project-member"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Who are the project member(s)?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wer sind die Projektbeteiligten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/topic-title">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>topic-title</key>
+		<path>mpifg/general/topic-title</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en">Project Name</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Project Name</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/topic-title/title">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>title</key>
+		<path>mpifg/general/topic-title/title</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/title"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/topic-title"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">What is the name of the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Was ist der Projekttitel?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/thesis">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>thesis</key>
+		<path>mpifg/general/thesis</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<title lang="en">Project as a Thesis?</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Projekt als Qualifikationsarbeit?</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/thesis/is-thesis">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>is-thesis</key>
+		<path>mpifg/general/thesis/is-thesis</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/thesis"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/thesis"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Is the project a thesis?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Ist das Projekt eine Qualifikationsarbeit?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/project-partners-partner">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>project-partners-partner</key>
+		<path>mpifg/general/project-partners-partner</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<title lang="en">Project Coordinator / Advisor(s)</title>
+		<help lang="en"/>
+		<verbose_name lang="en">project partner</verbose_name>
+		<verbose_name_plural lang="en">project partners</verbose_name_plural>
+		<title lang="de">Projektkoordinator / Betreuer</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projektpartner</verbose_name>
+		<verbose_name_plural lang="de">Projektpartner</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/project-partners-partner/name">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>name</key>
+		<path>mpifg/general/project-partners-partner/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/name"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/project-partners-partner"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Who are the project coordinator or advisor(s)?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wer ist Projektkoordinator oder Gutachter?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>project-description</key>
+		<path>mpifg/project-description</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
+		<order>1</order>
+		<title lang="en">MPIfG Project Description</title>
+		<title lang="de">Projektbeschreibung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/description">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>description</key>
+		<path>mpifg/project-description/description</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en">Short Project Description</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Kurze Projektbeschreibung</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/description/short-description">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>short-description</key>
+		<path>mpifg/project-description/description/short-description</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en">Please mention main aspects like project goals, research questions, and methods of the project.</help>
+		<text lang="en">Please give a short project description</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Bitte nennen Sie die wichtigsten Aspekte wie Projektziele, Forschungsfragen und Methoden des Projekts.</help>
+		<text lang="de">Bitte geben Sie eine kurze Projektbeschreibung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/project-schedule-schedule">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>project-schedule-schedule</key>
+		<path>mpifg/project-description/project-schedule-schedule</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en">Project schedule</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Projektablauf</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/project-schedule-schedule/project_start">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>project_start</key>
+		<path>mpifg/project-description/project-schedule-schedule/project_start</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/schedule/project_start"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/project-schedule-schedule"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">When does the project start?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wann beginnt die Projektlaufzeit?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/project-schedule-schedule/project_end">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>project_end</key>
+		<path>mpifg/project-description/project-schedule-schedule/project_end</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/schedule/project_end"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/project-schedule-schedule"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">When does the project end?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wann endet die Projektlaufzeit?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/skills">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>skills</key>
+		<path>mpifg/project-description/skills</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<title lang="en">Special Skills</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Sind bestimmte Fähigkeiten erforderlich?</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/skills/skills-training">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>skills-training</key>
+		<path>mpifg/project-description/skills/skills-training</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/skills"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/skills"/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<title lang="en">Are there any skills needed?</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Sind bestimmte Fähigkeiten erforderlich?</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/skills/skills-training/skills">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>skills</key>
+		<path>mpifg/project-description/skills/skills-training/skills</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/skills"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/skills/skills-training"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Is special software or special method training needed?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wird besonders Software oder ein spezielle Methoden-Training benötigt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/skills/skills-training/measures">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>measures</key>
+		<path>mpifg/project-description/skills/skills-training/measures</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/measures"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/skills/skills-training"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">What could be measures to achieve this?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Was könnten Maßnahmen sein, um dies zu erreichen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/databases">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>databases</key>
+		<path>mpifg/project-description/databases</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<title lang="en">Access to Special Databases</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Ist der Zugang zu speziellen Datenbanken erforderlich?</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/databases/access-specific-database">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>access-specific-database</key>
+		<path>mpifg/project-description/databases/access-specific-database</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/databases"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/databases"/>
+		<is_collection>True</is_collection>
+		<order>2</order>
+		<title lang="en">Specific the Special Databases #### Show only when access to database is needed ####</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Kurzdarstellung der Datenbank #### Show only when access to database is needed ####</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/databases/access-specific-database/database-description">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>database-description</key>
+		<path>mpifg/project-description/databases/access-specific-database/database-description</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/databases/specific-databases"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/databases/access-specific-database"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Brief description of the required database</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Kurzbeschreibung der benötigten Datenbank</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/databases/access-specific-database/contact-library">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>contact-library</key>
+		<path>mpifg/project-description/databases/access-specific-database/contact-library</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/databases/contact-library"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/databases/access-specific-database"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Talked to the library to get it?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wurde hierfür bereits Kontakt mit der Bibliothek aufgenommen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/databases/databases-access">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>databases-access</key>
+		<path>mpifg/project-description/databases/databases-access</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/databases"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/databases"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Is access to special databases needed?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Ist der Zugang zu speziellen Datenbanken erforderlich?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/fieldwork">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>fieldwork</key>
+		<path>mpifg/project-description/fieldwork</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>5</order>
+		<title lang="en">Fieldwork and/or Stay Abroad</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Feldforschung und/oder Auslandsaufenthalt</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/fieldwork/fieldwork-details">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>fieldwork-details</key>
+		<path>mpifg/project-description/fieldwork/fieldwork-details</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork/fieldwork-details"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/fieldwork"/>
+		<is_collection>True</is_collection>
+		<order>2</order>
+		<title lang="en">Planning for the field research and/or the stay abroad ##### only when planned #####</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Planung für die Feldforschung und/oder den Auslandsaufenthalt</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/fieldwork/fieldwork-details/fieldwork-description">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>fieldwork-description</key>
+		<path>mpifg/project-description/fieldwork/fieldwork-details/fieldwork-description</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork/fieldwork-details"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/fieldwork/fieldwork-details"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Please explain your short your plans for the field research and/or the stay abroad</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Bitte erläutern Sie kurz Ihre Planung zur Feldforschung und/oder des Auslandsaufenthaltes</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/fieldwork/fieldwork-details/fieldwork-advisor">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>fieldwork-advisor</key>
+		<path>mpifg/project-description/fieldwork/fieldwork-details/fieldwork-advisor</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork/fieldwork-advisor"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/fieldwork/fieldwork-details"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Has this planning already been approved by your supervisor? #### Show only when project thesis ####</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Ist diese Planung bereits von Ihrem Betreuer genehmigt worden? #### Show only when project thesis ####</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/thesis"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/fieldwork/fieldwork">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>fieldwork</key>
+		<path>mpifg/project-description/fieldwork/fieldwork</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/fieldwork"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en">For more detailed explanations, please see the MPIfG internal documents: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;</help>
+		<text lang="en">Do you have the intention to do fieldwork and/or a research stay (abroad)?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Für nähere Erläuterungen beachten Sie bitte die MPIfG-internen Dokumente: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;</help>
+		<text lang="de">Haben Sie die Absicht, eine Feldforschung und/oder einen Forschungsaufenthalt (im Ausland) zu absolvieren?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/conference">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>conference</key>
+		<path>mpifg/project-description/conference</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>6</order>
+		<title lang="en">Visiting a Conference</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Besuch einer Konferenz</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/conference/conference-list">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>conference-list</key>
+		<path>mpifg/project-description/conference/conference-list</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference/conference-details"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/conference"/>
+		<is_collection>True</is_collection>
+		<order>2</order>
+		<title lang="en">Conference List #### Show only when visiting a conference ####</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Veranstaltungsliste #### Show only when visiting a conference ####</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/conference/conference-list/conference-details">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>conference-details</key>
+		<path>mpifg/project-description/conference/conference-list/conference-details</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference/conference-details"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/conference/conference-list"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en">If possible, please also indicate the place and date.</help>
+		<text lang="en">Which event especially?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Wenn möglich geben Sie bitte auch Ort und Datum an.</help>
+		<text lang="de">Welche Veranstaltung genau?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/conference/conference-list/conference-advisor">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>conference-advisor</key>
+		<path>mpifg/project-description/conference/conference-list/conference-advisor</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference/conference-details/conference-advisor"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/conference/conference-list"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Asked for approval from advisor?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Um die Zustimmung des Beraters gebeten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/conference/conference">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>conference</key>
+		<path>mpifg/project-description/conference/conference</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/conference"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en">For more detailed explanations, please see the MPIfG internal documents: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;</help>
+		<text lang="en">Thoughts about visiting a conference?  #### Show only when project thesis ####</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Ausführlichere Erläuterungen finden Sie in den internen Dokumenten des MPIfG: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;</help>
+		<text lang="de">Überlegungen zum Besuch einer Konferenz?  #### Show only when project thesis ####</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>content-classification</key>
+		<path>mpifg/content-classification</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
+		<order>2</order>
+		<title lang="en">MPIfG Content Classification</title>
+		<title lang="de">Inhaltliche Einordnung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification/data-dataset">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>data-dataset</key>
+		<path>mpifg/content-classification/data-dataset</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>1</order>
+		<title lang="en">Data</title>
+		<help lang="en">The following questions collect information on the data that is produced or used in the project. They also help to estimate the value of the data in terms of potential re-use and long-term preservation. 
+
+Before data is newly created, it is advisable to check if there is existing data that could be re-used. This way, redundant collection or creation of research data is prevented. This saves efforts and costs. Furthermore, in the case of personal data, the &lt;a href=&quot;http://www.gesetze-im-internet.de/englisch_bdsg/englisch_bdsg.html&quot; target=&quot;_blank&quot;&gt;German Federal Data Protection Act&lt;/a&gt; allows the collection of personal daa only when there are no other reasonable means to clarify the research question (re-use of existing data would be such a reasonable means). Also, there shall be collected no more information than necessary.
+
+The information regarding the data collected, produced or used in the project is gathered along datasets. The definition of these datasets is an important conceptional decision that has to be made individually and carefully for each project.</help>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Daten</title>
+		<help lang="de">Die nächsten Fragen dienen zur Beschreibung der Datensätze, die im Projekt erzeugt und/oder verwendet werden. Sie helfen zudem, den Wert der Daten hinsichtlich der potentiellen Nachnutzung und einer späteren Archivierung einschätzen zu können.
+
+Vor der Erzeugung von Daten empfiehlt es sich zu prüfen, ob bereits vorhandene Daten nachgenutzt werden können. Die Vermeidung doppelter Erhebungen spart Aufwand und Kosten. Handelt es sich um personenbezogene Daten, ist dies zudem durch den Grundsatz der Erforderlichkeit (&lt;a href=&quot;https://www.gesetze-im-internet.de/bdsg_1990/&quot; target=&quot;_blank&quot;&gt;BDSG&lt;/a&gt;) sowie das Prinzip der Datenvermeidung und Datensparsamkeit (&lt;a href=&quot;https://www.gesetze-im-internet.de/bdsg_1990/__3a.html&quot; target=&quot;_blank&quot;&gt;§3a BDSG&lt;/a&gt;) geboten.
+
+Die Angaben zu den im Projekt erzeugten oder verwendeten Daten sind nach „Datensätzen“ strukturiert. Die Definition dessen, was jeweils ein Datensatz ist, ist eine wichtige konzeptionelle Entscheidung, die für jedes Vorhaben bzw. Projekt individuell getroffen und sorgfältig abgewogen werden muss.</help>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification/data-dataset/description">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>description</key>
+		<path>mpifg/content-classification/data-dataset/description</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification/data-dataset"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en">Please briefly describe the data type and / or the method used to create or collect the data.</help>
+		<text lang="en">What data will be acquired?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Bitte beschreiben Sie hier kurz, um welchen Datentyp es sich handelt und mit welcher Methode die Daten erhoben oder erstellt wurden.</help>
+		<text lang="de">Welche Daten sollen erfasst werden?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification/data-existing_data">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>data-existing_data</key>
+		<path>mpifg/content-classification/data-existing_data</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>2</order>
+		<title lang="en">Data origin</title>
+		<help lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Datenursprung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification/data-existing_data/origin">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>origin</key>
+		<path>mpifg/content-classification/data-existing_data/origin</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/origin"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification/data-existing_data"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Is the dataset being created or re-used?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wird der Datensatz selbst erzeugt oder nachgenutzt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/dataset_origin_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification/data-existing_data/creator_name">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>creator_name</key>
+		<path>mpifg/content-classification/data-existing_data/creator_name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification/data-existing_data"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">If re-used, who created the dataset?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wenn nachgenutzt, wer hat den Datensatz erzeugt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification/data-existing_data/uri">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>uri</key>
+		<path>mpifg/content-classification/data-existing_data/uri</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/uri"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification/data-existing_data"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en">If re-used, under which address, PID or URL can the dataset be found?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wenn nachgenutzt, unter welcher Adresse, PID oder URL ist der Datensatz verfügbar?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>technical-classification</key>
+		<path>mpifg/technical-classification</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
+		<order>2</order>
+		<title lang="en">MPIfG Technical Classification</title>
+		<title lang="de">Technische Einordnung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-volume">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>data-volume</key>
+		<path>mpifg/technical-classification/data-volume</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>2</order>
+		<title lang="en">Data size</title>
+		<help lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Datengröße</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-volume/volume">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>volume</key>
+		<path>mpifg/technical-classification/data-volume/volume</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size/volume"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-volume"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">What is the actual or expected size of the dataset?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Was ist die tatsächliche oder erwartete Größe des Datensatzes?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/dataset_size_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-formats">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>data-formats</key>
+		<path>mpifg/technical-classification/data-formats</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>3</order>
+		<title lang="en">Formats</title>
+		<help lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Formate</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-formats/format">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>format</key>
+		<path>mpifg/technical-classification/data-formats/format</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/format"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-formats"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en">When choosing a data format, one should consider the consequences for collaborative use, long-term preservation as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in the respective scholarly community. More criteria and detailed explanations can be found e.g. in the &lt;a href=&quot;http://www.wissgrid.de/publikationen/Leitfaden_Data-Management-WissGrid.pdf&quot; target=&quot;_blank&quot;&gt;WissGrid-Leitfaden, pp. 22 f.&lt;/a&gt;).</help>
+		<text lang="en">Which file formats are used?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Bei der Wahl des Dateiformates sollten auch die Konsequenzen für die kollaborative Nutzung, die Langzeitarchivierung sowie die Nachnutzung beachtet werden. Es empfiehlt sich, möglichst standardisierte, nicht-proprietäre und allgemein bzw. in der spezifischen Community verbreitete Formate zu nutzen. Weitere Kriterien sowie detaillierte Erläuterungen sind z. B. im &lt;a href=&quot;http://www.wissgrid.de/publikationen/Leitfaden_Data-Management-WissGrid.pdf&quot; target=&quot;_blank&quot;&gt;WissGrid-Leitfaden, S. 22 f.&lt;/a&gt;) zu finden.</help>
+		<text lang="de">In welchen Formaten liegen die Daten vor?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-tools">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>data-tools</key>
+		<path>mpifg/technical-classification/data-tools</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>4</order>
+		<title lang="en">Tools</title>
+		<help lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Werkzeuge</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-tools/creation_methods">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>creation_methods</key>
+		<path>mpifg/technical-classification/data-tools/creation_methods</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creation_methods"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-tools"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en">This information is necessary to be able to reconstruct the process by which the data was generated. It is also a prerequisite to judge the objectivity, reliability and validity of the dataset.  
+For reproducible data, it is also required to re-generate the data if need be.</help>
+		<text lang="en">Which tools, software, technologies or processes are used to generate or collect the data?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Diese Informationen sind für alle Arten von Daten relevant, um ihre Genese nachvollziehen zu können. Bei reproduzierbaren Daten kommt ein weiterer Aspekt hinzu. Diese müssen nicht notwendigerweise aufbewahrt werden - allerdings müssen alle Geräte, Software und auch Informationen über die Vorgehensweise erhalten bleiben, die notwendig sind, um die Daten erneut erstellen zu können.</help>
+		<text lang="de">Welche Instrumente, Software, Technologien oder Verfahren werden zur Erzeugung oder Erfassung der Daten genutzt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-tools/usage_technology">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>usage_technology</key>
+		<path>mpifg/technical-classification/data-tools/usage_technology</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_technology"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-tools"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en">To be able to re-use data (e.g. to replicate studies, for meta analysis or to solve new research questions), along with the data the software, equipment and knowledge about special methods to use the data are required . 
+Just as with the formats, the recommendation is: the more standardised, open and established, the better for re-use.</help>
+		<text lang="en">Which software, processes or technologies are necessary to use the data?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Um Daten nachnutzen zu können, bspw. für die Replikation von Studien, Metaanalysen oder die Beantwortung neuer Forschungsfragen, werden neben den Daten selbst auch die Software, Geräte etc. und das Wissen über spezielle Verfahren zur Nutzung benötigt.
+Ebenso wie bei den Formaten gilt hier: je standardisierter, offener und etablierter diese sind, desto einfacher ist i.d.R. eine Nachnutzung möglich.</help>
+		<text lang="de">Welche Software, Verfahren oder Technologien sind notwendig, um die Daten zu nutzen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-versioning">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>data-versioning</key>
+		<path>mpifg/technical-classification/data-versioning</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>5</order>
+		<title lang="en">Versioning</title>
+		<help lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Versionierung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-versioning/tool">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>tool</key>
+		<path>mpifg/technical-classification/data-versioning/tool</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/versioning_tool"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/technical-classification/data-versioning"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en">Which technology or tool is used for versioning?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Welche Technologie bzw. welches Tool wird zur Versionierung verwendet?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/software_versioning_technology_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>data-usage</key>
+		<path>mpifg/data-usage</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
+		<order>3</order>
+		<title lang="en">MPIfG Data Usage</title>
+		<title lang="de">MPIfG Datenutzung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/scenarios-usage">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>scenarios-usage</key>
+		<path>mpifg/data-usage/scenarios-usage</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<title lang="en">Usage scenarios</title>
+		<help lang="en">The following questions will help to estimate, which ressources are necessary to enable the envisioned data usage scenarios during the project. These can be technical / IT resources as well as expertise brought in by e.g. data managment or IT experts.</help>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Nutzungsszenarien</title>
+		<help lang="de">Die folgenden Fragen dienen dazu einzuschätzen, welche Ressourcen für die geplante Nutzung der Daten während der Projektlaufzeit nötig sind. Dabei kann es sich um technische bzw. IT-Ressourcen handeln, aber auch um Expertise, die z. B. durch Datenmanagement- oder IT-ExpertInnen eingebracht wird.</help>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/scenarios-usage/infrastructure">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>infrastructure</key>
+		<path>mpifg/data-usage/scenarios-usage/infrastructure</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_infrastructure"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/scenarios-usage"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">To what extent will infrastructure resources be required (e.g. CPU hours, bandwidth, storage space... etc.).</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">In welchem Umfang werden Infrastrukturressourcen benötigt (CPU-Stunden, Bandbreite, Speicherplatz etc.)?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/infrastructure_resources"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/scenarios-usage/support">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>support</key>
+		<path>mpifg/data-usage/scenarios-usage/support</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_support"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/scenarios-usage"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Are there actual or potential usage scenarios that could benefit from support by a data management or IT expert, or that even require such support?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Gibt es beabsichtigte (ggf. auch potentielle) Nutzungsszenarien, für die die Unterstützung durch Datenmanagement- oder IT-ExpertInnen sinnvoll oder notwendig ist?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/data-storage-and-security-storage">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>data-storage-and-security-storage</key>
+		<path>mpifg/data-usage/data-storage-and-security-storage</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>11</order>
+		<title lang="en">Storage location</title>
+		<help lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Speicherort</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/data-storage-and-security-storage/type">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>type</key>
+		<path>mpifg/data-usage/data-storage-and-security-storage/type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/storage/type"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/data-storage-and-security-storage"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Where is the dataset stored during the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wo wird der Datensatz während des Projektes gespeichert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/data-storage-and-security-data_security">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>data-storage-and-security-data_security</key>
+		<path>mpifg/data-usage/data-storage-and-security-data_security</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>12</order>
+		<title lang="en">Data storage and security</title>
+		<help lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Datenspeicherung und -sicherheit</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/data-storage-and-security-data_security/backups">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>backups</key>
+		<path>mpifg/data-usage/data-storage-and-security-data_security/backups</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/backups"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/data-storage-and-security-data_security"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en">This question refers to backups while the data is being worked with. Questions of  long-term preservation will be adressed in the respective section.</help>
+		<text lang="en">How and how often will backups of the data be created?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Die Frage bezieht sich auf Backups während der Zeit, in denen mit den Daten gearbeitet wird. Fragen der Langzeitarchivierung werden gesondert im entsprechenden Abschnitt behandelt.</help>
+		<text lang="de">Wie und wie oft werden Backups der Daten erstellt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/data-storage-and-security-data_security/name">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>name</key>
+		<path>mpifg/data-usage/data-storage-and-security-data_security/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/backup_responsible/name"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/data-storage-and-security-data_security"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en">This question refers to backups while the data is being worked with. Questions of  long-term preservation will be adressed in the respective section.</help>
+		<text lang="en">Who is responsible for the backups?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Die Frage bezieht sich auf Backups während der Zeit, in denen mit den Daten gearbeitet wird. Fragen der Langzeitarchivierung werden gesondert im entsprechenden Abschnitt behandelt.</help>
+		<text lang="de">Wer ist verantwortlich für die Erstellung der Backups?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/data-storage-and-security-data_security/security_measures">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>security_measures</key>
+		<path>mpifg/data-usage/data-storage-and-security-data_security/security_measures</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/security_measures"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/data-storage-and-security-data_security"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en">Which measures or provisions are in place to ensure data security (e.g. protection against unauthorized access, data recovery, transfer of sensitive data)?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Welche Maßnahmen zur Gewährleistung der Datensicherheit werden getroffen (z. B. Schutz vor unbefugtem Zugriff, Datenwiederherstellung, Übertragung sensibler Daten)?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/data-sharing-and-re-use-publication">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>data-sharing-and-re-use-publication</key>
+		<path>mpifg/data-usage/data-sharing-and-re-use-publication</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>20</order>
+		<title lang="en">Data sharing and re-use</title>
+		<help lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Weitergabe und Veröffentlichung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/data-sharing-and-re-use-publication/yesno">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>mpifg/data-usage/data-sharing-and-re-use-publication/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/yesno"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/data-usage/data-sharing-and-re-use-publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Will this dataset be published or shared?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Soll dieser Datensatz veröffentlicht oder geteilt werden?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>legal-and-ethics</key>
+		<path>mpifg/legal-and-ethics</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
+		<order>5</order>
+		<title lang="en">MPIfG Legal and Ethics</title>
+		<title lang="de">Rechtliche und ethische Fragen</title>
+	</section>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics/sensitive-data-personal_data_yesno">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>sensitive-data-personal_data_yesno</key>
+		<path>mpifg/legal-and-ethics/sensitive-data-personal_data_yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>1</order>
+		<title lang="en">Personal data</title>
+		<help lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Personenbezogene Daten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics/sensitive-data-personal_data_yesno/yesno">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>mpifg/legal-and-ethics/sensitive-data-personal_data_yesno/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data_yesno/yesno"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics/sensitive-data-personal_data_yesno"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en">European Data Protection Law may apply.
+
+The German Federal Data Protection Act defines personal data as „any information concerning the personal or material circumstances of an identified or identifiable individual (the data subject)” &lt;a href=&quot;https://www.gesetze-im-internet.de/bdsg_1990/__3.html&quot; target=&quot;_blank&quot;&gt;(BDSG, §3 Abs. 1)&lt;/a&gt;).  
+  
+A person is “identified” when it is obvious whom the data is associated with. A person is “identifiable” when it is possible to find out which person the data refers to with additional information (See Häder 2009, p. 7).   
+  
+The handling of personal information is regulated by law. More information (in German only) can be found in the following publications:   
+
+* &lt;a href=&quot;http://www.ratswd.de/download/RatSWD_WP_2009/RatSWD_WP_90.pdf&quot; target=&quot;_blank&quot;&gt;Michael Häder (2009): Der Datenschutz in den Sozialwissenschaften. RatSWD Working Paper No. 90.&lt;/a&gt;   
+
+* &lt;a href=&quot;http://www.gesis.org/fileadmin/upload/forschung/publikationen/gesis_reihen/gesis_methodenberichte/2012/TechnicalReport_2012-07.pdf&quot; target=&quot;_blank&quot;&gt;Uwe Jensen (2012): Leitlinien zum Management von Forschungsdaten. Sozialwissenschaftliche Umfragedaten. GESIS Technical Report 2012|07.&lt;/a&gt; (esp. pp. 13 ff)     
+
+* &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_recht.pdf&quot; target=&quot;_blank&quot;&gt;Handreichung: Informationen zu rechtlichen Aspekten bei der Handhabung von Sprachkorpora.&lt;/a&gt; (esp. part 1.1 and part 2.2)
+
+############ Add information to MPIfG data protection officer? #############
+############ Add information to Heide Schuster? ############</help>
+		<text lang="en">Does this dataset contain personal data?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Europäisches Recht kann Geltung haben.
+
+Das Bundesdatenschutzgesetz definiert personenbezogene Daten als „Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person“ &lt;a href=&quot;https://www.gesetze-im-internet.de/bdsg_1990/__3.html&quot; target=&quot;_blank&quot;&gt;(BDSG, §3 Abs. 1)&lt;/a&gt;
+  
+Dabei wird von einer „bestimmten Person“ gesprochen, wenn eindeutig erkennbar ist, zu welcher Person die Daten gehören. Um eine „bestimmbare Person“ handelt es sich, wenn mittels Zusatzinformationen ermittelt werden kann, um welche Person es geht. (Vgl. Häder 2009, S. 7).  
+ 
+Der Umgang mit solchen Daten ist gesetzlich geregelt. Mehr Informationen (zwar auf bestimmte Disziplinen / Datentypen fokussiert, aber übertragbar) zum Thema bieten bspw.:  
+
+* &lt;a href=&quot;http://www.ratswd.de/download/RatSWD_WP_2009/RatSWD_WP_90.pdf&quot; target=&quot;_blank&quot;&gt;Michael Häder (2009): Der Datenschutz in den Sozialwissenschaften. RatSWD Working Paper No. 90.&lt;/a&gt;
+ 
+* &lt;a href=&quot;http://www.gesis.org/fileadmin/upload/forschung/publikationen/gesis_reihen/gesis_methodenberichte/2012/TechnicalReport_2012-07.pdf&quot; target=&quot;_blank&quot;&gt;Uwe Jensen (2012): Leitlinien zum Management von Forschungsdaten. Sozialwissenschaftliche Umfragedaten. GESIS Technical Report 2012|07.&lt;/a&gt; (v.a. S. 13ff.)  
+
+* &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_recht.pdf&quot; target=&quot;_blank&quot;&gt;Handreichung: Informationen zu rechtlichen Aspekten bei der Handhabung von Sprachkorpora.&lt;/a&gt; (v.a.  Teil 1.1 und Teil 2.2)</help>
+		<text lang="de">Enthält dieser Datensatz personenbezogene Daten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics/sensitive-data-other">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>sensitive-data-other</key>
+		<path>mpifg/legal-and-ethics/sensitive-data-other</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>6</order>
+		<title lang="en">Sensitive data</title>
+		<help lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Sensible Daten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics/sensitive-data-other/yesno">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>mpifg/legal-and-ethics/sensitive-data-other/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other/yesno"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics/sensitive-data-other"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en">Examples are data that contain trade or business secrets or geoinformation on endangered species.</help>
+		<text lang="en">Does this dataset contain sensitive data other than personal data?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Beispiele hierfür sind etwa Daten, die Betriebs- oder Geschäftsgeheimnisse oder Ortsangaben zu bedrohten Tier- oder Pflanzenarten enthalten.</help>
+		<text lang="de">Enthält dieser Datensatz nicht-personenbezogene sensible Daten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics/sensitive-data-other/description">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>description</key>
+		<path>mpifg/legal-and-ethics/sensitive-data-other/description</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other/description"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics/sensitive-data-other"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">If yes, please describe the non-personal sensitive data used in the project.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wenn ja, um welche nicht personenbezogenen sensiblen Daten handelt es sich?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/other_sensitive_data"/>
+		</conditions>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics/intellectual-property-rights-yesno">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>intellectual-property-rights-yesno</key>
+		<path>mpifg/legal-and-ethics/intellectual-property-rights-yesno</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>20</order>
+		<title lang="en">Intellectual property rights</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Urheber- oder verwandte Schutzrechte</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics/intellectual-property-rights-yesno/yesno">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>mpifg/legal-and-ethics/intellectual-property-rights-yesno/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/ipr/yesno"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/legal-and-ethics/intellectual-property-rights-yesno"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en">Data or software can be subject to intellectual or industrial property rights. Applicable laws differ broadly even within EU.
+
+According to the German copyright law (UrhG) works of literature, scholarship and the arts that can be regarded as a “personal intellectual creation” are protected by copyright. Copyright protection expires 70 years after the death of the copyright holder. 
+Mere data, e.g. measured data or survey data, and metadata (except in some cases descriptive metadata) are not protected by copyright. 
+
+§ 2 of the UrhG lists the following kinds of protected works (list is not concluded): 
+* linguistic works such as written works, speeches and computer programs 
+* works of music
+* pantomimic works including works of the art of dance 
+* works or the fine arts including works of architecture and the applied arts as well as sketches of such works 
+* works of photography and cinematography
+* descriptions and illustrations of scholarly or technical nature such as drawings, plans, maps, sketches, tables and three-dimensional represenations
+
+According to § 3, copyright is also applicable to translations and other modifications or adaptions of a work if they are individual intellectual creations of the editor. 
+
+Finally, according to § 4 copyright also extents to collected editions and database works. Collected editions are “collections of work, data or other independent elements that are individual intellectual creations based on the selection and arrangement of the elements”. Database works are defined as “collected editions, the elements of which are arranged in a systematic or methodical way and can be accessed individually by electronic means or in other ways”. 
+
+Other relevant property rights can be trademarks, patents, utility models, plant variety rights protection, integrated circuit layout design protection, geographical indications or registered designs.</help>
+		<text lang="en">Does the project use and/or produce data that is protected by intellectual or industrial property rights?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Daten oder Software können Urheber- oder anderen Schutzrechten unterliegen. Die Rechtslage kann selbst in der EU von Land zu Land erheblich abweichen.
+
+In Deutschland sind nach dem Urheberrechtsgesetz (UrhG) Werke der Literatur, Wissenschaft und Kunst, die eine „persönliche geistige Schöpfung“ darstellen, urheberrechtlich geschützt. Der urheberrechtliche Schutz erlischt 70 Jahre nach dem Tod der bzw. des Urheberin/s. 
+Reine Daten, z. B. Messdaten oder Surveydaten, aber auch Metadaten (bis auf ggf. „beschreibende“ Metadaten) sind hingegen nicht schutzfähig. 
+
+In § 2 nennt das UrhG folgende geschützte Werkarten, wobei die Aufzählung nicht abschließend ist: 
+
+* Sprachwerke, wie Schriftwerke, Reden und Computerprogramme 
+* Werke der Musik 
+* pantomimische Werke einschließlich Werke der Tanzkunst 
+* Werke der bildenden Künste einschließlich der Werke der Baukunst und der angewandten Kunst und Entwürfe solcher Werke 
+* Lichtbildwerke einschließlich der Werke, die ähnlich wie Lichtbildwerke geschaffen werden 
+* Darstellungen wissenschaftlicher oder technischer Art wie Zeichnungen, Pläne, Karten, Skizzen, Tabellen und plastische Darstellungen. 
+
+Nach § 3 sind auch „Übersetzungen und andere Bearbeitungen“ von Werken geschützt, die persönliche geistige Schöpfungen des Bearbeiters sind“. 
+
+Schließlich sind nach § 4 auch Sammelwerke und Datenbankwerke geschützt, was im Bereich Forschungsdaten durchaus relevant sein kann. Sammelbankwerke werden dabei definiert als „Sammlungen von Werken, Daten oder anderen unabhängigen Elementen, die aufgrund der Auswahl oder Anordnung der Elemente eine persönliche geistige Schöpfung sind“. 
+Bei einem „Datenbankwerk im Sinne des Gesetzes“ handelt es sich um ein „Sammelwerk, dessen Elemente systematisch oder methodisch angeordnet und einzeln mit Hilfe elektronischer Mittel oder auf andere Weise zugänglich sind“. 
+
+Weitere relevante Schutzrechte können gewerbliche Schutzrechte wie Patente, Gebrauchsmuster, Sortenschutz [bei Pflanzenzüchtungen], Halbleiterschutz, Marken, geographische Herkunftsangaben, eingetragene Designs oder geschäftliche Bezeichnungen sein.</help>
+		<text lang="de">Werden Daten genutzt und/oder erstellt, die durch Urheber- oder verwandte Schutzrechte geschützt sind?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>project-publication</key>
+		<path>mpifg/project-publication</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
+		<order>6</order>
+		<title lang="en">MPIfG Project Publication</title>
+		<title lang="de">Projektpublikationen</title>
+	</section>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/publication">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>publication</key>
+		<path>mpifg/project-publication/publication</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>1</order>
+		<title lang="en">Publications for the project</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Publikationen für das Projekt</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/publication/published-data">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>published-data</key>
+		<path>mpifg/project-publication/publication/published-data</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/publication-published-data"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/publication"/>
+		<is_collection>True</is_collection>
+		<order>3</order>
+		<title lang="en">Published Research Data</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Veröffentlichte Forschungsdaten</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/publication/published-data/publication-published-data">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>publication-published-data</key>
+		<path>mpifg/project-publication/publication/published-data/publication-published-data</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/publication-published-data"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/publication/published-data"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en">Please give an identifier.</help>
+		<text lang="en">Published Research Data</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Bitte einen Identifier eintragen.</help>
+		<text lang="de">Publizierte Forschungsdaten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>url</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/publication/published-data/research-data-reuse">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>research-data-reuse</key>
+		<path>mpifg/project-publication/publication/published-data/research-data-reuse</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/publication-published-data/research-data-reuse"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/publication/published-data"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Do you plan to re-use the data for further publications (if legally possible)?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Planen Sie die Wiederverwendung der Daten für weitere Veröffentlichungen (sofern rechtlich möglich)?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/publication/publication-description">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>publication-description</key>
+		<path>mpifg/project-publication/publication/publication-description</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/publication-description"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Short Publication Description</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Kurzbeschreibung der Publikation</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/publication/publication-identifier">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>publication-identifier</key>
+		<path>mpifg/project-publication/publication/publication-identifier</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/publication-identifier"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Publication Identifier</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Publikationsidentifier</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>url</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>thesis-publication</key>
+		<path>mpifg/project-publication/thesis-publication</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en">Thesis Publication</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Veröffentlichung der Qualifikationsarbeit</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication/thesis-publisher">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>thesis-publisher</key>
+		<path>mpifg/project-publication/thesis-publication/thesis-publisher</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis/thesis-publisher"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en">- as a book?
+- as part of the IMPRS series?
+- ??
+Please keep us informed</help>
+		<text lang="en">How do you intend to publish your thesis? #### Show only when thesis ####</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">- als Buch?
+- als Teil der IMPRS-Reihe?
+- ??
+Bitte halten Sie uns auf dem Laufenden</help>
+		<text lang="de">Wie beabsichtigen Sie, Ihre Dissertation zu veröffentlichen? #### Show only when thesis ####</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication/thesis-oa">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>thesis-oa</key>
+		<path>mpifg/project-publication/thesis-publication/thesis-oa</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/thesis/thesis-oa"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Allow open access in Repository?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Offenen Zugang im Repository zulassen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication/thesis-advisor">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>thesis-advisor</key>
+		<path>mpifg/project-publication/thesis-publication/thesis-advisor</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis/thesis-advisor"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en">Send Dissertation to adivsors? University or supervision committee?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Dissertation an Adivsoren schicken? Universität oder Betreuungsausschuss?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication/thesis-repository">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>thesis-repository</key>
+		<path>mpifg/project-publication/thesis-publication/thesis-repository</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis/thesis-repository"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en">Upload in KUPs (or other university repository)?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Hochladen in KUPs (oder ein anderes universitäres Repository)?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/storage-and-long-term-preservation">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>storage-and-long-term-preservation</key>
+		<path>mpifg/storage-and-long-term-preservation</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
+		<order>7</order>
+		<title lang="en">MPIfG Long-term Preservation</title>
+		<title lang="de">Speicherung und Langzeitarchivierung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/storage-and-long-term-preservation/long-term-preservation-datasets">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>long-term-preservation-datasets</key>
+		<path>mpifg/storage-and-long-term-preservation/long-term-preservation-datasets</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/storage-and-long-term-preservation"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>1</order>
+		<title lang="en">Long-term preservation</title>
+		<help lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<title lang="de">Langzeitarchivierung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/storage-and-long-term-preservation/long-term-preservation-datasets/yesno">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>mpifg/storage-and-long-term-preservation/long-term-preservation-datasets/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/yesno"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/storage-and-long-term-preservation/long-term-preservation-datasets"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Does this dataset have to preserved for the long-term?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Muss dieser Datensatz langfristig aufbewahrt werden?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/storage-and-long-term-preservation/long-term-preservation-datasets/reuse_duration">
+		<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+		<key>reuse_duration</key>
+		<path>mpifg/storage-and-long-term-preservation/long-term-preservation-datasets/reuse_duration</path>
+		<dc:comment>Original H2020 question</dc:comment>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/reuse_duration"/>
+		<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/storage-and-long-term-preservation/long-term-preservation-datasets"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">How long is it intended that the data remains re-usable.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wie lang sollen die Daten nach Projektende (nach)nutzbar sein?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+</rdmo>

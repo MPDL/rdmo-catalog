@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo created="2022-06-24T15:27:41.164085+02:00" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/access-databases">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>access-databases</key>
+		<dc:comment>There are additional data management requirements.</dc:comment>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/databases"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/thesis">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>thesis</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis"/>
+		<relation>notempty</relation>
+		<target_text/>
+		<target_option/>
+	</condition>
+</rdmo>

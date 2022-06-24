@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo created="2022-06-24T15:27:18.270239+02:00" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>mpifg</key>
+		<path>mpifg</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/skills">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>skills</key>
+		<path>mpifg/skills</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/thesis">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>thesis</key>
+		<path>mpifg/thesis</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/thesis/thesis-oa">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>thesis-oa</key>
+		<path>mpifg/thesis/thesis-oa</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/thesis"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/measures">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>measures</key>
+		<path>mpifg/measures</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/databases">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>databases</key>
+		<path>mpifg/databases</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/databases/specific-databases">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>specific-databases</key>
+		<path>mpifg/databases/specific-databases</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/databases"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/databases/contact-library">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>contact-library</key>
+		<path>mpifg/databases/contact-library</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/databases"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>fieldwork</key>
+		<path>mpifg/fieldwork</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork/fieldwork-details">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>fieldwork-details</key>
+		<path>mpifg/fieldwork/fieldwork-details</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork/fieldwork-advisor">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>fieldwork-advisor</key>
+		<path>mpifg/fieldwork/fieldwork-advisor</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>conference</key>
+		<path>mpifg/conference</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference/conference-details">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>conference-details</key>
+		<path>mpifg/conference/conference-details</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference/conference-details/conference-advisor">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>conference-advisor</key>
+		<path>mpifg/conference/conference-details/conference-advisor</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference/conference-details"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>publication</key>
+		<path>mpifg/publication</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/publication-description">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>publication-description</key>
+		<path>mpifg/publication/publication-description</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/publication-identifier">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>publication-identifier</key>
+		<path>mpifg/publication/publication-identifier</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/publication-published-data">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>publication-published-data</key>
+		<path>mpifg/publication/publication-published-data</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/publication-published-data/research-data-reuse">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>research-data-reuse</key>
+		<path>mpifg/publication/publication-published-data/research-data-reuse</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/publication-published-data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>thesis</key>
+		<path>mpifg/publication/thesis</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis/thesis-publisher">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>thesis-publisher</key>
+		<path>mpifg/publication/thesis/thesis-publisher</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis/thesis-advisor">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>thesis-advisor</key>
+		<path>mpifg/publication/thesis/thesis-advisor</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis/thesis-repository">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>thesis-repository</key>
+		<path>mpifg/publication/thesis/thesis-repository</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis"/>
+	</attribute>
+</rdmo>
