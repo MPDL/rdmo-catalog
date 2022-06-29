@@ -1040,14 +1040,14 @@ Ebenso wie bei den Formaten gilt hier: je standardisierter, offener und etablier
 				<order>3</order>
 				<help lang="en"/>
 				<text lang="en">
-				In which repository or archive will the data be held?
+				In which repository or archive, listed in re3data, will the data be held?
 				</text>
 				<default_text lang="en"/>
 				<verbose_name lang="en"/>
 				<verbose_name_plural lang="en"/>
 				<help lang="de"/>
 				<text lang="de">
-				In welchem Repositorium oder Archiv werden die Daten aufbewahrt?
+				In welchem Repositorium oder Archiv, gelistet in re3data, werden die Daten aufbewahrt?
 				</text>
 				<default_text lang="de"/>
 				<verbose_name lang="de"/>
