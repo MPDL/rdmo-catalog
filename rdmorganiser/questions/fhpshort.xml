@@ -1025,7 +1025,47 @@ Ebenso wie bei den Formaten gilt hier: je standardisierter, offener und etablier
 		<unit/>
 		<optionsets/>
 		<conditions/>
-	</question>
+		</question>
+			<question dc:uri="https://rdmo.fh-potsdam.de/terms/questions/fhpshort/data-usage/data-sharing-and-re-use-publication/repositoy">
+				<uri_prefix>https://rdmo.fh-potsdam.de/terms</uri_prefix>
+				<key>repositoy</key>
+				<path>
+				fhpshort/data-usage/data-sharing-and-re-use-publication/repositoy
+				</path>
+				<dc:comment/>
+				<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
+				<questionset dc:uri="https://rdmo.fh-potsdam.de/terms/questions/fhpshort/data-usage/data-sharing-and-re-use-publication"/>
+				<is_collection>True</is_collection>
+				<is_optional>False</is_optional>
+				<order>3</order>
+				<help lang="en"/>
+				<text lang="en">
+				In which repository or archive will the data be held?
+				</text>
+				<default_text lang="en"/>
+				<verbose_name lang="en"/>
+				<verbose_name_plural lang="en"/>
+				<help lang="de"/>
+				<text lang="de">
+				In welchem Repositorium oder Archiv werden die Daten aufbewahrt?
+				</text>
+				<default_text lang="de"/>
+				<verbose_name lang="de"/>
+				<verbose_name_plural lang="de"/>
+				<default_option/>
+				<default_external_id/>
+				<widget_type>select</widget_type>
+				<value_type>text</value_type>
+				<maximum/>
+				<minimum/>
+				<step/>
+				<unit/>
+				<width/>
+				<optionsets>
+				<optionset dc:uri="https://rdmorganiser.github.io/terms/options/re3data"/>
+				</optionsets>
+				<conditions/>
+		</question>
 	<section dc:uri="https://rdmo.fh-potsdam.de/terms/questions/fhpshort/metadata-and-referencing">
 		<uri_prefix>https://rdmo.fh-potsdam.de/terms</uri_prefix>
 		<key>metadata-and-referencing</key>
