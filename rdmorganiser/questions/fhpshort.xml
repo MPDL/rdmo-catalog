@@ -1038,14 +1038,14 @@ Ebenso wie bei den Formaten gilt hier: je standardisierter, offener und etablier
 				<is_collection>True</is_collection>
 				<is_optional>False</is_optional>
 				<order>3</order>
-				<help lang="en"/>
+			<help lang="en">The selection of repositories offered is generated from the DFG subject group selected by the user and the corresponding repositories in re3data.</text>
 				<text lang="en">
 				In which repository or archive, listed in re3data, will the data be held?
 				</text>
 				<default_text lang="en"/>
 				<verbose_name lang="en"/>
 				<verbose_name_plural lang="en"/>
-				<help lang="de"/>
+			<help lang="de">Die Auswahl der angebotenen Repositorien generiert sich aus der selbstgewählten DFG-Fachgruppe und den dazu entsprechenden Repositorien in re3data.</text>
 				<text lang="de">
 				In welchem Repositorium oder Archiv, gelistet in re3data, werden die Daten aufbewahrt?
 				</text>
