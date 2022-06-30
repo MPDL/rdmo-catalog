@@ -2713,6 +2713,46 @@ Al igual que con los formatos, la recomendación es: cuanto más estandarizados,
 		<verbose_name_plural lang="es">colecciones de datos</verbose_name_plural>
 		<conditions/>
 	</questionset>
+		<question dc:uri="https://rdmorganiser.github.io/terms/questions/rdmo/data-usage/data-sharing-and-re-use-publication/repositoy">
+			<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+			<key>repositoy</key>
+			<path>
+			rdmo/data-usage/data-sharing-and-re-use-publication/repositoy
+			</path>
+			<dc:comment/>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
+			<questionset dc:uri="https://rdmorganiser.github.io/terms/questions/rdmo/data-usage/data-sharing-and-re-use-publication"/>
+			<is_collection>True</is_collection>
+			<is_optional>False</is_optional>
+			<order>0</order>
+			<help lang="en"/>
+			<text lang="en">
+			In which repository or archive will the data be held?
+			</text>
+			<default_text lang="en"/>
+			<verbose_name lang="en"/>
+			<verbose_name_plural lang="en"/>
+			<help lang="de"/>
+			<text lang="de">
+			In welchem Repositorium oder Archiv werden die Daten aufbewahrt?
+			</text>
+			<default_text lang="de"/>
+			<verbose_name lang="de"/>
+			<verbose_name_plural lang="de"/>
+			<default_option/>
+			<default_external_id/>
+			<widget_type>select</widget_type>
+			<value_type>text</value_type>
+			<maximum/>
+			<minimum/>
+			<step/>
+			<unit/>
+			<width/>
+			<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/re3data"/>
+			</optionsets>
+			<conditions/>
+		</question>
 	<question dc:uri="https://rdmorganiser.github.io/terms/questions/rdmo/data-usage/data-sharing-and-re-use-publication/yesno">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>yesno</key>
