@@ -7,11 +7,11 @@
 			This questionnaire is intended to help you organize your project at the MPIfG and at the same time keep tracks with institutional policies on “good scientific practice”, data storage and publication repository integration.
 			</dc:comment>
 			<order>1</order>
-			<title lang="en">MPIfG Project Management Plan</title>
+			<title lang="en">MPIfG Project Management Plan (Beta test mode)</title>
 			<help lang="en">
 This catalogue is for project-specific data management at the &lt;a href=&quot;https://www.mpifg.de/&quot; target=&quot;_blank&quot;&gt;Max Planck Institute for the Study of Societies&lt;/a&gt;.
 			</help>
-			<title lang="de">MPIfG Project Management Plan</title>
+			<title lang="de">MPIfG Project Management Plan (Beta-Testmodus)</title>
 			<help lang="de">
 Dieser Katalog ist für das projektspezifische Datenmanagement am &lt;a href=&quot;https://www.mpifg.de/&quot; target=&quot;_blank&quot;&gt;Max-Planck-Institut für Gesellschaftsforschung&lt;/a&gt;.
 			</help>
@@ -925,11 +925,11 @@ Wie Sie das planen und was Sie dafür brauchen, erfahren Sie im Intranet des MPI
 			<questionset/>
 			<is_collection>False</is_collection>
 			<order>6</order>
-			<title lang="en">Visiting a Conference</title>
+			<title lang="en">Conference Visit</title>
 			<help lang="en"/>
 			<verbose_name lang="en"/>
 			<verbose_name_plural lang="en"/>
-			<title lang="de">Besuch einer Konferenz</title>
+			<title lang="de">Konferenzbesuch</title>
 			<help lang="de"/>
 			<verbose_name lang="de"/>
 			<verbose_name_plural lang="de"/>
