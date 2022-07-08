@@ -50,7 +50,7 @@
     <order>4</order>
     <text lang="en">Closed access</text>
     <text lang="de">Closed access</text>
-    <additional_input>False</additional_input>
+    <additional_input>True</additional_input>
     </option>
     <optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish">
     <uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
@@ -91,6 +91,6 @@
     <order>3</order>
     <text lang="en">Only on university server</text>
     <text lang="de">Nur auf dem Universitätsserver</text>
-    <additional_input>False</additional_input>
+    <additional_input>True</additional_input>
     </option>
 </rdmo>
