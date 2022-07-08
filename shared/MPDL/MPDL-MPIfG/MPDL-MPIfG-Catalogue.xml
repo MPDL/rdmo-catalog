@@ -9,11 +9,11 @@
 			<order>1</order>
 			<title lang="en">MPIfG Project Management Plan</title>
 			<help lang="en">
-			This catalogue is for project-specific data management at the Max Planck Institute for the Study of Societies.
+This catalogue is for project-specific data management at the &lt;a href=&quot;https://www.mpifg.de/&quot; target=&quot;_blank&quot;&gt;Max Planck Institute for the Study of Societies&lt;/a&gt;.
 			</help>
 			<title lang="de">MPIfG Project Management Plan</title>
 			<help lang="de">
-			Dieser Katalog ist für das projektspezifische Datenmanagement am Max-Planck-Institut für Gesellschaftsforschung.
+Dieser Katalog ist für das projektspezifische Datenmanagement am &lt;a href=&quot;https://www.mpifg.de/&quot; target=&quot;_blank&quot;&gt;Max-Planck-Institut für Gesellschaftsforschung&lt;/a&gt;.
 			</help>
 			</catalog>
 			<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general">
@@ -177,14 +177,14 @@
 			<is_optional>False</is_optional>
 			<order>2</order>
 			<help lang="en">
-			Please describe your project in brief, referring to Project goals, research questions, methods of the project.
+Please describe your project in brief, referring to Project goals, research questions, methods of the project.
 			</help>
 			<text lang="en">Please give a short project description</text>
 			<default_text lang="en"/>
 			<verbose_name lang="en"/>
 			<verbose_name_plural lang="en"/>
 			<help lang="de">
-			Beschreiben Sie bitte kurz Ihr Projekt und gehen Sie dabei auf Projektziele, Forschungsfragen und Methoden des Projekts ein.
+Beschreiben Sie bitte kurz Ihr Projekt und gehen Sie dabei auf Projektziele, Forschungsfragen und Methoden des Projekts ein.
 			</help>
 			<text lang="de">Bitte geben Sie eine kurze Projektbeschreibung</text>
 			<default_text lang="de"/>
@@ -483,14 +483,14 @@
 			<is_optional>False</is_optional>
 			<order>2</order>
 			<help lang="en">
-			Please check on the intranet for software that is available at the institute. Talk to the IT (<a href="mailto:helpdesk@mpifg.de">helpdesk@mpifg.de</a>), in case you need something else. For methods training, talk to the methods coordinator (<a href="mailto:neimanns@mpifg.de">neimanns@mpifg.de</a>).
+			Please check on the intranet for software that is available at the institute. Talk to the IT (&lt;a href=&quot;mailto:helpdesk@mpifg.de&quot;&gt;helpdesk@mpifg.de&lt;/a&gt;), in case you need something else. For methods training, talk to the methods coordinator (<a href="mailto:neimanns@mpifg.de">neimanns@mpifg.de</a>).
 			</help>
 			<text lang="en">Measures taken to acquire these:</text>
 			<default_text lang="en"/>
 			<verbose_name lang="en"/>
 			<verbose_name_plural lang="en"/>
 			<help lang="de">
-			Bitte schauen Sie im Intranet nach, welche Software am Institut verfügbar ist. Sprechen Sie mit der IT-Abteilung (<a href="mailto:helpdesk@mpifg.de">helpdesk@mpifg.de</a>), falls Sie etwas anderes benötigen. Für Methodenschulungen wenden Sie sich an den Methodenkoordinator (<a href="mailto:neimanns@mpifg.de">neimanns@mpifg.de</a>).
+			Bitte schauen Sie im Intranet nach, welche Software am Institut verfügbar ist. Sprechen Sie mit der IT-Abteilung (&lt;a href=&quot;mailto:helpdesk@mpifg.de&quot;&gt;helpdesk@mpifg.de&lt;/a&gt;), falls Sie etwas anderes benötigen. Für Methodenschulungen wenden Sie sich an den Methodenkoordinator (<a href="mailto:neimanns@mpifg.de">neimanns@mpifg.de</a>).
 			</help>
 			<text lang="de">Maßnahmen zu deren Erwerb:</text>
 			<default_text lang="de"/>
@@ -693,14 +693,14 @@
 			<is_optional>False</is_optional>
 			<order>1</order>
 			<help lang="en">
-			Please check on the intranet the procedure for data acquisition and contact the coordinator for research data management (<a href="mailto:molloy@mpifg.de">molloy@mpifg.de</a>).
+			Please check on the intranet the procedure for data acquisition and contact the coordinator for research data management (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;&gt;molloy@mpifg.de&lt;/a&gt;).
 			</help>
 			<text lang="en">Are there data, that need to be acquired for you?</text>
 			<default_text lang="en"/>
 			<verbose_name lang="en"/>
 			<verbose_name_plural lang="en"/>
 			<help lang="de">
-			Bitte informieren Sie sich im Intranet über das Verfahren zur Datenerfassung und wenden Sie sich an den Koordinator für das Forschungsdatenmanagement.
+			Bitte informieren Sie sich im Intranet über das Verfahren zur Datenerfassung und wenden Sie sich an den Koordinator für das Forschungsdatenmanagement (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;&gt;molloy@mpifg.de&lt;/a&gt;).
 			</help>
 			<text lang="de">Gibt es Daten, die für Sie erfasst werden müssen?</text>
 			<default_text lang="de"/>
@@ -886,7 +886,7 @@
 			<is_optional>False</is_optional>
 			<order>1</order>
 			<help lang="en">
-			How to plan this and what you need is explained in the MPIfG intranet: <a href="http://intern/SitePages/Dienstreise%20planen.aspx" target="_blank">http://intern/SitePages/Dienstreise%20planen.aspx</a>
+How to plan this and what you need is explained in the MPIfG intranet: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;
 			</help>
 			<text lang="en">
 			Do you have the intention to do fieldwork and/or a research stay (abroad)?
@@ -895,7 +895,7 @@
 			<verbose_name lang="en"/>
 			<verbose_name_plural lang="en"/>
 			<help lang="de">
-			Wie Sie das planen und was Sie dafür brauchen, erfahren Sie im Intranet des MPIfG: <a href="http://intern/SitePages/Dienstreise%20planen.aspx" target="_blank">http://intern/SitePages/Dienstreise%20planen.aspx</a>
+Wie Sie das planen und was Sie dafür brauchen, erfahren Sie im Intranet des MPIfG: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;
 			</help>
 			<text lang="de">
 			Haben Sie die Absicht, eine Feldforschung und/oder einen Forschungsaufenthalt (im Ausland) zu absolvieren?
@@ -974,14 +974,14 @@
 			<is_optional>False</is_optional>
 			<order>1</order>
 			<help lang="en">
-			If possible, please also indicate the place and date.
+If possible, please also indicate the place and date.
 			</help>
 			<text lang="en">Which event especially?</text>
 			<default_text lang="en"/>
 			<verbose_name lang="en"/>
 			<verbose_name_plural lang="en"/>
 			<help lang="de">
-			Wenn möglich geben Sie bitte auch Ort und Datum an.
+Wenn möglich geben Sie bitte auch Ort und Datum an.
 			</help>
 			<text lang="de">Welche Veranstaltung genau?</text>
 			<default_text lang="de"/>
@@ -1046,7 +1046,7 @@
 			<is_optional>False</is_optional>
 			<order>1</order>
 			<help lang="en">
-			For more detailed explanations, please see the MPIfG internal documents: <a href="http://intern/SitePages/Dienstreise%20planen.aspx" target="_blank">http://intern/SitePages/Dienstreise%20planen.aspx</a>
+			For more detailed explanations, please see the MPIfG internal documents: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;
 			</help>
 			<text lang="en">
 			Thoughts about visiting a conference? #### Show only when project thesis ####
@@ -1055,7 +1055,7 @@
 			<verbose_name lang="en"/>
 			<verbose_name_plural lang="en"/>
 			<help lang="de">
-			Ausführlichere Erläuterungen finden Sie in den internen Dokumenten des MPIfG: <a href="http://intern/SitePages/Dienstreise%20planen.aspx" target="_blank">http://intern/SitePages/Dienstreise%20planen.aspx</a>
+			Ausführlichere Erläuterungen finden Sie in den internen Dokumenten des MPIfG: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;
 			</help>
 			<text lang="de">
 			Überlegungen zum Besuch einer Konferenz? #### Show only when project thesis ####
@@ -1097,13 +1097,13 @@
 			<order>1</order>
 			<title lang="en">Data Usage</title>
 			<help lang="en">
-			The following questions collect information on the data that is produced or used in the project. They also help to estimate the value of the data in terms of potential re-use and long-term preservation. Before data is newly created, it is advisable to check if there is existing data that could be re-used. This way, redundant collection or creation of research data is prevented. This saves efforts and costs. Furthermore, in the case of personal data, the <a href="http://www.gesetze-im-internet.de/englisch_bdsg/englisch_bdsg.html" target="_blank">German Federal Data Protection Act</a> allows the collection of personal daa only when there are no other reasonable means to clarify the research question (re-use of existing data would be such a reasonable means). Also, there shall be collected no more information than necessary. The information regarding the data collected, produced or used in the project is gathered along datasets. The definition of these datasets is an important conceptional decision that has to be made individually and carefully for each project.
+The following questions collect information on the data that is produced or used in the project. They also help to estimate the value of the data in terms of potential re-use and long-term preservation. Before data is newly created, it is advisable to check if there is existing data that could be re-used. This way, redundant collection or creation of research data is prevented. This saves efforts and costs. Furthermore, in the case of personal data, the <a href="http://www.gesetze-im-internet.de/englisch_bdsg/englisch_bdsg.html" target="_blank">German Federal Data Protection Act</a> allows the collection of personal daa only when there are no other reasonable means to clarify the research question (re-use of existing data would be such a reasonable means). Also, there shall be collected no more information than necessary. The information regarding the data collected, produced or used in the project is gathered along datasets. The definition of these datasets is an important conceptional decision that has to be made individually and carefully for each project.
 			</help>
 			<verbose_name lang="en">dataset</verbose_name>
 			<verbose_name_plural lang="en">datasets</verbose_name_plural>
 			<title lang="de">Datennutzung</title>
 			<help lang="de">
-			Die nächsten Fragen dienen zur Beschreibung der Datensätze, die im Projekt erzeugt und/oder verwendet werden. Sie helfen zudem, den Wert der Daten hinsichtlich der potentiellen Nachnutzung und einer späteren Archivierung einschätzen zu können. Vor der Erzeugung von Daten empfiehlt es sich zu prüfen, ob bereits vorhandene Daten nachgenutzt werden können. Die Vermeidung doppelter Erhebungen spart Aufwand und Kosten. Handelt es sich um personenbezogene Daten, ist dies zudem durch den Grundsatz der Erforderlichkeit (<a href="https://www.gesetze-im-internet.de/bdsg_1990/" target="_blank">BDSG</a>) sowie das Prinzip der Datenvermeidung und Datensparsamkeit (<a href="https://www.gesetze-im-internet.de/bdsg_1990/__3a.html" target="_blank">§3a BDSG</a>) geboten. Die Angaben zu den im Projekt erzeugten oder verwendeten Daten sind nach „Datensätzen“ strukturiert. Die Definition dessen, was jeweils ein Datensatz ist, ist eine wichtige konzeptionelle Entscheidung, die für jedes Vorhaben bzw. Projekt individuell getroffen und sorgfältig abgewogen werden muss.
+Die nächsten Fragen dienen zur Beschreibung der Datensätze, die im Projekt erzeugt und/oder verwendet werden. Sie helfen zudem, den Wert der Daten hinsichtlich der potentiellen Nachnutzung und einer späteren Archivierung einschätzen zu können. Vor der Erzeugung von Daten empfiehlt es sich zu prüfen, ob bereits vorhandene Daten nachgenutzt werden können. Die Vermeidung doppelter Erhebungen spart Aufwand und Kosten. Handelt es sich um personenbezogene Daten, ist dies zudem durch den Grundsatz der Erforderlichkeit (<a href="https://www.gesetze-im-internet.de/bdsg_1990/" target="_blank">BDSG</a>) sowie das Prinzip der Datenvermeidung und Datensparsamkeit (<a href="https://www.gesetze-im-internet.de/bdsg_1990/__3a.html" target="_blank">§3a BDSG</a>) geboten. Die Angaben zu den im Projekt erzeugten oder verwendeten Daten sind nach „Datensätzen“ strukturiert. Die Definition dessen, was jeweils ein Datensatz ist, ist eine wichtige konzeptionelle Entscheidung, die für jedes Vorhaben bzw. Projekt individuell getroffen und sorgfältig abgewogen werden muss.
 			</help>
 			<verbose_name lang="de">Datensatz</verbose_name>
 			<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
@@ -1122,14 +1122,14 @@
 			<is_optional>False</is_optional>
 			<order>1</order>
 			<help lang="en">
-			Please briefly describe the data type and / or the method used to create or collect the data.
+Please briefly describe the data type and / or the method used to create or collect the data.
 			</help>
 			<text lang="en">What data will be used?</text>
 			<default_text lang="en"/>
 			<verbose_name lang="en"/>
 			<verbose_name_plural lang="en"/>
 			<help lang="de">
-			Bitte beschreiben Sie hier kurz, um welchen Datentyp es sich handelt und mit welcher Methode die Daten erhoben oder erstellt wurden.
+Bitte beschreiben Sie hier kurz, um welchen Datentyp es sich handelt und mit welcher Methode die Daten erhoben oder erstellt wurden.
 			</help>
 			<text lang="de">Welche Daten sollen verwendet werden?</text>
 			<default_text lang="de"/>
@@ -1366,7 +1366,7 @@
 			<is_optional>False</is_optional>
 			<order>4</order>
 			<help lang="en">
-			When choosing a data format, one should consider the consequences for collaborative use, long-term preservation as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in the respective scholarly community. More criteria and detailed explanations can be found e.g. in the <a href="http://www.wissgrid.de/publikationen/Leitfaden_Data-Management-WissGrid.pdf" target="_blank">WissGrid-Leitfaden, pp. 22 f.</a>).
+When choosing a data format, one should consider the consequences for collaborative use, long-term preservation as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in the respective scholarly community. More criteria and detailed explanations can be found e.g. in the <a href="http://www.wissgrid.de/publikationen/Leitfaden_Data-Management-WissGrid.pdf" target="_blank">WissGrid-Leitfaden, pp. 22 f.</a>).
 			</help>
 			<text lang="en">
 			Which file formats are used and is there a special software, technology needed to collect/use the data?
@@ -1375,7 +1375,7 @@
 			<verbose_name lang="en"/>
 			<verbose_name_plural lang="en"/>
 			<help lang="de">
-			Bei der Wahl des Dateiformates sollten auch die Konsequenzen für die kollaborative Nutzung, die Langzeitarchivierung sowie die Nachnutzung beachtet werden. Es empfiehlt sich, möglichst standardisierte, nicht-proprietäre und allgemein bzw. in der spezifischen Community verbreitete Formate zu nutzen. Weitere Kriterien sowie detaillierte Erläuterungen sind z. B. im <a href="http://www.wissgrid.de/publikationen/Leitfaden_Data-Management-WissGrid.pdf" target="_blank">WissGrid-Leitfaden, S. 22 f.</a>) zu finden.
+Bei der Wahl des Dateiformates sollten auch die Konsequenzen für die kollaborative Nutzung, die Langzeitarchivierung sowie die Nachnutzung beachtet werden. Es empfiehlt sich, möglichst standardisierte, nicht-proprietäre und allgemein bzw. in der spezifischen Community verbreitete Formate zu nutzen. Weitere Kriterien sowie detaillierte Erläuterungen sind z. B. im <a href="http://www.wissgrid.de/publikationen/Leitfaden_Data-Management-WissGrid.pdf" target="_blank">WissGrid-Leitfaden, S. 22 f.</a>) zu finden.
 			</help>
 			<text lang="de">
 			Welche Dateiformate werden verwendet und gibt es eine spezielle Software oder Technologie, die für die Erfassung/Nutzung der Daten erforderlich ist?
@@ -1508,7 +1508,7 @@
 			<is_optional>False</is_optional>
 			<order>3</order>
 			<help lang="en">
-			These may be particularly obligations or expectations from funding organisations, publishers or the like.
+These may be particularly obligations or expectations from funding organisations, publishers or the like.
 			</help>
 			<text lang="en">
 			Are there any obligations or expectations to publish your data?
@@ -1517,7 +1517,7 @@
 			<verbose_name lang="en"/>
 			<verbose_name_plural lang="en"/>
 			<help lang="de">
-			Dies können besonders Verpflichtungen oder Erwartung von Förderorganisationen, Verlagen oder ähnliches sein.
+Dies können besonders Verpflichtungen oder Erwartung von Förderorganisationen, Verlagen oder ähnliches sein.
 			</help>
 			<text lang="de">
 			Gibt es irgendwelche Verpflichtungen oder Erwartungen, Ihre Daten zu veröffentlichen?
@@ -1632,7 +1632,7 @@
 			<is_optional>False</is_optional>
 			<order>2</order>
 			<help lang="en">
-			This question refers to backups while the data is being worked with. Questions of long-term preservation will be adressed in the respective section.
+This question refers to backups while the data is being worked with. Questions of long-term preservation will be adressed in the respective section.
 			</help>
 			<text lang="en">
 			How and how often will backups of the data be created? And who is responsible for the backups?
@@ -1641,7 +1641,7 @@
 			<verbose_name lang="en"/>
 			<verbose_name_plural lang="en"/>
 			<help lang="de">
-			Die Frage bezieht sich auf Backups während der Zeit, in denen mit den Daten gearbeitet wird. Fragen der Langzeitarchivierung werden gesondert im entsprechenden Abschnitt behandelt.
+Die Frage bezieht sich auf Backups während der Zeit, in denen mit den Daten gearbeitet wird. Fragen der Langzeitarchivierung werden gesondert im entsprechenden Abschnitt behandelt.
 			</help>
 			<text lang="de">
 			Wie und wie oft werden Backups der Daten erstellt? Und wer ist hierfür verantwortlich?
