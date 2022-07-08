@@ -2725,8 +2725,8 @@ Al igual que con los formatos, la recomendación es: cuanto más estandarizados,
 			<is_collection>True</is_collection>
 			<is_optional>False</is_optional>
 			<order>0</order>
-			<help lang="en"/>The selection of repositories offered is generated from the DFG subject group selected by the user and the corresponding repositories in re3data.</text>
-			<help lang="de"/>Die Auswahl der angebotenen Repositorien generiert sich aus der selbstgewählten DFG-Fachgruppe und den dazu entsprechenden Repositorien in re3data.</text>
+			<help lang="en">The selection of repositories offered is generated from the DFG subject group selected by the user and the corresponding repositories in re3data.</help>
+			<help lang="de">Die Auswahl der angebotenen Repositorien generiert sich aus der selbstgewählten DFG-Fachgruppe und den dazu entsprechenden Repositorien in re3data.</help>
 			<text lang="en">
 			In which repository or archive will the data be held?
 			</text>
