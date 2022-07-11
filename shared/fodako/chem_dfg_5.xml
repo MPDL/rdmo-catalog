@@ -8,9 +8,10 @@
 umfasst Fragenkatalog &quot;DFG v5&quot; und deckt zusätzlich die &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/handreichung_fachkollegien_chemie_forschungsdaten.pdf&quot; target=_blank&gt;Handlungsempfehlung zum Umgang mit Forschungsdaten&lt;/a&gt; (2021) der DFG-Fachkollegien &quot;Chemie&quot; ab</dc:comment>
 		<order>150321</order>
 		<title lang="en">DFG Chemistry</title>
-		<help lang="en"/>
 		<title lang="de">DFG Chemie</title>
-		<help lang="de"/>
+		<help lang="en">This catalogue poses specific questions and provides completion guides as well as advice for research projects in chemistry.</help>
+		<help lang="de">Dieser Katalog stelle spezielle Fragen und gibt Ausfüllhilfen sowie Hinweise für Forschungsprojekte in der Chemie.</help>
+
 	</catalog>
 	<section dc:uri="https://rdmo.fodako.nrw/questions/chem_dfg_5/description">
 		<uri_prefix>https://rdmo.fodako.nrw</uri_prefix>

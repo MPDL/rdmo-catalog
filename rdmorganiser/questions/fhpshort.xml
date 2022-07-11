@@ -6,7 +6,9 @@
 		<dc:comment>Ein kurzer Fragenkatalog für die FH Potsdam mit den wichtigstens Fragen</dc:comment>
 		<order>1</order>
 		<title lang="en">Brief Questionnaire</title>
+		<help lang="en">This catalogue is a short, generic questionnaire for data management.</help>
 		<title lang="de">Kurzer Fragenkatalog</title>
+		<help lang="de">Dieser Katalog ist ein kurzer, generischer Fragenkatalog für das Datenmanagement.</help>
 	</catalog>
 	<section dc:uri="https://rdmo.fh-potsdam.de/terms/questions/fhpshort/general">
 		<uri_prefix>https://rdmo.fh-potsdam.de/terms</uri_prefix>

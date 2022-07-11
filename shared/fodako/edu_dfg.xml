@@ -13,6 +13,9 @@ abdecken. Die Fragen sind somit ausgesucht für bildungswissenschaftliche Datenm
 		<order>109</order>
 		<title lang="en">DFG Educational Research</title>
 		<title lang="de">DFG Bildungswissenschaften</title>
+		<help lang="en">This catalogue poses specific questions and provides completion guides as well as advice for research projects in the educational research.</help>
+		<help lang="de">Dieser Katalog stelle spezielle Fragen und gibt Ausfüllhilfen sowie Hinweise für Forschungsprojekte in den Bildungswissenschaften.</help>
+
 	</catalog>
 	<section dc:uri="https://rdmo.fodako.nrw/questions/edu_dfg/general">
 		<uri_prefix>https://rdmo.fodako.nrw</uri_prefix>

@@ -7,6 +7,8 @@
 		<order>4</order>
 		<title lang="en">DFG</title>
 		<title lang="de">DFG</title>
+		<help lang="en">This catalogue is a generic collection of questions specifically addressed to research data by the DFG.</help>
+		<help lang="de">Dieser Katalog ist eine generische Sammlung an Fragen, welche speziell durch die DFG an Forschungsdaten gerichtet sind.</help>
 	</catalog>
 	<section dc:uri="https://rdmo.fodako.nrw/questions/dfg/general">
 		<uri_prefix>https://rdmo.fodako.nrw</uri_prefix>

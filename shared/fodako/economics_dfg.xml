@@ -15,6 +15,9 @@ abdecken. Die Fragen sind somit ausgesucht für wirtschaftswissenschaftliche Dat
 		<order>112</order>
 		<title lang="en">DFG Economics</title>
 		<title lang="de">DFG Wirtschaftswissenschaften</title>
+		<help lang="en">This catalogue poses specific questions and provides completion guides as well as advice for research projects in the economics.</help>
+		<help lang="de">Dieser Katalog stelle spezielle Fragen und gibt Ausfüllhilfen sowie Hinweise für Forschungsprojekte in den Wirtschaftswissenschaften.</help>
+
 	</catalog>
 	<section dc:uri="https://rdmo.fodako.nrw/questions/economics_dfg/general">
 		<uri_prefix>https://rdmo.fodako.nrw</uri_prefix>

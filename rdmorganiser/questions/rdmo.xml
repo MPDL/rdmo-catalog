@@ -6,7 +6,9 @@
 		<dc:comment/>
 		<order>2</order>
 		<title lang="en">RDMO</title>
+		<help lang="en">This catalogue is a broad, generic collection of questions for data management.</help>
 		<title lang="de">RDMO</title>
+		<help lang="de">Dieser Katalog ist eine umfangreiche, generische Fragesammlung für das Datenmanagement.</help>
 		<title lang="fr">RDMO</title>
 		<title lang="it">RDMO</title>
 		<title lang="es">RDMO</title>

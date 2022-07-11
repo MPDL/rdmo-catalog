@@ -15,6 +15,8 @@ abdecken. Die Ausfüllhilfen geben Hinweise für Editionsprojekte.</dc:comment>
 		<order>105</order>
 		<title lang="en">DFG Edition</title>
 		<title lang="de">DFG Editionen</title>
+		<help lang="en">This catalogue poses specific questions and provides filling-in aids as well as hints for research projects in the field of editions.</help>
+		<help lang="de">Dieser Katalog stelle spezielle Fragen und gibt Ausfüllhilfen sowie Hinweise für Forschungsprojekte in dem Bereich der Editionen.</help>
 	</catalog>
 	<section dc:uri="https://rdmo.fodako.nrw/questions/edition_dfg/general">
 		<uri_prefix>https://rdmo.fodako.nrw</uri_prefix>

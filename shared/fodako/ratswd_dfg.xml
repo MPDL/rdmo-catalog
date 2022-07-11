@@ -13,6 +13,8 @@ abdecken. Die Fragen sind somit ausgesucht für sozial- und wirtschaftswissensch
 		<order>111</order>
 		<title lang="en">DFG Social Sciences</title>
 		<title lang="de">DFG Sozialwissenschaften</title>
+		<help lang="en">This catalogue poses specific questions and provides completion guides as well as advice for research projects in the subjects of social sciences.</help>
+		<help lang="de">Dieser Katalog stelle spezielle Fragen und gibt Ausfüllhilfen sowie Hinweise für Forschungsprojekte in den Sozialwissenschaften.</help>
 	</catalog>
 	<section dc:uri="https://rdmo.fodako.nrw/questions/ratswd_dfg/general">
 		<uri_prefix>https://rdmo.fodako.nrw</uri_prefix>

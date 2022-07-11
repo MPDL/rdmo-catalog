@@ -7,6 +7,8 @@
 		<order>3</order>
 		<title lang="en">VW Foundation – Science Europe</title>
 		<title lang="de">VW-Stiftung – Sciene Europe</title>
+		<help lang="en">This catalogue reflects the questions of the VW Foundation and Sciene Europe that can be used to create generic data management plans for projects.</help>
+		<help lang="de">Dieser Katalog gibt die Fragen der VW-Stiftung und Sciene Europe wieder, mit denen sich generische Datenmanagementpläne für Projekte erstellen lassen.</help>
 	</catalog>
 	<section dc:uri="https://fdm-bayern.org/eHumanities/questions/VW_stiftung_v1/general">
 		<uri_prefix>https://fdm-bayern.org/eHumanities</uri_prefix>
