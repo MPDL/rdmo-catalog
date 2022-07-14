@@ -237,7 +237,7 @@
 		<section dc:uri="https://rdmo.fh-potsdam.de/terms/questions/fhpshort/general"/>
 		<is_collection>False</is_collection>
 		<order>30</order>
-		<title lang="en">Other requirments I</title>
+		<title lang="en">Other requirements I</title>
 		<title lang="de">Weitere Anforderungen I</title>
 		<help lang="en"/>
 		<help lang="de"/>
@@ -297,7 +297,7 @@
 		<section dc:uri="https://rdmo.fh-potsdam.de/terms/questions/fhpshort/general"/>
 		<is_collection>False</is_collection>
 		<order>31</order>
-		<title lang="en">Other requirments II</title>
+		<title lang="en">Other requirements II</title>
 		<title lang="de">Weitere Anforderungen II</title>
 		<help lang="en"/>
 		<help lang="de"/>
