@@ -1664,9 +1664,6 @@ Wenn ja, beschreiben Sie bitte die Art der sensiblen Daten. Welche Schutzklasse 
 <unit/>
 <width/>
 <optionsets/>
-<conditions>
-<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/personal_data"/>
-</conditions>
 </question>
 <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/storage-and-long-term-preservation">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
