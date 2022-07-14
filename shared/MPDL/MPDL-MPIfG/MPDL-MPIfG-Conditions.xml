@@ -12,10 +12,10 @@
 	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/thesis">
 		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
 		<key>thesis</key>
-		<dc:comment/>
+		<dc:comment>The project is the thesis<dc:comment/>
 		<source dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis"/>
-		<relation>notempty</relation>
+		<relation>eq</relation>
 		<target_text/>
-		<target_option/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis/mpifg-thesis-yes"/>
 	</condition>
 </rdmo>

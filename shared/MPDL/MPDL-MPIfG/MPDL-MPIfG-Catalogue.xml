@@ -229,13 +229,15 @@ Beschreiben Sie bitte kurz Ihr Projekt und gehen Sie dabei auf Projektziele, For
 			<default_option/>
 			<default_external_id/>
 			<widget_type>yesno</widget_type>
-			<value_type>boolean</value_type>
+			<value_type>text</value_type>
 			<maximum/>
 			<minimum/>
 			<step/>
 			<unit/>
 			<width/>
-			<optionsets/>
+			<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis"/>
+			</optionsets>
 			<conditions/>
 			</question>
 			<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/project-partners-partner">
