@@ -16,24 +16,24 @@ This catalogue is for project-specific data management at the &lt;a href=&quot;h
 Dieser Katalog ist für das projektspezifische Datenmanagement am &lt;a href=&quot;https://www.mpifg.de/&quot; target=&quot;_blank&quot;&gt;Max-Planck-Institut für Gesellschaftsforschung&lt;/a&gt;.
 			</help>
 			</catalog>
-    <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general">
-        <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
-        <key>general</key>
-        <path>mpifg/general</path>
-        <dc:comment/>
-        <catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
-        <order>0</order>
-        <title lang="en">General</title>
-        <title lang="de">Allgemein</title>
-    </section>
-    <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/project-member">
-        <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
-        <key>project-member</key>
-        <path>mpifg/general/project-member</path>
-        <dc:comment/>
-        <attribute/>
-        <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general"/>
-    <questionset/>
+<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general">
+<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+<key>general</key>
+<path>mpifg/general</path>
+<dc:comment/>
+<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
+<order>0</order>
+<title lang="en">General</title>
+<title lang="de">Allgemein</title>
+</section>
+<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/project-member">
+<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+<key>project-member</key>
+<path>mpifg/general/project-member</path>
+<dc:comment/>
+<attribute/>
+<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general"/>
+<questionset/>
 <is_collection>False</is_collection>
 <order>1</order>
 <title lang="en">Project Member(s)</title>
@@ -217,7 +217,7 @@ Beschreiben Sie bitte kurz Ihr Projekt und gehen Sie dabei auf Projektziele, For
 <dc:comment/>
 <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/thesis"/>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/topic-title"/>
-<is_collection>False</is_collection>
+<is_collection>True</is_collection>
 <is_optional>False</is_optional>
 <order>3</order>
 <help lang="en"/>
@@ -602,7 +602,9 @@ mpifg/project-description/data-admission/access-specific-database
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
-<conditions/>
+<conditions>
+<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-databases"/>
+</conditions>
 </questionset>
 <question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/data-admission/access-specific-database/database-description">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -657,7 +659,7 @@ mpifg/project-description/data-admission/data-to-acquire
 <help lang="en">
 Please check on the intranet the procedure for data acquisition and contact the coordinator for research data management (molloy@mpifg.de).
 </help>
-<text lang="en">Exactly what data need to be aquired?</text>
+<text lang="en">What data(sets) exactly need to be aquired?</text>
 <default_text lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
@@ -678,7 +680,9 @@ Bitte informieren Sie sich im Intranet über das Verfahren zur Datenerfassung un
 <unit/>
 <width/>
 <optionsets/>
-<conditions/>
+<conditions>
+<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-data-acquired"/>
+</conditions>
 </question>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/conference">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -690,13 +694,13 @@ Bitte informieren Sie sich im Intranet über das Verfahren zur Datenerfassung un
 <questionset/>
 <is_collection>False</is_collection>
 <order>6</order>
-<title lang="en">Conference Visit</title>
+<title lang="en">Field Work and Conference Visit</title>
 <help lang="en">
 Find information on how to proceed when planning a trip here: http://intern/SitePages/Dienstreise%20planen.aspx
 </help>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">Konferenzbesuch</title>
+<title lang="de">Feldforschung und Konferenzbesuch(e)</title>
 <help lang="de">
 Informationen über die Vorgehensweise bei der Planung einer Reise finden Sie hier: http://intern/SitePages/Dienstreise%20planen.aspx
 </help>
@@ -714,18 +718,14 @@ Informationen über die Vorgehensweise bei der Planung einer Reise finden Sie hi
 <is_collection>False</is_collection>
 <is_optional>False</is_optional>
 <order>1</order>
-<help lang="en">
-How to plan this and what you need is explained in the MPIfG intranet: http://intern/SitePages/Dienstreise%20planen.aspx.
-</help>
+<help lang="en"/>
 <text lang="en">
 Do you have the intention to do fieldwork and/or a research stay (abroad)?
 </text>
 <default_text lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<help lang="de">
-Wie Sie das planen und was Sie dafür brauchen, erfahren Sie im Intranet des MPIfG: http://intern/SitePages/Dienstreise%20planen.aspx
-</help>
+<help lang="de"/>
 <text lang="de">
 Haben Sie die Absicht, eine Feldforschung und/oder einen Forschungsaufenthalt (im Ausland) zu absolvieren?
 </text>
@@ -806,21 +806,19 @@ mpifg/project-description/detailed-planning/conference-list
 <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference/conference-details"/>
 <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning"/>
-<is_collection>True</is_collection>
+<is_collection>False</is_collection>
 <order>2</order>
-<title lang="en">
-Conference List
-</title>
+<title lang="en">Conference List</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">
-Veranstaltungsliste
-</title>
+<title lang="de">Veranstaltungsliste</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
-<conditions/>
+<conditions>
+<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-conference"/>
+</conditions>
 </questionset>
 <question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning/conference-list/conference-details">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -831,13 +829,13 @@ mpifg/project-description/detailed-planning/conference-list/conference-details
 <dc:comment/>
 <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference/conference-details"/>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning/conference-list"/>
-<is_collection>False</is_collection>
+<is_collection>True</is_collection>
 <is_optional>False</is_optional>
 <order>1</order>
 <help lang="en">
 If possible, please also indicate the place and date.
 </help>
-<text lang="en">Which event especially?</text>
+<text lang="en">Which event(s) especially?</text>
 <default_text lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
@@ -860,47 +858,21 @@ Wenn möglich geben Sie bitte auch Ort und Datum an.
 <optionsets/>
 <conditions/>
 </question>
-<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning/fieldwork-details">
-<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
-<key>fieldwork-details</key>
-<path>
-mpifg/project-description/detailed-planning/fieldwork-details
-</path>
-<dc:comment/>
-<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork/fieldwork-details"/>
-<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
-<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning"/>
-<is_collection>True</is_collection>
-<order>2</order>
-<title lang="en">
-Planning for the field research and/or the stay abroad
-</title>
-<help lang="en"/>
-<verbose_name lang="en"/>
-<verbose_name_plural lang="en"/>
-<title lang="de">
-Planung für die Feldforschung und/oder den Auslandsaufenthalt
-</title>
-<help lang="de"/>
-<verbose_name lang="de"/>
-<verbose_name_plural lang="de"/>
-<conditions/>
-</questionset>
-<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning/fieldwork-details/fieldwork-description">
+<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning/fieldwork-description">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
 <key>fieldwork-description</key>
 <path>
-mpifg/project-description/detailed-planning/fieldwork-details/fieldwork-description
+mpifg/project-description/detailed-planning/fieldwork-description
 </path>
 <dc:comment/>
 <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork/fieldwork-details"/>
-<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning/fieldwork-details"/>
+<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning"/>
 <is_collection>False</is_collection>
 <is_optional>False</is_optional>
-<order>1</order>
+<order>10</order>
 <help lang="en"/>
 <text lang="en">
-Please explain your short your plans for the field research and/or the stay abroad
+Please explain in short your plans for the field research and/or the stay abroad
 </text>
 <default_text lang="en"/>
 <verbose_name lang="en"/>
@@ -922,7 +894,9 @@ Bitte erläutern Sie kurz Ihre Planung zur Feldforschung und/oder des Auslandsau
 <unit/>
 <width/>
 <optionsets/>
-<conditions/>
+<conditions>
+<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-fieldwork"/>
+</conditions>
 </question>
 <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -1664,6 +1638,7 @@ Wenn ja, beschreiben Sie bitte die Art der sensiblen Daten. Welche Schutzklasse 
 <unit/>
 <width/>
 <optionsets/>
+<conditions/>
 </question>
 <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/storage-and-long-term-preservation">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -1983,4 +1958,3 @@ mpifg/project-publication/publication/publication-published-data
 <optionsets/>
 <conditions/>
 </question>
-</rdmo>

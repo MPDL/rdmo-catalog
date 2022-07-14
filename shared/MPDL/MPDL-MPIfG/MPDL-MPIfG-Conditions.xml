@@ -8,4 +8,40 @@
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-data-acquired">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>mpifg-data-acquired</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/databases/data-acquired"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-fieldwork">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>mpifg-fieldwork</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-databases">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>mpifg-databases</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/databases"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-conference">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>mpifg-conference</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
 </rdmo>
