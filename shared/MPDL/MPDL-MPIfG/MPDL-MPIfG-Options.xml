@@ -1,96 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository">
-    <uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
-    <key>mpifg-repository</key>
-    <dc:comment/>
-    <order>0</order>
-    <provider_key/>
-    <conditions/>
-    </optionset>
-    <option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository/open-access">
-    <uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
-    <key>open-access</key>
-    <path>mpifg-repository/open-access</path>
-    <dc:comment/>
-    <optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository"/>
-    <order>1</order>
-    <text lang="en">Open Access</text>
-    <text lang="de">Open Access</text>
-    <additional_input>False</additional_input>
-    </option>
-    <option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository/oa-mpg">
-    <uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
-    <key>oa-mpg</key>
-    <path>mpifg-repository/oa-mpg</path>
-    <dc:comment/>
-    <optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository"/>
-    <order>2</order>
-    <text lang="en">Open Access inside the Max Planck Society</text>
-    <text lang="de">Open Access innerhalb der Max-Planck-Gesellschaft</text>
-    <additional_input>False</additional_input>
-    </option>
-    <option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository/institute-members">
-    <uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
-    <key>institute-members</key>
-    <path>mpifg-repository/institute-members</path>
-    <dc:comment/>
-    <optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository"/>
-    <order>3</order>
-    <text lang="en">Open Access only for Institute Members</text>
-    <text lang="de">Open Access nur für Institutsmitglieder</text>
-    <additional_input>False</additional_input>
-    </option>
-    <option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository/closed-access">
-    <uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
-    <key>closed-access</key>
-    <path>mpifg-repository/closed-access</path>
-    <dc:comment/>
-    <optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository"/>
-    <order>4</order>
-    <text lang="en">Closed access</text>
-    <text lang="de">Closed access</text>
-    <additional_input>True</additional_input>
-    </option>
-    <optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish">
-    <uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
-    <key>mpifg-thesis-publish</key>
-    <dc:comment/>
-    <order>0</order>
-    <provider_key/>
-    <conditions/>
-    </optionset>
-    <option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish/book">
-    <uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
-    <key>book</key>
-    <path>mpifg-thesis-publish/book</path>
-    <dc:comment/>
-    <optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish"/>
-    <order>1</order>
-    <text lang="en">As a book</text>
-    <text lang="de">Als Buch</text>
-    <additional_input>False</additional_input>
-    </option>
-    <option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish/IMPRS">
-    <uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
-    <key>IMPRS</key>
-    <path>mpifg-thesis-publish/IMPRS</path>
-    <dc:comment/>
-    <optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish"/>
-    <order>2</order>
-    <text lang="en">As part of the IMPRS series</text>
-    <text lang="de">Als Teil der IMPRS-Serie</text>
-    <additional_input>False</additional_input>
-    </option>
-    <option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish/uni-server">
-    <uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
-    <key>uni-server</key>
-    <path>mpifg-thesis-publish/uni-server</path>
-    <dc:comment/>
-    <optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish"/>
-    <order>3</order>
-    <text lang="en">Only on university server</text>
-    <text lang="de">Nur auf dem Universitätsserver</text>
-    <additional_input>True</additional_input>
-    </option>
+    optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-accessibility">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>mpifg-accessibility</key>
+<dc:comment/>
+<order>0</order>
+<provider_key/>
+<conditions/>
+</optionset>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-accessibility/mpifg-accessibility-rdm">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>mpifg-accessibility-rdm</key>
+<path>mpifg-accessibility/mpifg-accessibility-rdm</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-accessibility"/>
+<order>1</order>
+<text lang="en">
+On request (to coordinator for research data management Cora Molloy mailto:molloy@mpifg.de)
+</text>
+<text lang="de">
+Auf Anfrage (an die Koordinatorin für Forschungsdatenmanagement Cora Molloy mailto:molloy@mpifg.de)
+</text>
+<additional_input>False</additional_input>
+</option>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-accessibility/mpifg-accessibility-permission">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>mpifg-accessibility-permission</key>
+<path>mpifg-accessibility/mpifg-accessibility-permission</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-accessibility"/>
+<order>2</order>
+<text lang="en">
+Only with special permission by you (please give an email, that grants long-term validity)
+</text>
+<text lang="de">
+Nur mit besonderer Genehmigung durch Sie (bitte geben Sie eine E-Mail an, die langfristige Gültigkeit gewährt)
+</text>
+<additional_input>True</additional_input>
+</option>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-accessibility/mpifg-accessibility-other">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>mpifg-accessibility-other</key>
+<path>mpifg-accessibility/mpifg-accessibility-other</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-accessibility"/>
+<order>3</order>
+<text lang="en">Other</text>
+<text lang="de">Anderes</text>
+<additional_input>True</additional_input>
+</option>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>mpifg-repository</key>
+<dc:comment/>
+<order>0</order>
+<provider_key/>
+<conditions/>
+</optionset>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository/open-access">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>open-access</key>
+<path>mpifg-repository/open-access</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository"/>
+<order>1</order>
+<text lang="en">Open Access</text>
+<text lang="de">Open Access</text>
+<additional_input>False</additional_input>
+</option>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository/oa-mpg">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>oa-mpg</key>
+<path>mpifg-repository/oa-mpg</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository"/>
+<order>2</order>
+<text lang="en">Open Access inside the Max Planck Society</text>
+<text lang="de">Open Access innerhalb der Max-Planck-Gesellschaft</text>
+<additional_input>False</additional_input>
+</option>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository/institute-members">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>institute-members</key>
+<path>mpifg-repository/institute-members</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository"/>
+<order>3</order>
+<text lang="en">Open Access only for Institute Members</text>
+<text lang="de">Open Access nur für Institutsmitglieder</text>
+<additional_input>False</additional_input>
+</option>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository/closed-access">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>closed-access</key>
+<path>mpifg-repository/closed-access</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository"/>
+<order>4</order>
+<text lang="en">Closed access</text>
+<text lang="de">Closed access</text>
+<additional_input>True</additional_input>
+</option>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>mpifg-thesis-publish</key>
+<dc:comment/>
+<order>0</order>
+<provider_key/>
+<conditions/>
+</optionset>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish/book">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>book</key>
+<path>mpifg-thesis-publish/book</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish"/>
+<order>1</order>
+<text lang="en">As a book</text>
+<text lang="de">Als Buch</text>
+<additional_input>False</additional_input>
+</option>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish/IMPRS">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>IMPRS</key>
+<path>mpifg-thesis-publish/IMPRS</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish"/>
+<order>2</order>
+<text lang="en">As part of the IMPRS series</text>
+<text lang="de">Als Teil der IMPRS-Serie</text>
+<additional_input>False</additional_input>
+</option>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish/uni-server">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>uni-server</key>
+<path>mpifg-thesis-publish/uni-server</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish"/>
+<order>3</order>
+<text lang="en">Only on university server</text>
+<text lang="de">Nur auf dem Universitätsserver</text>
+<additional_input>True</additional_input>
+</option>
 </rdmo>
