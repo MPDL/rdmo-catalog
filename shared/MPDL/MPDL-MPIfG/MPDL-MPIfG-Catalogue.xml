@@ -217,7 +217,7 @@ Beschreiben Sie bitte kurz Ihr Projekt und gehen Sie dabei auf Projektziele, For
 <dc:comment/>
 <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/thesis"/>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/topic-title"/>
-<is_collection>True</is_collection>
+<is_collection>False</is_collection>
 <is_optional>False</is_optional>
 <order>3</order>
 <help lang="en"/>
@@ -776,10 +776,12 @@ Haben Sie die Absicht, eine Feldforschung und/oder einen Forschungsaufenthalt (i
 <optionsets/>
 <conditions/>
 </question>
-<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning">
+<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning-stay-abroad">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
-<key>detailed-planning</key>
-<path>mpifg/project-description/detailed-planning</path>
+<key>detailed-planning-stay-abroad</key>
+<path>
+mpifg/project-description/detailed-planning-stay-abroad
+</path>
 <dc:comment/>
 <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork"/>
 <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
@@ -794,79 +796,19 @@ Haben Sie die Absicht, eine Feldforschung und/oder einen Forschungsaufenthalt (i
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
-<conditions/>
-</questionset>
-<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning/conference-list">
-<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
-<key>conference-list</key>
-<path>
-mpifg/project-description/detailed-planning/conference-list
-</path>
-<dc:comment/>
-<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference/conference-details"/>
-<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
-<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning"/>
-<is_collection>False</is_collection>
-<order>2</order>
-<title lang="en">Conference List</title>
-<help lang="en"/>
-<verbose_name lang="en"/>
-<verbose_name_plural lang="en"/>
-<title lang="de">Veranstaltungsliste</title>
-<help lang="de"/>
-<verbose_name lang="de"/>
-<verbose_name_plural lang="de"/>
 <conditions>
-<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-conference"/>
+<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-fieldwork"/>
 </conditions>
 </questionset>
-<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning/conference-list/conference-details">
-<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
-<key>conference-details</key>
-<path>
-mpifg/project-description/detailed-planning/conference-list/conference-details
-</path>
-<dc:comment/>
-<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference/conference-details"/>
-<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning/conference-list"/>
-<is_collection>True</is_collection>
-<is_optional>False</is_optional>
-<order>1</order>
-<help lang="en">
-If possible, please also indicate the place and date.
-</help>
-<text lang="en">Which event(s) especially?</text>
-<default_text lang="en"/>
-<verbose_name lang="en"/>
-<verbose_name_plural lang="en"/>
-<help lang="de">
-Wenn möglich geben Sie bitte auch Ort und Datum an.
-</help>
-<text lang="de">Welche Veranstaltung genau?</text>
-<default_text lang="de"/>
-<verbose_name lang="de"/>
-<verbose_name_plural lang="de"/>
-<default_option/>
-<default_external_id/>
-<widget_type>text</widget_type>
-<value_type>text</value_type>
-<maximum/>
-<minimum/>
-<step/>
-<unit/>
-<width/>
-<optionsets/>
-<conditions/>
-</question>
-<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning/fieldwork-description">
+<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning-stay-abroad/fieldwork-description">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
 <key>fieldwork-description</key>
 <path>
-mpifg/project-description/detailed-planning/fieldwork-description
+mpifg/project-description/detailed-planning-stay-abroad/fieldwork-description
 </path>
 <dc:comment/>
 <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork/fieldwork-details"/>
-<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning"/>
+<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning-stay-abroad"/>
 <is_collection>False</is_collection>
 <is_optional>False</is_optional>
 <order>10</order>
@@ -897,6 +839,92 @@ Bitte erläutern Sie kurz Ihre Planung zur Feldforschung und/oder des Auslandsau
 <conditions>
 <condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-fieldwork"/>
 </conditions>
+</question>
+<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning-conference">
+<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+<key>detailed-planning-conference</key>
+<path>
+mpifg/project-description/detailed-planning-conference
+</path>
+<dc:comment/>
+<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/fieldwork"/>
+<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
+<questionset/>
+<is_collection>False</is_collection>
+<order>7</order>
+<title lang="en">Detailed planning for conference(s)</title>
+<help lang="en"/>
+<verbose_name lang="en"/>
+<verbose_name_plural lang="en"/>
+<title lang="de">Nähere Planung für Tagungsaufenthalte</title>
+<help lang="de"/>
+<verbose_name lang="de"/>
+<verbose_name_plural lang="de"/>
+<conditions>
+<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-conference"/>
+</conditions>
+</questionset>
+<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning-conference/conference-list">
+<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+<key>conference-list</key>
+<path>
+mpifg/project-description/detailed-planning-conference/conference-list
+</path>
+<dc:comment/>
+<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference/conference-details"/>
+<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
+<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning-conference"/>
+<is_collection>False</is_collection>
+<order>2</order>
+<title lang="en">Conference List</title>
+<help lang="en"/>
+<verbose_name lang="en"/>
+<verbose_name_plural lang="en"/>
+<title lang="de">Veranstaltungsliste</title>
+<help lang="de"/>
+<verbose_name lang="de"/>
+<verbose_name_plural lang="de"/>
+<conditions>
+<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-conference"/>
+</conditions>
+</questionset>
+<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning-conference/conference-list/conference-details">
+<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+<key>conference-details</key>
+<path>
+mpifg/project-description/detailed-planning-conference/conference-list/conference-details
+</path>
+<dc:comment/>
+<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/conference/conference-details"/>
+<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/detailed-planning-conference/conference-list"/>
+<is_collection>True</is_collection>
+<is_optional>False</is_optional>
+<order>1</order>
+<help lang="en">
+If possible, please also indicate the place and date.
+</help>
+<text lang="en">Which event(s) especially?</text>
+<default_text lang="en"/>
+<verbose_name lang="en"/>
+<verbose_name_plural lang="en"/>
+<help lang="de">
+Wenn möglich geben Sie bitte auch Ort und Datum an.
+</help>
+<text lang="de">Welche Veranstaltung genau?</text>
+<default_text lang="de"/>
+<verbose_name lang="de"/>
+<verbose_name_plural lang="de"/>
+<default_option/>
+<default_external_id/>
+<widget_type>text</widget_type>
+<value_type>text</value_type>
+<maximum/>
+<minimum/>
+<step/>
+<unit/>
+<width/>
+<optionsets/>
+<conditions/>
 </question>
 <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -1786,7 +1814,9 @@ Erlauben Sie Ihren Kollegen den Zugriff auf die Daten?
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
-<conditions/>
+<conditions>
+<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-thesis"/>
+</conditions>
 </questionset>
 <question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication/thesis-publisher">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -1958,3 +1988,4 @@ mpifg/project-publication/publication/publication-published-data
 <optionsets/>
 <conditions/>
 </question>
+</rdmo>

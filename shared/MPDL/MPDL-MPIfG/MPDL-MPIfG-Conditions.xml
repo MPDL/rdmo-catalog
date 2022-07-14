@@ -26,6 +26,15 @@
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-thesis">
+		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<key>mpifg-thesis</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/thesis"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
 	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-databases">
 		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
 		<key>mpifg-databases</key>
