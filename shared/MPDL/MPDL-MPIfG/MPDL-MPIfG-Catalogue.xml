@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo created="2022-07-14T12:50:26.337955+02:00">
-<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg">
-<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
-<key>mpifg</key>
-<dc:comment>
-This questionnaire is intended to help you organize your project at the MPIfG and at the same time keep tracks with institutional policies on “good scientific practice”, data storage and publication repository integration.
-</dc:comment>
-<order>1</order>
-<title lang="en">MPIfG Project Management Plan (Beta test mode)</title>
-<help lang="en">
-This catalogue is for project-specific data management at the <a href="https://www.mpifg.de/" target="_blank">Max Planck Institute for the Study of Societies</a>.
-</help>
-<title lang="de">MPIfG Project Management Plan (Beta-Testmodus)</title>
-<help lang="de">
-Dieser Katalog ist für das projektspezifische Datenmanagement am <a href="https://www.mpifg.de/" target="_blank">Max-Planck-Institut für Gesellschaftsforschung</a>.
-</help>
-</catalog>
-<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general">
-<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
-<key>general</key>
-<path>mpifg/general</path>
-<dc:comment/>
-<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
-<order>0</order>
-<title lang="en">General</title>
-<title lang="de">Allgemein</title>
-</section>
-<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/project-member">
-<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
-<key>project-member</key>
-<path>mpifg/general/project-member</path>
-<dc:comment/>
-<attribute/>
-<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general"/>
-<questionset/>
+<rdmo created="2022-06-24T15:26:19.378867+02:00" xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg">
+			<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+			<key>mpifg</key>
+			<dc:comment>
+			This questionnaire is intended to help you organize your project at the MPIfG and at the same time keep tracks with institutional policies on “good scientific practice”, data storage and publication repository integration.
+			</dc:comment>
+			<order>1</order>
+			<title lang="en">MPIfG Project Management Plan (Beta test mode)</title>
+			<help lang="en">
+This catalogue is for project-specific data management at the &lt;a href=&quot;https://www.mpifg.de/&quot; target=&quot;_blank&quot;&gt;Max Planck Institute for the Study of Societies&lt;/a&gt;.
+			</help>
+			<title lang="de">MPIfG Project Management Plan (Beta-Testmodus)</title>
+			<help lang="de">
+Dieser Katalog ist für das projektspezifische Datenmanagement am &lt;a href=&quot;https://www.mpifg.de/&quot; target=&quot;_blank&quot;&gt;Max-Planck-Institut für Gesellschaftsforschung&lt;/a&gt;.
+			</help>
+			</catalog>
+    <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general">
+        <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+        <key>general</key>
+        <path>mpifg/general</path>
+        <dc:comment/>
+        <catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
+        <order>0</order>
+        <title lang="en">General</title>
+        <title lang="de">Allgemein</title>
+    </section>
+    <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/project-member">
+        <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+        <key>project-member</key>
+        <path>mpifg/general/project-member</path>
+        <dc:comment/>
+        <attribute/>
+        <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general"/>
+    <questionset/>
 <is_collection>False</is_collection>
 <order>1</order>
 <title lang="en">Project Member(s)</title>
