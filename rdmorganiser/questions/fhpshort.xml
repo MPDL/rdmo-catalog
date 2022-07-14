@@ -271,7 +271,7 @@
 - &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf&quot; target=&quot;_blank&quot;&gt;Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft&lt;/a&gt;
 - Empfehlungen zu &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_sprachkorpora.pdf&quot; target=&quot;_blank&quot;&gt;datentechnischen Standards und Tools&lt;/a&gt; sowie zu 
 - &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_recht.pdf&quot; target=&quot;_blank&quot;&gt;rechtlichen Fragen&lt;/a&gt; bei der Erhebung von Sprachkorpora</help>
-		<text lang="en">Are there requirements regarding the data management from other parties  (e.g. the scholarly/scientific community)?</text>
+		<text lang="en">Are there requirements regarding the data management from other parties (e.g. the scholarly/scientific community)?</text>
 		<text lang="de">Gibt es von weiteren Seiten (z. B. von der Fachcommunity) Anforderungen an das Datenmanagement, die beachtet werden müssen?</text>
 		<verbose_name lang="en"/>
 		<verbose_name lang="de"/>
