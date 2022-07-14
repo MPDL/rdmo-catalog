@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-rdmo created="2022-07-14T12:50:26.337955+02:00">
+<rdmo created="2022-07-14T12:50:26.337955+02:00">
 <catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
 <key>mpifg</key>
@@ -1983,4 +1983,4 @@ mpifg/project-publication/publication/publication-published-data
 <optionsets/>
 <conditions/>
 </question>
-			</rdmo>
+</rdmo>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
-    optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-accessibility">
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-accessibility">
 <uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
 <key>mpifg-accessibility</key>
 <dc:comment/>
