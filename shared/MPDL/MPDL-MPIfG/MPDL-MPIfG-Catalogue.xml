@@ -969,7 +969,7 @@ mpifg/content-classification/data-dataset/description
 <dc:comment/>
 <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification/data-dataset"/>
-<is_collection>False</is_collection>
+<is_collection>True</is_collection>
 <is_optional>False</is_optional>
 <order>1</order>
 <help lang="en">
