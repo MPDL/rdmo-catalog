@@ -497,7 +497,7 @@ mpifg/project-description/databases/databases-access
 <is_optional>False</is_optional>
 <order>1</order>
 <help lang="en">
-Please check the Max Planck Society resources: https://rena.mpdl.mpg.de/rena/
+Please check the Max Planck Society resources: &lt;a href=&quot;https://rena.mpdl.mpg.de/rena/&quot; target=&quot;_blank&quot;&gt;https://rena.mpdl.mpg.de/rena/&lt;/a&gt;
 </help>
 <text lang="en">
 Do you need access to databases, that are not already part of the licenced content?
@@ -506,7 +506,7 @@ Do you need access to databases, that are not already part of the licenced conte
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
 <help lang="de">
-Bitte prüfen Sie die Ressourcen der Max-Planck-Gesellschaft: https://rena.mpdl.mpg.de/rena/
+Bitte prüfen Sie die Ressourcen der Max-Planck-Gesellschaft: &lt;a href=&quot;https://rena.mpdl.mpg.de/rena/&quot; target=&quot;_blank&quot;&gt;https://rena.mpdl.mpg.de/rena/&lt;/a&gt;
 </help>
 <text lang="de">
 Benötigen Sie Zugang zu Datenbanken, die nicht bereits Teil der lizenzierten Inhalte sind?
@@ -537,14 +537,14 @@ Benötigen Sie Zugang zu Datenbanken, die nicht bereits Teil der lizenzierten In
 <is_optional>False</is_optional>
 <order>2</order>
 <help lang="en">
-Please check on the intranet the procedure for data acquisition and contact the coordinator for research data management (molloy@mpifg.de).
+Please check on the intranet the procedure for data acquisition and contact the coordinator for research data management (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
 </help>
 <text lang="en">Are there data, that need to be acquired for you?</text>
 <default_text lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
 <help lang="de">
-Bitte informieren Sie sich im Intranet über das Verfahren zur Datenerfassung und wenden Sie sich an die Koordinatorin für das Forschungsdatenmanagement (molloy@mpifg.de).
+Bitte informieren Sie sich im Intranet über das Verfahren zur Datenerfassung und wenden Sie sich an die Koordinatorin für das Forschungsdatenmanagement (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
 </help>
 <text lang="de">Gibt es Daten, die für Sie erfasst werden müssen?</text>
 <default_text lang="de"/>
@@ -621,14 +621,14 @@ mpifg/project-description/data-admission/access-specific-database/database-descr
 <is_optional>False</is_optional>
 <order>1</order>
 <help lang="en">
-Please talk to the library staff (bib@mpifg.de) to find out about options to access / licence the database!
+Please talk to the library staff (&lt;a href=&quot;mailto:bib@mpifg.de&quot;;&gt;bib@mpifg.de&lt;/a&gt;) to find out about options to access / licence the database!
 </help>
 <text lang="en">Brief description of the required database</text>
 <default_text lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
 <help lang="de">
-Bitte erkundigen Sie sich bei den Bibliotheksmitarbeitern (bib@mpifg.de) nach den Möglichkeiten des Zugangs / der Lizenzierung der Datenbank!
+Bitte erkundigen Sie sich bei den Bibliotheksmitarbeitern (&lt;a href=&quot;mailto:bib@mpifg.de&quot;;&gt;bib@mpifg.de&lt;/a&gt;) nach den Möglichkeiten des Zugangs / der Lizenzierung der Datenbank!
 </help>
 <text lang="de">Kurzbeschreibung der benötigten Datenbank</text>
 <default_text lang="de"/>
@@ -681,14 +681,14 @@ mpifg/project-description/data-acquisition/data-to-acquire
 <is_optional>False</is_optional>
 <order>2</order>
 <help lang="en">
-Please check on the intranet the procedure for data acquisition and contact the coordinator for research data management (molloy@mpifg.de).
+Please check on the intranet the procedure for data acquisition and contact the coordinator for research data management (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
 </help>
 <text lang="en">What data(sets) exactly need to be aquired?</text>
 <default_text lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
 <help lang="de">
-Bitte informieren Sie sich im Intranet über das Verfahren zur Datenerfassung und wenden Sie sich an die Koordinatorin für das Forschungsdatenmanagement (molloy@mpifg.de).
+Bitte informieren Sie sich im Intranet über das Verfahren zur Datenerfassung und wenden Sie sich an die Koordinatorin für das Forschungsdatenmanagement (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
 </help>
 <text lang="de">Welche Daten müssen genau beschafft werden?</text>
 <default_text lang="de"/>
@@ -720,13 +720,13 @@ Bitte informieren Sie sich im Intranet über das Verfahren zur Datenerfassung un
 <order>6</order>
 <title lang="en">Field Work and Conference Visit</title>
 <help lang="en">
-Find information on how to proceed when planning a trip here: http://intern/SitePages/Dienstreise%20planen.aspx
+Find information on how to proceed when planning a trip here: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;
 </help>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
 <title lang="de">Feldforschung und Konferenzbesuch(e)</title>
 <help lang="de">
-Informationen über die Vorgehensweise bei der Planung einer Reise finden Sie hier: http://intern/SitePages/Dienstreise%20planen.aspx
+Informationen über die Vorgehensweise bei der Planung einer Reise finden Sie hier: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;
 </help>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -1455,7 +1455,7 @@ mpifg/content-classification/data-storage-and-security-storage/type
 <is_optional>False</is_optional>
 <order>1</order>
 <help lang="en">
-Please bear in mind, that for safe storage you need two different locations. General information can also be found at: https://rdm.mpdl.mpg.de/during-research/data-backup-and-storage/
+Please bear in mind, that for safe storage you need two different locations. General information can also be found at: &lt;a href=&quot;https://rdm.mpdl.mpg.de/during-research/data-backup-and-storage/&quot; target=&quot;_blank&quot;&gt;https://rdm.mpdl.mpg.de/during-research/data-backup-and-storage/&lt;/a&gt;
 </help>
 <text lang="en">
 Where is the dataset stored safely during the project?
@@ -1464,7 +1464,7 @@ Where is the dataset stored safely during the project?
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
 <help lang="de">
-Bitte bedenken Sie, dass Sie für eine sichere Aufbewahrung zwei verschiedene Orte benötigen. Allgemeine Hinweise finden Sie auch unter: https://rdm.mpdl.mpg.de/during-research/data-backup-and-storage/
+Bitte bedenken Sie, dass Sie für eine sichere Aufbewahrung zwei verschiedene Orte benötigen. Allgemeine Hinweise finden Sie auch unter: &lt;a href=&quot;https://rdm.mpdl.mpg.de/during-research/data-backup-and-storage/&quot; target=&quot;_blank&quot;&gt;https://rdm.mpdl.mpg.de/during-research/data-backup-and-storage/&lt;/a&gt;
 </help>
 <text lang="de">
 Wo wird der Datensatz während des Projekts sicher aufbewahrt?
@@ -1561,7 +1561,7 @@ mpifg/content-classification/data-storage-and-security-data_security/security_me
 <is_optional>False</is_optional>
 <order>4</order>
 <help lang="en">
-Find advice on data safety from the IT and especially our Data protection coordinator and IT security officer Bruno Egger (egger@mpifg.de).
+Find advice on data safety from the IT and especially our Data protection coordinator and IT security officer Bruno Egger (&lt;a href=&quot;mailto:egger@mpifg.de&quot;;&gt;egger@mpifg.de&lt;/a&gt;).
 </help>
 <text lang="en">
 Which measures or provisions are in place to ensure data security (e.g. protection against unauthorized access, data recovery, transfer of sensitive data)?
@@ -1570,7 +1570,7 @@ Which measures or provisions are in place to ensure data security (e.g. protecti
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
 <help lang="de">
-Lassen Sie sich von der IT-Abteilung und insbesondere von unserem Datenschutzkoordinator und IT-Sicherheitsbeauftragten Bruno Egger (egger@mpifg.de) zum Thema Datensicherheit beraten.
+Lassen Sie sich von der IT-Abteilung und insbesondere von unserem Datenschutzkoordinator und IT-Sicherheitsbeauftragten Bruno Egger (&lt;a href=&quot;mailto:egger@mpifg.de&quot;;&gt;egger@mpifg.de&lt;/a&gt;) zum Thema Datensicherheit beraten.
 </help>
 <text lang="de">
 Welche Maßnahmen zur Gewährleistung der Datensicherheit werden getroffen (z. B. Schutz vor unbefugtem Zugriff, Datenwiederherstellung, Übertragung sensibler Daten)?
@@ -1602,13 +1602,13 @@ Welche Maßnahmen zur Gewährleistung der Datensicherheit werden getroffen (z. B
 <order>13</order>
 <title lang="en">Sensitive data</title>
 <help lang="en">
-Please refer to the data protection information provided by the Max Planck Society on Data protection levels (https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_01. schedular overview - MPGs data protection level concept_en_2.pdf) and protection measures (https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_Data_Protection_Protection_Measure_en.pdf).
+Please refer to the data protection information provided by the Max Planck Society on Data protection levels (&lt;a href=&quot;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_01. schedular overview - MPGs data protection level concept_en_2.pdf&quot; target=&quot;_blank&quot;&gt;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_01. schedular overview - MPGs data protection level concept_en_2.pdf&lt;/a&gt;) and protection measures (&lt;a href=&quot;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_Data_Protection_Protection_Measure_en.pdf&quot; target=&quot;_blank&quot;&gt;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_Data_Protection_Protection_Measure_en.pdf&lt;/a&gt;).
 </help>
 <verbose_name lang="en">dataset</verbose_name>
 <verbose_name_plural lang="en">datasets</verbose_name_plural>
 <title lang="de">Sensible Daten</title>
 <help lang="de">
-Bitte beachten Sie die Datenschutzinformationen der Max-Planck-Gesellschaft zu Datenschutzstufen (https://ohb.mpg.de/Policies/MPG XVII05 de 5.4/XVII.05_01. schedular overview - MPGs data protection level concept_en_2.pdf) und Schutzmaßnahmen (https://ohb.mpg.de/Policies/MPG XVII05 de 5.4/XVII.05_Data_Protection_Protection_Measure_de.pdf).
+Bitte beachten Sie die Datenschutzinformationen der Max-Planck-Gesellschaft zu Datenschutzstufen (&lt;a href=&quot;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_01. schedular overview - MPGs data protection level concept_en_2.pdf&quot; target=&quot;_blank&quot;&gt;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_01. schedular overview - MPGs data protection level concept_en_2.pdf&lt;/a&gt;) und Schutzmaßnahmen (&lt;a href=&quot;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_Data_Protection_Protection_Measure_en.pdf&quot; target=&quot;_blank&quot;&gt;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_Data_Protection_Protection_Measure_en.pdf&lt;/a&gt;).
 </help>
 <verbose_name lang="de">Datensatz</verbose_name>
 <verbose_name_plural lang="de">Datensätze</verbose_name_plural>
@@ -1718,13 +1718,13 @@ mpifg/storage-and-long-term-preservation/long-term-preservation-datasets
 <order>1</order>
 <title lang="en">Long-term Preservation</title>
 <help lang="en">
-The "Rules of good scientific practice" (https://www.mpg.de/199493/regelnWissPraxis.pdf) of the MPS (the same as the „Guidelines for Safeguarding Good Research Practice. Code of Conduct“ (https://doi.org/10.5281/zenodo.3923601) of the DFG) expect institutions to store data from research projects for 10 years in case of alleged scientific misconduct (http://www.mpg.de/199559/verfahrensordnung.pdf). The Max Planck Institute for the Study of Societies has created a policy in 2013 (https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf) which explains background and extend of the storage. Find more information on the intranet: https://intern /IntraPages/Data%20Storage.aspx.
+The "Rules of good scientific practice" (&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/199493/regelnWissPraxis.pdf&lt;/a&gt;) of the MPS (the same as the „Guidelines for Safeguarding Good Research Practice. Code of Conduct“ (&lt;a href=&quot;https://doi.org/10.5281/zenodo.3923601&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.3923601&lt;/a&gt;) of the DFG) expect institutions to store data from research projects for 10 years in case of alleged scientific misconduct (&lt;a href=&quot;http://www.mpg.de/199559/verfahrensordnung.pdf&quot; target=&quot;_blank&quot;&gt;http://www.mpg.de/199559/verfahrensordnung.pdf&lt;/a&gt;). The Max Planck Institute for the Study of Societies has created a policy in 2013 (&lt;a href=&quot;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&quot; target=&quot;_blank&quot;&gt;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&lt;/a&gt;) which explains background and extend of the storage. Find more information on the intranet: &lt;a href=&quot;https://intern /IntraPages/Data%20Storage.aspx&quot; target=&quot;_blank&quot;&gt;https://intern /IntraPages/Data%20Storage.aspx&lt;/a&gt;.
 </help>
 <verbose_name lang="en">dataset</verbose_name>
 <verbose_name_plural lang="en">datasets</verbose_name_plural>
 <title lang="de">Langzeitarchivierung</title>
 <help lang="de">
-Die "Regeln guter wissenschaftlicher Praxis" (https://www.mpg.de/199493/regelnWissPraxis.pdf) des MPS (gleichlautend mit den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis. Code of Conduct" (https://doi.org/10.5281/zenodo.3923601) der DFG) erwarten, dass Institutionen Daten aus Forschungsprojekten für 10 Jahre aufbewahren, falls wissenschaftliches Fehlverhalten vermutet wird (http://www.mpg.de/199559/verfahrensordnung.pdf). Das Max-Planck-Institut für Gesellschaftsforschung hat 2013 eine Richtlinie erstellt (https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf), die Hintergründe und Umfang der Speicherung erläutert. Weitere Informationen finden Sie im Intranet: https://intern /IntraPages/Data%20Storage.aspx.
+Die "Regeln guter wissenschaftlicher Praxis" (&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/199493/regelnWissPraxis.pdf&lt;/a&gt;) des MPS (gleichlautend mit den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis. Code of Conduct" (&lt;a href=&quot;https://doi.org/10.5281/zenodo.3923601&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.3923601&lt;/a&gt;) der DFG) erwarten, dass Institutionen Daten aus Forschungsprojekten für 10 Jahre aufbewahren, falls wissenschaftliches Fehlverhalten vermutet wird (&lt;a href=&quot;http://www.mpg.de/199559/verfahrensordnung.pdf&quot; target=&quot;_blank&quot;&gt;http://www.mpg.de/199559/verfahrensordnung.pdf&lt;/a&gt;). Das Max-Planck-Institut für Gesellschaftsforschung hat 2013 eine Richtlinie erstellt (&lt;a href=&quot;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&quot; target=&quot;_blank&quot;&gt;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&lt;/a&gt;), die Hintergründe und Umfang der Speicherung erläutert. Weitere Informationen finden Sie im Intranet: &lt;a href=&quot;https://intern /IntraPages/Data%20Storage.aspx&quot; target=&quot;_blank&quot;&gt;https://intern /IntraPages/Data%20Storage.aspx&lt;/a&gt;.
 </help>
 <verbose_name lang="de">Datensatz</verbose_name>
 <verbose_name_plural lang="de">Datensätze</verbose_name_plural>
