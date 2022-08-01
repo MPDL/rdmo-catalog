@@ -181,7 +181,7 @@ Geben Sie den Titel des Projekts oder eine Überschrift an, die das Projekt besc
 <is_optional>False</is_optional>
 <order>2</order>
 <help lang="en">
-You can use the description also for the editorial units request for a project description, if you stick to the following guidelines http://intern/IntraDoks/Projektbeschreibungen-Guidelines-en.pdf.
+You can use the description also for the editorial units request for a project description, if you stick to the following guidelines &lt;a href=&quot;http://intern/IntraDoks/Projektbeschreibungen-Guidelines-en.pdf&quot; target=&quot;_blank&quot;&gt;http://intern/IntraDoks/Projektbeschreibungen-Guidelines-en.pdf&lt;/a&gt;.
 </help>
 <text lang="en">
 Please describe your project in brief, referring to Project goals, research questions, methods of the project.
@@ -190,7 +190,7 @@ Please describe your project in brief, referring to Project goals, research ques
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
 <help lang="de">
-Sie können die Beschreibung auch für die von den Redaktionen angeforderten Projektbeschreibungen verwenden, wenn Sie sich an die folgenden Richtlinien halten http://intern/IntraDoks/Projektbeschreibungen-Guidelines-en.pdf.
+Sie können die Beschreibung auch für die von den Redaktionen angeforderten Projektbeschreibungen verwenden, wenn Sie sich an die folgenden Richtlinien halten &lt;a href=&quot;http://intern/IntraDoks/Projektbeschreibungen-Guidelines-en.pdf&quot; target=&quot;_blank&quot;&gt;http://intern/IntraDoks/Projektbeschreibungen-Guidelines-en.pdf&lt;/a&gt;.
 </help>
 <text lang="de">
 Beschreiben Sie bitte kurz Ihr Projekt und gehen Sie dabei auf Projektziele, Forschungsfragen und Methoden des Projekts ein.
@@ -439,14 +439,14 @@ mpifg/project-description/skills/skills-training/measures
 <is_optional>False</is_optional>
 <order>2</order>
 <help lang="en">
-Please check on the intranet for software that is available at the institute: http://sharepoint/sites/computing/Pages/Software%20at%20the%20MPIfG.aspx. Talk to the IT (helpdesk@mpifg.de), in case you need something else. For methods training, talk to the methods coordinator (neimanns@mpifg.de).
+Please check on the intranet for software that is available at the institute: &lt;a href=&quot;http://sharepoint/sites/computing/Pages/Software%20at%20the%20MPIfG.aspx&quot; target=&quot;_blank&quot;&gt;http://sharepoint/sites/computing/Pages/Software%20at%20the%20MPIfG.aspx&lt;/a&gt;. Talk to the IT (&lt;a href=&quot;mailto:helpdesk@mpifg.de&quot;;&gt;helpdesk@mpifg.de&lt;/a&gt;), in case you need something else. For methods training, talk to the methods coordinator (&lt;a href=&quot;mailto:neimanns@mpifg.de&quot;;&gt;neimanns@mpifg.de&lt;/a&gt;).
 </help>
 <text lang="en">Notes for your measures to acquire these:</text>
 <default_text lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
 <help lang="de">
-Bitte schauen Sie im Intranet nach, welche Software am Institut verfügbar ist: http://sharepoint/sites/computing/Pages/Software%20at%20the%20MPIfG.aspx. Sprechen Sie mit der IT-Abteilung (helpdesk@mpifg.de), falls Sie etwas anderes benötigen. Für Methodenschulungen wenden Sie sich an den Methodenkoordinator (neimanns@mpifg.de).
+Bitte schauen Sie im Intranet nach, welche Software am Institut verfügbar ist: &lt;a href=&quot;http://sharepoint/sites/computing/Pages/Software%20at%20the%20MPIfG.aspx&quot; target=&quot;_blank&quot;&gt;http://sharepoint/sites/computing/Pages/Software%20at%20the%20MPIfG.aspx&lt;/a&gt;. Sprechen Sie mit der IT-Abteilung (&lt;a href=&quot;mailto:helpdesk@mpifg.de&quot;;&gt;helpdesk@mpifg.de&lt;/a&gt;), falls Sie etwas anderes benötigen. Für Methodenschulungen wenden Sie sich an den Methodenkoordinator (&lt;a href=&quot;mailto:neimanns@mpifg.de&quot;;&gt;neimanns@mpifg.de&lt;/a&gt;).
 </help>
 <text lang="de">Hinweise für Ihre Maßnahmen, um diese zu erwerben:</text>
 <default_text lang="de"/>
