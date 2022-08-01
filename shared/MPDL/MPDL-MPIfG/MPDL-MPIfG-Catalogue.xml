@@ -580,7 +580,9 @@ Bitte informieren Sie sich im Intranet über das Verfahren zur Datenerfassung un
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
-<conditions/>
+<conditions>
+<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-databases"/>
+</conditions>
 </questionset>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/data-admission/access-specific-database">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -594,7 +596,7 @@ mpifg/project-description/data-admission/access-specific-database
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/data-admission"/>
 <is_collection>True</is_collection>
 <order>1</order>
-<title lang="en">Specific the Databases</title>
+<title lang="en">Specify the Databases</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
@@ -644,15 +646,37 @@ Bitte erkundigen Sie sich bei den Bibliotheksmitarbeitern (bib@mpifg.de) nach de
 <optionsets/>
 <conditions/>
 </question>
-<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/data-admission/data-to-acquire">
+<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/data-acquisition">
+<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+<key>data-acquisition</key>
+<path>mpifg/project-description/data-acquisition</path>
+<dc:comment/>
+<attribute/>
+<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
+<questionset/>
+<is_collection>False</is_collection>
+<order>5</order>
+<title lang="en">Data Acquisition</title>
+<help lang="en"/>
+<verbose_name lang="en"/>
+<verbose_name_plural lang="en"/>
+<title lang="de">Datenerwerb</title>
+<help lang="de"/>
+<verbose_name lang="de"/>
+<verbose_name_plural lang="de"/>
+<conditions>
+<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-data-acquired"/>
+</conditions>
+</questionset>
+<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/data-acquisition/data-to-acquire">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
 <key>data-to-acquire</key>
 <path>
-mpifg/project-description/data-admission/data-to-acquire
+mpifg/project-description/data-acquisition/data-to-acquire
 </path>
 <dc:comment/>
 <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/databases/data-acquired/data-to-acquire"/>
-<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/data-admission"/>
+<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/data-acquisition"/>
 <is_collection>True</is_collection>
 <is_optional>False</is_optional>
 <order>2</order>
