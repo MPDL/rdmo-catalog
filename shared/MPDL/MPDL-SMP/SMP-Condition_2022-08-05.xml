@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo created="2022-08-05T10:44:05.812053+02:00" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<condition dc:uri="https://rdmo.mpdl.mpg.de/terms/conditions/publish-software">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
+		<key>publish-software</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/smp/software-sharing"/>
+		<relation>neq</relation>
+		<target_text>0</target_text>
+		<target_option/>
+	</condition>
+</rdmo>
