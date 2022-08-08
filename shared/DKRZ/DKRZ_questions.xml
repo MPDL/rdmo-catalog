@@ -857,7 +857,7 @@ Dieser Katalog ist für das Datenmanagement in Klimamodellierungsprojekten gedac
 		<step/>
 		<unit/>
 		<width/>
-		</optionsets>
+		<optionsets/>
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management/IT_details">
