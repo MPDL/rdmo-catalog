@@ -1,0 +1,2414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo created="2022-08-02T09:43:17.870330+02:00" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<catalog dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>H2020_adapted</key>
+		<dc:comment>This catalog is meant to be used for compiling a data management plan for large consortial projects at DKRZ. It contains questions required for the FAIR aspects of H2020 data management plans.</dc:comment>
+		<order>98</order>
+		<title lang="en">Data management for Climate Modelling (Beta test mode)</title>
+			<help lang="en">
+This catalogue is for data management in climate modelling projects. The catalogue was developed by the &lt;a href=&quot;https://www.dkrz.de&quot; target=&quot;_blank&quot;&gt;German Climate Computing Centre&lt;/a&gt; in Hamburg.
+			</help>
+		<title lang="de">Datenmanagement für Klimamodellierung (Beta-Testmodus)</title>
+			<help lang="de">
+Dieser Katalog ist für das Datenmanagement in Klimamodellierungsprojekten gedacht. Der Katalog wurde vom &lt;a href=&quot;https://www.dkrz.de&quot; target=&quot;_blank&quot;&gt;Deutschen Klimarechenzentrum&lt;/a&gt; in Hamburg entwickelt.
+			</help>
+	</catalog>
+	<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>general</key>
+		<path>H2020_adapted/general</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted"/>
+		<order>0</order>
+		<title lang="en">General</title>
+		<title lang="de">Allgemein</title>
+	</section>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/title">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>title</key>
+		<path>H2020_adapted/general/title</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/title"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Project name</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Projektname</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/title/long_name">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>long_name</key>
+		<path>H2020_adapted/general/title/long_name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/title/long_name"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/title"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">What is the project title?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Title</verbose_name>
+		<verbose_name_plural lang="en">Titles</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Was ist der Projektname?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Projektname</verbose_name>
+		<verbose_name_plural lang="de">Projektnamen</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/title/acronym">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>acronym</key>
+		<path>H2020_adapted/general/title/acronym</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/title/acronym"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/title"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">What is the project acronym?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">acronym</verbose_name>
+		<verbose_name_plural lang="en">acronyms</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Was ist das Projektakronym?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Akronym</verbose_name>
+		<verbose_name_plural lang="de">Akronyme</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/title/DMP_authors">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>DMP_authors</key>
+		<path>H2020_adapted/general/title/DMP_authors</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dmp/name"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/title"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en">Enter a comma-separated list of authors.</help>
+		<text lang="en">Who is responsible for the content of this data management plan?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">author</verbose_name>
+		<verbose_name_plural lang="en">authors</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wer ist für den Inhalt dieses Datenmanagementplans verantwortlich?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Autor</verbose_name>
+		<verbose_name_plural lang="de">Autoren</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_question">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>topic-research_question</key>
+		<path>H2020_adapted/general/topic-research_question</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en">Topic</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Thema</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_question/title">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>title</key>
+		<path>H2020_adapted/general/topic-research_question/title</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/title"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_question"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">What is the main research question of the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wie lautet die primäre Forschungsfrage des Projektes?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_question/keywords">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>keywords</key>
+		<path>H2020_adapted/general/topic-research_question/keywords</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_question"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Please give some keywords describing the research question.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">keyword</verbose_name>
+		<verbose_name_plural lang="en">keywords</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Bitte geben Sie einige Schlagworte zur Forschungsfrage an.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Schlagwort</verbose_name>
+		<verbose_name_plural lang="de">Schlagwörter</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_question/data_purpose">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data_purpose</key>
+		<path>H2020_adapted/general/topic-research_question/data_purpose</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/data_purpose"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_question"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en">What is the purpose of the data creation/collection and its relation to the objectives of the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wie unterstützt die Datengenerierung und -sammlung die Verfolgung der Projektziele?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_question/data_type">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data_type</key>
+		<path>H2020_adapted/general/topic-research_question/data_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/data_type"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_question"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en">What types and formats of data will the project generate/collect?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Welche Art von Daten und in welchem Format werden diese im Projekt generiert/gesammelt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_question/data_volume">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data_volume</key>
+		<path>H2020_adapted/general/topic-research_question/data_volume</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/data_volume"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_question"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en">What is the expected size of the generated data?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Was ist das erwartete Volumen der im Projekt generierten Daten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_question/data_reuse">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data_reuse</key>
+		<path>H2020_adapted/general/topic-research_question/data_reuse</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/data_reuse"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_question"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en">Will any existing data be re-used and how?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Werden existierende Daten nachgenutzt, und wenn ja, wie?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_field">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>topic-research_field</key>
+		<path>H2020_adapted/general/topic-research_field</path>
+		<dc:comment>for Germany, the classification works, but we might consider also DDC as an option</dc:comment>
+		<attribute/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en">Research field</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Disziplin</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_field/research_field">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>research_field</key>
+		<path>H2020_adapted/general/topic-research_field/research_field</path>
+		<dc:comment>for Germany, the classification works, but we might consider also DDC as an option</dc:comment>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_field/title"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/topic-research_field"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en">The list of disciplines follows the &lt;a href=&quot;http://www.dfg.de/en/dfg_profile/statutory_bodies/review_boards/subject_areas/index.jsp&quot; target=_blank&quot;&gt;subject classification of the DFG (German Research Foundation)&lt;/a&gt;.</help>
+		<text lang="en">Which research field(s) does this project belong to?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">discipline</verbose_name>
+		<verbose_name_plural lang="en">disciplines</verbose_name_plural>
+		<help lang="de">Die Liste der Disziplinen entspricht der &lt;a href=&quot;http://www.dfg.de/dfg_profil/gremien/fachkollegien/faecher/&quot; target=_blank&quot;&gt;Fachsystematik der Deutschen Forschungsgemeinschaft (DFG)&lt;/a&gt;.</help>
+		<text lang="de">Welcher Disziplin / welchen Disziplinen ist das Projekt zuzuordnen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Forschungsdisziplin</verbose_name>
+		<verbose_name_plural lang="de">Forschungsdisziplinen</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-partners-name">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>project-partners-name</key>
+		<path>H2020_adapted/general/project-partners-name</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<title lang="en">Project coordination</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Projektkoordination</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-partners-name/name">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>name</key>
+		<path>H2020_adapted/general/project-partners-name/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination/name"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-partners-name"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en">Add coordinator(s) name(s), email address and affiliation(s)</help>
+		<text lang="en">Who is responsible for the project coordination?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">person</verbose_name>
+		<verbose_name_plural lang="en">persons</verbose_name_plural>
+		<help lang="de">Bitte nennen Sie Namen, Kontaktdetails und institutionell Zugehörigkeit.</help>
+		<text lang="de">Wer ist verantwortlich für die Projektkoordination?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Person</verbose_name>
+		<verbose_name_plural lang="de">Personen</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-schedule-schedule">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>project-schedule-schedule</key>
+		<path>H2020_adapted/general/project-schedule-schedule</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<title lang="en">Project schedule</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Projektablauf</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-schedule-schedule/project_start">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>project_start</key>
+		<path>H2020_adapted/general/project-schedule-schedule/project_start</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/schedule/project_start"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-schedule-schedule"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">When does the project start?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wann beginnt die Projektlaufzeit?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-schedule-schedule/project_end">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>project_end</key>
+		<path>H2020_adapted/general/project-schedule-schedule/project_end</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/schedule/project_end"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-schedule-schedule"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">When does the project end?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wann endet die Projektlaufzeit?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-partners-partner">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>project-partners-partner</key>
+		<path>H2020_adapted/general/project-partners-partner</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/id"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>5</order>
+		<title lang="en">Project partners</title>
+		<help lang="en"/>
+		<verbose_name lang="en">project partner</verbose_name>
+		<verbose_name_plural lang="en">project partners</verbose_name_plural>
+		<title lang="de">Projektpartner</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projektpartner</verbose_name>
+		<verbose_name_plural lang="de">Projektpartner</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-partners-partner/name">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>name</key>
+		<path>H2020_adapted/general/project-partners-partner/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/name"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-partners-partner"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Project partner</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Projektpartner</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Partner</verbose_name>
+		<verbose_name_plural lang="de">Partner</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-partners-partner/partner_address">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>partner_address</key>
+		<path>H2020_adapted/general/project-partners-partner/partner_address</path>
+		<dc:comment>Partner address</dc:comment>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/address"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-partners-partner"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Institution Address</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Anschrift</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-partners-partner/contact">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>contact</key>
+		<path>H2020_adapted/general/project-partners-partner/contact</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/contact_person/name"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/project-partners-partner"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en">Please give the name and an email address.</help>
+		<text lang="en">Who is/are the main contact person(s) at this partner institution?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">person</verbose_name>
+		<verbose_name_plural lang="en">persons</verbose_name_plural>
+		<help lang="de">Bitte geben Sie den Namen und eine Email Adresse an.</help>
+		<text lang="de">Wer ist/sind bei diesem Partner der/die Hauptansprechpartner/in für das Projekt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Person</verbose_name>
+		<verbose_name_plural lang="de">Personen</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/funding-funder">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>funding-funder</key>
+		<path>H2020_adapted/general/funding-funder</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/id"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>6</order>
+		<title lang="en">Funding</title>
+		<help lang="en"/>
+		<verbose_name lang="en">funder</verbose_name>
+		<verbose_name_plural lang="en">funders</verbose_name_plural>
+		<title lang="de">Förderung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Förderer</verbose_name>
+		<verbose_name_plural lang="de">Förderer</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/funding-funder/name">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>name</key>
+		<path>H2020_adapted/general/funding-funder/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/name"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/funding-funder"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Who is funding the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wer fördert das Projekt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/funding-funder/title">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>title</key>
+		<path>H2020_adapted/general/funding-funder/title</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme/title"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/funding-funder"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Is the project within a special funding programme?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">In welcher Förderlinie und/oder welchem Förderprogramm wird das Projekt gefördert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data_management</key>
+		<path>H2020_adapted/general/data_management</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>7</order>
+		<title lang="en">Project-wide data management</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Projektweites Datenmanagement</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management/organisation_policy">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>organisation_policy</key>
+		<path>H2020_adapted/general/data_management/organisation_policy</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/policy"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Are there internal project guidelines for a consistent organisation of the data? If so, where are they documented?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Gibt es projektinterne Vereinbarungen zur konsistenten Organisation der Daten? Wenn ja, wo sind diese dokumentiert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management/data_reusers">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data_reusers</key>
+		<path>H2020_adapted/general/data_management/data_reusers</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/community_reuse"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Who could be interested in re-using the data and tools produced in the framework of the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">party</verbose_name>
+		<verbose_name_plural lang="en">parties</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Für welche Personen, Gruppen oder Institutionen könnte dieser Datensatz (für die Nachnutzung) von Interesse sein?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management/infrastructure">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>infrastructure</key>
+		<path>H2020_adapted/general/data_management/infrastructure</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/IT_infrastructure"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en">To what extent are infrastructure resources required (e.g. CPU hours, bandwidth, storage space... etc.).</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">In welchem Umfang werden Infrastrukturressourcen benötigt (CPU-Stunden, Bandbreite, Speicherplatz etc.)?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management/IT_details">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>IT_details</key>
+		<path>H2020_adapted/general/data_management/IT_details</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/IT_infrastructure/IT_details"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en">How much was requested? Was the request granted? 
+
+Please also refer to appropriate documents, e.g. as attached to this DMP.</help>
+		<text lang="en">If resources have been applied for, please detail the status of the application.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wenn Ressourcen beantragt wurden, wie ist der Status des Antrages?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management/reproducibility">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>reproducibility</key>
+		<path>H2020_adapted/general/data_management/reproducibility</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/reproducibility"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en">Is the data produced in the project reproducible in the sense that it could be created / collected anew in case it got lost?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Sind die in diesem WP erzeugten Datensätze reproduzierbar, d. h. ließen sie sich, wenn sie verloren gingen, erneut erstellen oder erheben?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/dataset_reproducible_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management/data_security">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data_security</key>
+		<path>H2020_adapted/general/data_management/data_security</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management/security"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>7</order>
+		<help lang="en"/>
+		<text lang="en">What provisions are in place to ensure data security?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Welche Maßnahmen zur Wahrung der Datensicherheit werden ergriffen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management/certified_repository">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>certified_repository</key>
+		<path>H2020_adapted/general/data_management/certified_repository</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management/certified_repository"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/data_management"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>8</order>
+		<help lang="en"/>
+		<text lang="en">Is the data safely stored in certified repositories for long term preservation and curation?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Werden die Daten in einem zertifizierten Langzeitarchiv verwahrt und kuratiert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>url</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/FAIR_data">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>FAIR_data</key>
+		<path>H2020_adapted/general/FAIR_data</path>
+		<dc:comment>Aspects related to FAIR data as required by the EU H2020 DMP template</dc:comment>
+		<attribute dc:uri="http://rdmo.dkrz.de/terms/domain/project/data_management/FAIR"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>8</order>
+		<title lang="en">FAIR data</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">FAIR data</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/FAIR_data/data_selection">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data_selection</key>
+		<path>H2020_adapted/general/FAIR_data/data_selection</path>
+		<dc:comment>Content pertaining to the project data to which the FAIR principles will apply and in which form. This is necessary, as it is impossible to save all data produced in Earth System Science.</dc:comment>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR/data_selection"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/FAIR_data"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Which project data is planned to be made available following the FAIR principles?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Welche Daten aus dem Projekt sollen FAIR verfügbar gemacht werden?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/FAIR_data/FAIR_findability">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>FAIR_findability</key>
+		<path>H2020_adapted/general/FAIR_data/FAIR_findability</path>
+		<dc:comment>Section on making data findable, as required by the EU H2020 DMP template</dc:comment>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR/findability"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/FAIR_data"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en">Are the data produced and/or used in the project discoverable with metadata, identifiable and locatable by means of a standard identification mechanism (e.g. persistent and unique identifiers such as Digital Object Identifiers)?
+What naming conventions do you follow?
+Will search keywords be provided that optimize possibilities for re-use?
+Do you provide clear version numbers?
+What metadata will be created? In case metadata standards do not exist in your discipline, please outline what type of metadata will be created and how.</help>
+		<text lang="en">Making data findable, including provisions for metadata</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Are the data produced and/or used in the project discoverable with metadata, identifiable and locatable by means of a standard identification mechanism (e.g. persistent and unique identifiers such as Digital Object Identifiers)?
+What naming conventions do you follow?
+Will search keywords be provided that optimize possibilities for re-use?
+Do you provide clear version numbers?
+What metadata will be created? In case metadata standards do not exist in your discipline, please outline what type of metadata will be created and how.</help>
+		<text lang="de">Making data findable, including provisions for metadata</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/FAIR_data/FAIR_accessibility">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>FAIR_accessibility</key>
+		<path>H2020_adapted/general/FAIR_data/FAIR_accessibility</path>
+		<dc:comment>Aspects related to accessibility as required by the EU H2020 DMP template.</dc:comment>
+		<attribute dc:uri="http://rdmo.dkrz.de/terms/domain/project/data_management/FAIR/accessibility"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/FAIR_data"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en">Which data produced and/or used in the project will be made openly available as the default? If certain datasets cannot be shared (or need to be shared under restrictions), explain why, clearly separating legal and contractual reasons from voluntary restrictions.
+Note that in multi-beneficiary projects it is also possible for specific beneficiaries to keep their data closed if relevant provisions are made in the consortium agreement and are in line with the reasons for opting out.
+How will the data be made accessible (e.g. by deposition in a repository)? What methods or software tools are needed to access the data?
+Is documentation about the software needed to access the data included? Is it possible to include the relevant software (e.g. in open source code)?
+Where will the data and associated metadata, documentation and code be deposited? Preference should be given to certified repositories which support open access where possible.
+Have you explored appropriate arrangements with the identified repository?
+If there are restrictions on use, how will access be provided?
+Is there a need for a data access committee?
+Are there well described conditions for access (i.e. a machine readable license)? How will the identity of the person accessing the data be ascertained?</help>
+		<text lang="en">Making data accessible</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Which data produced and/or used in the project will be made openly available as the default? If certain datasets cannot be shared (or need to be shared under restrictions), explain why, clearly separating legal and contractual reasons from voluntary restrictions.
+Note that in multi-beneficiary projects it is also possible for specific beneficiaries to keep their data closed if relevant provisions are made in the consortium agreement and are in line with the reasons for opting out.
+How will the data be made accessible (e.g. by deposition in a repository)? What methods or software tools are needed to access the data?
+Is documentation about the software needed to access the data included? Is it possible to include the relevant software (e.g. in open source code)?
+Where will the data and associated metadata, documentation and code be deposited? Preference should be given to certified repositories which support open access where possible.
+Have you explored appropriate arrangements with the identified repository?
+If there are restrictions on use, how will access be provided?
+Is there a need for a data access committee?
+Are there well described conditions for access (i.e. a machine readable license)? How will the identity of the person accessing the data be ascertained?</help>
+		<text lang="de">Making data accessible</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/FAIR_data/FAIR_interoperability">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>FAIR_interoperability</key>
+		<path>H2020_adapted/general/FAIR_data/FAIR_interoperability</path>
+		<dc:comment>Aspects related to data interoperability, as required by EU H2020 DMP template.</dc:comment>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR/interoperability"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/FAIR_data"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en">Are the data produced in the project interoperable, that is allowing data exchange and re-use between researchers, institutions, organisations, countries, etc. (i.e. adhering to standards for formats, as much as possible compliant with available (open) software applications, and in particular facilitating re-combinations with different datasets from different origins)?
+What data and metadata vocabularies, standards or methodologies will you follow to make your data interoperable?
+Will you be using standard vocabularies for all data types present in your data set, to allow inter-disciplinary interoperability?
+In case it is unavoidable that you use uncommon or generate project specific ontologies or vocabularies, will you provide mappings to more commonly used ontologies?</help>
+		<text lang="en">Making data interoperable</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Are the data produced in the project interoperable, that is allowing data exchange and re-use between researchers, institutions, organisations, countries, etc. (i.e. adhering to standards for formats, as much as possible compliant with available (open) software applications, and in particular facilitating re-combinations with different datasets from different origins)?
+What data and metadata vocabularies, standards or methodologies will you follow to make your data interoperable?
+Will you be using standard vocabularies for all data types present in your data set, to allow inter-disciplinary interoperability?
+In case it is unavoidable that you use uncommon or generate project specific ontologies or vocabularies, will you provide mappings to more commonly used ontologies?</help>
+		<text lang="de">Making data interoperable</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/FAIR_data/FAIR_reusability">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>FAIR_reusability</key>
+		<path>H2020_adapted/general/FAIR_data/FAIR_reusability</path>
+		<dc:comment>Aspects related to reusability, as required by EU H2020 DMP template.</dc:comment>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR/reusability"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/FAIR_data"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en">How will the data be licensed to permit the widest re-use possible?
+When will the data be made available for re-use? If an embargo is sought to give time to publish or seek patents, specify why and how long this will apply, bearing in mind that research data should be made available as soon as possible.
+Are the data produced and/or used in the project useable by third parties, in particular after the end of the project? If the re-use of some data is restricted, explain why.
+How long is it intended that the data remains re-usable? Are data quality assurance processes described?</help>
+		<text lang="en">Making data reusable</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">How will the data be licensed to permit the widest re-use possible?
+When will the data be made available for re-use? If an embargo is sought to give time to publish or seek patents, specify why and how long this will apply, bearing in mind that research data should be made available as soon as possible.
+Are the data produced and/or used in the project useable by third parties, in particular after the end of the project? If the re-use of some data is restricted, explain why.
+How long is it intended that the data remains re-usable? Are data quality assurance processes described?</help>
+		<text lang="de">Making data reusable</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/FAIR_data/FAIR_resources">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>FAIR_resources</key>
+		<path>H2020_adapted/general/FAIR_data/FAIR_resources</path>
+		<dc:comment/>
+		<attribute dc:uri="http://rdmo.dkrz.de/terms/domain/project/data_management/FAIR/resources"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/general/FAIR_data"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>7</order>
+		<help lang="en"/>
+		<text lang="en">Required resources for making data FAIR</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Benötigte Ressourcen um FAIRe Daten zu erzeugen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>content-classification</key>
+		<path>H2020_adapted/content-classification</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted"/>
+		<order>1</order>
+		<title lang="en">Content classification</title>
+		<title lang="de">Inhaltliche Einordnung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-dataset">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data-dataset</key>
+		<path>H2020_adapted/content-classification/data-dataset</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>1</order>
+		<title lang="en">Work package description</title>
+		<help lang="en">The following questions collect information on the data that is produced or used in the specific PalMod2 Work Packages (WPs). They also help to estimate the value of the data in terms of potential re-use and long-term preservation. The information regarding the data collected, produced or used in the project is gathered along WPs.</help>
+		<verbose_name lang="en">work package</verbose_name>
+		<verbose_name_plural lang="en">work packages</verbose_name_plural>
+		<title lang="de">Datensätze</title>
+		<help lang="de">Die nächsten Fragen dienen zur Beschreibung der Datensätze, die im Projekt erzeugt und/oder verwendet werden. Sie helfen zudem, den Wert der Daten hinsichtlich der potentiellen Nachnutzung und einer späteren Archivierung einschätzen
+                                zu können. Vor der Erzeugung von Daten empfiehlt es sich zu prüfen, ob bereits vorhandene Daten nachgenutzt werden können. Die Vermeidung doppelter Erhebungen spart Aufwand und Kosten. Handelt es sich um personenbezogene Daten, ist dies zudem durch
+                                den Grundsatz der Erforderlichkeit (&lt;a href=&quot;https://www.gesetze-im-internet.de/bdsg_1990/&quot; target=_blank&quot;&gt;BDSG&lt;/a&gt;) sowie das Prinzip der Datenvermeidung und Datensparsamkeit (&lt;a
+                                href=&quot;https://www.gesetze-im-internet.de/bdsg_1990/__3a.html&quot; target=_blank&quot;&gt;§3a BDSG&lt;/a&gt;) geboten. Die Angaben zu den im Projekt erzeugten oder verwendeten Daten sind nach „Datensätzen“ strukturiert. Die Definition dessen, was jeweils ein
+                                Datensatz ist, ist eine wichtige konzeptionelle Entscheidung, die für jedes Vorhaben bzw. Projekt individuell getroffen und sorgfältig abgewogen werden muss.</help>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-dataset/description">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>description</key>
+		<path>H2020_adapted/content-classification/data-dataset/description</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-dataset"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">What are the goals of this WP within the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Um was für einen Datensatz handelt es sich?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/WP_responsibilities">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>WP_responsibilities</key>
+		<path>H2020_adapted/content-classification/WP_responsibilities</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>2</order>
+		<title lang="en">WP responsibilities</title>
+		<help lang="en"/>
+		<verbose_name lang="en">work package</verbose_name>
+		<verbose_name_plural lang="en">work packages</verbose_name_plural>
+		<title lang="de">WP Verantwortlichkeiten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">work package</verbose_name>
+		<verbose_name_plural lang="de">work packages</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/WP_responsibilities/responsible_person_during">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>responsible_person_during</key>
+		<path>H2020_adapted/content-classification/WP_responsibilities/responsible_person_during</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/responsible_person/during"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/WP_responsibilities"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en">Add multiple contact names, if applicable.</help>
+		<text lang="en">Who is responsible for the data created in this WP during the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">person</verbose_name>
+		<verbose_name_plural lang="en">persons</verbose_name_plural>
+		<help lang="de">Fügen sie ggf. mehrere Kontaktnamen hinzu.</help>
+		<text lang="de">Wer ist während der Projektlaufzeit für die in diesem WP produzierten Daten verantwortlich?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Kontakt</verbose_name>
+		<verbose_name_plural lang="de">Kontakte</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/WP_responsibilities/responsible_person_after">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>responsible_person_after</key>
+		<path>H2020_adapted/content-classification/WP_responsibilities/responsible_person_after</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/responsible_person/after"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/WP_responsibilities"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en">Add only one contact name. Note that this responsibility is very long-term and should be assigned to permanent staff members/faculty.</help>
+		<text lang="en">Who is responsible for the data created in this WP after the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">person</verbose_name>
+		<verbose_name_plural lang="en">persons</verbose_name_plural>
+		<help lang="de">Fügen sie nur einen Kontaktnamen hinzu. Diese Verantworlichkeit ist sehr langfristig angelegt und sollte Personen mit einem unbefristeten Arbeitsverhältnis an der jeweiligen Institution zugewiesen werden.</help>
+		<text lang="de">Wer ist nach Ablauf der Projektlaufzeit für die in diesem WP produzierten Daten verantwortlich?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Kontakt</verbose_name>
+		<verbose_name_plural lang="de">Kontakte</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data-existing_data</key>
+		<path>H2020_adapted/content-classification/data-existing_data</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>3</order>
+		<title lang="en">Data overview</title>
+		<help lang="en"/>
+		<verbose_name lang="en">work package</verbose_name>
+		<verbose_name_plural lang="en">work packages</verbose_name_plural>
+		<title lang="de">Datenübersicht</title>
+		<help lang="de"/>
+		<verbose_name lang="de">work package</verbose_name>
+		<verbose_name_plural lang="de">work packages</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data/type">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>type</key>
+		<path>H2020_adapted/content-classification/data-existing_data/type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/origin"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en">Click any that apply, specify shortly (type of experiment, type of proxy data, which kind of tool).</help>
+		<text lang="en">What kind of data is produced in this WP?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<help lang="de">Fügen Sie ggf. mehrere Datensätze hinzu.</help>
+		<text lang="de">Welche Art von Daten wird in diesem WP erzeugt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data/content">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>content</key>
+		<path>H2020_adapted/content-classification/data-existing_data/content</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/content"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en">Add multiple datasets if applicable. Refer to other documents if possible, e.g. online documentation of project data or project proposal</help>
+		<text lang="en">Please specify the dataset(s) produced in this WP</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Bitte spezifizieren Sie die in diesem WP produzierten Daten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data/variables">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>variables</key>
+		<path>H2020_adapted/content-classification/data-existing_data/variables</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/content/variables"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en">Add multiple sets of variables if applicable.</help>
+		<text lang="en">Which variables/parameters are the datasets produced in this WP focused on?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">dataset</verbose_name>
+		<verbose_name_plural lang="en">datasets</verbose_name_plural>
+		<help lang="de">Fügen sie mehrere Datensätze hinzu (falls nötig).</help>
+		<text lang="de">Welche Variable/Parameter sind den in diesem WP enthaltenen Datensätzen enthalten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data/input_data">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>input_data</key>
+		<path>H2020_adapted/content-classification/data-existing_data/input_data</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input/yesno"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en">Does work in this WP depend on input data from other WP's?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Werden zur Arbeit in diesem WP Datensätze anderer WP's benötigt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data/creator_name">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>creator_name</key>
+		<path>H2020_adapted/content-classification/data-existing_data/creator_name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input/source"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en">If yes, data from which WP and what kind of data is needed?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">WP and dataset</verbose_name>
+		<verbose_name_plural lang="en">WPs and datasets</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wenn ja, von welchem WP und welche Art von Daten werden benötigt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data/time">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>time</key>
+		<path>H2020_adapted/content-classification/data-existing_data/time</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input/time"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>7</order>
+		<help lang="en">Include one date for every dataset mentioned above</help>
+		<text lang="en">When is the data from other WP's required (in project months)?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">WP and time</verbose_name>
+		<verbose_name_plural lang="en">WPs and time</verbose_name_plural>
+		<help lang="de">Geben sie einen Zeitpunkt pro Datensatz und WP an.</help>
+		<text lang="de">Wann werden die Daten benötigt (in Projektmonaten)?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">WP und Zeitpunkt</verbose_name>
+		<verbose_name_plural lang="de">WPs und Zeitpunkte</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data/input_data_external">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>input_data_external</key>
+		<path>H2020_adapted/content-classification/data-existing_data/input_data_external</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input/yesno_external"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>8</order>
+		<help lang="en"/>
+		<text lang="en">Does work in this WP depend on data from project-external sources?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Werden für die Arbeit in diesem WP Daten aus PalMod-externen Quellen benötigt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data/external_data">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>external_data</key>
+		<path>H2020_adapted/content-classification/data-existing_data/external_data</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input/source_external"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/content-classification/data-existing_data"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>9</order>
+		<help lang="en">Please add multiple datasets and sources if necessary.</help>
+		<text lang="en">If yes, which external datasets are needed?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">external dataset</verbose_name>
+		<verbose_name_plural lang="en">external datasets</verbose_name_plural>
+		<help lang="de">Fügen Sie ggf. mehrere Datensätze hinzu.</help>
+		<text lang="de">Falls ja, welche externe Datensätze werden benötigt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">externer Datensatz</verbose_name>
+		<verbose_name_plural lang="de">externe Datensätze</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>technical-classification</key>
+		<path>H2020_adapted/technical-classification</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted"/>
+		<order>2</order>
+		<title lang="en">Technical classification</title>
+		<title lang="de">Technische Einordnung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification/data-volume">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data-volume</key>
+		<path>H2020_adapted/technical-classification/data-volume</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>1</order>
+		<title lang="en">Data size</title>
+		<help lang="en"/>
+		<verbose_name lang="en">work package</verbose_name>
+		<verbose_name_plural lang="en">work packages</verbose_name_plural>
+		<title lang="de">Datengröße</title>
+		<help lang="de"/>
+		<verbose_name lang="de">work package</verbose_name>
+		<verbose_name_plural lang="de">work packages</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification/data-volume/volume">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>volume</key>
+		<path>H2020_adapted/technical-classification/data-volume/volume</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size/volume"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification/data-volume"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">What is the actual or expected size of the data produced/collected in this WP?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Was ist die tatsächliche oder erwartete Größe der in diesem WP produzierten/gesammelten Daten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.dkrz.de/terms/options/data_size_options_DKRZ"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification/data-volume/storage_load">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>storage_load</key>
+		<path>H2020_adapted/technical-classification/data-volume/storage_load</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/domain/project/dataset/storage/storage_load"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification/data-volume"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en">Check any that apply.</help>
+		<text lang="en">Which measures will be taken to reduce storage load on shared disk resources during the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Mehrfachauswahl möglich</help>
+		<text lang="de">Welche Maßnahmen werden unternommen, um die Speicherauslastung auf Festplatten während der Projektlaufzeit zu reduzieren?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification/data-storage-and-security-data_security">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data-storage-and-security-data_security</key>
+		<path>H2020_adapted/technical-classification/data-storage-and-security-data_security</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>12</order>
+		<title lang="en">Data storage and security</title>
+		<help lang="en">This question refers to backups while the data is being worked with. Questions of long-term preservation will be adressed in the respective section.</help>
+		<verbose_name lang="en">work package</verbose_name>
+		<verbose_name_plural lang="en">work packages</verbose_name_plural>
+		<title lang="de">Datenspeicherung und -sicherheit</title>
+		<help lang="de">Die Frage bezieht sich auf Backups während der Zeit, in denen mit den Daten gearbeitet wird. Fragen der Langzeitarchivierung werden gesondert im entsprechenden Abschnitt behandelt.</help>
+		<verbose_name lang="de">work package</verbose_name>
+		<verbose_name_plural lang="de">work packages</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification/data-storage-and-security-data_security/yesno">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>H2020_adapted/technical-classification/data-storage-and-security-data_security/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/data_security/backups/yesno"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification/data-storage-and-security-data_security"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Will regular backups of the data produced in this WP be performed?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Werden regelmäßige Backups der in diesem WP produzierten Daten erstellt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.dkrz.de/terms/options/backup_yes_no_depends_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification/data-storage-and-security-data_security/no_backup_reason">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>no_backup_reason</key>
+		<path>H2020_adapted/technical-classification/data-storage-and-security-data_security/no_backup_reason</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/data_security/backups/no_reason"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification/data-storage-and-security-data_security"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">If no, please explain why</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Falls nicht, warum nicht?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification/data-storage-and-security-data_security/name">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>name</key>
+		<path>H2020_adapted/technical-classification/data-storage-and-security-data_security/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/backup_responsible/name"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/technical-classification/data-storage-and-security-data_security"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en">If yes, who is responsible for the backups?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Falls ja, wer ist verantwortlich für die Erstellung der Backups?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data-usage</key>
+		<path>H2020_adapted/data-usage</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted"/>
+		<order>3</order>
+		<title lang="en">Data usage</title>
+		<title lang="de">Datennutzung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/scenarios-usage">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>scenarios-usage</key>
+		<path>H2020_adapted/data-usage/scenarios-usage</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>3</order>
+		<title lang="en">Project internal data use</title>
+		<help lang="en">The following questions will help to estimate, which ressources are necessary to enable the envisioned data usage scenarios during the project. These can be technical / IT resources as well as expertise brought in by e.g. data
+                                managment or IT experts.</help>
+		<verbose_name lang="en">work package</verbose_name>
+		<verbose_name_plural lang="en">work packages</verbose_name_plural>
+		<title lang="de">Projektinterne Datennutzung</title>
+		<help lang="de">Die folgenden Fragen dienen dazu einzuschätzen, welche Ressourcen für die geplante Nutzung der Daten während der Projektlaufzeit nötig sind. Dabei kann es sich um technische bzw. IT-Ressourcen handeln, aber auch um Expertise, die z.B.
+                                durch Datenmanagement- oder IT-ExpertInnen eingebracht wird.</help>
+		<verbose_name lang="de">work package</verbose_name>
+		<verbose_name_plural lang="de">work packages</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/scenarios-usage/description">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>description</key>
+		<path>H2020_adapted/data-usage/scenarios-usage/description</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_description"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/scenarios-usage"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">How / for what purpose will data from this WP be used during the project? Which WP's depend on data produced in this WP?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Purpose, dataset and WP</verbose_name>
+		<verbose_name_plural lang="en">Purpose, datasets and WPs</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wozu / wie werden die in diesem WP produzierten Daten während des Projektes genutzt? Welche WP's benötigen Daten aus diesem WP?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/scenarios-usage/organisation">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>organisation</key>
+		<path>H2020_adapted/data-usage/scenarios-usage/organisation</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/collaboration_organisation"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/scenarios-usage"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>8</order>
+		<help lang="en">Include information on i) Where is data stored for analysis during the project? ii) How is collaborative access for project partners managed, if needed?</help>
+		<text lang="en">How is internal collaboration based on the data produced in this WP organised?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wie ist die PalMod-interne Zusammenarbeit mit Hilfe der in diesem WP produzierten Daten organisiert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/data-sharing-and-re-use-publication">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data-sharing-and-re-use-publication</key>
+		<path>H2020_adapted/data-usage/data-sharing-and-re-use-publication</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>52</order>
+		<title lang="en">Data sharing and re-use</title>
+		<help lang="en"/>
+		<verbose_name lang="en">work package</verbose_name>
+		<verbose_name_plural lang="en">work packages</verbose_name_plural>
+		<title lang="de">Weitergabe und Veröffentlichung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">work package</verbose_name>
+		<verbose_name_plural lang="de">work packages</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/data-sharing-and-re-use-publication/yesno">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>H2020_adapted/data-usage/data-sharing-and-re-use-publication/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/yesno"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/data-sharing-and-re-use-publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Will the data produced in this WP be published or shared?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Soll dieser Datensatz veröffentlicht oder geteilt werden?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/data-sharing-and-re-use-publication/explanation">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>explanation</key>
+		<path>H2020_adapted/data-usage/data-sharing-and-re-use-publication/explanation</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/explanation"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/data-sharing-and-re-use-publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">If no, please explain why not. Please differentiate between legal and contractual reasons and voluntary restrictions.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wenn nicht, begründen Sie dies bitte und unterscheiden Sie dabei zwischen rechtlichen und/oder vertraglichen Gründen und freiwilligen Einschränkungen.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/data-sharing-and-re-use-publication/publication_infrastructure">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>publication_infrastructure</key>
+		<path>H2020_adapted/data-usage/data-sharing-and-re-use-publication/publication_infrastructure</path>
+		<dc:comment/>
+		<attribute dc:uri="http://rdmo.dkrz.de/terms/domain/project/dataset/sharing/publication_infrastructure"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/data-sharing-and-re-use-publication"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en">The method of publication refers to the infrastructure which will be used to share data with parties ranging from external partners to the global scientific community. Examples could be &quot;ESGF&quot;, &quot;WDCC&quot;, &quot;PANGAEA&quot;, &quot;some specific cloud service&quot;, &quot;FTP server at institution XY (including access protocol)&quot;.
+Add multiple methods if applicable to the data produced in this WP.</help>
+		<text lang="en">If yes, how will the data produced in this WP be published?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">publication infrastructure</verbose_name>
+		<verbose_name_plural lang="en">publication infrastructures</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wenn ja, wie werden die in diesem WP produzierten Daten veröffentlicht?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/data-sharing-and-re-use-publication/data_publication_date">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data_publication_date</key>
+		<path>H2020_adapted/data-usage/data-sharing-and-re-use-publication/data_publication_date</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_publication_date"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/data-usage/data-sharing-and-re-use-publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en">Include specific information w.r.t. relative time lines, e.g. &quot;after publication of paper&quot;</help>
+		<text lang="en">When will the data be published (if they are)?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wann werden die Daten veröffentlicht?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/data_sharing"/>
+		</conditions>
+	</question>
+	<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/metadata-and-referencing">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>metadata-and-referencing</key>
+		<path>H2020_adapted/metadata-and-referencing</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted"/>
+		<order>4</order>
+		<title lang="en">Metadata and referencing</title>
+		<title lang="de">Metadaten und Referenzierung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/metadata-and-referencing/metadata-dataset">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>metadata-dataset</key>
+		<path>H2020_adapted/metadata-and-referencing/metadata-dataset</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/metadata-and-referencing"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>10</order>
+		<title lang="en">Metadata</title>
+		<help lang="en"/>
+		<verbose_name lang="en">work package</verbose_name>
+		<verbose_name_plural lang="en">work packages</verbose_name_plural>
+		<title lang="de">Metadaten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">work package</verbose_name>
+		<verbose_name_plural lang="de">work packages</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/metadata-and-referencing/metadata-dataset/standards">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>standards</key>
+		<path>H2020_adapted/metadata-and-referencing/metadata-dataset/standards</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata/standards"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/metadata-and-referencing/metadata-dataset"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Which standards are applied to ensure reusability of the data?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Welche Standards werden angewandt um die Nachnutzbarkeit der Daten zu gewährleisten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.dkrz.de/terms/options/data_standard_options_DKRZ"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/metadata-and-referencing/metadata-dataset/responsible_person">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>responsible_person</key>
+		<path>H2020_adapted/metadata-and-referencing/metadata-dataset/responsible_person</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata/responsible_person/name"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/metadata-and-referencing/metadata-dataset"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>7</order>
+		<help lang="en"/>
+		<text lang="en">Who is responsible for documenting the metadata and context information and for checking if they are correct and complete?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">person</verbose_name>
+		<verbose_name_plural lang="en">persons</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wer ist verantwortlich für die Dokumentation und Prüfung der Metadaten und Kontextinformationen auf Richtigkeit und Vollständigkeit?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Person</verbose_name>
+		<verbose_name_plural lang="de">Personen</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/storage-and-long-term-preservation">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>storage-and-long-term-preservation</key>
+		<path>H2020_adapted/storage-and-long-term-preservation</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted"/>
+		<order>10</order>
+		<title lang="en">Storage and long-term preservation</title>
+		<title lang="de">Speicherung und Langzeitarchivierung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/storage-and-long-term-preservation/selection-criteria">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>selection-criteria</key>
+		<path>H2020_adapted/storage-and-long-term-preservation/selection-criteria</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/storage-and-long-term-preservation"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<title lang="en">Selection</title>
+		<help lang="en"/>
+		<verbose_name lang="en">work package</verbose_name>
+		<verbose_name_plural lang="en">work packages</verbose_name_plural>
+		<title lang="de">Auswahl</title>
+		<help lang="de"/>
+		<verbose_name lang="de">work package</verbose_name>
+		<verbose_name_plural lang="de">work packages</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/storage-and-long-term-preservation/selection-criteria/selection_criteria">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>selection_criteria</key>
+		<path>H2020_adapted/storage-and-long-term-preservation/selection-criteria/selection_criteria</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/purpose"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/storage-and-long-term-preservation/selection-criteria"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Which part/subset of the data produced in this WP will be archived (after the end of the project)?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">data part</verbose_name>
+		<verbose_name_plural lang="en">data parts</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Auf Basis welcher Kriterien / Regeln werden die Daten zur Archivierung (nach Projektende) ausgesucht?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.dkrz.de/terms/options/archival_selection_criteria"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/storage-and-long-term-preservation/selection-criteria/responsible_person">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>responsible_person</key>
+		<path>H2020_adapted/storage-and-long-term-preservation/selection-criteria/responsible_person</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/preservation/purpose_responsible_name"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/storage-and-long-term-preservation/selection-criteria"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Who is scientifically responsible for selecting the data to be archived?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">person</verbose_name>
+		<verbose_name_plural lang="en">persons</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Durch wen erfolgt die Auswahl?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/storage-and-long-term-preservation/long-term-preservation-datasets">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>long-term-preservation-datasets</key>
+		<path>H2020_adapted/storage-and-long-term-preservation/long-term-preservation-datasets</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/storage-and-long-term-preservation"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>11</order>
+		<title lang="en">Long-term preservation</title>
+		<help lang="en"/>
+		<verbose_name lang="en">work package</verbose_name>
+		<verbose_name_plural lang="en">work packages</verbose_name_plural>
+		<title lang="de">Langzeitarchivierung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">work package</verbose_name>
+		<verbose_name_plural lang="de">work packages</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/storage-and-long-term-preservation/long-term-preservation-datasets/repository">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>repository</key>
+		<path>H2020_adapted/storage-and-long-term-preservation/long-term-preservation-datasets/repository</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/storage-and-long-term-preservation/long-term-preservation-datasets"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Where will the data (including metadata, documentation and, if applicable, relevant code) be stored or archived after the end of the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wo werden die Daten (einschließlich Metadaten, Dokumentation und ggf. relevantem Code bzw. relevanter Software) nach Projektende gespeichert bzw. archiviert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/preservation_repository_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/storage-and-long-term-preservation/long-term-preservation-datasets/responsible_name">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>responsible_name</key>
+		<path>H2020_adapted/storage-and-long-term-preservation/long-term-preservation-datasets/responsible_name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/preservation/responsible_name"/>
+		<questionset dc:uri="https://rdmo.dkrz.de/terms/questions/H2020_adapted/storage-and-long-term-preservation/long-term-preservation-datasets"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en">Who is responsible for archiving the data produced in this WP?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">person</verbose_name>
+		<verbose_name_plural lang="en">persons</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wer ist verantwortlich für die in diesem WP produzierten Daten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Person</verbose_name>
+		<verbose_name_plural lang="de">Personen</verbose_name_plural>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+</rdmo>

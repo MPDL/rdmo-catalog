@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo created="2022-08-02T09:59:00.452169+02:00" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<view dc:uri="https://rdmo.dkrz.de/terms/views/consortial_project_FAIR_DKRZ">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>consortial_project_FAIR_DKRZ</key>
+		<dc:comment>DMP template for large consortial projects with multiple work packages, including aspects of FAIR</dc:comment>
+		<title lang="en">DMP View for Consortium Projects in Climate Modelling</title>
+		<help lang="en">DMP template for large consortial projects with multiple work packages. Considers some FAIR-related questions.</help>
+		<title lang="de">DMP-Ansicht für Konsortialprojekte in der Klimamodellierung</title>
+		<help lang="de">DMP template for large consortial projects with multiple work packages.</help>
+		<catalogs/>
+		<template>{% load view_tags %}
+
+{% get_set 'project/partner' as partners %}
+{% get_set 'project/dataset' as datasets %}
+
+&lt;h1&gt;Data Management Plan (DMP) for {% render_value 'project/title/acronym' %}&lt;/h1&gt;
+
+Version: {% now &quot;SHORT_DATE_FORMAT&quot; %}
+
+&lt;p&gt;
+Authors: {% render_value 'project/dmp/name' %}
+&lt;/p&gt;
+
+&lt;h1&gt;1. General project information&lt;/h1&gt;
+
+&lt;p&gt;
+    &lt;h2&gt;1.1 Research question of the project&lt;/h2&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    {% render_value 'project/research_question/title' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;h2&gt;1.2 Research fields&lt;/h2&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    {% render_value 'project/research_field/title' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;h2&gt;1.3 Keywords&lt;/h2&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    {% render_value_list 'project/research_question/keywords' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;h2&gt;1.4 {% render_value 'project/title/acronym' %} coordination&lt;/h2&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    {% render_value_list 'project/coordination/name' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;h2&gt;1.5 {% render_value 'project/title/acronym' %} duration&lt;/h2&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    {% render_value 'project/schedule/project_start' %} to {% render_value 'project/schedule/project_end' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;h2&gt;1.6 Funder&lt;/h2&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Project funder: {% render_value 'project/funder/name' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+	&lt;h2&gt;1.7 {% render_value 'project/title/acronym' %} partners&lt;/h2&gt;
+&lt;/p&gt;
+	
+	Please see the Appendix for a complete list of {% render_value 'project/title/acronym' %} partners.
+
+&lt;p&gt;
+	&lt;h1&gt;2. Data Summary&lt;/h1&gt;	
+&lt;/p&gt;
+
+	
+		&lt;h2&gt;2.1 What is the purpose of the data collection/generation and its relation to the objectives of {% render_value 'project/title/acronym' %}?&lt;/h2&gt;
+
+    	{% render_value 'project/research_question/data_purpose' %}
+ 		
+        &lt;h2&gt;2.2 What types and formats of data will be generated/collected in {% render_value 'project/title/acronym' %}?&lt;/h2&gt;
+    
+    	{% render_value_list 'project/research_question/data_type' %}
+
+		&lt;h2&gt;2.3 Do guidelines/manuals exists for a consistent organisation/handling of the data&lt;/h2&gt;
+	
+    	{% render_value 'project/data_management/policy' %}
+	
+        &lt;h2&gt;2.4 Is any existing data reused in {% render_value 'project/title/acronym' %}?
+    	{% render_value_list 'project/research_question/data_reuse' %}
+    
+    	&lt;h2&gt;2.5 What is the expected size of the generated data?&lt;/h2&gt;
+    
+    	{% render_value_list 'project/research_question/data_volume' %}
+        
+    	&lt;h2&gt;2.6 To whom might the generated data be useful ('data utility')?&lt;/h2&gt;
+    
+    	{% render_value 'project/data_management/community_reuse' %}
+	
+	&lt;h1&gt;3. Compliance with the FAIR data guiding principles&lt;/h1&gt;	
+
+
+	&lt;h4&gt;Which {% render_value 'project/title/acronym' %} data will be made available in-line with the FAIR data principles?&lt;/h4&gt;
+
+	{% render_value 'project/data_management/FAIR/data_selection' %}
+    
+
+	&lt;h4&gt;Findability&lt;/h4&gt;
+
+
+    {% render_value 'project/data_management/FAIR/findability' %}
+
+	&lt;h4&gt;Accessibility&lt;/h4&gt;
+
+    {% render_value 'project/data_management/FAIR/accessibility' %}
+
+	&lt;h4&gt;Interoperability&lt;/h4&gt;
+
+    {% render_value 'project/data_management/FAIR/interoperability' %}
+
+	&lt;h4&gt;Reusability&lt;/h4&gt;
+
+    {% render_value 'project/data_management/FAIR/reusability' %}
+    
+	&lt;h1&gt;4. Resources&lt;/h1&gt;
+   	
+    &lt;h2&gt;4.1 Required IT resources&lt;/h2&gt;	
+    
+	The following IT-resources needed for the successful conductance of {% render_value 'project/title/acronym' %} are as follows:
+	&lt;br&gt;
+  	  {% render_value_list 'project/data_management/IT_infrastructure' %}
+	&lt;br&gt;
+		Status of the application for IT-resources:
+	&lt;br&gt;
+	    {% render_value 'project/data_management/IT_infrastructure/IT_details' %}
+	
+    	&lt;h2&gt;4.2 Required resources for making data FAIR&lt;/h2&gt;
+    
+        	{% render_value 'project/data_management/FAIR/resources' %}
+        
+    	&lt;h2&gt;4.3 Who will be responsible for RDM aspects in {% render_value 'project/title/acronym' %}?&lt;/h2&gt;
+    
+    	The responsibility of generating the {% render_value 'project/title/acronym' %} data management plan is with {% render_value 'project/dmp/name' %}. 
+    	This DMP lists data responsible persons per work package in the respective sections in the Appendix.
+        
+	&lt;h1&gt;5. Data security&lt;/h1&gt;
+
+    	&lt;h2&gt;5.1 What provisions are in place for data security?&lt;/h2&gt;
+    
+        {% render_value 'project/data_management/security' %}
+        
+		&lt;h2&gt;5.2 Reproducibility of the data produced in {% render_value 'project/title/acronym' %}&lt;/h2&gt;
+	
+   	 	{% render_value_list 'project/data_management/reproducibility' %}
+	
+    	&lt;h2&gt;5.3 Is the data safely stored in certified repositories for long term preservation and curation?&lt;/h2&gt;
+    
+        {% render_value 'project/data_management/certified_repository' %}
+        
+	
+
+&lt;h1&gt;Appendix&lt;/h1&gt;
+
+&lt;h1&gt;7. Partner institutions&lt;/h1&gt;
+
+{% for partner in partners %}
+&lt;p&gt;
+    
+    &lt;h3&gt;{% render_set_value partner 'project/partner/id' %}&lt;/h3&gt;
+    
+    &lt;em&gt;Full name and contact details:&lt;/em&gt; {% render_set_value partner 'project/partner/name' %}
+    &lt;br&gt;
+    &lt;em&gt;Institutional scientific contact:&lt;/em&gt; {% render_set_value partner 'project/partner/contact_person/name' %}
+&lt;/p&gt;
+{% endfor %}
+
+&lt;h1&gt;8. Work package specific data management&lt;/h1&gt;
+
+{% for dataset in datasets %}
+	&lt;p&gt;
+	&lt;h2&gt;8.{{forloop.counter}} Work package {% render_set_value dataset 'project/dataset/id' %}&lt;/h2&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+    &lt;h3&gt;8.{{forloop.counter}}.1 Overarching goals of {% render_set_value dataset 'project/dataset/id' %}&lt;/h3&gt;
+	&lt;/p&gt;
+    &lt;p&gt;
+	{% render_set_value dataset 'project/dataset/description' %}
+	&lt;/p&gt;
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.2 Scientists responsible for the data during {% render_value 'project/title/acronym' %}&lt;/h3&gt;
+	&lt;/p&gt;
+    &lt;p&gt;
+	{% render_set_value_list dataset 'project/dataset/responsible_person/during' %}
+	&lt;/p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.3 Scientists responsible for the data after the end of {% render_value 'project/title/acronym' %}&lt;/h3&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/responsible_person/after' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.4 Data categories produced in {% render_set_value dataset 'project/dataset/id' %}&lt;/h3&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/origin' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.5 Specific datasets produced in {% render_set_value dataset 'project/dataset/id' %}&lt;/h3&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/content' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.6 Parameters/variables which the datasets produced in {% render_set_value dataset 'project/dataset/id' %} focus on&lt;/h3&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/content/variables' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.7 Is input from other {% render_value 'project/title/acronym' %} work packages relevant for work in {% render_set_value dataset 'project/dataset/id' %}?&lt;/h3&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+    {% render_set_value dataset 'project/dataset/input/yesno' %}
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/input/source' %}
+    &lt;br&gt;
+    {% render_set_value_list dataset 'project/dataset/input/time' %}
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.8 Does work in {% render_set_value dataset 'project/dataset/id' %} depend on external data sources?&lt;/h3&gt;
+	&lt;p&gt;
+    {% render_set_value dataset 'project/dataset/input/yesno_external' %}
+	&lt;p&gt; 
+    {% render_set_value_list dataset 'project/dataset/input/source_external' %}
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.9 Actual or expected size of the data produced in {% render_set_value dataset 'project/dataset/id' %}?&lt;/h3&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/size/volume' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.10 Measures taken in {% render_set_value dataset 'project/dataset/id' %} to reduce storage load on shared disk space during the runtime of {% render_value 'project/title/acronym' %}:&lt;/h3&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/storage/storage_load' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.11 Will regular backups of data produced in {% render_set_value dataset 'project/dataset/id' %} be performed?&lt;/h3&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/data_security/backups/yesno' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.12 If yes, who is responsible for performing the backups in {% render_set_value dataset 'project/dataset/id' %}?&lt;/h3&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/data_security/backup_responsible/name' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.13 {% render_value 'project/title/acronym'%}-internal use of data produced in {% render_set_value dataset 'project/dataset/id' %}:&lt;/h3&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/usage_description' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.14 Organization of {% render_value 'project/title/acronym'%}-internal collaboration based on data produced in {% render_set_value dataset 'project/dataset/id' %}:&lt;/h3&gt;
+	&lt;p&gt;
+    {% render_set_value dataset 'project/dataset/collaboration_organisation' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.15 Will data produced in {% render_set_value dataset 'project/dataset/id' %} be published or shared?&lt;/h3&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/sharing/yesno' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.16 If yes, by which means will data produced in {% render_set_value dataset 'project/dataset/id' %} be published or shared?&lt;/h3&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/sharing/publication_infrastructure' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.17 When will the data produced in {% render_set_value dataset 'project/dataset/id' %} be published or shared?&lt;/h3&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/data_publication_date' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.18 Who is responsible for documenting the metadata and context information of the data produced in {% render_set_value dataset 'project/dataset/id' %}?&lt;/h3&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/metadata/responsible_person/name' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.19 Where will the data (including metadata, documentation and, if applicable, relevant code) produced in {% render_set_value dataset 'project/dataset/id' %}be stored or archived after the end of the project?&lt;/h3&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/preservation/repository' %}
+	&lt;p&gt;
+    
+    &lt;p&gt;
+	&lt;h3&gt;8.{{forloop.counter}}.20 Who is responsible for the archival of data produced in {% render_set_value dataset 'project/dataset/id' %}?&lt;/h3&gt;
+	&lt;p&gt;
+    {% render_set_value_list dataset 'project/dataset/preservation/responsible_name' %}
+	&lt;p&gt;
+    
+{% endfor %}</template>
+	</view>
+</rdmo>
