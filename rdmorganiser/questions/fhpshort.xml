@@ -1068,6 +1068,44 @@ Ebenso wie bei den Formaten gilt hier: je standardisierter, offener und etablier
 				</optionsets>
 				<conditions/>
 		</question>
+		<question dc:uri="https://rdmo.fh-potsdam.de/terms/questions/fhpshort/data-usage/data-sharing-and-re-use-publication/repository-description">
+			<uri_prefix>https://rdmo.fh-potsdam.de/terms</uri_prefix>
+			<key>repository-description</key>
+			<path>
+			fhpshort/data-usage/data-sharing-and-re-use-publication/repository-description
+			</path>
+			<dc:comment/>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository/repository-description"/>
+			<questionset dc:uri="https://rdmo.fh-potsdam.de/terms/questions/fhpshort/data-usage/data-sharing-and-re-use-publication"/>
+			<is_collection>False</is_collection>
+			<is_optional>False</is_optional>
+			<order>4</order>
+			<help lang="en"/>
+			<text lang="en">
+			Otherwise, how is your repository accessible to third parties?
+			</text>
+			<default_text lang="en"/>
+			<verbose_name lang="en"/>
+			<verbose_name_plural lang="en"/>
+			<help lang="de"/>
+			<text lang="de">
+			Andernfalls, wie ist Ihr Repositorium für Dritte erreichbar?
+			</text>
+			<default_text lang="de"/>
+			<verbose_name lang="de"/>
+			<verbose_name_plural lang="de"/>
+			<default_option/>
+			<default_external_id/>
+			<widget_type>textarea</widget_type>
+			<value_type>text</value_type>
+			<maximum/>
+			<minimum/>
+			<step/>
+			<unit/>
+			<width/>
+			<optionsets/>
+			<conditions/>
+		</question>
 	<section dc:uri="https://rdmo.fh-potsdam.de/terms/questions/fhpshort/metadata-and-referencing">
 		<uri_prefix>https://rdmo.fh-potsdam.de/terms</uri_prefix>
 		<key>metadata-and-referencing</key>
