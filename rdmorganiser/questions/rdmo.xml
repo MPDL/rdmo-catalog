@@ -7,8 +7,14 @@
 		<order>2</order>
 		<title lang="en">RDMO</title>
 		<help lang="en">This catalogue is a broad, generic collection of questions for data management.</help>
+		<help lang="en">
+		This catalogue is a generic, comprehensive list of questions.
+		</help>
 		<title lang="de">RDMO</title>
 		<help lang="de">Dieser Katalog ist eine umfangreiche, generische Fragesammlung für das Datenmanagement.</help>
+		<help lang="de">
+		Dieser Katalog ist ein generischer, umfangreicher Fragenkatalog.
+		</help>
 		<title lang="fr">RDMO</title>
 		<title lang="it">RDMO</title>
 		<title lang="es">RDMO</title>
