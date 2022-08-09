@@ -614,7 +614,7 @@ Parallel dazu ist es empfehlenswert, sich mit den FAIR Principles for Research S
 		<help lang="en">The software languages go hand in hand with different methods, focuses and required skill levels. Here you can document which language(s) you choose and why. Examples of software languages during Java, Python, R, etc.
 
 At this point it is also useful to document whether technical standards are relevant for the use of software. Examples include &lt;a href=&quot;https://www.iso.org/standard/38421.html&quot; target=&quot;_blank&quot;&gt;IEC Standard 62304&lt;/a&gt; for software in medical applications, or &lt;a href=&quot;https://ecss.nl/standard/ecss-e-st-40c-software-general-requirements/&quot; target=&quot;_blank&quot;&gt;ECSS-E-ST-40C&lt;/a&gt; for software in space applications, or &lt;a href=&quot;https://www.dicomstandard.org&quot; target=&quot;_blank&quot;&gt;DICOM&lt;/a&gt; for the exchange of medical image data.</help>
-		<text lang="en">Which programming langague(s) do you plan to use?</text>
+		<text lang="en">Which programming language(s) do you plan to use?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -719,7 +719,7 @@ The following literature might also be of interest:
 
 * Carver et al. (2022): A survey of the state of the practice for research software in the United States, In: PeerJ Computer Science, 8:e963, &lt;a href=&quot;https://doi.org/10.7717/peerj-cs.963&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.7717/peerj-cs.963&lt;/a&gt;.
 * Nowogrodzki (2019): How to support open-source software and stay sane – Releasing lab-built open-source software often involves a mountain of unforeseen work for the developers, In: Nature 571, 133-134 (2019), &lt;a href=&quot;https://doi.org/10.1038/d41586-019-02046-0&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1038/d41586-019-02046-0&lt;/a&gt;.</help>
-		<text lang="en">Which external software components will be used? What dependencies on software libaries do exist? How do you document this?</text>
+		<text lang="en">Which external software components will be used? What dependencies on software libraries do exist? How do you document this?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -1228,7 +1228,7 @@ Eine weitreichende Möglichkeit für den langfristigen Erhalt von Software ist b
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Die Entwicklung von Software kann ein Projekt mit komplexen Anforderungen und Strukturen sein. Um dem zu begegnen ist es empfehlenswert, wie es &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.1 tut, die projektbezogenen Prozess durch eine Dokumentation explizit zu kommunizieren. Besonders in größeren Verbundprojekten kann dies für die Zusammenarbeit mit mehreren Partnern besonders empfehlenswert sein. Beispiel hierfür sind etwa ein gemeinsames Memorandium of Understandig (MoU) oder etwas die Beschreibung der Prozess bei Aufnahme oder Verlassen einer Person in das Arbeitsteam. Bitte beachten Sie hierbei nicht nur die reine Prozessebene, sondern auch darüber hinaus. Als Anregung dazu bietet sich die Publikation &lt;a href=&quot;https://www.software.ac.uk/blog/2022-07-07-ethical-considerations-your-open-source-governance&quot; target=&quot;_blank&quot;&gt;Yehudi et al., Ethical considerations for your open source governance, 2022, Software Sustainability Institute Blog&lt;/a&gt; an.</help>
+		<help lang="de">Die Entwicklung von Software kann ein Projekt mit komplexen Anforderungen und Strukturen sein. Um dem zu begegnen ist es empfehlenswert, wie es &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.1 tut, die projektbezogenen Prozesse durch eine Dokumentation explizit zu kommunizieren. Besonders in größeren Verbundprojekten kann dies für die Zusammenarbeit mit mehreren Partnern besonders empfehlenswert sein. Beispiel hierfür sind etwa ein gemeinsames Memorandium of Understandig (MoU) oder etwa die Beschreibung der Prozess bei Aufnahme oder Verlassen einer Person in das Arbeitsteam. Bitte beachten Sie hierbei nicht nur die reine Prozessebene, sondern auch darüber hinaus. Als Anregung dazu bietet sich die Publikation &lt;a href=&quot;https://www.software.ac.uk/blog/2022-07-07-ethical-considerations-your-open-source-governance&quot; target=&quot;_blank&quot;&gt;Yehudi et al., Ethical considerations for your open source governance, 2022, Software Sustainability Institute Blog&lt;/a&gt; an.</help>
 		<text lang="de">Verfügen Sie über ein Steuerungsmodell für die Softwareentwicklung?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1554,7 +1554,7 @@ Eine weitreichende Möglichkeit für den langfristigen Erhalt von Software ist b
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Es ist empfehlenswert, sich im Vorfeld bereits über den Entscheidungsprozess zur Software-Freigabe (&quot;Release&quot;) bewusst zu werden. Besonders sollte hierbei klar werden, welche Prozesse dem vorausgehen und welche Qualitätskriterien hierfür jeweils erfüllt sein müssen. Darüber hinaus kann es hilfreich für die Projektplanung sein zu klären, in welche Interfallen größere oder kleine Software-Freigaben geplant werden. Bei der Einordnung von Versionsnummer gibt &lt;a href=&quot;https://semver.org&quot; target=&quot;_blank&quot;&gt;Semantic Versioning&lt;/a&gt; eine gute Orientierung.</help>
+		<help lang="de">Es ist empfehlenswert, sich im Vorfeld bereits über den Entscheidungsprozess zur Software-Freigabe (&quot;Release&quot;) bewusst zu werden. Besonders sollte hierbei klar werden, welche Prozesse dem vorausgehen und welche Qualitätskriterien hierfür jeweils erfüllt sein müssen. Darüber hinaus kann es hilfreich für die Projektplanung sein zu klären, in welche Intervallen größere oder kleine Software-Freigaben geplant werden. Bei der Einordnung von Versionsnummern gibt &lt;a href=&quot;https://semver.org&quot; target=&quot;_blank&quot;&gt;Semantic Versioning&lt;/a&gt; eine gute Orientierung.</help>
 		<text lang="de">Wie sieht der Entscheidungsprozess für die Freigabe aus? Wie oft wird eine Softwareversion veröffentlicht?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1643,7 +1643,7 @@ Die &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/herstellung-
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Wenn Software öffentlich zugänglich gemacht werden soll, dann ist es sinnvoll hierfür einen geeigneten Ort zu suchen. So empfiehlt etwa die &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/dokumentation/&quot; target=&quot;_blank&quot;&gt;Leitlinie 12 im DFG-Kodex &quot;Leitlinien zur Sicherung guter wissenschaftlicher Praxis&quot;&lt;/a&gt; das &quot;[b]ei der Entwicklung von Forschungssoftware [..] der Quellcode dokumentiert&quot; wird. 
+		<help lang="de">Wenn Software öffentlich zugänglich gemacht werden soll, dann ist es sinnvoll hierfür einen geeigneten Ort zu suchen. So empfiehlt etwa die &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/dokumentation/&quot; target=&quot;_blank&quot;&gt;Leitlinie 12 im DFG-Kodex &quot;Leitlinien zur Sicherung guter wissenschaftlicher Praxis&quot;&lt;/a&gt;, dass &quot;[b]ei der Entwicklung von Forschungssoftware [..] der Quellcode dokumentiert&quot; wird. 
 In &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F4 und A1 wird auch explizit danach gefragt, wie leicht Software gefunden werden kann und inwiefern das wissenschaftliche Zitieren unterstützt wird.</help>
 		<text lang="de">In welchem Repository oder Archiv wird die Software aufbewahrt? Wie leicht kann es gefunden werden?</text>
 		<default_text lang="de"/>
@@ -1676,7 +1676,7 @@ In &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Es kann sinnvoll sein, dass Software ab einem gewissen Reifegrad an eine wissenschaftliche Gemeinschaft zur kollektiven Bearbeitung übergeben wird. Solche Entscheidungen sollten gut im Voraus geplant werden. Hierfür könnten beispielsweise das entsprechende Git-System für das Software-Projekt geöffnet werden, damit auch Externe zum Code beitragen können.</help>
+		<help lang="de">Es kann sinnvoll sein, dass Software ab einem gewissen Reifegrad an eine wissenschaftliche Gemeinschaft zur kollektiven Bearbeitung übergeben wird. Solche Entscheidungen sollten gut im Voraus geplant werden. Hierfür könnte beispielsweise das entsprechende Git-System für das Software-Projekt geöffnet werden, damit auch Externe zum Code beitragen können.</help>
 		<text lang="de">Werden die Nutzer die Möglichkeit haben, zu Ihrer Software beizutragen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1762,7 +1762,7 @@ With a &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&quo
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Für die Veröffentlichung von Software ist es dringend empfohlen Metadaten mitzugeben (siehe &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F1 bis F2 und A2). Die &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/phasenubergreifende-qualitatssicherung/&quot; target=&quot;_blank&quot;&gt;Leitlinie 7 im DFG-Kodex &quot;Leitlinien zur Sicherung guter wissenschaftlicher Praxis&quot;&lt;/a&gt; schreibt ebenfalls vor, dass &quot;[d]er Quellcode von öffentlich zugänglicher Software [..] persistent zitierbar und dokumentiert sei&quot; muss. Falls keine Publikation geplant ist, kann es dennoch sinnvoll sein die Software mit Metadaten anzureichern. Besonders für die langfristige Aufbewahrung am Institute kann dies hilfreich sein.
+		<help lang="de">Für die Veröffentlichung von Software ist es dringend empfohlen Metadaten mitzugeben (siehe &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F1 bis F2 und A2). Die &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/phasenubergreifende-qualitatssicherung/&quot; target=&quot;_blank&quot;&gt;Leitlinie 7 im DFG-Kodex &quot;Leitlinien zur Sicherung guter wissenschaftlicher Praxis&quot;&lt;/a&gt; schreibt ebenfalls vor, dass &quot;[d]er Quellcode von öffentlich zugänglicher Software [..] persistent zitierbar und dokumentiert sei&quot; muss. Falls keine Publikation geplant ist, kann es dennoch sinnvoll sein die Software mit Metadaten anzureichern. Besonders für die langfristige Aufbewahrung am Institut kann dies hilfreich sein.
 
 Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&quot;_blank&quot;&gt;.cff-Datei&lt;/a&gt; können Sie vergleichsweise einfach Metadaten in menschen- und maschinenlesbarer Art zu Ihrer Software zur Verfügung stellen. Mit der &lt;a href=&quot;https://w3id.org/okn/o/sd&quot; target=&quot;_blank&quot;&gt;Software Description Ontology&lt;/a&gt; können Sie auch eine Ontologie zur formalen Beschreibung der Software verwenden. Und diese Handreichung zur &lt;a href=&quot;https://doi.org/10.12688/f1000research.26932.2&quot; target=&quot;_blank&quot;&gt;Relevanz von Software-Zitationen&lt;/a&gt; sammelt nochmals die wesentlichen Punkte zu diesem Themenkomplex.</help>
 		<text lang="de">Wie vergeben Sie Metadaten für Ihre Software?</text>
@@ -1791,12 +1791,12 @@ Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">For long-term availability and clear allocation, it is recommended to publish the software with a persistent identifier. This recommendation goes hand in hand with &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F3 and &lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/cross-phase-quality-assurance/&quot; target=&quot;_blank&quot;&gt;guideline 7 in the DFG Code &quot;Guidelines for Safeguarding Good Scientific Practice&quot;&lt;/a&gt;.</help>
+		<help lang="en">For long-term availability and clear allocation, it is recommended to publish the software with a persistent identifier. This recommendation goes hand in hand with &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F3 and &lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/cross-phase-quality-assurance/&quot; target=&quot;_blank&quot;&gt;guideline 7 in the DFG Code &quot;Guidelines for Safeguarding Good Scientific Practice&quot;&lt;/a&gt;. An example of a persistent identifier is the Digital Object Identifier (DOI).</help>
 		<text lang="en">Do you give a persistent identifier for you software?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Für die langfristige Verfügbarkeit und die klare Zuordnung ist es empfehlenswert die Software mit einem persistenten Identifikator zu veröffentlichen. Diese Empfehlung geht einher mit &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F3 und der &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/phasenubergreifende-qualitatssicherung/&quot; target=&quot;_blank&quot;&gt;Leitlinie 7 im DFG-Kodex &quot;Leitlinien zur Sicherung guter wissenschaftlicher Praxis&quot;&lt;/a&gt;.</help>
+		<help lang="de">Für die langfristige Verfügbarkeit und die klare Zuordnung ist es empfehlenswert die Software mit einem persistenten Identifikator zu veröffentlichen. Diese Empfehlung geht einher mit &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F3 und der &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/phasenubergreifende-qualitatssicherung/&quot; target=&quot;_blank&quot;&gt;Leitlinie 7 im DFG-Kodex &quot;Leitlinien zur Sicherung guter wissenschaftlicher Praxis&quot;&lt;/a&gt;. Ein Beispiel für einen persistenten Identifikator ist etwa der Digital Object Identifier (DOI).</help>
 		<text lang="de">Geben Sie einen dauerhaften Identifikator für Ihre Software an?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1882,7 +1882,7 @@ Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Je nach Umfang der Kommunikation mit anderen Nutzenden kann es empfehlenswert sein sich schon im Vorfeld über die Organisation der eingehenden Anfragen bewusst zu werden. So bieten beispielsweise die Git-Systeme schon Ticket-Systeme, mit welche externen Anfragen strukturiert und transparent organisiert werden können.</help>
+		<help lang="de">Je nach Umfang der Kommunikation mit anderen Nutzenden kann es empfehlenswert sein sich schon im Vorfeld über die Organisation der eingehenden Anfragen bewusst zu werden. So bieten beispielsweise die Git-Systeme schon Ticket-Systeme, mit welchen externe Anfragen strukturiert und transparent organisiert werden können.</help>
 		<text lang="de">Wie organisieren Sie den Support- und Feedbackprozess mit anderen Nutzern?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2012,7 +2012,7 @@ Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Es ist empfehlenswert sich im Vorfeld bereits über die rechtliche Situation an der Software klar zu werden (siehe &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.2). Neben institutionellen Regelungen sind hier besonders arbeitsrechtliche Vorgaben relevant. Meist steht in den Arbeitsverträgen hierzu bereits etwas. Bitte überprüfen Sie dies. Wenn Sie sich hierbei unsicher sind, ist es ratsam sich mit den eigenen Vorgesetzt in Verbindung zu setzen. Ebenso kann ich sinnvoll, sein am eigenen Institut hierbei um Rat zu fragen; Kolleg_innen aus der IT, Scientific Computing Unit, Forschungskoordination, Rechtsabteilung etc. können Ihnen hierbei weiterhelfen. Falls dies nicht möglich sein sollte, können Sie sich alternativ auch an die IT-Rechtsberatung in der MPG-Generalverwaltung wenden (&lt;a href=&quot;mailto:it-recht@gv.mpg.de&quot; &gt;it-recht@gv.mpg.de&lt;/a&gt;).</help>
+		<help lang="de">Es ist empfehlenswert sich im Vorfeld bereits über die rechtliche Situation an der Software klar zu werden (siehe &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.2). Neben institutionellen Regelungen sind hier besonders arbeitsrechtliche Vorgaben relevant. Meist steht in den Arbeitsverträgen hierzu bereits etwas. Bitte überprüfen Sie dies. Wenn Sie sich hierbei unsicher sind, ist es ratsam sich mit den eigenen Vorgesetzten in Verbindung zu setzen. Ebenso kann es sinnvoll sein, am eigenen Institut hierbei um Rat zu fragen; Kolleg_innen aus der IT, Scientific Computing Unit, Forschungskoordination, Rechtsabteilung etc. können Ihnen hierbei weiterhelfen. Falls dies nicht möglich sein sollte, können Sie sich alternativ auch an die IT-Rechtsberatung in der MPG-Generalverwaltung wenden (&lt;a href=&quot;mailto:it-recht@gv.mpg.de&quot; &gt;it-recht@gv.mpg.de&lt;/a&gt;).</help>
 		<text lang="de">Wie sind die rechtliche Besitzverhältnisse?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2160,7 +2160,7 @@ Folgende Seiten geben Ihnen einen ersten Überblick zu Software und Lizenzen:
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Bitte beachten Sie, dass Software, je nach Anwendungsfeld, einen doppeltem Verwendungszweck (zivil und militärisch) aufweisen kann. Sollte dies der Fall sein sind besonders Maßnahmen erforderlich. Mit der Verordnung &lt;a href=&quot;http://data.europa.eu/eli/reg/2021/821/oj&quot; target=&quot;_blank&quot;&gt;EU 2021/821 (EU Dual-Use Regulation)&lt;/a&gt; haben alle EU-Mitgliedstaaten eine gemeinsame Genehmigungspflichten und Verfahrensweisen bei der Ausfuhr, der technischen Unterstützung und der Verbringung von Gütern mit doppeltem Verwendungszweck festgelegt (siehe die &lt;a href=&quot;https://www.zoll.de/DE/Fachthemen/Aussenwirtschaft-Bargeldverkehr/Warenausfuhr/Waren/Dual-Use-Gueter/dual-use-gueter_node.html&quot; target=&quot;_blank&quot;&gt;Beschreibung des bundesdeutschen Zolls&lt;/a&gt;). Die Erteilung von Ausfuhrgenehmigungen in der Bundesrepublik ist das &lt;a href=&quot;https://www.bafa.de&quot; target=&quot;_blank&quot;&gt;Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)&lt;/a&gt;. Kontaktieren Sie im Zweifel Ihre lokalen IT-Sicherheitsbeauftragten.</help>
+		<help lang="de">Bitte beachten Sie, dass Software, je nach Anwendungsfeld, einen doppelten Verwendungszweck (zivil und militärisch) aufweisen kann. Sollte dies der Fall sein sind besonders Maßnahmen erforderlich. Mit der Verordnung &lt;a href=&quot;http://data.europa.eu/eli/reg/2021/821/oj&quot; target=&quot;_blank&quot;&gt;EU 2021/821 (EU Dual-Use Regulation)&lt;/a&gt; haben alle EU-Mitgliedstaaten eine gemeinsame Genehmigungspflicht und Verfahrensweise bei der Ausfuhr, der technischen Unterstützung und der Verbringung von Gütern mit doppeltem Verwendungszweck festgelegt (siehe die &lt;a href=&quot;https://www.zoll.de/DE/Fachthemen/Aussenwirtschaft-Bargeldverkehr/Warenausfuhr/Waren/Dual-Use-Gueter/dual-use-gueter_node.html&quot; target=&quot;_blank&quot;&gt;Beschreibung des bundesdeutschen Zolls&lt;/a&gt;). Die Erteilung von Ausfuhrgenehmigungen in der Bundesrepublik geschieht durch das &lt;a href=&quot;https://www.bafa.de&quot; target=&quot;_blank&quot;&gt;Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)&lt;/a&gt;. Kontaktieren Sie im Zweifel Ihre lokalen IT-Sicherheitsbeauftragten.</help>
 		<text lang="de">Kann die Software auch für zivile und ebenso für militärische Zwecke verwendet werden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
