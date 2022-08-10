@@ -146,7 +146,7 @@ Zur Orientierung und als Unterstützung bieten wir hier einige Literaturempfehlu
 * Wuttke et al. (2022): Guidelines for collaborative development of sustainable data treatment software, In: Journal of Neutron Research, vol. 24, no. 1, S. 33-72, &lt;a href=&quot;https://doi.org/10.3233/JNR-220002&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.3233/JNR-220002&lt;/a&gt;.
 * Anzt et al.(2021): deRSE-Positionspaper: &quot;An environment for sustainable research software in Germany and beyond: Current state, open challenges, and call for action&quot;, &lt;a href=&quot;https://doi.org/10.12688/f1000research.23224.2&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.12688/f1000research.23224.2&lt;/a&gt;.
 
-Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfänglich sind. Wenn Sie bei der Beantwortung konkrete Unterstützung benötigen, dann spreche Sie am besten mit Ihren lokalen Kolleg_innen von der IT, der Scientific Computing Unit usw. Diese können Ihnen wahrscheinlich weiterhelfen.</help>
+Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfänglich sind. Wenn Sie bei der Beantwortung konkrete Unterstützung benötigen, dann spreche Sie am besten mit Ihren lokalen Kolleg_innen von der IT, der Scientific Computing Unit usw. Diese können Ihnen weiterhelfen.</help>
 		<text lang="de">Was ist der beabsichtigte Verwendungszweck der Software? Wie wird Ihre Software zur Forschung beitragen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -400,7 +400,7 @@ Once a methodological approach has been established, it may be useful to define 
 For guidance, these texts may be of interest:
 
 * Smith, Srinivasan and Shankar (2019): Debunking the Myth That Upfront Requirements Are Infeasible for Scientific Computing Software, IEEE/ACM 14th International Workshop on Software Engineering for Science (SE4Science), pp. 33-40, &lt;a href=&quot;https://doi.org/10.1109/SE4Science.2019.00011&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1109/SE4Science.2019.00011&lt;/a&gt;.
-* Marques and Milewicz (2022): User Stories in Scientific Software Development, &lt;a href=&quot;https://bssw.io/blog_posts/user-stories-in-scientific-software-development&quot; target=&quot;_blank&quot;&gt;https://bssw.io/blog_posts/user-stories-in-scientific-software-development&lt;/a&gt;.</help>
+* Marques and Milewicz (2022): User Stories in Scientific Software Development, Better Scientific Software Blog, &lt;a href=&quot;https://bssw.io/blog_posts/user-stories-in-scientific-software-development&quot; target=&quot;_blank&quot;&gt;https://bssw.io/blog_posts/user-stories-in-scientific-software-development&lt;/a&gt;.</help>
 		<text lang="en">Which software development process is defined? How will process roles be assigned?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -412,7 +412,7 @@ Nach der Festlegung auf ein methodisches Vorgehen kann es sinnvoll sein, verschi
 Zur Unterstützung können diese Texte interessant sein:
 
 * Smith, Srinivasan and Shankar (2019): Debunking the Myth That Upfront Requirements Are Infeasible for Scientific Computing Software, IEEE/ACM 14th International Workshop on Software Engineering for Science (SE4Science), S. 33-40, &lt;a href=&quot;https://doi.org/10.1109/SE4Science.2019.00011&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1109/SE4Science.2019.00011&lt;/a&gt;.
-* Marques and Milewicz (2022): User Stories in Scientific Software Development, &lt;a href=&quot;https://bssw.io/blog_posts/user-stories-in-scientific-software-development&quot; target=&quot;_blank&quot;&gt;https://bssw.io/blog_posts/user-stories-in-scientific-software-development&lt;/a&gt;.</help>
+* Marques and Milewicz (2022): User Stories in Scientific Software Development, Better Scientific Software Blog, &lt;a href=&quot;https://bssw.io/blog_posts/user-stories-in-scientific-software-development&quot; target=&quot;_blank&quot;&gt;https://bssw.io/blog_posts/user-stories-in-scientific-software-development&lt;/a&gt;.</help>
 		<text lang="de">Welcher Softwareentwicklungsprozess wird definiert? Wie werden die Prozessrollen zugewiesen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -509,7 +509,7 @@ Below you will find a collection of examples of institutional regulations relate
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Für die Entwicklung von Software im wissenschaftlichen Kontext gelten die Regeln zur guten wissenschaftlichen Praxis, wie sie an der eigenen Institution oder Organisation maßgebend ist. Für die Max-Planck-Gesellschaft sind die aktuell die &quot;Regeln zur Sicherung guter wissenschaftlicher Praxis&quot; von 2009 (&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/199493/regelnWissPraxis.pdf&lt;/a&gt;). Software ist dort noch nicht explizit erwähnt. Dennoch gelten diese entsprechenden Regeln für wissenschaftliche Ergebnisse auch für die Entwicklung (und Veröffentlichung) von Software. 
+		<help lang="de">Für die Entwicklung von Software im wissenschaftlichen Kontext gelten die Regeln zur guten wissenschaftlichen Praxis, wie sie an der eigenen Institution oder Organisation maßgebend ist. Für die Max-Planck-Gesellschaft sind dies aktuell die &quot;Regeln zur Sicherung guter wissenschaftlicher Praxis&quot; von 2009 (&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/199493/regelnWissPraxis.pdf&lt;/a&gt;). Software ist dort noch nicht explizit erwähnt. Dennoch gelten diese entsprechenden Regeln für wissenschaftliche Ergebnisse auch für die Entwicklung (und Veröffentlichung) von Software. 
 
 Gleichzeitig können sich auch einzelnen Institute, Arbeitsgruppen etc. Regeln zum Umgang mit Software auferlegen. Sollten Sie unsicher sein, inwiefern institutionelle Anforderungen für Sie zutreffen, dann kontaktieren Sie am besten Ihre lokalen Kolleg_innen von der Forschungskoordination oder der IT, Scientific Computing Unit etc. Diese können Sie dabei kompetent unterstützen.
 
@@ -547,14 +547,14 @@ Im Folgenden finden Sie eine Beispielsammlung für institutionelle Regelwerke mi
 		<order>1</order>
 		<help lang="en">In addition to institutional requirements, there may also be other conditions that need to be taken into account when developing software in a scientific context. For example, if the software is developed in a third-party project, then the requirements of the funding body are binding. Likewise, there may be various agreements in one's own subject group that need to be taken into account in software development.
 
-In parallel, it is advisable to familiarise yourself with the FAIR Principles for Research Software (&lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;) at an early stage. For example, this question about requirement for software is required in &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I1 and R3. At the same time, orientation towards the &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; principles can significantly increase the quality and acceptance of the software. An interactive guide to FAIR software can be found here: https://fair-software.nl.</help>
+In parallel, it is advisable to familiarise yourself with the FAIR Principles for Research Software (&lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;) at an early stage. For example, this question about requirement for software is required in &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I1 and R3. At the same time, orientation towards the &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; principles can significantly increase the quality and acceptance of the software. An interactive guide to FAIR software can be found here: &lt;a href=&quot;https://fair-software.nl&quot; target=&quot;_blank&quot;&gt;https://fair-software.nl&lt;/a&gt;.</help>
 		<text lang="en">Are there requirements regarding the software development form other parties?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Neben institutionellen Anforderungen können ebenso weitere Bedingungen existieren, die es bei der Entwicklung von Software im wissenschaftlichen Kontext zu beachten gilt. Wenn beispielsweise die Software in einem Drittmitprojekt entwickelt wird, dann sind die Vorgaben des Mittelgebers binden. Ebenso können verschiedene Vereinbarungen in der eigenen Fächergruppe herrschen, die es bei der Software-Entwicklung zu berücksichtigten gilt.
 
-Parallel dazu ist es empfehlenswert, sich mit den FAIR Principles for Research Software (&lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;) schon frühzeitig vertraut zu machen. So wird beispielsweise diese Frage nach Anforderung nach Software in &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I1 und R3 gefordert. Die Orientierung an den &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;-Prinzipien kann gleichzeitig die Qualität und Akzeptanz der Software deutlich steigern. Eine interaktive Hilfestellung zu FAIR Software findet sich hier: https://fair-software.nl.</help>
+Parallel dazu ist es empfehlenswert, sich mit den FAIR Principles for Research Software (&lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;) schon frühzeitig vertraut zu machen. So wird beispielsweise diese Frage nach Anforderung nach Software in &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I1 und R3 gefordert. Die Orientierung an den &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;-Prinzipien kann gleichzeitig die Qualität und Akzeptanz der Software deutlich steigern. Eine interaktive Hilfestellung zu FAIR Software findet sich hier: &lt;a href=&quot;https://fair-software.nl&quot; target=&quot;_blank&quot;&gt;https://fair-software.nl&lt;/a&gt;.</help>
 		<text lang="de">Gibt es Anforderungen bezüglich der Softwareentwicklung von Externen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -723,7 +723,7 @@ The following literature might also be of interest:
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Die Nutzung von externen Anwendungen und existierenden Bibliotheken ist bei der Software-Entwicklung eine etablierte Praxis. Durch das Einbinden von externem Code können jedoch Abhängigkeiten entstehen. Dies steigert wiederum die Komplexität der Software. Je umfangreicher der Code ist, desto aufwendiger ist es, diese Abhängigkeiten zu kennen und zu verstehen. Es empfiehlt sich daher schon früh bei der Software-Entwicklung darüber im Klaren zu sein, welche und wie externe Komponenten verwendet werden. Dies ist auch im Sinne der &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;-I2 und -R2 und für die Weiterentwickelung und Nachnutzung von Software besonders empfehlenswert.
+		<help lang="de">Die Nutzung von externen Anwendungen und existierenden Bibliotheken ist bei der Software-Entwicklung eine etablierte Praxis. Durch das Einbinden von externem Code können jedoch Abhängigkeiten entstehen. Dies steigert wiederum die Komplexität der Software. Je umfangreicher der Code ist, desto aufwendiger ist es, diese Abhängigkeiten zu kennen und zu verstehen. Es empfiehlt sich daher schon früh bei der Software-Entwicklung darüber im Klaren zu sein, welche und wie externe Komponenten verwendet werden. Dies ist auch im Sinne der &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I2 und R2 und für die Weiterentwickelung und Nachnutzung von Software besonders empfehlenswert.
 
 Folgende Literatur könnte zusätzlich interessant sein:
 
@@ -1255,12 +1255,12 @@ Eine weitreichende Möglichkeit für den langfristigen Erhalt von Software ist b
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">There are certain standards to adhere to when developing software. These can be, for example, common code conventions in the professional community or language-specific standards (e.g. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;).</help>
+		<help lang="en">There are certain standards to adhere to when developing software. These can be, for example, common code conventions in the professional community or language-specific standards (e.g. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;). Tools for static code analysis (e.g. Lint) can help to find problematic code automatically.</help>
 		<text lang="en">Do you apply specific coding standards? How do you take care about code quality control?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Bei der Entwicklung von Software gibt es gewisse Standards einzuhalten. Dies können beispielsweise gemeinsame Code-Konventionen in der Fachgemeinschaft sein oder sprachspezifische Standards (z.B. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;).</help>
+		<help lang="de">Bei der Entwicklung von Software gibt es gewisse Standards einzuhalten. Dies können beispielsweise gemeinsame Code-Konventionen in der Fachgemeinschaft sein oder sprachspezifische Standards (z.B. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;). Werkzeuge zur statischen Codeanalyse (z.B. Lint) können helfen, problematischen Code automatisch zu finden.</help>
 		<text lang="de">Wenden Sie bestimmte Code-Standards an? Wie kümmern Sie sich um die Qualitätskontrolle des Codes?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1372,7 +1372,7 @@ Eine weitreichende Möglichkeit für den langfristigen Erhalt von Software ist b
 		<is_optional>False</is_optional>
 		<order>2</order>
 		<help lang="en">Documentation is only helpful if it corresponds to the current status of the software. More often, however, this is not given high priority compared to writing the code. It is, however, advisable to describe the developed software sensibly and completely. Documentation should also include statements about the software architecture, the development environment and the code style guide.</help>
-		<text lang="en">How do you take care, that the documentation keeps up o date with releases?</text>
+		<text lang="en">How do you take care, that the documentation keeps up to date with releases?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -1455,13 +1455,13 @@ Eine weitreichende Möglichkeit für den langfristigen Erhalt von Software ist b
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">It can be helpful to be clear about a testing strategy in advance. This avoids the indiscriminate search for errors, but leads to more targeted, structured testing. In particular, the test intervals should be defined. In parallel, it should be clarified whether standards (e.g. &lt;a href=&quot;https://www.iso.org/standard/64764.html&quot; target=&quot;_blank&quot;&gt;ISO/IEC 25000:2014&lt;/a&gt;) or even test certificates (e.g. &lt;a href=&quot;https://www.istqb.org&quot; target=&quot;_blank&quot;&gt;ISTQB&lt;/a&gt;) are required for the software.</help>
-		<text lang="en">Which software test strategy are you going to follow?</text>
+		<help lang="en">It can be helpful to be clear about a testing strategy in advance. This avoids the indiscriminate search for errors, but leads to more targeted, structured testing. In particular, the test intervals should be defined. In parallel, it should be clarified whether standards (e.g. &lt;a href=&quot;https://www.iso.org/standard/64764.html&quot; target=&quot;_blank&quot;&gt;ISO/IEC 25000:2014&lt;/a&gt;) or even test certificates (e.g. &lt;a href=&quot;https://www.istqb.org&quot; target=&quot;_blank&quot;&gt;ISTQB&lt;/a&gt;) are required for the software. Testing a software on different levels (Unit-, Integration-, E2E-Tests) is always useful. Depending on the project different types of testing (Security Testing, Performance Testing, ...) are important.</help>
+		<text lang="en">Which software test strategy are you going to follow? Which types of tests are planned for the project?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Es kann hilfreich sein, sich im Vorfeld bereits über eine Teststrategie im Klaren zu sein. Dies vermeidet die wahllose Suche nach Fehler, sondern führt zu einem zielgerichteterem, strukturiertem Testen. Hierbei sollten besonders die Testintervalle festgelegt werden. Parallel dazu ist zu klären, ob Standards (z.B. &lt;a href=&quot;https://www.iso.org/standard/64764.html&quot; target=&quot;_blank&quot;&gt;ISO/IEC 25000:2014&lt;/a&gt;) oder gar Test-Zertifikate (z.B. &lt;a href=&quot;https://www.istqb.org&quot; target=&quot;_blank&quot;&gt;ISTQB&lt;/a&gt;) für die Software benötigt werden.</help>
-		<text lang="de">Welche Software-Teststrategie werden Sie verfolgen?</text>
+		<help lang="de">Es kann hilfreich sein, sich im Vorfeld bereits über eine Teststrategie im Klaren zu sein. Dies vermeidet die wahllose Suche nach Fehler, sondern führt zu einem zielgerichteterem, strukturiertem Testen. Hierbei sollten besonders die Testintervalle festgelegt werden. Parallel dazu ist zu klären, ob Standards (z.B. &lt;a href=&quot;https://www.iso.org/standard/64764.html&quot; target=&quot;_blank&quot;&gt;ISO/IEC 25000:2014&lt;/a&gt;) oder gar Test-Zertifikate (z.B. &lt;a href=&quot;https://www.istqb.org&quot; target=&quot;_blank&quot;&gt;ISTQB&lt;/a&gt;) für die Software benötigt werden. Das Testen einer Software auf verschiedenen Ebenen (Unit-, Integrations-, E2E-Tests) ist immer sinnvoll. Je nach Projekt sind verschiedene Arten von Tests (Security Testing, Performance Testing, ...) wichtig.</help>
+		<text lang="de">Welche Software-Teststrategie werden Sie verfolgen? Welche Arten von Tests sind für das Projekt geplant?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
