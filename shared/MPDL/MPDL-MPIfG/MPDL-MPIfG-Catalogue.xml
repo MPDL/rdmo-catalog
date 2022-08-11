@@ -572,11 +572,11 @@ Bitte informieren Sie sich im Intranet über das Verfahren zum Datenerwerb und w
 <questionset/>
 <is_collection>False</is_collection>
 <order>5</order>
-<title lang="en">2.3. Data Admission</title>
+<title lang="en">2.4. Data Admission</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">2.3. Datenzugang</title>
+<title lang="de">2.4. Datenzugang</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -656,11 +656,11 @@ Bitte erkundigen Sie sich bei den Bibliotheksmitarbeitern (&lt;a href=&quot;mail
 <questionset/>
 <is_collection>False</is_collection>
 <order>5</order>
-<title lang="en">2.4. Data Acquisition</title>
+<title lang="en">2.3. Data Acquisition</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">2.4. Datenerwerb</title>
+<title lang="de">2.3. Datenerwerb</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -876,11 +876,11 @@ mpifg/project-description/detailed-planning-conference
 <questionset/>
 <is_collection>False</is_collection>
 <order>7</order>
-<title lang="en">Detailed planning for conference(s)</title>
+<title lang="en">2.7. Detailed planning for conference(s)</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">Nähere Planung für Tagungsaufenthalte</title>
+<title lang="de">2.7. Nähere Planung für Tagungsaufenthalte</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
