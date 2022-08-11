@@ -572,11 +572,11 @@ Bitte informieren Sie sich im Intranet über das Verfahren zum Datenerwerb und w
 <questionset/>
 <is_collection>False</is_collection>
 <order>5</order>
-<title lang="en">Data Admission</title>
+<title lang="en">2.3. Data Admission</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">Datenzugang</title>
+<title lang="de">2.3. Datenzugang</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -656,11 +656,11 @@ Bitte erkundigen Sie sich bei den Bibliotheksmitarbeitern (&lt;a href=&quot;mail
 <questionset/>
 <is_collection>False</is_collection>
 <order>5</order>
-<title lang="en">2.3. Data Acquisition</title>
+<title lang="en">2.4. Data Acquisition</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">2.3. Datenerwerb</title>
+<title lang="de">2.4. Datenerwerb</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -718,13 +718,13 @@ Bitte informieren Sie sich im &lt;a href=&quot;(https://intern/IntraPages/Resear
 <questionset/>
 <is_collection>False</is_collection>
 <order>6</order>
-<title lang="en">2.4. Field Work and Conference Visit</title>
+<title lang="en">2.5. Field Work and Conference Visit</title>
 <help lang="en">
 Find information on how to proceed when planning a trip here: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;
 </help>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">2.4. Feldforschung und Konferenzbesuch(e)</title>
+<title lang="de">2.5. Feldforschung und Konferenzbesuch(e)</title>
 <help lang="de">
 Informationen über die Vorgehensweise bei der Planung einer Reise finden Sie hier: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;
 </help>
@@ -812,11 +812,11 @@ mpifg/project-description/detailed-planning-stay-abroad
 <questionset/>
 <is_collection>False</is_collection>
 <order>6</order>
-<title lang="en">Detailed planning for the stay abroad</title>
+<title lang="en">2.6. Detailed planning for the stay abroad</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">Nähere Planung für den Auslandsaufenthalt</title>
+<title lang="de">2.6. Nähere Planung für den Auslandsaufenthalt</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -1170,11 +1170,11 @@ Falls weiterverwendet, unter welcher Adresse oder welchem Link ist der Datensatz
 <questionset/>
 <is_collection>True</is_collection>
 <order>3</order>
-<title lang="en">Data size</title>
+<title lang="en">3.3. Data size</title>
 <help lang="en"/>
 <verbose_name lang="en">dataset</verbose_name>
 <verbose_name_plural lang="en">datasets</verbose_name_plural>
-<title lang="de">Datengröße</title>
+<title lang="de">3.3. Datengröße</title>
 <help lang="de"/>
 <verbose_name lang="de">Datensatz</verbose_name>
 <verbose_name_plural lang="de">Datensätze</verbose_name_plural>
@@ -1228,11 +1228,11 @@ Was ist die tatsächliche oder erwartete Größe des Datensatzes?
 <questionset/>
 <is_collection>True</is_collection>
 <order>4</order>
-<title lang="en">Formats</title>
+<title lang="en">3.4. Formats</title>
 <help lang="en"/>
 <verbose_name lang="en">dataset</verbose_name>
 <verbose_name_plural lang="en">datasets</verbose_name_plural>
-<title lang="de">Formate</title>
+<title lang="de">3.4. Formate</title>
 <help lang="de"/>
 <verbose_name lang="de">Datensatz</verbose_name>
 <verbose_name_plural lang="de">Datensätze</verbose_name_plural>
@@ -1290,11 +1290,11 @@ mpifg/content-classification/data-sharing-and-re-use-publication
 <questionset/>
 <is_collection>True</is_collection>
 <order>5</order>
-<title lang="en">Data sharing and re-use</title>
+<title lang="en">3.5. Data sharing and re-use</title>
 <help lang="en"/>
 <verbose_name lang="en">dataset</verbose_name>
 <verbose_name_plural lang="en">datasets</verbose_name_plural>
-<title lang="de">Weitergabe und Veröffentlichung</title>
+<title lang="de">3.5. Weitergabe und Veröffentlichung</title>
 <help lang="de"/>
 <verbose_name lang="de">Datensatz</verbose_name>
 <verbose_name_plural lang="de">Datensätze</verbose_name_plural>
@@ -1432,11 +1432,11 @@ mpifg/content-classification/data-storage-and-security-storage
 <questionset/>
 <is_collection>True</is_collection>
 <order>11</order>
-<title lang="en">Storage location</title>
+<title lang="en">3.6. Storage location</title>
 <help lang="en"/>
 <verbose_name lang="en">dataset</verbose_name>
 <verbose_name_plural lang="en">datasets</verbose_name_plural>
-<title lang="de">Speicherort</title>
+<title lang="de">3.6. Speicherort</title>
 <help lang="de"/>
 <verbose_name lang="de">Datensatz</verbose_name>
 <verbose_name_plural lang="de">Datensätze</verbose_name_plural>
@@ -1496,11 +1496,11 @@ mpifg/content-classification/data-storage-and-security-data_security
 <questionset/>
 <is_collection>True</is_collection>
 <order>12</order>
-<title lang="en">Storage and security</title>
+<title lang="en">3.7. Storage and security</title>
 <help lang="en"/>
 <verbose_name lang="en">dataset</verbose_name>
 <verbose_name_plural lang="en">datasets</verbose_name_plural>
-<title lang="de">Speicherung und -sicherheit</title>
+<title lang="de">3.7. Speicherung und Sicherheit</title>
 <help lang="de"/>
 <verbose_name lang="de">Datensatz</verbose_name>
 <verbose_name_plural lang="de">Datensätze</verbose_name_plural>
@@ -1600,13 +1600,13 @@ Welche Maßnahmen zur Gewährleistung der Datensicherheit werden getroffen (z. B
 <questionset/>
 <is_collection>True</is_collection>
 <order>13</order>
-<title lang="en">Sensitive data</title>
+<title lang="en">3.8. Sensitive data</title>
 <help lang="en">
 Please refer to the data protection information provided by the Max Planck Society on Data protection levels (&lt;a href=&quot;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_01. schedular overview - MPGs data protection level concept_en_2.pdf&quot; target=&quot;_blank&quot;&gt;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_01. schedular overview - MPGs data protection level concept_en_2.pdf&lt;/a&gt;) and protection measures (&lt;a href=&quot;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_Data_Protection_Protection_Measure_en.pdf&quot; target=&quot;_blank&quot;&gt;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_Data_Protection_Protection_Measure_en.pdf&lt;/a&gt;).
 </help>
 <verbose_name lang="en">dataset</verbose_name>
 <verbose_name_plural lang="en">datasets</verbose_name_plural>
-<title lang="de">Sensible Daten</title>
+<title lang="de">3.8. Sensible Daten</title>
 <help lang="de">
 Bitte beachten Sie die Datenschutzinformationen der Max-Planck-Gesellschaft zu Datenschutzstufen (&lt;a href=&quot;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_01. schedular overview - MPGs data protection level concept_en_2.pdf&quot; target=&quot;_blank&quot;&gt;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_01. schedular overview - MPGs data protection level concept_en_2.pdf&lt;/a&gt;) und Schutzmaßnahmen (&lt;a href=&quot;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_Data_Protection_Protection_Measure_en.pdf&quot; target=&quot;_blank&quot;&gt;https://ohb.mpg.de/Policies/MPG XVII05 en 5.4/XVII.05_Data_Protection_Protection_Measure_en.pdf&lt;/a&gt;).
 </help>
@@ -1699,9 +1699,9 @@ Wenn ja, beschreiben Sie bitte die Art der sensiblen Daten. Welche Schutzklasse 
 <dc:comment/>
 <catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
 <order>6</order>
-<title lang="en">Good Scientific Practice / MPIfG Data Storage</title>
+<title lang="en">4. Good Scientific Practice / MPIfG Data Storage</title>
 <title lang="de">
-Gute wissenschaftliche Praxis / MPIfG Datenspeicherung
+4. Gute wissenschaftliche Praxis / MPIfG Datenspeicherung
 </title>
 </section>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/storage-and-long-term-preservation/long-term-preservation-datasets">
@@ -1716,13 +1716,13 @@ mpifg/storage-and-long-term-preservation/long-term-preservation-datasets
 <questionset/>
 <is_collection>True</is_collection>
 <order>1</order>
-<title lang="en">3.3. Local Preservation</title>
+<title lang="en">4.1. Local Preservation</title>
 <help lang="en">
 The "Rules of good scientific practice" (&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/199493/regelnWissPraxis.pdf&lt;/a&gt;) of the MPS (the same as the „Guidelines for Safeguarding Good Research Practice. Code of Conduct“ (&lt;a href=&quot;https://doi.org/10.5281/zenodo.3923601&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.3923601&lt;/a&gt;) of the DFG) expect institutions to store data from research projects for 10 years in case of alleged scientific misconduct (&lt;a href=&quot;http://www.mpg.de/199559/verfahrensordnung.pdf&quot; target=&quot;_blank&quot;&gt;http://www.mpg.de/199559/verfahrensordnung.pdf&lt;/a&gt;). The Max Planck Institute for the Study of Societies has created a policy in 2013 (&lt;a href=&quot;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&quot; target=&quot;_blank&quot;&gt;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&lt;/a&gt;) which explains background and extend of the storage. Find more information on the intranet: &lt;a href=&quot;https://intern /IntraPages/Data%20Storage.aspx&quot; target=&quot;_blank&quot;&gt;https://intern /IntraPages/Data%20Storage.aspx&lt;/a&gt;.
 </help>
 <verbose_name lang="en">dataset</verbose_name>
 <verbose_name_plural lang="en">datasets</verbose_name_plural>
-<title lang="de">3.3. Lokale Speicherung</title>
+<title lang="de">4.1. Lokale Speicherung</title>
 <help lang="de">
 Die "Regeln guter wissenschaftlicher Praxis" (&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/199493/regelnWissPraxis.pdf&lt;/a&gt;) des MPS (gleichlautend mit den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis. Code of Conduct" (&lt;a href=&quot;https://doi.org/10.5281/zenodo.3923601&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.3923601&lt;/a&gt;) der DFG) erwarten, dass Institutionen Daten aus Forschungsprojekten für 10 Jahre aufbewahren, falls wissenschaftliches Fehlverhalten vermutet wird (&lt;a href=&quot;http://www.mpg.de/199559/verfahrensordnung.pdf&quot; target=&quot;_blank&quot;&gt;http://www.mpg.de/199559/verfahrensordnung.pdf&lt;/a&gt;). Das Max-Planck-Institut für Gesellschaftsforschung hat 2013 eine Richtlinie erstellt (&lt;a href=&quot;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&quot; target=&quot;_blank&quot;&gt;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&lt;/a&gt;), die Hintergründe und Umfang der Speicherung erläutert. Weitere Informationen finden Sie im Intranet: &lt;a href=&quot;https://intern /IntraPages/Data%20Storage.aspx&quot; target=&quot;_blank&quot;&gt;https://intern /IntraPages/Data%20Storage.aspx&lt;/a&gt;.
 </help>
@@ -1817,8 +1817,8 @@ Erlauben Sie Ihren Kollegen den Zugriff auf die Daten?
 <dc:comment/>
 <catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
 <order>7</order>
-<title lang="en">4. Project Publication</title>
-<title lang="de">4. Projektpublikationen</title>
+<title lang="en">5. Project Publication</title>
+<title lang="de">5. Projektpublikationen</title>
 </section>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -1830,11 +1830,11 @@ Erlauben Sie Ihren Kollegen den Zugriff auf die Daten?
 <questionset/>
 <is_collection>False</is_collection>
 <order>1</order>
-<title lang="en">4.0. Thesis Publication</title>
+<title lang="en">5.0. Thesis Publication</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">4.0. Veröffentlichung der Qualifikationsarbeit</title>
+<title lang="de">5.0. Veröffentlichung der Qualifikationsarbeit</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -1930,11 +1930,11 @@ Welche Art von Zugriff erlauben Sie auf den Text im Repositorium?
 <questionset/>
 <is_collection>False</is_collection>
 <order>2</order>
-<title lang="en">4.1. Publications from the project</title>
+<title lang="en">5.1. Publications from the project</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">4.1. Publikationen aus dem Projekt</title>
+<title lang="de">5.1. Publikationen aus dem Projekt</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
