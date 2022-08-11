@@ -664,7 +664,6 @@ An dieser Stelle bietet es sich zusätzlich an zu dokumentieren, ob technische S
 Various Max Planck Institutes maintain their own Git systems. At the same time, there are also several central Git systems that are accessible to Max Planck scientists:
 
 * Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen: &lt;a href=&quot;https://gitlab.gwdg.de&quot; target=&quot;_blank&quot;&gt;https://gitlab.gwdg.de&lt;/a&gt;
-* German Climate Computing Centre: &lt;a href=&quot;https://gitlab.dkrz.de&quot; target=&quot;_blank&quot;&gt;https://gitlab.dkrz.de&lt;/a&gt;
 * Max Planck Computing and Data Facility: &lt;a href=&quot;https://gitlab.mpcdf.mpg.de&quot; target=&quot;_blank&quot;&gt;https://gitlab.mpcdf.mpg.de&lt;/a&gt;
 * Max Planck Institute for Molecular Genetics: &lt;a href=&quot;https://github.molgen.mpg.de&quot; target=&quot;_blank&quot;&gt;https://github.molgen.mpg.de&lt;/a&gt; (as Max Planck research you can get an account via their helpdesk (&lt;a href=&quot;mailto:helpdesk@molgen.mpg.de&quot; &gt;helpdesk@molgen.mpg.de&lt;/a&gt;))</help>
 		<text lang="en">Which technology or process is used for versioning?</text>
@@ -675,7 +674,6 @@ Various Max Planck Institutes maintain their own Git systems. At the same time, 
 
 Verschiedene Max-Planck-Institute pflegen eigene Git-Systeme. Gleichzeitig gibt es auch mehrere zentrale Git-Systeme, die für Max-Planck-Wissenschaftler_innen zugänglich sind:
 
-* Deutsches Klimarechenzentrum: &lt;a href=&quot;https://gitlab.dkrz.de&quot; target=&quot;_blank&quot;&gt;https://gitlab.dkrz.de&lt;/a&gt;
 * Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen: &lt;a href=&quot;https://gitlab.gwdg.de&quot; target=&quot;_blank&quot;&gt;https://gitlab.gwdg.de&lt;/a&gt;
 * Max Planck Computing and Data Facility: &lt;a href=&quot;https://gitlab.mpcdf.mpg.de&quot; target=&quot;_blank&quot;&gt;https://gitlab.mpcdf.mpg.de&lt;/a&gt;
 * Max Planck Institute for Molecular Genetics: &lt;a href=&quot;https://github.molgen.mpg.de&quot; target=&quot;_blank&quot;&gt;https://github.molgen.mpg.de&lt;/a&gt; (als Max-Planck-Wissenschaftler_in können Sie über deren Helpdesk ein Konto erhalten (&lt;a href=&quot;mailto:helpdesk@molgen.mpg.de&quot; &gt;helpdesk@molgen.mpg.de&lt;/a&gt;))</help>

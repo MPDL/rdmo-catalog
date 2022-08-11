@@ -6,7 +6,7 @@
 			<dc:comment>
 			This questionnaire is intended to help you organize your project at the MPIfG and at the same time keep tracks with institutional policies on “good scientific practice”, data storage and publication repository integration.
 			</dc:comment>
-			<order>1</order>
+			<order>99</order>
 			<title lang="en">MPIfG Project Management Plan (Beta test mode)</title>
 			<help lang="en">
 This catalogue is for project-specific data management at the &lt;a href=&quot;https://www.mpifg.de/&quot; target=&quot;_blank&quot;&gt;Max Planck Institute for the Study of Societies&lt;/a&gt;.
@@ -474,11 +474,11 @@ Bitte schauen Sie im Intranet nach, welche Software am Institut verfügbar ist: 
 <questionset/>
 <is_collection>False</is_collection>
 <order>4</order>
-<title lang="en">2.2. Database Access</title>
+<title lang="en">2.2. Data and Database</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">2.2.Zugang zu Datenbanken</title>
+<title lang="de">2.2. Daten und Datenbanken</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -537,14 +537,14 @@ Benötigen Sie Zugang zu Datenbanken, die nicht bereits Teil der lizenzierten In
 <is_optional>False</is_optional>
 <order>2</order>
 <help lang="en">
-Please check on the intranet the procedure for data acquisition and contact the coordinator for research data management (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
+Please check on the &lt;a href=&quot;https://intern/IntraPages/Research Data Management.aspx&quot; target=&quot;_blank&quot;&gt;intranet&lt;/a&gt; the procedure for data acquisition and contact the coordinator for research data management (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
 </help>
 <text lang="en">Are there data, that need to be acquired for you?</text>
 <default_text lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
 <help lang="de">
-Bitte informieren Sie sich im Intranet über das Verfahren zum Datenerwerb und wenden Sie sich an die Koordinatorin für das Forschungsdatenmanagement (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
+Bitte informieren Sie sich im &lt;a href=&quot;https://intern/IntraPages/Research Data Management.aspx&quot; target=&quot;_blank&quot;&gt;Intranet&lt;/a&gt; über das Verfahren zum Datenerwerb und wenden Sie sich an die Koordinatorin für das Forschungsdatenmanagement (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
 </help>
 <text lang="de">Gibt es Daten, die für Sie erfasst werden müssen?</text>
 <default_text lang="de"/>
@@ -572,11 +572,11 @@ Bitte informieren Sie sich im Intranet über das Verfahren zum Datenerwerb und w
 <questionset/>
 <is_collection>False</is_collection>
 <order>5</order>
-<title lang="en">2.4. Data Admission</title>
+<title lang="en">2.3. Data Access</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">2.4. Datenzugang</title>
+<title lang="de">2.3. Datenzugang</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -656,11 +656,11 @@ Bitte erkundigen Sie sich bei den Bibliotheksmitarbeitern (&lt;a href=&quot;mail
 <questionset/>
 <is_collection>False</is_collection>
 <order>5</order>
-<title lang="en">2.3. Data Acquisition</title>
+<title lang="en">2.4. Data Acquisition</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">2.3. Datenerwerb</title>
+<title lang="de">2.4. Datenerwerb</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -970,7 +970,7 @@ Wenn möglich geben Sie bitte auch Ort und Datum an.
 <questionset/>
 <is_collection>True</is_collection>
 <order>1</order>
-<title lang="en">3.1. Data Usage</title>
+<title lang="en">3.1. Data usage</title>
 <help lang="en">
 Get grip on your project data and note down your general data plans! In follow up questions you will be able to describe different datasets in more detail. Please consider: Before data is newly created, it is advisable to check if there is existing data that could be re-used. This way, redundant collection or creation of research data is prevented and saves efforts and costs.
 </help>
@@ -1032,7 +1032,7 @@ Bitte beschreiben Sie hier kurz, um welchen Datentyp es sich handelt und mit wel
 <questionset/>
 <is_collection>True</is_collection>
 <order>2</order>
-<title lang="en">3.2. Data Description</title>
+<title lang="en">3.2. Data description</title>
 <help lang="en">
 Collecting information on your datasets allow you to keep track of your data sources and storage needs. It is thus worth describing all your datasets individually.
 </help>
