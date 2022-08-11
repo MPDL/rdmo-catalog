@@ -681,14 +681,14 @@ mpifg/project-description/data-acquisition/data-to-acquire
 <is_optional>False</is_optional>
 <order>2</order>
 <help lang="en">
-Please check on the intranet the procedure for data acquisition and contact the coordinator for research data management (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
+Please check on the &lt;a href=&quot;(https://intern/IntraPages/Research Data Management.aspx&quot; target=&quot;_blank&quot;&gt;intranet&lt;/a&gt; the procedure for data acquisition and contact the coordinator for research data management (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
 </help>
 <text lang="en">What data(sets) exactly need to be aquired?</text>
 <default_text lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
 <help lang="de">
-Bitte informieren Sie sich im Intranet über das Verfahren zur Datenerfassung und wenden Sie sich an die Koordinatorin für das Forschungsdatenmanagement (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
+Bitte informieren Sie sich im &lt;a href=&quot;(https://intern/IntraPages/Research Data Management.aspx&quot; target=&quot;_blank&quot;&gt;Intranet&lt;/a&gt; über das Verfahren zur Datenerfassung und wenden Sie sich an die Koordinatorin für das Forschungsdatenmanagement (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
 </help>
 <text lang="de">Welche Daten müssen genau beschafft werden?</text>
 <default_text lang="de"/>
