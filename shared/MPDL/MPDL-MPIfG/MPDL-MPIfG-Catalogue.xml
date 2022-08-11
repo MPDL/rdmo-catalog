@@ -23,8 +23,8 @@ Dieser Katalog ist für das projektspezifische Datenmanagement am &lt;a href=&qu
 <dc:comment/>
 <catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
 <order>0</order>
-<title lang="en">General</title>
-<title lang="de">Allgemein</title>
+<title lang="en">1. General</title>
+<title lang="de">1. Allgemein</title>
 </section>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/project-member">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -36,11 +36,11 @@ Dieser Katalog ist für das projektspezifische Datenmanagement am &lt;a href=&qu
 <questionset/>
 <is_collection>False</is_collection>
 <order>1</order>
-<title lang="en">Project Member(s)</title>
+<title lang="en">1.1. Project Member(s)</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">Projektbeteiligte</title>
+<title lang="de">1.1. Projektbeteiligte</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -124,11 +124,11 @@ Geben Sie die für das Projekt verantwortliche Person an, im Falle einer Dissert
 <questionset/>
 <is_collection>False</is_collection>
 <order>2</order>
-<title lang="en">Project Information</title>
+<title lang="en">1.2. Project Information</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">Projektinformationen</title>
+<title lang="de">1.2. Projektinformationen</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -256,11 +256,11 @@ Geben Sie an, ob es sich bei dem Projekt um eine Dissertation handelt, da dies z
 <questionset/>
 <is_collection>False</is_collection>
 <order>6</order>
-<title lang="en">Project Time Frame</title>
+<title lang="en">1.3. Project Time Frame</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">Projektablauf</title>
+<title lang="de">1.3. Projektablauf</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -341,8 +341,8 @@ mpifg/general/project-schedule-schedule/project_end
 <dc:comment/>
 <catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
 <order>1</order>
-<title lang="en">Project Planning</title>
-<title lang="de">Projektplanung</title>
+<title lang="en">2. Project Planning</title>
+<title lang="de">2. Projektplanung</title>
 </section>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description/skills">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -354,11 +354,11 @@ mpifg/general/project-schedule-schedule/project_end
 <questionset/>
 <is_collection>False</is_collection>
 <order>3</order>
-<title lang="en">Software and Methods</title>
+<title lang="en">2.1. Software and Methods</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">Software und Methoden</title>
+<title lang="de">2.1. Software und Methoden</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -474,11 +474,11 @@ Bitte schauen Sie im Intranet nach, welche Software am Institut verfügbar ist: 
 <questionset/>
 <is_collection>False</is_collection>
 <order>4</order>
-<title lang="en">Database Access</title>
+<title lang="en">2.2. Database Access</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">Zugang zu Datenbanken</title>
+<title lang="de">2.2.Zugang zu Datenbanken</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -544,7 +544,7 @@ Please check on the intranet the procedure for data acquisition and contact the 
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
 <help lang="de">
-Bitte informieren Sie sich im Intranet über das Verfahren zur Datenerfassung und wenden Sie sich an die Koordinatorin für das Forschungsdatenmanagement (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
+Bitte informieren Sie sich im Intranet über das Verfahren zum Datenerwerb und wenden Sie sich an die Koordinatorin für das Forschungsdatenmanagement (&lt;a href=&quot;mailto:molloy@mpifg.de&quot;;&gt;molloy@mpifg.de&lt;/a&gt;).
 </help>
 <text lang="de">Gibt es Daten, die für Sie erfasst werden müssen?</text>
 <default_text lang="de"/>
@@ -656,11 +656,11 @@ Bitte erkundigen Sie sich bei den Bibliotheksmitarbeitern (&lt;a href=&quot;mail
 <questionset/>
 <is_collection>False</is_collection>
 <order>5</order>
-<title lang="en">Data Acquisition</title>
+<title lang="en">2.3. Data Acquisition</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">Datenerwerb</title>
+<title lang="de">2.3. Datenerwerb</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -718,13 +718,13 @@ Bitte informieren Sie sich im Intranet über das Verfahren zur Datenerfassung un
 <questionset/>
 <is_collection>False</is_collection>
 <order>6</order>
-<title lang="en">Field Work and Conference Visit</title>
+<title lang="en">2.4. Field Work and Conference Visit</title>
 <help lang="en">
 Find information on how to proceed when planning a trip here: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;
 </help>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">Feldforschung und Konferenzbesuch(e)</title>
+<title lang="de">2.4. Feldforschung und Konferenzbesuch(e)</title>
 <help lang="de">
 Informationen über die Vorgehensweise bei der Planung einer Reise finden Sie hier: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;
 </help>
@@ -957,8 +957,8 @@ Wenn möglich geben Sie bitte auch Ort und Datum an.
 <dc:comment/>
 <catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
 <order>2</order>
-<title lang="en">Research Data</title>
-<title lang="de">Forschungsdaten</title>
+<title lang="en">3. Research Data</title>
+<title lang="de">3. Forschungsdaten</title>
 </section>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/content-classification/data-dataset">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -970,13 +970,13 @@ Wenn möglich geben Sie bitte auch Ort und Datum an.
 <questionset/>
 <is_collection>True</is_collection>
 <order>1</order>
-<title lang="en">Data Usage</title>
+<title lang="en">3.1. Data Usage</title>
 <help lang="en">
 Get grip on your project data and note down your general data plans! In follow up questions you will be able to describe different datasets in more detail. Please consider: Before data is newly created, it is advisable to check if there is existing data that could be re-used. This way, redundant collection or creation of research data is prevented and saves efforts and costs.
 </help>
 <verbose_name lang="en">dataset</verbose_name>
 <verbose_name_plural lang="en">datasets</verbose_name_plural>
-<title lang="de">Datennutzung</title>
+<title lang="de">3.1. Datennutzung</title>
 <help lang="de">
 Machen Sie sich ein Bild von Ihren Projektdaten und notieren Sie Ihre allgemeinen Datenpläne! In den anschließenden Fragen können Sie die verschiedenen Datensätze genauer beschreiben. Bitte beachten Sie: Bevor Daten neu erstellt werden, ist es ratsam zu prüfen, ob es bereits vorhandene Daten gibt, die weiterverwendet werden können. Auf diese Weise wird eine redundante Erfassung oder Erstellung von Forschungsdaten vermieden und spart Aufwand und Kosten.
 </help>
@@ -1032,13 +1032,13 @@ Bitte beschreiben Sie hier kurz, um welchen Datentyp es sich handelt und mit wel
 <questionset/>
 <is_collection>True</is_collection>
 <order>2</order>
-<title lang="en">Data Description</title>
+<title lang="en">3.2. Data Description</title>
 <help lang="en">
 Collecting information on your datasets allow you to keep track of your data sources and storage needs. It is thus worth describing all your datasets individually.
 </help>
 <verbose_name lang="en">dataset</verbose_name>
 <verbose_name_plural lang="en">datasets</verbose_name_plural>
-<title lang="de">Datenbeschreibung</title>
+<title lang="de">3.2. Datenbeschreibung</title>
 <help lang="de">
 Wenn Sie Informationen über Ihre Datensätze sammeln, können Sie den Überblick über Ihre Datenquellen und Ihren Speicherbedarf behalten. Es lohnt sich daher, alle Ihre Datensätze einzeln zu beschreiben.
 </help>
@@ -1716,13 +1716,13 @@ mpifg/storage-and-long-term-preservation/long-term-preservation-datasets
 <questionset/>
 <is_collection>True</is_collection>
 <order>1</order>
-<title lang="en">Long-term Preservation</title>
+<title lang="en">3.3. Local Preservation</title>
 <help lang="en">
 The "Rules of good scientific practice" (&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/199493/regelnWissPraxis.pdf&lt;/a&gt;) of the MPS (the same as the „Guidelines for Safeguarding Good Research Practice. Code of Conduct“ (&lt;a href=&quot;https://doi.org/10.5281/zenodo.3923601&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.3923601&lt;/a&gt;) of the DFG) expect institutions to store data from research projects for 10 years in case of alleged scientific misconduct (&lt;a href=&quot;http://www.mpg.de/199559/verfahrensordnung.pdf&quot; target=&quot;_blank&quot;&gt;http://www.mpg.de/199559/verfahrensordnung.pdf&lt;/a&gt;). The Max Planck Institute for the Study of Societies has created a policy in 2013 (&lt;a href=&quot;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&quot; target=&quot;_blank&quot;&gt;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&lt;/a&gt;) which explains background and extend of the storage. Find more information on the intranet: &lt;a href=&quot;https://intern /IntraPages/Data%20Storage.aspx&quot; target=&quot;_blank&quot;&gt;https://intern /IntraPages/Data%20Storage.aspx&lt;/a&gt;.
 </help>
 <verbose_name lang="en">dataset</verbose_name>
 <verbose_name_plural lang="en">datasets</verbose_name_plural>
-<title lang="de">Langzeitarchivierung</title>
+<title lang="de">3.3. Lokale Speicherung</title>
 <help lang="de">
 Die "Regeln guter wissenschaftlicher Praxis" (&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/199493/regelnWissPraxis.pdf&lt;/a&gt;) des MPS (gleichlautend mit den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis. Code of Conduct" (&lt;a href=&quot;https://doi.org/10.5281/zenodo.3923601&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.3923601&lt;/a&gt;) der DFG) erwarten, dass Institutionen Daten aus Forschungsprojekten für 10 Jahre aufbewahren, falls wissenschaftliches Fehlverhalten vermutet wird (&lt;a href=&quot;http://www.mpg.de/199559/verfahrensordnung.pdf&quot; target=&quot;_blank&quot;&gt;http://www.mpg.de/199559/verfahrensordnung.pdf&lt;/a&gt;). Das Max-Planck-Institut für Gesellschaftsforschung hat 2013 eine Richtlinie erstellt (&lt;a href=&quot;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&quot; target=&quot;_blank&quot;&gt;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&lt;/a&gt;), die Hintergründe und Umfang der Speicherung erläutert. Weitere Informationen finden Sie im Intranet: &lt;a href=&quot;https://intern /IntraPages/Data%20Storage.aspx&quot; target=&quot;_blank&quot;&gt;https://intern /IntraPages/Data%20Storage.aspx&lt;/a&gt;.
 </help>
@@ -1817,8 +1817,8 @@ Erlauben Sie Ihren Kollegen den Zugriff auf die Daten?
 <dc:comment/>
 <catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
 <order>7</order>
-<title lang="en">Project Publication</title>
-<title lang="de">Projektpublikationen</title>
+<title lang="en">4. Project Publication</title>
+<title lang="de">4. Projektpublikationen</title>
 </section>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -1830,11 +1830,11 @@ Erlauben Sie Ihren Kollegen den Zugriff auf die Daten?
 <questionset/>
 <is_collection>False</is_collection>
 <order>1</order>
-<title lang="en">Thesis Publication</title>
+<title lang="en">4.0. Thesis Publication</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">Veröffentlichung der Qualifikationsarbeit</title>
+<title lang="de">4.0. Veröffentlichung der Qualifikationsarbeit</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -1930,11 +1930,11 @@ Welche Art von Zugriff erlauben Sie auf den Text im Repositorium?
 <questionset/>
 <is_collection>False</is_collection>
 <order>2</order>
-<title lang="en">Publications from the project</title>
+<title lang="en">4.1. Publications from the project</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">Publikationen aus dem Projekt</title>
+<title lang="de">4.1. Publikationen aus dem Projekt</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
@@ -1953,14 +1953,14 @@ mpifg/project-publication/publication/publication-description
 <is_optional>False</is_optional>
 <order>1</order>
 <help lang="en">
-Please inform newtitle@mpifg.de about all your publications, including data publications.
+Please inform &lt;a href=&quot;mailto:newtitle@mpifg.de&quot;;&gt;newtitle@mpifg.de&lt;/a&gt; about all your publications, including data publications.
 </help>
 <text lang="en">Publication citation with link</text>
 <default_text lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
 <help lang="de">
-Bitte informieren Sie newtitle@mpifg.de über alle Ihre Veröffentlichungen, einschließlich Datenveröffentlichungen.
+Bitte informieren Sie &lt;a href=&quot;mailto:newtitle@mpifg.de&quot;;&gt;newtitle@mpifg.de&lt;/a&gt; über alle Ihre Veröffentlichungen, einschließlich Datenveröffentlichungen.
 </help>
 <text lang="de">Zitierung der Veröffentlichung mit Link</text>
 <default_text lang="de"/>
