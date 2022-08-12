@@ -1699,8 +1699,8 @@ Wenn ja, beschreiben Sie bitte die Art der sensiblen Daten. Welche Schutzklasse 
 <dc:comment/>
 <catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
 <order>7</order>
-<title lang="en">5. Project Publication</title>
-<title lang="de">5. Projektpublikationen</title>
+<title lang="en">4. Project Publication</title>
+<title lang="de">4. Projektpublikationen</title>
 </section>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -1866,7 +1866,6 @@ Erlauben Sie Ihren Kollegen den Zugriff auf die Daten?
 <optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-accessibility"/>
 </optionsets>
 <conditions/>
-</question>
 </question>
 <question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication/thesis-oa">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
