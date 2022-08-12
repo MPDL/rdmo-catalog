@@ -175,7 +175,7 @@ Geben Sie den Titel des Projekts oder eine Überschrift an, die das Projekt besc
 <key>description</key>
 <path>mpifg/general/topic-title/description</path>
 <dc:comment/>
-<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
+<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/project-description"/>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/general/topic-title"/>
 <is_collection>False</is_collection>
 <is_optional>False</is_optional>

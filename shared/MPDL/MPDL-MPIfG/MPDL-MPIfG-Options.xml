@@ -38,6 +38,13 @@ Nur mit besonderer Genehmigung durch Sie (bitte geben Sie eine E-Mail an, die la
 </text>
 <additional_input>True</additional_input>
 </option>
+<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/project-description">
+<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+<key>project-description</key>
+<path>mpifg/project-description</path>
+<dc:comment/>
+<parent dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg"/>
+</attribute>
 <option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-accessibility/mpifg-accessibility-other">
 <uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
 <key>mpifg-accessibility-other</key>
