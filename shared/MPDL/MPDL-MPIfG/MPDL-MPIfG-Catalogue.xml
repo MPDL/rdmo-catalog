@@ -1867,7 +1867,7 @@ Erlauben Sie Ihren Kollegen den Zugriff auf die Daten?
 </optionsets>
 <conditions/>
 </question>
-</question>
+</question>	
 <question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication/thesis-oa">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
 <key>thesis-oa</key>
