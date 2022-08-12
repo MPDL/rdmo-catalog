@@ -64,6 +64,62 @@ Nur mit besonderer Genehmigung durch Sie (bitte geben Sie eine E-Mail an, die la
 <provider_key/>
 <conditions/>
 </optionset>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-sharing-options">
+<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+<key>mpifg-sharing-options</key>
+<dc:comment/>
+<order>0</order>
+<provider_key/>
+<conditions/>
+</optionset>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-sharing-options/67">
+<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+<key>67</key>
+<path>mpifg-sharing-options/67</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-sharing-options"/>
+<order>1</order>
+<text lang="en">Yes, internally for project partners</text>
+<text lang="de">
+Ja, intern mit allen, solange sie die Daten nicht veröffentlichen oder nach außen weitergeben
+</text>
+<additional_input>False</additional_input>
+</option>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-sharing-options/68">
+<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+<key>68</key>
+<path>mpifg-sharing-options/68</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-sharing-options"/>
+<order>2</order>
+<text lang="en">Yes, externally limited with individual approval</text>
+<text lang="de">
+Ja, extern in begrenztem Umfang mit individueller Freigabe
+</text>
+<additional_input>False</additional_input>
+</option>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-sharing-options/69">
+<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+<key>69</key>
+<path>mpifg-sharing-options/69</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-sharing-options"/>
+<order>3</order>
+<text lang="en">Yes, externally for everyone</text>
+<text lang="de">Ja, extern für alle</text>
+<additional_input>False</additional_input>
+</option>
+<option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-sharing-options/70">
+<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+<key>70</key>
+<path>mpifg-sharing-options/70</path>
+<dc:comment/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-sharing-options"/>
+<order>4</order>
+<text lang="en">No</text>
+<text lang="de">Nein</text>
+<additional_input>False</additional_input>
+</option>
 <option dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-repository/open-access">
 <uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
 <key>open-access</key>

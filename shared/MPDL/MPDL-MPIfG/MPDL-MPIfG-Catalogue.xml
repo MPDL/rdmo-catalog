@@ -655,7 +655,7 @@ Bitte erkundigen Sie sich bei den Bibliotheksmitarbeitern (&lt;a href=&quot;mail
 <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
 <questionset/>
 <is_collection>False</is_collection>
-<order>5</order>
+<order>6</order>
 <title lang="en">2.4. Data Acquisition</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
@@ -717,7 +717,7 @@ Bitte informieren Sie sich im &lt;a href=&quot;(https://intern/IntraPages/Resear
 <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
 <questionset/>
 <is_collection>False</is_collection>
-<order>6</order>
+<order>7</order>
 <title lang="en">2.5. Field Work and Conference Visit</title>
 <help lang="en">
 Find information on how to proceed when planning a trip here: &lt;a href=&quot;http://intern/SitePages/Dienstreise%20planen.aspx&quot; target=&quot;_blank&quot;&gt;http://intern/SitePages/Dienstreise%20planen.aspx&lt;/a&gt;
@@ -811,7 +811,7 @@ mpifg/project-description/detailed-planning-stay-abroad
 <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
 <questionset/>
 <is_collection>False</is_collection>
-<order>6</order>
+<order>8</order>
 <title lang="en">2.6. Detailed planning for the stay abroad</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
@@ -875,7 +875,7 @@ mpifg/project-description/detailed-planning-conference
 <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-description"/>
 <questionset/>
 <is_collection>False</is_collection>
-<order>7</order>
+<order>9</order>
 <title lang="en">2.7. Detailed planning for conference(s)</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
@@ -1336,7 +1336,7 @@ Haben Sie vor, Ihre Daten zu veröffentlichen oder weiterzugeben? Wenn ja, wo?
 <unit/>
 <width/>
 <optionsets>
-<optionset dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options"/>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-sharing-options"/>
 </optionsets>
 <conditions/>
 </question>
@@ -1692,18 +1692,75 @@ Wenn ja, beschreiben Sie bitte die Art der sensiblen Daten. Welche Schutzklasse 
 <optionsets/>
 <conditions/>
 </question>
-<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/storage-and-long-term-preservation">
+<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
-<key>storage-and-long-term-preservation</key>
-<path>mpifg/storage-and-long-term-preservation</path>
+<key>project-publication</key>
+<path>mpifg/project-publication</path>
 <dc:comment/>
 <catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
-<order>6</order>
-<title lang="en">4. Good Scientific Practice / MPIfG Data Storage</title>
-<title lang="de">
-4. Gute wissenschaftliche Praxis / MPIfG Datenspeicherung
-</title>
+<order>7</order>
+<title lang="en">5. Project Publication</title>
+<title lang="de">5. Projektpublikationen</title>
 </section>
+<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication">
+<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+<key>thesis-publication</key>
+<path>mpifg/project-publication/thesis-publication</path>
+<dc:comment/>
+<attribute/>
+<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication"/>
+<questionset/>
+<is_collection>False</is_collection>
+<order>3</order>
+<title lang="en">4.3. Thesis Publication</title>
+<help lang="en"/>
+<verbose_name lang="en"/>
+<verbose_name_plural lang="en"/>
+<title lang="de">4.3. Veröffentlichung der Qualifikationsarbeit</title>
+<help lang="de"/>
+<verbose_name lang="de"/>
+<verbose_name_plural lang="de"/>
+<conditions>
+<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-thesis"/>
+</conditions>
+</questionset>
+<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication/thesis-publisher">
+<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
+<key>thesis-publisher</key>
+<path>
+mpifg/project-publication/thesis-publication/thesis-publisher
+</path>
+<dc:comment/>
+<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis/thesis-publisher"/>
+<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication"/>
+<is_collection>False</is_collection>
+<is_optional>False</is_optional>
+<order>1</order>
+<help lang="en"/>
+<text lang="en">How do you intend to publish your thesis?</text>
+<default_text lang="en"/>
+<verbose_name lang="en"/>
+<verbose_name_plural lang="en"/>
+<help lang="de"/>
+<text lang="de">
+Wie beabsichtigen Sie, Ihre Dissertation zu veröffentlichen?
+</text>
+<default_text lang="de"/>
+<verbose_name lang="de"/>
+<verbose_name_plural lang="de"/>
+<default_option/>
+<default_external_id/>
+<widget_type>radio</widget_type>
+<value_type>text</value_type>
+<maximum/>
+<minimum/>
+<step/>
+<unit/>
+<width/>
+<optionsets>
+<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish"/>
+</optionsets>
+<conditions/>
 <questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/storage-and-long-term-preservation/long-term-preservation-datasets">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
 <key>long-term-preservation-datasets</key>
@@ -1716,13 +1773,13 @@ mpifg/storage-and-long-term-preservation/long-term-preservation-datasets
 <questionset/>
 <is_collection>True</is_collection>
 <order>1</order>
-<title lang="en">4.1. Local Preservation</title>
+<title lang="en">4.2. MPIfG Local Data Storage</title>
 <help lang="en">
 The "Rules of good scientific practice" (&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/199493/regelnWissPraxis.pdf&lt;/a&gt;) of the MPS (the same as the „Guidelines for Safeguarding Good Research Practice. Code of Conduct“ (&lt;a href=&quot;https://doi.org/10.5281/zenodo.3923601&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.3923601&lt;/a&gt;) of the DFG) expect institutions to store data from research projects for 10 years in case of alleged scientific misconduct (&lt;a href=&quot;http://www.mpg.de/199559/verfahrensordnung.pdf&quot; target=&quot;_blank&quot;&gt;http://www.mpg.de/199559/verfahrensordnung.pdf&lt;/a&gt;). The Max Planck Institute for the Study of Societies has created a policy in 2013 (&lt;a href=&quot;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&quot; target=&quot;_blank&quot;&gt;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&lt;/a&gt;) which explains background and extend of the storage. Find more information on the intranet: &lt;a href=&quot;https://intern /IntraPages/Data%20Storage.aspx&quot; target=&quot;_blank&quot;&gt;https://intern /IntraPages/Data%20Storage.aspx&lt;/a&gt;.
 </help>
 <verbose_name lang="en">dataset</verbose_name>
 <verbose_name_plural lang="en">datasets</verbose_name_plural>
-<title lang="de">4.1. Lokale Speicherung</title>
+<title lang="de">4.2. MPIfG Lokale Speicherung</title>
 <help lang="de">
 Die "Regeln guter wissenschaftlicher Praxis" (&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/199493/regelnWissPraxis.pdf&lt;/a&gt;) des MPS (gleichlautend mit den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis. Code of Conduct" (&lt;a href=&quot;https://doi.org/10.5281/zenodo.3923601&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.3923601&lt;/a&gt;) der DFG) erwarten, dass Institutionen Daten aus Forschungsprojekten für 10 Jahre aufbewahren, falls wissenschaftliches Fehlverhalten vermutet wird (&lt;a href=&quot;http://www.mpg.de/199559/verfahrensordnung.pdf&quot; target=&quot;_blank&quot;&gt;http://www.mpg.de/199559/verfahrensordnung.pdf&lt;/a&gt;). Das Max-Planck-Institut für Gesellschaftsforschung hat 2013 eine Richtlinie erstellt (&lt;a href=&quot;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&quot; target=&quot;_blank&quot;&gt;https://intern.mpifg.de/IntraDoks/All Researchers Data-Guideline_2014_07_01.pdf&lt;/a&gt;), die Hintergründe und Umfang der Speicherung erläutert. Weitere Informationen finden Sie im Intranet: &lt;a href=&quot;https://intern /IntraPages/Data%20Storage.aspx&quot; target=&quot;_blank&quot;&gt;https://intern /IntraPages/Data%20Storage.aspx&lt;/a&gt;.
 </help>
@@ -1810,75 +1867,6 @@ Erlauben Sie Ihren Kollegen den Zugriff auf die Daten?
 </optionsets>
 <conditions/>
 </question>
-<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication">
-<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
-<key>project-publication</key>
-<path>mpifg/project-publication</path>
-<dc:comment/>
-<catalog dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg"/>
-<order>7</order>
-<title lang="en">5. Project Publication</title>
-<title lang="de">5. Projektpublikationen</title>
-</section>
-<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication">
-<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
-<key>thesis-publication</key>
-<path>mpifg/project-publication/thesis-publication</path>
-<dc:comment/>
-<attribute/>
-<section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication"/>
-<questionset/>
-<is_collection>False</is_collection>
-<order>1</order>
-<title lang="en">5.0. Thesis Publication</title>
-<help lang="en"/>
-<verbose_name lang="en"/>
-<verbose_name_plural lang="en"/>
-<title lang="de">5.0. Veröffentlichung der Qualifikationsarbeit</title>
-<help lang="de"/>
-<verbose_name lang="de"/>
-<verbose_name_plural lang="de"/>
-<conditions>
-<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/mpifg-thesis"/>
-</conditions>
-</questionset>
-<question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication/thesis-publisher">
-<uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
-<key>thesis-publisher</key>
-<path>
-mpifg/project-publication/thesis-publication/thesis-publisher
-</path>
-<dc:comment/>
-<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/mpifg/publication/thesis/thesis-publisher"/>
-<questionset dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication"/>
-<is_collection>False</is_collection>
-<is_optional>False</is_optional>
-<order>1</order>
-<help lang="en"/>
-<text lang="en">How do you intend to publish your thesis?</text>
-<default_text lang="en"/>
-<verbose_name lang="en"/>
-<verbose_name_plural lang="en"/>
-<help lang="de"/>
-<text lang="de">
-Wie beabsichtigen Sie, Ihre Dissertation zu veröffentlichen?
-</text>
-<default_text lang="de"/>
-<verbose_name lang="de"/>
-<verbose_name_plural lang="de"/>
-<default_option/>
-<default_external_id/>
-<widget_type>radio</widget_type>
-<value_type>text</value_type>
-<maximum/>
-<minimum/>
-<step/>
-<unit/>
-<width/>
-<optionsets>
-<optionset dc:uri="https://rdmorganiser.github.io/terms/options/mpifg-thesis-publish"/>
-</optionsets>
-<conditions/>
 </question>
 <question dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication/thesis-publication/thesis-oa">
 <uri_prefix>https://rdmo.mpdl-mpifg.de/terms</uri_prefix>
@@ -1929,12 +1917,12 @@ Welche Art von Zugriff erlauben Sie auf den Text im Repositorium?
 <section dc:uri="https://rdmo.mpdl-mpifg.de/terms/questions/mpifg/project-publication"/>
 <questionset/>
 <is_collection>False</is_collection>
-<order>2</order>
-<title lang="en">5.1. Publications from the project</title>
+<order>1</order>
+<title lang="en">4.1. Publications from the project</title>
 <help lang="en"/>
 <verbose_name lang="en"/>
 <verbose_name_plural lang="en"/>
-<title lang="de">5.1. Publikationen aus dem Projekt</title>
+<title lang="de">4.1. Publikationen aus dem Projekt</title>
 <help lang="de"/>
 <verbose_name lang="de"/>
 <verbose_name_plural lang="de"/>
