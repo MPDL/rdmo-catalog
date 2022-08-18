@@ -193,13 +193,13 @@ Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfängl
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">Please enter the name and contact details as well as institution and position, if applicable.</help>
+		<help lang="en">Please enter the name and contact details as well as institution and positionas well as role in the software project, if applicable.</help>
 		<text lang="en">Who are the project participants that deal with this software?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Bitte geben Sie den Namen und Kontaktdaten sowie ggf. Institution und Position</help>
-		<text lang="de">Wer sind die Projektteilnehmer, die mit dieser Software arbeiten?</text>
+		<help lang="de">Bitte geben Sie den Namen und Kontaktdaten sowie ggf. Institution und Position sowie Rolle im Software-Projekt.</help>
+		<text lang="de">Wer sind die Projektteilnehmer, die an dieser Software arbeiten?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -458,9 +458,9 @@ Examples of applications are somewhat stand-alone ticket systems such as Jira or
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Die Entwicklung von Software geht einher mit einer hohen Komplexität. Um die vielfältigen Anforderungen, Aufgaben und Probleme nachzuvollziehen, empfiehlt es sich diese Punkte in einer klaren Struktur zu organisieren. Gleichzeitig fördert dies die Rückverfolgbarkeit von Entwicklungen und Entwicklungen.
+		<help lang="de">Die Entwicklung von Software geht einher mit einer hohen Komplexität. Um die vielfältigen Anforderungen, Aufgaben und Probleme nachzuvollziehen, empfiehlt es sich diese Punkte in einer klaren Struktur zu organisieren. Gleichzeitig fördert dies die Rückverfolgbarkeit von Entwicklungen.
 
-Beispiele für Anwendungen sind etwas eigenständige Ticket-Systeme wie Jira oder Redmine. Ebenso gut können aber auch integrierte Systeme verwendet werden, wie etwa die Issue-Funktionen bei GitHub/GitLab. Auch das Arbeiten mit einem (digitalen) Kanban-Board kann bei der Software-Entwicklung unterstützen.</help>
+Beispiele für Anwendungen sind etwa eigenständige Ticket-Systeme wie Jira oder Redmine. Ebenso gut können aber auch integrierte Systeme verwendet werden, wie etwa die Issue-Funktionen bei GitHub/GitLab. Auch das Arbeiten mit einem (digitalen) Kanban-Board kann bei der Software-Entwicklung unterstützen.</help>
 		<text lang="de">Wie verfolgen Sie die verschiedenen Aufgaben und Anwendungsfälle?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -531,7 +531,7 @@ Im Folgenden finden Sie eine Beispielsammlung für institutionelle Regelwerke mi
 * Budich &amp; Funk (2022): Software Licensing and Copyright Policy for Research Software CODE @ Max Planck Institute for Meteorology, &lt;a href=&quot;https://mpimet.mpg.de/fileadmin/staff/budichreinhard/MPI-M-SW-Policy.pdf&quot; target=&quot;_blank&quot;&gt;https://mpimet.mpg.de/fileadmin/staff/budichreinhard/MPI-M-SW-Policy.pdf&lt;/a&gt;.
 * European Space Agency: ESA Open Source Policy, &lt;a href=&quot;https://essr.esa.int/esa-open-source-policy&quot; target=&quot;_blank&quot;&gt;https://essr.esa.int/esa-open-source-policy&lt;/a&gt;.
 * Akhmerov et al. (2021): TU Delft Research Software Policy, &lt;a href=&quot;https://doi.org/10.5281/zenodo.4629662&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.4629662&lt;/a&gt;.</help>
-		<text lang="de">Gibt es institutionelle Anforderungen an das Softwareentwicklung?</text>
+		<text lang="de">Gibt es institutionelle Anforderungen an die Softwareentwicklung?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -564,7 +564,7 @@ In parallel, it is advisable to familiarise yourself with the FAIR Principles fo
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Neben institutionellen Anforderungen können ebenso weitere Bedingungen existieren, die es bei der Entwicklung von Software im wissenschaftlichen Kontext zu beachten gilt. Wenn beispielsweise die Software in einem Drittmitprojekt entwickelt wird, dann sind die Vorgaben des Mittelgebers binden. Ebenso können verschiedene Vereinbarungen in der eigenen Fächergruppe herrschen, die es bei der Software-Entwicklung zu berücksichtigten gilt.
+		<help lang="de">Neben institutionellen Anforderungen können ebenso weitere Bedingungen existieren, die es bei der Entwicklung von Software im wissenschaftlichen Kontext zu beachten gilt. Wenn beispielsweise die Software in einem Drittmittelprojekt entwickelt wird, dann sind die Vorgaben des Mittelgebers bindend. Ebenso können verschiedene Vereinbarungen in der eigenen Fächergruppe herrschen, die es bei der Software-Entwicklung zu berücksichtigten gilt.
 
 Parallel dazu ist es empfehlenswert, sich mit den FAIR Principles for Research Software (&lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;) schon frühzeitig vertraut zu machen. So wird beispielsweise diese Frage nach Anforderung nach Software in &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I1 und R3 gefordert. Die Orientierung an den &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;-Prinzipien kann gleichzeitig die Qualität und Akzeptanz der Software deutlich steigern. Eine interaktive Hilfestellung zu FAIR Software findet sich hier: &lt;a href=&quot;https://fair-software.nl&quot; target=&quot;_blank&quot;&gt;https://fair-software.nl&lt;/a&gt;.</help>
 		<text lang="de">Gibt es Anforderungen bezüglich der Softwareentwicklung von Externen?</text>
