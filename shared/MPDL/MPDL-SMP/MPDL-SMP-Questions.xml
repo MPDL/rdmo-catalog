@@ -163,6 +163,42 @@ Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfängl
 		<optionsets/>
 		<conditions/>
 	</question>
+	<question dc:uri="https://rdmo.mpdl.mpg.de/terms/questions/smp/general/topic/buy-or-make">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
+		<key>buy-or-make</key>
+		<path>smp/general/topic/buy-or-make</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/smp/buy-or-make"/>
+		<questionset dc:uri="https://rdmo.mpdl.mpg.de/terms/questions/smp/general/topic"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en">
+		Are you sure that there is no software with the functionality you are planning yet?
+		</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">
+		Sind Sie sicher, dass es noch keine Software mit der von ihnen geplanten Funktionalität gibt?
+		</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
 	<questionset dc:uri="https://rdmo.mpdl.mpg.de/terms/questions/smp/general/project-partner">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<key>project-partner</key>
@@ -258,13 +294,21 @@ Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfängl
 		<is_optional>False</is_optional>
 		<order>2</order>
 		<help lang="en">Scientific software is becoming increasingly important as a source of knowledge. Therefore, the development of software in a scientific context is also becoming increasingly relevant for funding organisations. A software management plan can therefore be a useful basis for applying for (partial) project funding, as software is increasingly considered worthy of funding. 
-		For further reference, we recommend these publications: *<a href="https://www.software.ac.uk/blog/2022-06-20-visibility-research-software-engineers-research-funding" target="_blank">Rand et al., Visibility of Research Software Engineers in research funding, 2022, Software Sustainability Institute Blog</a>. * Strasser, et al. (2022): 10 Simple Rules for Funding Scientific Open Source Software, <a href="https://doi.org/10.5281/ZENODO.6611500" target="_blank">https://doi.org/10.5281/zenodo.6611500</a>.</help>
+		
+		For further reference, we recommend these publications: 
+		
+		* <a href="https://www.software.ac.uk/blog/2022-06-20-visibility-research-software-engineers-research-funding" target="_blank">Rand et al., Visibility of Research Software Engineers in research funding, 2022, Software Sustainability Institute Blog</a>.
+		* Strasser, et al. (2022): 10 Simple Rules for Funding Scientific Open Source Software, <a href="https://doi.org/10.5281/ZENODO.6611500" target="_blank">https://doi.org/10.5281/zenodo.6611500</a>.</help>
 		<text lang="en">Is there or will there be specific funding for the software development?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Wissenschaftliche Software gewinnt als Erkenntnisgewinn zunehmend an Bedeutung. Daher wird die Entwicklung von Software im wissenschaftlichen Kontext auch für Förderorganisationen zunehmend relevanter. Ein Software-Management-Plan kann daher eine sinnvolle Grundlage für eine Beantragung von (Teil-)Projektmitteln, da Software zunehmend auch als förderwürdig erachtet wird. 
-		Als weiterführenden Hinweise empfehlen wir diese Publikationen: * <a href="https://www.software.ac.uk/blog/2022-06-20-visibility-research-software-engineers-research-funding" target="_blank">Rand et al., Visibility of Research Software Engineers in research funding, 2022, Software Sustainability Institute Blog</a>. * Strasser, et al. (2022): 10 Simple Rules for Funding Scientific Open Source Software, <a href="https://doi.org/10.5281/ZENODO.6611500" target="_blank">https://doi.org/10.5281/zenodo.6611500</a>.</help>
+		
+		Als weiterführenden Hinweise empfehlen wir diese Publikationen:
+		
+		* <a href="https://www.software.ac.uk/blog/2022-06-20-visibility-research-software-engineers-research-funding" target="_blank">Rand et al., Visibility of Research Software Engineers in research funding, 2022, Software Sustainability Institute Blog</a>.
+		* Strasser, et al. (2022): 10 Simple Rules for Funding Scientific Open Source Software, <a href="https://doi.org/10.5281/ZENODO.6611500" target="_blank">https://doi.org/10.5281/zenodo.6611500</a>.</help>
 		<text lang="de">Gibt es oder wird es eine spezielle Finanzierung für die Softwareentwicklung geben?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
