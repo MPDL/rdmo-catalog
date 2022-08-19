@@ -258,23 +258,13 @@ Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfängl
 		<is_optional>False</is_optional>
 		<order>2</order>
 		<help lang="en">Scientific software is becoming increasingly important as a source of knowledge. Therefore, the development of software in a scientific context is also becoming increasingly relevant for funding organisations. A software management plan can therefore be a useful basis for applying for (partial) project funding, as software is increasingly considered worthy of funding. 
-		
-		For further reference, we recommend these publications: 
-		
-		*&lt;a href=&quot;https://www.software.ac.uk/blog/2022-06-20-visibility-research-software-engineers-research-funding&quot; target=&quot;_blank&quot;&gt;Rand et al., Visibility of Research Software Engineers in research funding, 2022, Software Sustainability Institute Blog&lt;/a&gt;. 
-		
-		* Strasser, et al. (2022): 10 Simple Rules for Funding Scientific Open Source Software, &lt;a href=&quot;https://doi.org/10.5281/ZENODO.6611500&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/ZENODO.6611500&lt;/a&gt;.</help>
+		For further reference, we recommend these publications: *<a href="https://www.software.ac.uk/blog/2022-06-20-visibility-research-software-engineers-research-funding" target="_blank">Rand et al., Visibility of Research Software Engineers in research funding, 2022, Software Sustainability Institute Blog</a>. * Strasser, et al. (2022): 10 Simple Rules for Funding Scientific Open Source Software, <a href="https://doi.org/10.5281/ZENODO.6611500" target="_blank">https://doi.org/10.5281/zenodo.6611500</a>.</help>
 		<text lang="en">Is there or will there be specific funding for the software development?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Wissenschaftliche Software gewinnt als Erkenntnisgewinn zunehmend an Bedeutung. Daher wird die Entwicklung von Software im wissenschaftlichen Kontext auch für Förderorganisationen zunehmend relevanter. Ein Software-Management-Plan kann daher eine sinnvolle Grundlage für eine Beantragung von (Teil-)Projektmitteln, da Software zunehmend auch als förderwürdig erachtet wird. 
-		
-		Als weiterführenden Hinweise empfehlen wir diese Publikationen: 
-		
-		* &lt;a href=&quot;https://www.software.ac.uk/blog/2022-06-20-visibility-research-software-engineers-research-funding&quot; target=&quot;_blank&quot;&gt;Rand et al., Visibility of Research Software Engineers in research funding, 2022, Software Sustainability Institute Blog&lt;/a&gt;. 
-		
-		* Strasser, et al. (2022): 10 Simple Rules for Funding Scientific Open Source Software, &lt;a href=&quot;https://doi.org/10.5281/ZENODO.6611500&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/ZENODO.6611500&lt;/a&gt;.</help>
+		Als weiterführenden Hinweise empfehlen wir diese Publikationen: * <a href="https://www.software.ac.uk/blog/2022-06-20-visibility-research-software-engineers-research-funding" target="_blank">Rand et al., Visibility of Research Software Engineers in research funding, 2022, Software Sustainability Institute Blog</a>. * Strasser, et al. (2022): 10 Simple Rules for Funding Scientific Open Source Software, <a href="https://doi.org/10.5281/ZENODO.6611500" target="_blank">https://doi.org/10.5281/zenodo.6611500</a>.</help>
 		<text lang="de">Gibt es oder wird es eine spezielle Finanzierung für die Softwareentwicklung geben?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -913,12 +903,12 @@ Folgende Literatur könnte zusätzlich interessant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">Please get in touch with your local colleagues from IT, Scientific Computing Unit, etc. They have a very good overview of the existing infrastructure. They have a very good overview of the existing infrastructure. Please also ask &lt;a href=&quot;https://devtools.mpdl.mpg.de/soli/wiki/Institutsliste&quot; target=&quot;_blank&quot;&gt;your local software licensing officers&lt;/a&gt; about any existing software licences. There may already be licence agreements in place, so new licences may not need to be explicitly purchased.</help>
+		<help lang="en">Please get in touch with your local colleagues from IT, Scientific Computing Unit, etc. They have a very good overview of the existing infrastructure. They have a very good overview of the existing infrastructure. Please also ask your local software officers about any existing software licences. There may already be licence agreements in place, so new licences may not need to be explicitly purchased.</help>
 		<text lang="en">Is there already existing infrastructure for the software development? Where is the infrastructure be hosted?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Bitte setzen Sie sich mit Ihren lokalen Kolleg_innen von IT, Scientific Computing Unit etc. in Kontakt. Diese haben einen sehr guten Überblick über die bereits existierende Infrastruktur. Bitte erkundigen Sie sich ebenso bei &lt;a href=&quot;https://devtools.mpdl.mpg.de/soli/wiki/Institutsliste&quot; target=&quot;_blank&quot;&gt;Ihren lokalen Software-Lizenzensierungsbeauftragten&lt;/a&gt; nach eventuell bereits vorhandenen Software-Lizenzen. Es gibt eventuell schon Lizenzverträge, sodass neue Lizenzen eventuell nicht explizit gekauft werden müssen.</help>
+		<help lang="de">Bitte setzen Sie sich mit Ihren lokalen Kolleg_innen von IT, Scientific Computing Unit etc. in Kontakt. Diese haben einen sehr guten Überblick über die bereits existierende Infrastruktur. Bitte erkundigen Sie sich ebenso bei Ihren lokalen Softwarebeauftragten nach eventuell bereits vorhandenen Software-Lizenzen. Es gibt eventuell schon Lizenzverträge, sodass neue Lizenzen eventuell nicht explizit gekauft werden müssen.</help>
 		<text lang="de">Gibt es bereits eine Infrastruktur für die Softwareentwicklung? Wo wird die Infrastruktur gehostet?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1135,12 +1125,12 @@ Vor diesem Hintergrund ist es grundsätzlich wichtig genau zu dokumentieren, wie
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">According to the established principles of good scientific practice (MPG rules, &lt;a href=&quot;https://www.mpg.de/197494/rulesScientificPractice.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/197494/rulesScientificPractice.pdf&lt;/a&gt;), results must be stored for at least ten years. Of course, this also applies to software. Therefore, it must be ensured that the software remains available for this period (at least within the institution). This may, of course, go beyond this or require further measures, depending on local regulations. If you are not sure what the practice is at your institute, it is advisable to contact your local colleagues from IT, Scientific Computing Unit etc. about this.</help>
+		<help lang="en">According to the established principles of good scientific practice (i.e. &lt;a href=&quot;https://www.mpg.de/197494/rulesScientificPractice.pdf&quot; target=&quot;_blank&quot;&gt;MPG rules&lt;/a&gt;), results must be stored for at least ten years. Of course, this also applies to software. Therefore, it must be ensured that the software remains available for this period (at least within the institution). This may, of course, go beyond this or require further measures, depending on local regulations. If you are not sure what the practice is at your institute, it is advisable to contact your local colleagues from IT, Scientific Computing Unit etc. about this.</help>
 		<text lang="en">Does this software has to be preserved for a longer term?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Nach den gängigen Prinzipien der guten wissenschaftlichen Praxis (MPG-Regeln, &lt;a href=&quot;https://www.mpg.de/12104234/it-sicherheitsrichtlinie-der-mpg.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/12104234/it-sicherheitsrichtlinie-der-mpg.pdf&lt;/a&gt;) müssen Ergebnis mindestens für zehn Jahre aufbewahrt werden. Dies trifft selbstredend auch auf Software zu. Daher muss sichergestellt werden, dass die Software für diesen Zeitraum (zumindest institutsintern) verfügbar bleibt. Dies kann natürlich darüber hinaus gehen oder weiterführende Maßnahmen erfordern, je nach lokaler Regelung. Falls Sie nicht sicher sind, was die gelebte Praxis an Ihrem Institut ist, so empfiehlt es sich Ihre lokalen Kolleg_innen von IT, Scientific Computing Unit etc. diesbezüglich anzusprechen.</help>
+		<help lang="de">Nach den gängigen Prinzipien der guten wissenschaftlichen Praxis (z.B. &lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;MPG-Regeln&lt;/a&gt;) müssen Ergebnis mindestens für zehn Jahre aufbewahrt werden. Dies trifft selbstredend auch auf Software zu. Daher muss sichergestellt werden, dass die Software für diesen Zeitraum (zumindest institutsintern) verfügbar bleibt. Dies kann natürlich darüber hinaus gehen oder weiterführende Maßnahmen erfordern, je nach lokaler Regelung. Falls Sie nicht sicher sind, was die gelebte Praxis an Ihrem Institut ist, so empfiehlt es sich Ihre lokalen Kolleg_innen von IT, Scientific Computing Unit etc. diesbezüglich anzusprechen.</help>
 		<text lang="de">Muss diese Software längerfristig aufbewahrt werden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1169,14 +1159,14 @@ Vor diesem Hintergrund ist es grundsätzlich wichtig genau zu dokumentieren, wie
 		<order>2</order>
 		<help lang="en">An adequate place should be found for the storage of the resulting software. Depending on the requirements and possibilities, this can range from a simple, local solution to a specialised software repository.
 
-One far-reaching option for the long-term preservation of software is, for example, Software Heritage &lt;a href=&quot;https://www.softwareheritage.org/save-and-reference-research-software/&quot; target=&quot;_blank&quot;&gt;https://www.softwareheritage.org/save-and-reference-research-software/&lt;/a&gt; (for more repository examples, see also this article &lt;a href=&quot;https://doi.org/10.48550/arXiv.2012.13117&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.48550/arXiv.2012.13117&lt;/a&gt;). But there are other places that lend themselves to public, long-term availability. For example, &lt;a href=&quot;https://www.re3data.org/search?query=&amp;contentTypes%5B%5D=Software%20applications&quot; target=&quot;_blank&quot;&gt;re3data&lt;/a&gt; can be used to search for specific repositories through which software can be published.</help>
+One far-reaching option for the long-term preservation of software is, for example, &lt;a href=&quot;https://www.softwareheritage.org/save-and-reference-research-software/&quot; target=&quot;_blank&quot;&gt;Software Heritage&lt;/a&gt; (for more repository examples, see also this article &lt;a href=&quot;https://doi.org/10.48550/arXiv.2012.13117&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.48550/arXiv.2012.13117&lt;/a&gt;). But there are other places that lend themselves to public, long-term availability. For example, &lt;a href=&quot;https://www.re3data.org/search?query=&amp;contentTypes%5B%5D=Software%20applications&quot; target=&quot;_blank&quot;&gt;re3data&lt;/a&gt; can be used to search for specific repositories through which software can be published.</help>
 		<text lang="en">Where will the software be stored? Does the storage place has a clear preservation policy?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Für die Aufbewahrung der entstandenen Software sollte ein adäquater Ort gefunden werden. Je nach Anforderungen und Möglichkeiten kann dies von einer einfachen, lokalen Lösung bis hin zu einem spezialisierten Software-Repositorium reichen.
 
-Eine weitreichende Möglichkeit für den langfristigen Erhalt von Software ist beispielsweise Software Heritage &lt;a href=&quot;https://www.softwareheritage.org/save-and-reference-research-software/&quot; target=&quot;_blank&quot;&gt;https://www.softwareheritage.org/save-and-reference-research-software/&lt;/a&gt; (für weitere Repositoriums-Beispiele siehe auch diesen Artikel &lt;a href=&quot;https://doi.org/10.48550/arXiv.2012.13117&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.48550/arXiv.2012.13117&lt;/a&gt;). Es gibt aber noch weitere Ort, die sich für eine öffentliche, langfristige Verfügbarkeit anbieten. Über &lt;a href=&quot;https://www.re3data.org/search?query=&amp;contentTypes%5B%5D=Software%20applications&quot; target=&quot;_blank&quot;&gt;re3data&lt;/a&gt; lassen sich beispielsweise gezielt Repositorium suche, über die Software publiziert werden kann.</help>
+Eine weitreichende Möglichkeit für den langfristigen Erhalt von Software ist beispielsweise &lt;a href=&quot;https://www.softwareheritage.org/save-and-reference-research-software/&quot; target=&quot;_blank&quot;&gt;Software Heritage &lt;/a&gt; (für weitere Repositoriums-Beispiele siehe auch diesen Artikel &lt;a href=&quot;https://doi.org/10.48550/arXiv.2012.13117&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.48550/arXiv.2012.13117&lt;/a&gt;). Es gibt aber noch weitere Ort, die sich für eine öffentliche, langfristige Verfügbarkeit anbieten. Über &lt;a href=&quot;https://www.re3data.org/search?query=&amp;contentTypes%5B%5D=Software%20applications&quot; target=&quot;_blank&quot;&gt;re3data&lt;/a&gt; lassen sich beispielsweise gezielt Repositorium suche, über die Software publiziert werden kann.</help>
 		<text lang="de">Wo soll die Software gespeichert werden? Verfügt der Speicherort über eine klare Aufbewahrungspolitik?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
