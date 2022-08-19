@@ -453,14 +453,14 @@ Zur Unterstützung können diese Texte interessant sein:
 		<order>1</order>
 		<help lang="en">The development of software goes hand in hand with a high degree of complexity. In order to keep track of the diverse requirements, tasks and problems, it is advisable to organise these points in a clear structure. At the same time, this promotes the traceability of developments and evolutions.
 
-Examples of applications are somewhat stand-alone ticket systems such as Jira or Redmine. However, integrated systems can also be used just as well, such as the issue functions at GitHub/GitLab. Working with a (digital) Kanban board can also support software development.</help>
+Examples of applications are somewhat stand-alone ticket systems such as Jira or Redmine. However, integrated systems can also be used just as well, such as provided in GitHub/GitLab (&lt;a href=&quot;https://carpentries-incubator.github.io/git-novice-branch-pr/&quot; target=&quot;_blank&quot;&gt;see for example the Carpentries Lesson&lt;/a&gt;). Working with a (digital) Kanban board can also support software development.</help>
 		<text lang="en">How do you track the different tasks and use cases?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Die Entwicklung von Software geht einher mit einer hohen Komplexität. Um die vielfältigen Anforderungen, Aufgaben und Probleme nachzuvollziehen, empfiehlt es sich diese Punkte in einer klaren Struktur zu organisieren. Gleichzeitig fördert dies die Rückverfolgbarkeit von Entwicklungen.
 
-Beispiele für Anwendungen sind etwa eigenständige Ticket-Systeme wie Jira oder Redmine. Ebenso gut können aber auch integrierte Systeme verwendet werden, wie etwa die Issue-Funktionen bei GitHub/GitLab. Auch das Arbeiten mit einem (digitalen) Kanban-Board kann bei der Software-Entwicklung unterstützen.</help>
+Beispiele für Anwendungen sind etwa eigenständige Ticket-Systeme wie Jira oder Redmine. Ebenso gut können aber auch integrierte Systeme verwendet werden, wie etwa in GitHub/GitLab bereitgestellt (&lt;a href=&quot;https://carpentries-incubator.github.io/git-novice-branch-pr/&quot; target=&quot;_blank&quot;&gt;siehe etwa die Carpentries Lesson&lt;/a&gt;). Auch das Arbeiten mit einem (digitalen) Kanban-Board kann bei der Software-Entwicklung unterstützen.</help>
 		<text lang="de">Wie verfolgen Sie die verschiedenen Aufgaben und Anwendungsfälle?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -566,7 +566,7 @@ In parallel, it is advisable to familiarise yourself with the FAIR Principles fo
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Neben institutionellen Anforderungen können ebenso weitere Bedingungen existieren, die es bei der Entwicklung von Software im wissenschaftlichen Kontext zu beachten gilt. Wenn beispielsweise die Software in einem Drittmittelprojekt entwickelt wird, dann sind die Vorgaben des Mittelgebers bindend. Ebenso können verschiedene Vereinbarungen in der eigenen Fächergruppe herrschen, die es bei der Software-Entwicklung zu berücksichtigten gilt.
 
-Parallel dazu ist es empfehlenswert, sich mit den FAIR Principles for Research Software (&lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;) schon frühzeitig vertraut zu machen. So wird beispielsweise diese Frage nach Anforderung nach Software in &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I1 und R3 gefordert. Die Orientierung an den &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;-Prinzipien kann gleichzeitig die Qualität und Akzeptanz der Software deutlich steigern. Eine interaktive Hilfestellung zu FAIR Software findet sich hier: &lt;a href=&quot;https://fair-software.nl&quot; target=&quot;_blank&quot;&gt;https://fair-software.nl&lt;/a&gt;.</help>
+Parallel dazu ist es empfehlenswert, sich mit den FAIR Principles for Research Software (&lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;) schon frühzeitig vertraut zu machen. So wird beispielsweise diese Anforderung in &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I1 und R3 gefordert. Die Orientierung an den &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;-Prinzipien kann gleichzeitig die Qualität und Akzeptanz der Software deutlich steigern. Eine interaktive Hilfestellung zu FAIR Software findet sich hier: &lt;a href=&quot;https://fair-software.nl&quot; target=&quot;_blank&quot;&gt;https://fair-software.nl&lt;/a&gt;.</help>
 		<text lang="de">Gibt es Anforderungen bezüglich der Softwareentwicklung von Externen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -797,13 +797,13 @@ Folgende Literatur könnte zusätzlich interessant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
-		<help lang="en">If external software components are used, it is advisable to document this. The aim here should not only be to obtain an overview, but also, if necessary, to obtain a (partially) automatic analysis of any dependencies that arise. Examples of different services to monitor the external components can be, for example, &lt;a href=&quot;https://maven.apache.org&quot; target=&quot;_blank&quot;&gt;Maven&lt;/a&gt;, &lt;a href=&quot;https://gradle.org&quot; target=&quot;_blank&quot;&gt;Gradle&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.com&quot; target=&quot;_blank&quot;&gt;npm&lt;/a&gt;, &lt;a href=&quot;https://yarnpkg.com&quot; target=&quot;_blank&quot;&gt;Yarn&lt;/a&gt; and &lt;a href=&quot;https://pypi.org/project/pipenv/&quot; target=&quot;_blank&quot;&gt;pipenv&lt;/a&gt;. Please check with your &lt;a href=&quot;https://devtools.mpdl.mpg.de/soli/wiki/Institutsliste&quot; target=&quot;_blank&quot;&gt;local software licensing officers&lt;/a&gt; for any existing services.</help>
-		<text lang="en">What is the process to keep track of the external software components? Can they be eliminated or mitigated?</text>
+		<help lang="en">If external software components are used, it is advisable to document this. The aim here should not only be to obtain an overview, but also, if necessary, to obtain a (partially) automatic analysis of any dependencies that arise. Examples of different services to monitor the external components can be, for example, &lt;a href=&quot;https://maven.apache.org&quot; target=&quot;_blank&quot;&gt;Maven&lt;/a&gt;, &lt;a href=&quot;https://gradle.org&quot; target=&quot;_blank&quot;&gt;Gradle&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.com&quot; target=&quot;_blank&quot;&gt;npm&lt;/a&gt;, &lt;a href=&quot;https://yarnpkg.com&quot; target=&quot;_blank&quot;&gt;Yarn&lt;/a&gt; and &lt;a href=&quot;https://pypi.org/project/pipenv/&quot; target=&quot;_blank&quot;&gt;pipenv&lt;/a&gt;. Please check with your local software officers for already existing services.</help>
+		<text lang="en">What is the process to keep track of the external software components? Can critical dependencies be eliminated or mitigated?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Wenn externe Software-Komponenten verwendet werden, dann ist es ratsam, dies zu dokumentieren. Ziel sollte es hierbei sein nicht nur einen Überblick zu erlangen, sondern ggf. auch schone eine (teil-)automatische Analyse von entstehenden Abhängigkeiten zu erlangen. Beispiele für verschiedene Service, um die externen Komponenten zu beobachten, können beispielsweise &lt;a href=&quot;https://maven.apache.org&quot; target=&quot;_blank&quot;&gt;Maven&lt;/a&gt;, &lt;a href=&quot;https://gradle.org&quot; target=&quot;_blank&quot;&gt;Gradle&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.com&quot; target=&quot;_blank&quot;&gt;npm&lt;/a&gt;, &lt;a href=&quot;https://yarnpkg.com&quot; target=&quot;_blank&quot;&gt;Yarn&lt;/a&gt; und &lt;a href=&quot;https://pypi.org/project/pipenv/&quot; target=&quot;_blank&quot;&gt;pipenv&lt;/a&gt; sein. Bitte erkundigen Sie sich bei Ihren &lt;a href=&quot;https://devtools.mpdl.mpg.de/soli/wiki/Institutsliste&quot; target=&quot;_blank&quot;&gt;lokalen Software-Lizenzensierungsbeauftragten&lt;/a&gt; nach eventuell bereits vorhandenen Services.</help>
-		<text lang="de">Wie wird der Überblick über die externen Software-Komponenten behalten? Können sie eliminiert oder abgeschwächt werden?</text>
+		<help lang="de">Wenn externe Software-Komponenten verwendet werden, dann ist es ratsam, dies zu dokumentieren. Ziel sollte es hierbei sein nicht nur einen Überblick zu erlangen, sondern ggf. auch schone eine (teil-)automatische Analyse von entstehenden Abhängigkeiten zu erlangen. Beispiele für verschiedene Service, um die externen Komponenten zu beobachten, können beispielsweise &lt;a href=&quot;https://maven.apache.org&quot; target=&quot;_blank&quot;&gt;Maven&lt;/a&gt;, &lt;a href=&quot;https://gradle.org&quot; target=&quot;_blank&quot;&gt;Gradle&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.com&quot; target=&quot;_blank&quot;&gt;npm&lt;/a&gt;, &lt;a href=&quot;https://yarnpkg.com&quot; target=&quot;_blank&quot;&gt;Yarn&lt;/a&gt; und &lt;a href=&quot;https://pypi.org/project/pipenv/&quot; target=&quot;_blank&quot;&gt;pipenv&lt;/a&gt; sein. Bitte erkundigen Sie sich bei Ihren lokalen Softwarebeauftragten nach eventuell bereits vorhandenen Services.</help>
+		<text lang="de">Wie wird der Überblick über die externen Software-Komponenten behalten? Können kritische Abhängigkeiten eliminiert oder abgeschwächt werden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -829,12 +829,12 @@ Folgende Literatur könnte zusätzlich interessant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
-		<help lang="en">Software can be used to integrate external services. Examples include interface queries with other databases, external map applications, the use of external computing capacity, etc. For the correct use of external web services, it may be necessary to explicitly enable special ports. It is therefore advisable to contact local colleagues from IT, the Scientific Computing Unit etc. before using external web services for your own software.</help>
+		<help lang="en">Software can be used to integrate external services. Examples of this are interface queries with other databases, external map applications, the use of external computing capacities, etc. For the correct use of external web services, it may be necessary to explicitly enable special ports or to fulfil further requirements. It is therefore advisable to contact local colleagues from IT, the Scientific Computing Unit etc. before using external web services for your own software.</help>
 		<text lang="en">Do you plan to use third party web services?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Mit Software lassen sich externe Dienste einbinden. Beispiele hierfür sind etwa Schnittstellenabfragen bei anderen Datenbanken, externe Kartenanwendungen, die Nutzung von externen Rechenkapazitäten usw. Für die korrekte Anwendung von externen Webdiensten kann es notwendig sein, dass spezielle Ports explizit freigeschaltet werden müssen. Es ist daher ratsam bei der Nutzung von externen Webdiensten für die eigene Software im Vorfeld die lokale Kolleg_innen aus IT, Scientific Computing Unit etc. zu kontaktieren.</help>
+		<help lang="de">Mit Software lassen sich externe Dienste einbinden. Beispiele hierfür sind etwa Schnittstellenabfragen bei anderen Datenbanken, externe Kartenanwendungen, die Nutzung von externen Rechenkapazitäten usw. Für die korrekte Anwendung von externen Webdiensten kann es notwendig sein, dass spezielle Ports explizit freigeschaltet werden müssen oder weitere Voraussetzungen zu erfüllen. Es ist daher ratsam bei der Nutzung von externen Webdiensten für die eigene Software im Vorfeld die lokale Kolleg_innen aus IT, Scientific Computing Unit etc. zu kontaktieren.</help>
 		<text lang="de">Planen Sie Webdienste von Drittanbietern zu nutzen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -881,12 +881,12 @@ Folgende Literatur könnte zusätzlich interessant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">When developing software, it can make sense and also be necessary to fall back on local infrastructure. For secure planning and smooth availability, it is advisable to contact the local colleagues from IT, Scientific Computing Unit, etc. in advance.</help>
+		<help lang="en">When developing software, it can make sense and also be necessary to fall back on local infrastructure,e.g. servers, Git systems, storage media, software training courses. For secure planning and smooth availability, it is advisable to contact the local colleagues from IT, Scientific Computing Unit, etc. in advance.</help>
 		<text lang="en">To what extend will infrastructure resources be required?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Bei der Entwicklung von Software kann es sinnvoll und auch notwendig sein auf lokale Infrastruktur zurückzugreifen. Für die sichere Planung und reibungsfreie Verfügbarkeit ist es im Vorfeld empfehlenswert sich mit den lokalen Kolleg_innen von IT, Scientific Computing Unit etc. in Kontakt zu setzen.</help>
+		<help lang="de">Bei der Entwicklung von Software kann es sinnvoll und auch notwendig sein auf lokale Infrastruktur, z.B. Server, Git-Systeme, Speichermedien, Software-Fortbildungsangebote, zurückzugreifen. Für die sichere Planung und reibungsfreie Verfügbarkeit ist es im Vorfeld empfehlenswert sich mit den lokalen Kolleg_innen von IT, Scientific Computing Unit etc. in Kontakt zu setzen.</help>
 		<text lang="de">In welchem Umfang werden Infrastrukturressourcen erforderlich sein?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -918,7 +918,7 @@ Folgende Literatur könnte zusätzlich interessant sein:
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Bitte setzen Sie sich mit Ihre lokalen Kolleg_innen von IT, Scientific Computing Unit etc. in Kontakt. Diese haben einen sehr guten Überblick über die bereits existierende Infrastruktur. Bitte erkundigen Sie sich ebenso bei &lt;a href=&quot;https://devtools.mpdl.mpg.de/soli/wiki/Institutsliste&quot; target=&quot;_blank&quot;&gt;Ihren lokalen Software-Lizenzensierungsbeauftragten&lt;/a&gt; nach eventuell bereits vorhandenen Software-Lizenzen. Es gibt eventuell schon Lizenzverträge, sodass neue Lizenzen eventuell nicht explizit gekauft werden müssen.</help>
+		<help lang="de">Bitte setzen Sie sich mit Ihren lokalen Kolleg_innen von IT, Scientific Computing Unit etc. in Kontakt. Diese haben einen sehr guten Überblick über die bereits existierende Infrastruktur. Bitte erkundigen Sie sich ebenso bei &lt;a href=&quot;https://devtools.mpdl.mpg.de/soli/wiki/Institutsliste&quot; target=&quot;_blank&quot;&gt;Ihren lokalen Software-Lizenzensierungsbeauftragten&lt;/a&gt; nach eventuell bereits vorhandenen Software-Lizenzen. Es gibt eventuell schon Lizenzverträge, sodass neue Lizenzen eventuell nicht explizit gekauft werden müssen.</help>
 		<text lang="de">Gibt es bereits eine Infrastruktur für die Softwareentwicklung? Wo wird die Infrastruktur gehostet?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1047,12 +1047,12 @@ Folgende Dokumente können für Sie hierbei relevant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">In addition to avoiding security gaps, it is also necessary to ensure that the software developed also offers protection against unintentional accidents. For example, an incorrect description or even automatic deletion of central data entries by software without consultation would be a major risk. Such and similar vulnerabilities must be avoided in advance.</help>
+		<help lang="en">In addition to avoiding security gaps, it is also necessary to ensure that the software developed also offers protection against unintentional accidents. For example, the programmed software should not be lost, which could quickly be the case if it is only stored on a single USB stick. Such and similar vulnerabilities must be avoided in advance.</help>
 		<text lang="en">Which measures or provisions are in place to ensure software safety?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Neben der Vermeidung von Sicherheitslücken ist es auch notwendig sicherzustellen, dass die entwickelte Software auch Schutz vor unbeabsichtigten Unfällen bietet. Beispielsweise wäre eine fehlerhafte Beschreibung oder gar automatische Löschung von zentralen Dateneinträgen durch eine Software ohne Rückfrage ein großes Risiko. Solche und ähnliche Schwachstellen gilt es bereits im Vorhinein zu vermeiden.</help>
+		<help lang="de">Neben der Vermeidung von Sicherheitslücken ist es auch notwendig sicherzustellen, dass die entwickelte Software auch Schutz vor unbeabsichtigten Unfällen bietet. Beispielsweise sollte die programmierte Software nicht verloren geht, was schnell der Fall sein könnte, wenn sie nur auf einem einzigen USB-Stick gespeichert wird. Solche und ähnliche Schwachstellen gilt es bereits im Vorhinein zu vermeiden.</help>
 		<text lang="de">Welche Maßnahmen oder Vorkehrungen gibt es, um die Sicherheit (im Sinne Unfallvermeidung) der Software zu gewährleisten?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1140,7 +1140,7 @@ Vor diesem Hintergrund ist es grundsätzlich wichtig genau zu dokumentieren, wie
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Nach den gängigen Prinzipien der guten wissenschaftlichen Praxis (MPG-Regeln, &lt;a href=&quot;https://www.mpg.de/12104234/it-sicherheitsrichtlinie-der-mpg.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/12104234/it-sicherheitsrichtlinie-der-mpg.pdf&lt;/a&gt;) müssen Ergebnis mindestens für zehn Jahre aufbewahrt werden. Dies trifft selbstredend auch auf Software zu. Daher muss sicherzustellen werden, dass die Software für diesen Zeitraum (zumindest institutsintern) verfügbar bleibt. Dies kann natürlich darüber hinaus gehen oder weiterführende Maßnahmen erfordern, je nach lokaler Regelung. Falls Sie nicht sicher sind, was die gelebte Praxis an Ihrem Institut ist, so empfiehlt es sich Ihre lokalen Kolleg_innen von IT, Scientific Computing Unit etc. diesbezüglich anzusprechen.</help>
+		<help lang="de">Nach den gängigen Prinzipien der guten wissenschaftlichen Praxis (MPG-Regeln, &lt;a href=&quot;https://www.mpg.de/12104234/it-sicherheitsrichtlinie-der-mpg.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/12104234/it-sicherheitsrichtlinie-der-mpg.pdf&lt;/a&gt;) müssen Ergebnis mindestens für zehn Jahre aufbewahrt werden. Dies trifft selbstredend auch auf Software zu. Daher muss sichergestellt werden, dass die Software für diesen Zeitraum (zumindest institutsintern) verfügbar bleibt. Dies kann natürlich darüber hinaus gehen oder weiterführende Maßnahmen erfordern, je nach lokaler Regelung. Falls Sie nicht sicher sind, was die gelebte Praxis an Ihrem Institut ist, so empfiehlt es sich Ihre lokalen Kolleg_innen von IT, Scientific Computing Unit etc. diesbezüglich anzusprechen.</help>
 		<text lang="de">Muss diese Software längerfristig aufbewahrt werden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1265,12 +1265,12 @@ Eine weitreichende Möglichkeit für den langfristigen Erhalt von Software ist b
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">There are certain standards to adhere to when developing software. These can be, for example, common code conventions in the professional community or language-specific standards (e.g. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;). Tools for static code analysis (e.g. Lint) can help to find problematic code automatically.</help>
+		<help lang="en">When developing software, it can be helpful to adhere to certain standards. These can be, for example, common code conventions in the professional community or language-specific standards (e.g. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;). Tools for static code analysis (e.g. Lint) can help to find problematic code automatically.</help>
 		<text lang="en">Do you apply specific coding standards? How do you take care about code quality control?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Bei der Entwicklung von Software gibt es gewisse Standards einzuhalten. Dies können beispielsweise gemeinsame Code-Konventionen in der Fachgemeinschaft sein oder sprachspezifische Standards (z.B. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;). Werkzeuge zur statischen Codeanalyse (z.B. Lint) können helfen, problematischen Code automatisch zu finden.</help>
+		<help lang="de">Bei der Entwicklung von Software kann es hilfreich sein, bestimmte Standards einzuhalten. Dies können beispielsweise gemeinsame Code-Konventionen in der Fachgemeinschaft sein oder sprachspezifische Standards (z.B. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;). Werkzeuge zur statischen Codeanalyse (z.B. Lint) können helfen, problematischen Code automatisch zu finden.</help>
 		<text lang="de">Wenden Sie bestimmte Code-Standards an? Wie kümmern Sie sich um die Qualitätskontrolle des Codes?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1565,7 +1565,7 @@ Eine weitreichende Möglichkeit für den langfristigen Erhalt von Software ist b
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Es ist empfehlenswert, sich im Vorfeld bereits über den Entscheidungsprozess zur Software-Freigabe (&quot;Release&quot;) bewusst zu werden. Besonders sollte hierbei klar werden, welche Prozesse dem vorausgehen und welche Qualitätskriterien hierfür jeweils erfüllt sein müssen. Darüber hinaus kann es hilfreich für die Projektplanung sein zu klären, in welche Intervallen größere oder kleine Software-Freigaben geplant werden. Bei der Einordnung von Versionsnummern gibt &lt;a href=&quot;https://semver.org&quot; target=&quot;_blank&quot;&gt;Semantic Versioning&lt;/a&gt; eine gute Orientierung.</help>
-		<text lang="de">Wie sieht der Entscheidungsprozess für die Freigabe aus? Wie oft wird eine Softwareversion veröffentlicht?</text>
+		<text lang="de">Wie sieht der Entscheidungsprozess für die Freigabe aus? Wie oft wird eine Softwareversion erstellt?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -2106,8 +2106,9 @@ Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&
 The following websites give you an initial overview of software and licences:
 
 * &lt;a href=&quot;https://choosealicense.com&quot; target=&quot;_blank&quot;&gt;https://choosealicense.com&lt;/a&gt;
-* &lt;a href=&quot;https://tldrlegal.com&quot; target=&quot;_blank&quot;&gt;https://tldrlegal.com&lt;/a&gt;
-* &lt;a href=&quot;https://github.com/readme/guides/open-source-licensing&quot; target=&quot;_blank&quot;&gt;https://github.com/readme/guides/open-source-licensing&lt;/a&gt;</help>
+* &lt;a href=&quot;https://github.com/readme/guides/open-source-licensing&quot; target=&quot;_blank&quot;&gt;https://github.com/readme/guides/open-source-licensing&lt;/a&gt;
+* &lt;a href=&quot;https://opensource.org/licenses&quot; target=&quot;_blank&quot;&gt;https://opensource.org/licenses&lt;/a&gt;
+* &lt;a href=&quot;https://tldrlegal.com&quot; target=&quot;_blank&quot;&gt;https://tldrlegal.com&lt;/a&gt;</help>
 		<text lang="en">Under what kind of license(s) will the software be?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -2117,8 +2118,9 @@ The following websites give you an initial overview of software and licences:
 Folgende Seiten geben Ihnen einen ersten Überblick zu Software und Lizenzen:
 
 * &lt;a href=&quot;https://choosealicense.com&quot; target=&quot;_blank&quot;&gt;https://choosealicense.com&lt;/a&gt;
-* &lt;a href=&quot;https://tldrlegal.com&quot; target=&quot;_blank&quot;&gt;https://tldrlegal.com&lt;/a&gt;
-* &lt;a href=&quot;https://github.com/readme/guides/open-source-licensing&quot; target=&quot;_blank&quot;&gt;https://github.com/readme/guides/open-source-licensing&lt;/a&gt;</help>
+* &lt;a href=&quot;https://github.com/readme/guides/open-source-licensing&quot; target=&quot;_blank&quot;&gt;https://github.com/readme/guides/open-source-licensing&lt;/a&gt;
+* &lt;a href=&quot;https://opensource.org/licenses&quot; target=&quot;_blank&quot;&gt;https://opensource.org/licenses&lt;/a&gt;
+* &lt;a href=&quot;https://tldrlegal.com&quot; target=&quot;_blank&quot;&gt;https://tldrlegal.com&lt;/a&gt;</help>
 		<text lang="de">Unter welche Art von Lizenz(en) wird die Software fallen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2166,12 +2168,12 @@ Folgende Seiten geben Ihnen einen ersten Überblick zu Software und Lizenzen:
 		<is_optional>False</is_optional>
 		<order>0</order>
 		<help lang="en">Please note that depending on the field of application, software may have a dual use (civilian and military). If this is the case, special measures are required. With Regulation &lt;a href=&quot;http://data.europa.eu/eli/reg/2021/821/oj&quot; target=&quot;_blank&quot;&gt;EU 2021/821 (EU Dual-Use Regulation)&lt;/a&gt;, all EU Member States have established common licensing requirements and procedures for the export, techanical assistance and transfer of dual-use items (see the description of the &lt;a href=&quot;https://www.zoll.de/DE/Fachthemen/Aussenwirtschaft-Bargeldverkehr/Warenausfuhr/Waren/Dual-Use-Gueter/dual-use-gueter_node.html&quot; target=&quot;_blank&quot;&gt;Federal German Customs&lt;/a&gt;). The &lt;a href=&quot;https://www.bafa.de&quot; target=&quot;_blank&quot;&gt;Federal Office of Economics and Export Control&lt;/a&gt; is responsible for issuing export licences in the Federal Republic.  If in doubt, contact your local IT security officer.</help>
-		<text lang="en">Can the software also be used for civilian and military purposes?</text>
+		<text lang="en">Can the software also be used for military purposes?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Bitte beachten Sie, dass Software, je nach Anwendungsfeld, einen doppelten Verwendungszweck (zivil und militärisch) aufweisen kann. Sollte dies der Fall sein sind besonders Maßnahmen erforderlich. Mit der Verordnung &lt;a href=&quot;http://data.europa.eu/eli/reg/2021/821/oj&quot; target=&quot;_blank&quot;&gt;EU 2021/821 (EU Dual-Use Regulation)&lt;/a&gt; haben alle EU-Mitgliedstaaten eine gemeinsame Genehmigungspflicht und Verfahrensweise bei der Ausfuhr, der technischen Unterstützung und der Verbringung von Gütern mit doppeltem Verwendungszweck festgelegt (siehe die &lt;a href=&quot;https://www.zoll.de/DE/Fachthemen/Aussenwirtschaft-Bargeldverkehr/Warenausfuhr/Waren/Dual-Use-Gueter/dual-use-gueter_node.html&quot; target=&quot;_blank&quot;&gt;Beschreibung des bundesdeutschen Zolls&lt;/a&gt;). Die Erteilung von Ausfuhrgenehmigungen in der Bundesrepublik geschieht durch das &lt;a href=&quot;https://www.bafa.de&quot; target=&quot;_blank&quot;&gt;Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)&lt;/a&gt;. Kontaktieren Sie im Zweifel Ihre lokalen IT-Sicherheitsbeauftragten.</help>
-		<text lang="de">Kann die Software auch für zivile und ebenso für militärische Zwecke verwendet werden?</text>
+		<text lang="de">Kann die Software auch für militärische Zwecke genutzt werden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
