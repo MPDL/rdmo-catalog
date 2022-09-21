@@ -7,6 +7,13 @@
 		<dc:comment/>
 		<parent/>
 	</attribute>
+	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/smp/specification-sheet">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
+		<key>specification-sheet</key>
+		<path>smp/specification-sheet</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/smp"/>
+	</attribute>
 	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/smp/buy-or-make">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
 		<key>buy-or-make</key>
@@ -165,13 +172,6 @@
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
 		<key>documentation-stored</key>
 		<path>smp/documentation/documentation-stored</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/smp/documentation"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/smp/documentation/update-documentation">
-		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
-		<key>update-documentation</key>
-		<path>smp/documentation/update-documentation</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/smp/documentation"/>
 	</attribute>
