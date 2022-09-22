@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo created="2022-09-21T13:17:50.672022+02:00" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdmo created="2022-09-22T15:59:10.527550+02:00" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<catalog dc:uri="https://rdmo.mpdl.mpg.de/terms/questions/smp">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<key>smp</key>
-		<dc:comment>This SMP template was inspired by:
-&lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;
-https://www.software.ac.uk/resources/guides/software-management-plans
-https://opencarp.org/about/software-management-plan
-https://www.youtube.com/watch?v=_LLZ5W3Z1Gc
-https://zenodo.org/record/6623556
-Thanks for the support by different MPDL and MPG colleagues.
-License: CC0</dc:comment>
+		<dc:comment>This software project management catalogue was developed by the Max Planck Digital Library. Thanks to all our team colleagues for their support.
+This SMP template was inspired by some documentation, specially:
+* https://www.software.ac.uk/resources/guides/software-management-plans
+* https://opencarp.org/about/software-management-plan</dc:comment>
 		<order>98</order>
 		<title lang="en">Software Management Plan for Researcher (Beta test mode)</title>
-		<help lang="en"/>
-		<title lang="de">Software-Management-Plan für Forschende (Betatest-Modus)</title>
-		<help lang="de"/>
+		<help lang="en">This catalogue is for the management of scientific software projects. It supports scientists in the development and project organisation of software developments through fifty questions in different topic blocks.</help>
+		<title lang="de">Software-Management-Plan für Forschende (Beta-Testmodus)</title>
+		<help lang="de">Dieser Katalog ist für das Management von wissenschaftlichen Software-Projekten. Er unterstützt Wissenschaftler_innen bei der Entwicklung und der Projektorganisation von Software-Entwicklungen durch fünfzig Fragen in unterschiedlichen Themenblöcken.</help>
 	</catalog>
 	<section dc:uri="https://rdmo.mpdl.mpg.de/terms/questions/smp/general">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
@@ -57,7 +53,7 @@ License: CC0</dc:comment>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">The title of the software can, of course, still change or be specified in the course of a project. Nevertheless, it makes sense to give the project a concrete name at the beginning in order to facilitate further (internal) communication about it.</help>
+		<help lang="en">The title of the software can, of course, still change or be specified in the course of a project. Nevertheless, it makes sense to give the project a specific name at the beginning in order to facilitate further (internal) communication about it.</help>
 		<text lang="en">What is the title of the software project?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -123,9 +119,9 @@ License: CC0</dc:comment>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
-		<help lang="en">The intention for developing software in a scientific context can be manifold. The same applies to the concrete application of the software and the contribution to scientific knowledge. Depending on the subject culture, these points can also differ significantly from each other.
+		<help lang="en">The intention for developing software in a scientific context can be manifold. The same applies to the specific application of the software and the contribution to scientific knowledge. Depending on the scientific community, these points can also differ significantly from each other.
 
-For orientation and support, we offer here some recommended reading that may be helpful in answering the questions:
+We offer here some recommended reading that may be helpful in answering the questions:
 
 * Anzt et al.(2021): deRSE Position Paper: &quot;An environment for sustainable research software in Germany and beyond: Current state, open challenges, and call for action&quot;, &lt;a href=&quot;https://doi.org/10.12688/f1000research.23224.2&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.12688/f1000research.23224.2&lt;/a&gt;.
 * Gardner et al. (2022): Sustained software development, not number of citations or journal choice, is indicative of accurate bioinformatic software, In: Genome Biology 23, 56, &lt;a href=&quot;https://doi.org/10.1186/s13059-022-02625-x&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1186/s13059-022-02625-x&lt;/a&gt;.
@@ -134,7 +130,7 @@ For orientation and support, we offer here some recommended reading that may be 
 * Wuttke et al. (2022): Guidelines for collaborative development of sustainable data treatment software, In: Journal of Neutron Research, vol. 24, no. 1, pp. 33-72, &lt;a href=&quot;https://doi.org/10.3233/JNR-220002&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.3233/JNR-220002&lt;/a&gt;.
 * Wilson et al. (2017): Good enough practices in scientific computing, In: PLOS Computational Biology, 13(6), e1005510, &lt;a href=&quot;https://doi.org/10.1371/journal.pcbi.1005510&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1371/journal.pcbi.1005510&lt;/a&gt;.
 
-By their very nature, these references are not exhaustive. If you need concrete assistance in answering them, it is best to talk to your local colleagues from IT, the Scientific Computing Unit, etc. They will probably be able to help you. They will probably be able to help you.</help>
+By their very nature, these references are not exhaustive. If you need particular assistance in answering them, it is best to talk to your local colleagues from IT, the Scientific Computing Unit, and so on. They will probably be able to help you.</help>
 		<text lang="en">What is the intended use of the software? How will your software contribute to research?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -150,7 +146,7 @@ Zur Orientierung und als Unterstützung bieten wir hier einige Literaturempfehlu
 * Wuttke et al. (2022): Guidelines for collaborative development of sustainable data treatment software, In: Journal of Neutron Research, vol. 24, no. 1, pp. 33-72, &lt;a href=&quot;https://doi.org/10.3233/JNR-220002&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.3233/JNR-220002&lt;/a&gt;.
 * Wilson et al. (2017): Good enough practices in scientific computing, In: PLOS Computational Biology, 13(6), e1005510, &lt;a href=&quot;https://doi.org/10.1371/journal.pcbi.1005510&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1371/journal.pcbi.1005510&lt;/a&gt;.
 
-Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfänglich sind. Wenn Sie bei der Beantwortung konkrete Unterstützung benötigen, dann spreche Sie am besten mit Ihren lokalen Kolleg_innen von der IT, der Scientific Computing Unit usw. Diese können Ihnen weiterhelfen.</help>
+Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfänglich sind. Wenn Sie bei der Beantwortung konkrete Unterstützung benötigen, dann sprechen Sie am besten mit Ihren lokalen Kolleg_innen von der IT, der Scientific Computing Unit usw. Diese können Ihnen weiterhelfen.</help>
 		<text lang="de">Was ist der beabsichtigte Verwendungszweck der Software? Wie wird Ihre Software zur Forschung beitragen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -177,8 +173,8 @@ Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfängl
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
-		<help lang="en">Please consider whether it would not be more effective to purchase existing software or to adapt an existing open source version instead of developing your own software completely yourself.</help>
-		<text lang="en">Are you sure that there is no suitable software with the functionality you are planning yet?</text>
+		<help lang="en">Please consider whether it would be more effective to purchase existing software or to adapt an existing open source instead of developing software yourself.</help>
+		<text lang="en">Are your sure that no suitable exists with the functionality your are planning?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -209,7 +205,7 @@ Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfängl
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>1</order>
-		<title lang="en">Software Project Partner</title>
+		<title lang="en">Software Project Partner(s)</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -229,7 +225,7 @@ Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfängl
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">Please enter the name and contact details as well as institution and positionas well as role in the software project, if applicable.</help>
+		<help lang="en">Please enter the name and contact details as well as institution, position as well as role in the software project, if applicable.</help>
 		<text lang="en">Who are the project participants that deal with this software?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -262,7 +258,7 @@ Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfängl
 		<is_optional>False</is_optional>
 		<order>1</order>
 		<help lang="en">Here, for example, personnel or financial resources from the regular budget or already existing project funds can be mentioned.</help>
-		<text lang="en">Where do the (personal/financial) resources come from?</text>
+		<text lang="en">Where do the (financial/personnel) resources come from?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -293,22 +289,22 @@ Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfängl
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
-		<help lang="en">Scientific software is becoming increasingly important as a source of knowledge. Therefore, the development of software in a scientific context is also becoming increasingly relevant for funding organisations. A software management plan can therefore be a useful basis for applying for (partial) project funding, as software is increasingly considered worthy of funding. 
+		<help lang="en">Scientific software is becoming increasingly important as a source of knowledge. Therefore, the development of software in a scientific context is also becoming more and more relevant for funding organisations. A software management plan can be a useful basis for applying for (partial) project funding, as software is increasingly considered worthy of funding. 
 
 For further reference, we recommend these publications: 
 		
 * Rand et al., Visibility of Research Software Engineers in research funding, 2022, Software Sustainability Institute Blog, &lt;a href=&quot;https://www.software.ac.uk/blog/2022-06-20-visibility-research-software-engineers-research-funding&quot; target=&quot;_blank&quot;&gt;https://www.software.ac.uk/blog/2022-06-20-visibility-research-software-engineers-research-funding&lt;/a&gt;.
-* Strasser, et al. (2022): 10 Simple Rules for Funding Scientific Open Source Software, &lt;a href=&quot;https://doi.org/10.5281/ZENODO.6611500&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.6611500&lt;/a&gt;.</help>
+* Strasser et al. (2022): 10 Simple Rules for Funding Scientific Open Source Software, &lt;a href=&quot;https://doi.org/10.5281/ZENODO.6611500&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.6611500&lt;/a&gt;.</help>
 		<text lang="en">Is there or will there be specific funding for the software development?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Wissenschaftliche Software gewinnt als Erkenntnisgewinn zunehmend an Bedeutung. Daher wird die Entwicklung von Software im wissenschaftlichen Kontext auch für Förderorganisationen zunehmend relevanter. Ein Software-Management-Plan kann daher eine sinnvolle Grundlage für eine Beantragung von (Teil-)Projektmitteln, da Software zunehmend auch als förderwürdig erachtet wird. 
+		<help lang="de">Wissenschaftliche Software gewinnt als Erkenntnisgewinn zunehmend an Bedeutung. Daher wird die Entwicklung von Software im wissenschaftlichen Kontext auch für Förderorganisationen zunehmend relevanter. Ein Software-Management-Plan kann daher eine sinnvolle Grundlage für eine Beantragung von (Teil-)Projektmitteln sein, da Software zunehmend auch als förderwürdig erachtet wird. 
 
 Als weiterführenden Hinweise empfehlen wir diese Publikationen:
 
 * Rand et al., Visibility of Research Software Engineers in research funding, 2022, Software Sustainability Institute Blog, &lt;a href=&quot;https://www.software.ac.uk/blog/2022-06-20-visibility-research-software-engineers-research-funding&quot; target=&quot;_blank&quot;&gt;https://www.software.ac.uk/blog/2022-06-20-visibility-research-software-engineers-research-funding&lt;/a&gt;.
-* Strasser, et al. (2022): 10 Simple Rules for Funding Scientific Open Source Software, &lt;a href=&quot;https://doi.org/10.5281/ZENODO.6611500&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.6611500&lt;/a&gt;.</help>
+* Strasser et al. (2022): 10 Simple Rules for Funding Scientific Open Source Software, &lt;a href=&quot;https://doi.org/10.5281/ZENODO.6611500&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.6611500&lt;/a&gt;.</help>
 		<text lang="de">Gibt es oder wird es eine spezielle Finanzierung für die Softwareentwicklung geben?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -439,9 +435,9 @@ Als weiterführenden Hinweise empfehlen wir diese Publikationen:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">For this question, it is useful to first describe the type of project management. Examples here would be agile methods such as Scrum. But a more classical approach with e.g. the &quot;waterfall&quot; method is also possible. Ultimately, it is crucial that the chosen method fits the goal and works for the people involved. 
+		<help lang="en">For this question, it is useful to first describe the type of project management. Examples here would be agile methods such as Scrum. But a more classical approach like e.g. the &quot;waterfall&quot; model is also possible. Ultimately, it is crucial that the chosen method fits the goal and is communicated to and works for the people involved. 
 
-Once a methodological approach has been established, it may be useful to define different roles for the software project. Examples of this would be &quot;Developer&quot;, &quot;Tester&quot;, &quot;Scrum Master&quot; etc. At the same time, it is advisable to already draft a service catalogue for the project with requirements, usage scenarios and specifications. The requirements from the user's point of view should be clear so that the conception and specification process by the developers can begin on this basis.
+Once a methodological approach has been established, it may be useful to define different roles for the software project. Examples would be &quot;Developer&quot;, &quot;Tester&quot;, &quot;Scrum Master&quot; etc. At the same time, it is advisable to already draft a specification document for the project with requirements, usage scenarios and other specifications. The requirements from the user's point of view should be clear so that the conception and specification process by the developers can start on this basis.
 
 For guidance, these texts may be of interest:
 
@@ -451,7 +447,7 @@ For guidance, these texts may be of interest:
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Bei dieser Frage bietet es sich an, zuerst die Art des Projektmanagements zu beschreiben. Beispiele wären hier besonders die agilen Methoden, wie Scrum. Aber auch ein eher klassisches Vorgehen mit z.B. der &quot;Wasserfall&quot;-Methode ist möglich. Letztendlich ist es entscheidend, dass die gewählte Methode für das Ziel passt und für die beteiligten Personen funktioniert. 
+		<help lang="de">Bei dieser Frage bietet es sich an, zuerst die Art des Projektmanagements zu beschreiben. Beispiele wären hier besonders die agilen Methoden, wie Scrum. Aber auch ein eher klassisches Vorgehen mit z.B. der &quot;Wasserfall&quot;-Methode ist möglich. Letztendlich ist es entscheidend, dass die gewählte Methode für das Ziel passt und an die beteiligten Personen kommuniziert ist sowie für diese funktioniert.
 
 Nach der Festlegung auf ein methodisches Vorgehen kann es sinnvoll sein, verschiedene Rollen für das Software-Projekt zu definieren. Beispiele hierfür wären &quot;Entwickler&quot;, &quot;Tester&quot;, &quot;Scrum Master&quot; etc. Gleichzeitig empfiehlt es sich, für das Projekt bereits einen Leistungskatalog mit Anforderungen, Nutzungsszenarien und Spezifikationen zu entwerfen. Die Anforderungen aus Nutzendensicht sollten klar vorliegen, sodass auf dessen Grundlage dann der Konzeptions- und Spezifikationsprozess durch die Entwickler beginnen kann.
 
@@ -485,9 +481,9 @@ Zur Unterstützung können diese Texte interessant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">The development of software goes hand in hand with a high degree of complexity. In order to keep track of the diverse requirements, tasks and problems, it is advisable to organise these points in a clear structure. At the same time, this promotes the traceability of developments and evolutions.
+		<help lang="en">The development of software goes hand in hand with a high degree of complexity. In order to keep track of the diverse requirements, tasks and problems, it is advisable to organise these points in a clear structure. At the same time, this enhances the traceability of developments.
 
-Examples of applications are somewhat stand-alone ticket systems such as Jira or Redmine. However, integrated systems can also be used just as well, such as provided in GitHub/GitLab (&lt;a href=&quot;https://carpentries-incubator.github.io/git-novice-branch-pr/&quot; target=&quot;_blank&quot;&gt;see for example the Carpentries Lesson&lt;/a&gt;). Working with a (digital) Kanban board can also support software development.</help>
+Examples of applications are stand-alone ticket systems such as Jira or Redmine. However, integrated systems can also be used just as well, such as provided in GitHub/GitLab (&lt;a href=&quot;https://carpentries-incubator.github.io/git-novice-branch-pr/&quot; target=&quot;_blank&quot;&gt;see for example the Carpentries Lesson&lt;/a&gt;). Working with a (digital) Kanban board can also support software development.</help>
 		<text lang="en">How do you track the different tasks and use cases?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -521,20 +517,20 @@ Beispiele für Anwendungen sind etwa eigenständige Ticket-Systeme wie Jira oder
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
-		<help lang="en">The description of the requirements can be one of the central cornerstones for a successful software. It is therefore advisable to invest time resources in this right from the start.</help>
-		<text lang="en">Will there be a requirements catalogue or specifications briefly outlining the most important requirements?</text>
+		<help lang="en">The description of the requirements can be one of the cornerstones for a successful software. It is therefore advisable to invest time resources into this right from the start.</help>
+		<text lang="en">Will there be a specification document (briefly) outlining the most important requirements?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Die Beschreibungen der Anforderungen kann einer der zentralen Grundstein für eine gelungene Software sein. Daher empfiehlt es sich hierfür von Beginn an zeitliche Ressourcen zu investieren.</help>
-		<text lang="de">Wird es einen Anforderungskatalog oder ein Lastenheft geben, in dem kurz die wichtigsten Anforderungen skizziert werden?</text>
+		<text lang="de">Wird es einen Anforderungskatalog oder ein Lastenheft geben, in dem (kurz) die wichtigsten Anforderungen skizziert werden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>textarea</widget_type>
-		<value_type>text</value_type>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
@@ -573,9 +569,9 @@ Beispiele für Anwendungen sind etwa eigenständige Ticket-Systeme wie Jira oder
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">For the development of software in a scientific context, the rules of good scientific practice as applicable at one's own institution or organisation apply. For the Max Planck Society, these are currently the &quot;Rules of Good Scientific Practice&quot; from 2009 (&lt;a href=&quot;https://www.mpg.de/197494/rulesScientificPractice.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/197494/rulesScientificPractice.pdf&lt;/a&gt;). Software is not yet explicitly mentioned there. Nevertheless, these corresponding rules for scientific results also apply to the development (and sharing) of software. 
+		<help lang="en">For the development of software in a scientific context, the rules of good scientific practice at one's own institution or organisation apply. For the Max Planck Society, these are currently the &quot;Rules of Good Scientific Practice&quot; from 2009 (&lt;a href=&quot;https://www.mpg.de/197494/rulesScientificPractice.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/197494/rulesScientificPractice.pdf&lt;/a&gt;). Software is not yet explicitly mentioned there. Nevertheless, these rules for scientific results also apply to the development (and sharing) of software. 
 
-At the same time, individual institutes, working groups, etc. can also register. At the same time, individual institutes, working groups, etc. can also impose rules on the use of software. If you are unsure about the institutional requirements that apply to you, it is best to contact your local colleagues from the Research Coordination or IT, Scientific Computing Unit, etc. They can provide you with competent support.
+At the same time, individual institutes, working groups, etc. can also impose rules on the use of software. If you are unsure about the institutional requirements that apply to you, it is best to contact your local colleagues from the Research Coordination or IT, Scientific Computing Unit, etc. They can provide you with competent support.
 
 Below you will find a collection of examples of institutional regulations related to software:
 
@@ -587,7 +583,7 @@ Below you will find a collection of examples of institutional regulations relate
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Für die Entwicklung von Software im wissenschaftlichen Kontext gelten die Regeln zur guten wissenschaftlichen Praxis, wie sie an der eigenen Institution oder Organisation maßgebend ist. Für die Max-Planck-Gesellschaft sind dies aktuell die &quot;Regeln zur Sicherung guter wissenschaftlicher Praxis&quot; von 2009 (&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/199493/regelnWissPraxis.pdf&lt;/a&gt;). Software ist dort noch nicht explizit erwähnt. Dennoch gelten diese entsprechenden Regeln für wissenschaftliche Ergebnisse auch für die Entwicklung (und Veröffentlichung) von Software. 
+		<help lang="de">Für die Entwicklung von Software im wissenschaftlichen Kontext gelten die Regeln zur guten wissenschaftlichen Praxis der eigenen Institution oder Organisation. Für die Max-Planck-Gesellschaft sind dies aktuell die &quot;Regeln zur Sicherung guter wissenschaftlicher Praxis&quot; von 2009 (&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;https://www.mpg.de/199493/regelnWissPraxis.pdf&lt;/a&gt;). Software ist dort noch nicht explizit erwähnt. Dennoch gelten diese entsprechenden Regeln für wissenschaftliche Ergebnisse auch für die Entwicklung (und Veröffentlichung) von Software. 
 
 Gleichzeitig können sich auch einzelne Institute, Arbeitsgruppen etc. Regeln zum Umgang mit Software auferlegen. Sollten Sie unsicher sein, inwiefern institutionelle Anforderungen für Sie zutreffen, dann kontaktieren Sie am besten Ihre lokalen Kolleg_innen von der Forschungskoordination oder der IT, Scientific Computing Unit etc. Diese können Sie dabei kompetent unterstützen.
 
@@ -623,9 +619,9 @@ Im Folgenden finden Sie eine Beispielsammlung für institutionelle Regelwerke mi
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">In addition to institutional requirements, there may also be other conditions that need to be taken into account when developing software in a scientific context. For example, if the software is developed in a third-party project, then the requirements of the funding body are binding. Likewise, there may be various agreements in one's own subject group that need to be taken into account in software development.
+		<help lang="en">In addition to institutional requirements, there may also be other conditions that need to be taken into account when developing software in a scientific context. For example, if the software is developed in a third-party project, then the requirements of the funding body are binding. Likewise, there may be various agreements in one's own community that need to be taken into account in software development.
 
-In parallel, it is advisable to familiarise yourself with the FAIR Principles for Research Software (&lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;) at an early stage. For example, this question about requirement for software is required in &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I1 and R3. At the same time, orientation towards the &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; principles can significantly increase the quality and acceptance of the software. An interactive guide to FAIR software can be found here: &lt;a href=&quot;https://fair-software.nl&quot; target=&quot;_blank&quot;&gt;https://fair-software.nl&lt;/a&gt;.</help>
+It is advisable to familiarise yourself with the FAIR Principles for Research Software (&lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;) at an early stage. For example, this question about requirement for software is required in &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I1 and R3. At the same time, orientation towards the &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; principles can significantly increase the quality and acceptance of the software. An interactive guide to FAIR software can be found here: &lt;a href=&quot;https://fair-software.nl&quot; target=&quot;_blank&quot;&gt;https://fair-software.nl&lt;/a&gt;.</help>
 		<text lang="en">Are there requirements regarding the software development form other parties?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -633,7 +629,7 @@ In parallel, it is advisable to familiarise yourself with the FAIR Principles fo
 		<help lang="de">Neben institutionellen Anforderungen können ebenso weitere Bedingungen existieren, die es bei der Entwicklung von Software im wissenschaftlichen Kontext zu beachten gilt. Wenn beispielsweise die Software in einem Drittmittelprojekt entwickelt wird, dann sind die Vorgaben des Mittelgebers bindend. Ebenso können verschiedene Vereinbarungen in der eigenen Fächergruppe bestehen, die es bei der Software-Entwicklung zu berücksichtigen gilt.
 
 Parallel dazu ist es empfehlenswert, sich mit den FAIR Principles for Research Software (&lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;) schon frühzeitig vertraut zu machen. So wird beispielsweise diese Anforderung in &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I1 und R3 gefordert. Die Orientierung an den &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;-Prinzipien kann gleichzeitig die Qualität und Akzeptanz der Software deutlich steigern. Eine interaktive Hilfestellung zu FAIR Software findet sich hier: &lt;a href=&quot;https://fair-software.nl&quot; target=&quot;_blank&quot;&gt;https://fair-software.nl&lt;/a&gt;.</help>
-		<text lang="de">Gibt es Anforderungen bezüglich der Softwareentwicklung von Externen?</text>
+		<text lang="de">Gibt es Anforderungen bezüglich der Softwareentwicklung von externer Seite?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -689,16 +685,16 @@ Parallel dazu ist es empfehlenswert, sich mit den FAIR Principles for Research S
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">The software languages go hand in hand with different methods, focuses and required skill levels. Here you can document which language(s) you choose and why. Examples of software languages during Java, Python, R, etc.
+		<help lang="en">The software languages go hand in hand with different methods, focuses and required skill levels. Here you can document which language(s) you choose and why. Examples of software languages can be Java, Python, R, etc.
 
-At this point it is also useful to document whether technical standards are relevant for the use of software. Examples include &lt;a href=&quot;https://www.iso.org/standard/38421.html&quot; target=&quot;_blank&quot;&gt;IEC Standard 62304&lt;/a&gt; for software in medical applications, or &lt;a href=&quot;https://ecss.nl/standard/ecss-e-st-40c-software-general-requirements/&quot; target=&quot;_blank&quot;&gt;ECSS-E-ST-40C&lt;/a&gt; for software in space applications, or &lt;a href=&quot;https://www.dicomstandard.org&quot; target=&quot;_blank&quot;&gt;DICOM&lt;/a&gt; for the exchange of medical image data.</help>
+At this point it is also useful to document whether technical standards are relevant for the development of software. Examples include &lt;a href=&quot;https://www.iso.org/standard/38421.html&quot; target=&quot;_blank&quot;&gt;IEC Standard 62304&lt;/a&gt; for software in medical applications, or &lt;a href=&quot;https://ecss.nl/standard/ecss-e-st-40c-software-general-requirements/&quot; target=&quot;_blank&quot;&gt;ECSS-E-ST-40C&lt;/a&gt; for software in space applications, or &lt;a href=&quot;https://www.dicomstandard.org&quot; target=&quot;_blank&quot;&gt;DICOM&lt;/a&gt; for the exchange of medical image data.</help>
 		<text lang="en">Which programming language(s) do you plan to use?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Die Softwaresprachen gehen einher mit unterschiedlichen Methoden, Schwerpunkten und benötigten Fähigkeitsgraden. Hier können Sie dokumentieren, für welche Sprache(n) Sie sich entscheiden und weshalb. Beispiele für Softwaresprachen während Java, Python, R, usw.
 
-An dieser Stelle bietet es sich zusätzlich an, zu dokumentieren, ob technische Standards für die Nutzung von Software relevant sind. Beispiele hierfür sind etwa der &lt;a href=&quot;https://www.iso.org/standard/38421.html&quot; target=&quot;_blank&quot;&gt;IEC Standard 62304&lt;/a&gt; für Software bei medizinischen Anwendungen, oder &lt;a href=&quot;https://ecss.nl/standard/ecss-e-st-40c-software-general-requirements/&quot; target=&quot;_blank&quot;&gt;ECSS-E-ST-40C&lt;/a&gt; bei Software für Anwendungen im Weltraum oder &lt;a href=&quot;https://www.dicomstandard.org&quot; target=&quot;_blank&quot;&gt;DICOM&lt;/a&gt; für den Austausch von medizinischen Bilddaten.</help>
+An dieser Stelle bietet es sich zusätzlich an, zu dokumentieren, ob technische Standards für die Entwicklung von Software relevant sind. Beispiele hierfür sind etwa der &lt;a href=&quot;https://www.iso.org/standard/38421.html&quot; target=&quot;_blank&quot;&gt;IEC Standard 62304&lt;/a&gt; für Software bei medizinischen Anwendungen, oder &lt;a href=&quot;https://ecss.nl/standard/ecss-e-st-40c-software-general-requirements/&quot; target=&quot;_blank&quot;&gt;ECSS-E-ST-40C&lt;/a&gt; bei Software für Anwendungen im Weltraum oder &lt;a href=&quot;https://www.dicomstandard.org&quot; target=&quot;_blank&quot;&gt;DICOM&lt;/a&gt; für den Austausch von medizinischen Bilddaten.</help>
 		<text lang="de">Welche Programmiersprache(n) planen Sie zu verwenden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -725,7 +721,7 @@ An dieser Stelle bietet es sich zusätzlich an, zu dokumentieren, ob technische 
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">Versioning code during development is strongly recommended. Applications such as Git systems are more widespread.
+		<help lang="en">Versioning code during development is strongly recommended. Applications such as Git systems are widespread.
 
 Various Max Planck Institutes maintain their own Git systems. At the same time, there are also several central Git systems that are accessible to Max Planck scientists:
 
@@ -742,7 +738,7 @@ Verschiedene Max-Planck-Institute pflegen eigene Git-Systeme. Gleichzeitig gibt 
 
 * Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen: &lt;a href=&quot;https://gitlab.gwdg.de&quot; target=&quot;_blank&quot;&gt;https://gitlab.gwdg.de&lt;/a&gt;
 * Max Planck Computing and Data Facility: &lt;a href=&quot;https://gitlab.mpcdf.mpg.de&quot; target=&quot;_blank&quot;&gt;https://gitlab.mpcdf.mpg.de&lt;/a&gt;
-* Max Planck Institute for Molecular Genetics: &lt;a href=&quot;https://github.molgen.mpg.de&quot; target=&quot;_blank&quot;&gt;https://github.molgen.mpg.de&lt;/a&gt; (als Max-Planck-Wissenschaftler_in können Sie über deren Helpdesk ein Konto erhalten (&lt;a href=&quot;mailto:helpdesk@molgen.mpg.de&quot; &gt;helpdesk@molgen.mpg.de&lt;/a&gt;))</help>
+* Max-Planck-Institut für molekulare Genetik: &lt;a href=&quot;https://github.molgen.mpg.de&quot; target=&quot;_blank&quot;&gt;https://github.molgen.mpg.de&lt;/a&gt; (als Max-Planck-Wissenschaftler_in können Sie über deren Helpdesk ein Konto erhalten (&lt;a href=&quot;mailto:helpdesk@molgen.mpg.de&quot; &gt;helpdesk@molgen.mpg.de&lt;/a&gt;))</help>
 		<text lang="de">Welche Technologie oder welches Verfahren wird für die Versionierung verwendet?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -789,7 +785,7 @@ Verschiedene Max-Planck-Institute pflegen eigene Git-Systeme. Gleichzeitig gibt 
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">The use of external applications and existing libraries is an established practice in software development. However, the inclusion of external code can create dependencies. This in turn increases the complexity of the software. The more extensive the code, the more time-consuming it is to know and understand these dependencies. Failure of these services should also be planned for. It is therefore advisable to be clear early on in software development which and how external components will be used. This is also in the sense of &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt;-I2 and -R2 and particularly recommended for the further development and subsequent use of software.
+		<help lang="en">The use of external applications and existing libraries is an established practice in software development. However, the inclusion of external code can create dependencies. This in turn increases the complexity of the software. The more extensive the code, the more time-consuming it is to know and understand these dependencies. Failure of these services should also be planned for. It is therefore advisable in software development which and how external components will be used early on. This is also in terms of &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I2 and R2 and particularly recommended for the further development and subsequent use of software.
 
 The following literature might also be of interest:
 
@@ -799,7 +795,7 @@ The following literature might also be of interest:
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Die Nutzung von externen Anwendungen und existierenden Bibliotheken ist bei der Software-Entwicklung eine etablierte Praxis. Durch das Einbinden von externem Code können jedoch Abhängigkeiten entstehen. Dies steigert wiederum die Komplexität der Software. Je umfangreicher der Code ist, desto aufwendiger ist es, diese Abhängigkeiten zu kennen und zu verstehen. Auch ein Ausfall dieser Dienste sollte eingeplant werden. Es empfiehlt sich schon früh im Softwareentwicklungsprozess darüber im Klaren zu sein, welche und wie externe Komponenten verwendet werden. Dies ist auch im Sinne der &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I2 und R2 und für die Weiterentwickelung und Nachnutzung von Software besonders empfehlenswert.
+		<help lang="de">Die Nutzung von externen Anwendungen und existierenden Bibliotheken ist bei der Software-Entwicklung eine etablierte Praxis. Durch das Einbinden von externem Code können jedoch Abhängigkeiten entstehen. Dies steigert wiederum die Komplexität der Software. Je umfangreicher der Code ist, desto aufwendiger ist es, diese Abhängigkeiten zu kennen und zu verstehen. Auch ein Ausfall dieser Dienste sollte eingeplant werden. Es empfiehlt sich schon früh im Softwareentwicklungsprozess darüber im Klaren zu sein, welche und wie externe Komponenten verwendet werden. Dies ist auch im Sinne der &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; I2 und R2 und für die Weiterentwicklung und Nachnutzung von Software besonders empfehlenswert.
 
 Folgende Literatur könnte zusätzlich interessant sein:
 
@@ -831,13 +827,13 @@ Folgende Literatur könnte zusätzlich interessant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">In connection with the use of external software components, special attention must be paid to the various licence conditions. For example, which licences are used by third-party software components? Can there be problems with the compatibility of licences for third-party elements?</help>
-		<text lang="en">What are the licenses, used by the third party software components?</text>
+		<help lang="en">In connection with the use of external software components, special attention should be paid to the various licence conditions. For example, which licences are used by third-party software components? Can there be problems with the compatibility of licences for third-party elements?</help>
+		<text lang="en">What licences are on the third-party software components?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">In dem Zusammenhang mit der Verwendung von externen Software-Komponenten sind besonders die verschiedenen Lizenzbedingungen zu beachten. Etwa welche Lizenzen werden von den Softwarekomponenten von Drittanbietern verwendet? Kann es Probleme mit der Kompatibilität von Lizenzen für Elemente von Drittanbietern geben?</help>
-		<text lang="de">Welche Lizenzen werden für die Software-Komponenten von Drittanbietern verwendet?</text>
+		<text lang="de">Welche Lizenzen liegen auf den Software-Komponenten von Drittanbietern?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -863,7 +859,7 @@ Folgende Literatur könnte zusätzlich interessant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
-		<help lang="en">If external software components are used, it is advisable to document this. The aim here should not only be to obtain an overview, but also, if necessary, to obtain a (partially) automatic analysis of any dependencies that arise. Examples of different services to monitor the external components can be, for example, &lt;a href=&quot;https://maven.apache.org&quot; target=&quot;_blank&quot;&gt;Maven&lt;/a&gt;, &lt;a href=&quot;https://gradle.org&quot; target=&quot;_blank&quot;&gt;Gradle&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.com&quot; target=&quot;_blank&quot;&gt;npm&lt;/a&gt;, &lt;a href=&quot;https://yarnpkg.com&quot; target=&quot;_blank&quot;&gt;Yarn&lt;/a&gt; and &lt;a href=&quot;https://pypi.org/project/pipenv/&quot; target=&quot;_blank&quot;&gt;pipenv&lt;/a&gt;. Please check with your local software officers for already existing services.</help>
+		<help lang="en">If external software components are used, it is advisable to document this. The aim here should not only be to obtain an overview, but also, if necessary, to obtain a (partially) automatic analysis of any dependencies that arise. Examples of different services to monitor the external components can be, &lt;a href=&quot;https://maven.apache.org&quot; target=&quot;_blank&quot;&gt;Maven&lt;/a&gt;, &lt;a href=&quot;https://gradle.org&quot; target=&quot;_blank&quot;&gt;Gradle&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.com&quot; target=&quot;_blank&quot;&gt;npm&lt;/a&gt;, &lt;a href=&quot;https://yarnpkg.com&quot; target=&quot;_blank&quot;&gt;Yarn&lt;/a&gt; and &lt;a href=&quot;https://pypi.org/project/pipenv/&quot; target=&quot;_blank&quot;&gt;pipenv&lt;/a&gt;. Please check with your local software officers for already existing services.</help>
 		<text lang="en">What is the process to keep track of the external software components? Can critical dependencies be eliminated or mitigated?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -947,7 +943,7 @@ Folgende Literatur könnte zusätzlich interessant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">When developing software, it can make sense and also be necessary to fall back on local infrastructure,e.g. servers, Git systems, storage media, software training courses. For secure planning and smooth availability, it is advisable to contact the local colleagues from IT, Scientific Computing Unit, etc. in advance.</help>
+		<help lang="en">When developing software, it can make sense and also be necessary to fall back on local infrastructure, e.g. servers, Git systems, storage media, software training courses. For robust planning and smooth availability, it is advisable to contact the local colleagues from IT, Scientific Computing Unit, etc. in advance.</help>
 		<text lang="en">To what extend will infrastructure resources be required?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -980,7 +976,7 @@ Folgende Literatur könnte zusätzlich interessant sein:
 		<is_optional>False</is_optional>
 		<order>1</order>
 		<help lang="en">Please get in touch with your local colleagues from IT, Scientific Computing Unit, etc. They have a good overview of the existing infrastructure. Please also ask your local software officers about any existing software licences. There may already be licence agreements in place, so new licences may not need to be explicitly purchased.</help>
-		<text lang="en">Is there already existing infrastructure for the software development? Where is the infrastructure being hosted?</text>
+		<text lang="en">Is there already existing infrastructure for the software development? Where is the infrastructure hosted?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -1012,7 +1008,7 @@ Folgende Literatur könnte zusätzlich interessant sein:
 		<is_optional>False</is_optional>
 		<order>2</order>
 		<help lang="en">Perhaps new technologies are to be used for the software, where additional training is still needed to apply them safely. Or you may need an assessment of the software code at a later date. Ask your local colleagues from IT, Scientific Computing Unit, etc. about this. It may also be interesting to ask the &lt;a href=&quot;https://listserv.gwdg.de/mailman/listinfo/rse&quot; target=&quot;_blank&quot;&gt;MPG-RSE community&lt;/a&gt; for advice.</help>
-		<text lang="en">Are there technical aspects where competences are still lacking, so that support would be helpful?</text>
+		<text lang="en">Are there technical aspects where competences are (still) lacking, so that support would be helpful?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -1065,15 +1061,15 @@ Folgende Literatur könnte zusätzlich interessant sein:
 		<order>0</order>
 		<help lang="en">Applicable software is rarely a static product. Software is usually in a constant state of flux as a result of further developments of external components, security gaps in libraries that have been remedied or proprietary enhancements in the code. At the same time, the personnel and time required to maintain and update software increases with its age. It is therefore highly advisable to think in advance about how long the software should be (re-)usable.
 
-Against this background, it is fundamentally important to document exactly how the software can be updated and which (technical) framework conditions are necessary for the software to run correctly.</help>
-		<text lang="en">How long is it intended that the software remains (re-)usable?</text>
+It is fundamentally important to document exactly how the software can be updated and which (technical) environment conditions are necessary for the software to run correctly.</help>
+		<text lang="en">How long should the software remain usable?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Anwendbare Software ist in den seltensten Fällen ein statisches Produkt. Durch Fortentwicklungen von externen Komponenten, behobene Sicherheitslücken bei Bibliotheken oder eigene Erweiterungen im Code befindet sich Software meist in einem stetigen Wandel. Gleichzeitig steigen der personelle und zeitliche Aufwand bei der Erhaltung und Fortführung von Software mit deren Alter. Es ist daher ratsam, sich schon im Vorfeld Gedanken darüber zu machen, wie lange die Software (nach-)nutzbar sein soll.
+		<help lang="de">Anwendbare Software ist in den seltensten Fällen ein statisches Produkt. Durch Fortentwicklungen von externen Komponenten, behobenen Sicherheitslücken bei Bibliotheken oder eigene Erweiterungen im Code befindet sich Software meist in einem stetigen Wandel. Gleichzeitig steigen der personelle und zeitliche Aufwand bei der Erhaltung und Fortführung von Software mit deren Alter. Es ist daher ratsam, sich schon im Vorfeld Gedanken darüber zu machen, wie lange die Software (nach-)nutzbar sein soll.
 
 Vor diesem Hintergrund ist es grundsätzlich wichtig, genau zu dokumentieren, wie die Software aktualisiert werden kann und welche (technischen) Rahmenbedingungen notwendig sind, damit die Software korrekt ausgeführt werden kann.</help>
-		<text lang="de">Wie lange soll die Software (wieder-)nutzbar bleiben?</text>
+		<text lang="de">Wie lange soll die Software verwendbar bleiben?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -1099,12 +1095,12 @@ Vor diesem Hintergrund ist es grundsätzlich wichtig, genau zu dokumentieren, wi
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">According to the established principles of good scientific practice (i.e. &lt;a href=&quot;https://www.mpg.de/197494/rulesScientificPractice.pdf&quot; target=&quot;_blank&quot;&gt;MPG rules&lt;/a&gt;), results must be stored for at least ten years. Of course, this also applies to software. Therefore, it must be ensured that the software remains available for this period (at least within the institution). This may, of course, go beyond this or require further measures, depending on local regulations. If you are not sure what the practice is at your institute, it is advisable to contact your local colleagues from IT, Scientific Computing Unit etc. about this.</help>
-		<text lang="en">Does this software has to be preserved for a longer term?</text>
+		<help lang="en">According to the established principles of good scientific practice (i.e. &lt;a href=&quot;https://www.mpg.de/197494/rulesScientificPractice.pdf&quot; target=&quot;_blank&quot;&gt;MPG rules&lt;/a&gt;), results must be stored for at least ten years. Of course, this also applies to software. Therefore, it must be ensured that the software remains available for this period (at least within the institution). This may be exceeded by local regulations. If you are not sure what the practice is at your institute, it is advisable to contact your local colleagues from IT, Scientific Computing Unit etc. about this.</help>
+		<text lang="en">Does this software have to be preserved for a longer term?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Nach den gängigen Prinzipien der guten wissenschaftlichen Praxis (z.B. &lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;MPG-Regeln&lt;/a&gt;) müssen Ergebnis mindestens für zehn Jahre aufbewahrt werden. Dies trifft auch auf Software zu. Daher muss sichergestellt werden, dass die Software für diesen Zeitraum (zumindest institutsintern) verfügbar bleibt. Dies kann natürlich darüber hinaus gehen oder weiterführende Maßnahmen erfordern, je nach lokaler Regelung. Falls Sie nicht sicher sind, was die gelebte Praxis an Ihrem Institut ist, so empfiehlt es sich, Ihre lokalen Kolleg_innen von IT, Scientific Computing Unit etc. diesbezüglich anzusprechen.</help>
+		<help lang="de">Nach den gängigen Prinzipien der guten wissenschaftlichen Praxis (z.B. &lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot; target=&quot;_blank&quot;&gt;MPG-Regeln&lt;/a&gt;) müssen Ergebnisse mindestens für zehn Jahre aufbewahrt werden. Dies trifft auch auf Software zu. Daher muss sichergestellt werden, dass die Software für diesen Zeitraum (zumindest institutsintern) verfügbar bleibt. Dies kann natürlich darüber hinaus gehen oder weiterführende Maßnahmen erfordern, je nach lokaler Regelung. Falls Sie nicht sicher sind, was die gelebte Praxis an Ihrem Institut ist, so empfiehlt es sich, Ihre lokalen Kolleg_innen von IT, Scientific Computing Unit etc. diesbezüglich anzusprechen.</help>
 		<text lang="de">Muss diese Software längerfristig aufbewahrt werden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1133,15 +1129,15 @@ Vor diesem Hintergrund ist es grundsätzlich wichtig, genau zu dokumentieren, wi
 		<order>2</order>
 		<help lang="en">An adequate place should be found for the storage of the resulting software. Depending on the requirements and possibilities, this can range from a simple, local solution to a specialised software repository.
 
-One far-reaching option for the long-term preservation of software is, for example, &lt;a href=&quot;https://www.softwareheritage.org/save-and-reference-research-software/&quot; target=&quot;_blank&quot;&gt;Software Heritage&lt;/a&gt; (for more repository examples, see also this article &lt;a href=&quot;https://doi.org/10.48550/arXiv.2012.13117&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.48550/arXiv.2012.13117&lt;/a&gt;). But there are other places that lend themselves to public, long-term availability. For example, &lt;a href=&quot;https://www.re3data.org/search?query=&amp;contentTypes%5B%5D=Software%20applications&quot; target=&quot;_blank&quot;&gt;re3data&lt;/a&gt; can be used to search for specific repositories through which software can be published.</help>
-		<text lang="en">Where will the software be stored? Does the storage place has a clear preservation policy?</text>
+One far-reaching option for the long-term preservation of software is, for example, &lt;a href=&quot;https://www.softwareheritage.org/save-and-reference-research-software/&quot; target=&quot;_blank&quot;&gt;Software Heritage&lt;/a&gt; (for more repository examples, see also this article &lt;a href=&quot;https://doi.org/10.48550/arXiv.2012.13117&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.48550/arXiv.2012.13117&lt;/a&gt;). There are other places, that offer public, long-term availability. For example, &lt;a href=&quot;https://www.re3data.org/search?query=&amp;contentTypes%5B%5D=Software%20applications&quot; target=&quot;_blank&quot;&gt;re3data&lt;/a&gt; can be used to search for specific repositories through which software can be published.</help>
+		<text lang="en">Where will the software be stored? Does the storage place have a clear preservation policy?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Für die Aufbewahrung der entstandenen Software sollte ein adäquater Ort gefunden werden. Je nach Anforderungen und Möglichkeiten kann dies von einer einfachen, lokalen Lösung bis hin zu einem spezialisierten Software-Repositorium reichen.
 
-Eine weitreichende Möglichkeit für den langfristigen Erhalt von Software ist beispielsweise &lt;a href=&quot;https://www.softwareheritage.org/save-and-reference-research-software/&quot; target=&quot;_blank&quot;&gt;Software Heritage &lt;/a&gt; (für weitere Repositoriums-Beispiele siehe auch diesen Artikel &lt;a href=&quot;https://doi.org/10.48550/arXiv.2012.13117&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.48550/arXiv.2012.13117&lt;/a&gt;). Es gibt aber noch weitere Ort, die sich für eine öffentliche, langfristige Verfügbarkeit anbieten. Über &lt;a href=&quot;https://www.re3data.org/search?query=&amp;contentTypes%5B%5D=Software%20applications&quot; target=&quot;_blank&quot;&gt;re3data&lt;/a&gt; lassen sich beispielsweise gezielt Repositorium suchen, über die Software publiziert werden kann.</help>
-		<text lang="de">Wo soll die Software gespeichert werden? Verfügt der Speicherort über eine klare Aufbewahrungspolitik?</text>
+Eine weitreichende Möglichkeit für den langfristigen Erhalt von Software ist beispielsweise &lt;a href=&quot;https://www.softwareheritage.org/save-and-reference-research-software/&quot; target=&quot;_blank&quot;&gt;Software Heritage &lt;/a&gt; (für weitere Repositoriums-Beispiele siehe auch diesen Artikel &lt;a href=&quot;https://doi.org/10.48550/arXiv.2012.13117&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.48550/arXiv.2012.13117&lt;/a&gt;). Es gibt aber noch weitere Orte, die sich für eine öffentliche, langfristige Verfügbarkeit anbieten. Über &lt;a href=&quot;https://www.re3data.org/search?query=&amp;contentTypes%5B%5D=Software%20applications&quot; target=&quot;_blank&quot;&gt;re3data&lt;/a&gt; lassen sich beispielsweise gezielt Repositorien suchen, über die Software publiziert werden kann.</help>
+		<text lang="de">Wo soll die Software gespeichert werden? Verfügt der Speicherort über eine klare Aufbewahrungsregelung?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -1187,9 +1183,9 @@ Eine weitreichende Möglichkeit für den langfristigen Erhalt von Software ist b
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">Depending on the application, aspects of IT security must be taken into account in the development of software. The focus here is particularly on passive protection, so that the software does not open any gaps through which, for example, external attacks are made possible.
+		<help lang="en">Depending on the application, aspects of IT security must be taken into account in the development of software. The focus here is particularly on passive protection. The aim is, that the software does not open any vulnerability through which, for example, external attacks are enabled.
 
-IT security guidelines apply at the Max Planck Society, which you must of course observe when developing software. For this, see the &lt;a href=&quot;https://max.mpg.de/Zentrale-Beauftragte/IT-Sicherheit/Pages/IT-Sicherheit.aspx&quot; target=&quot;_blank&quot;&gt;information security within the Max Planck Society&lt;/a&gt; and, if in doubt, also contact your local IT security officers.
+&lt;a href=&quot;https://www.mpg.de/12104234/it-sicherheitsrichtlinie-der-mpg.pdf&quot; target=&quot;_blank&quot;&gt;IT security guidelines&lt;/a&gt; are generally binding in the Max Planck Society, to which you must conform. For this, see the &lt;a href=&quot;https://max.mpg.de/Zentrale-Beauftragte/IT-Sicherheit/Pages/IT-Sicherheit.aspx&quot; target=&quot;_blank&quot;&gt;information security within the Max Planck Society&lt;/a&gt; and, if in doubt, also contact your local IT security officers.
 
 The following documents may be relevant for you:
 
@@ -1203,7 +1199,7 @@ The following documents may be relevant for you:
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Je nach Anwendungsfall müssen Aspekte zur IT-Sicherheit bei der Entwicklung von Software mitberücksichtigt werden. Besonders im Fokus steht hierbei der passive Schutz, damit die Software keine Lücken öffnet, durch welche beispielsweise externe Angriffe ermöglicht werden.
 
-In der Max-Planck-Gesellschaft gelten IT-Sicherheitsrichtlinien, die Sie selbstverständlich bei der Softwareentwicklung beachten müssen. Sehen Sie hierzu die &lt;a href=&quot;https://max.mpg.de/Zentrale-Beauftragte/IT-Sicherheit/Pages/IT-Sicherheit.aspx&quot; target=&quot;_blank&quot;&gt;​​​​​​​​​​​Informationssicherheit innerhalb der Max-Planck-Gesellschaft&lt;/a&gt; und kontaktieren Sie im Zweifel auch Ihre lokalen IT-Sicherheitsbeauftragten.
+In der Max-Planck-Gesellschaft gelten &lt;a href=&quot;https://www.mpg.de/12104234/it-sicherheitsrichtlinie-der-mpg.pdf&quot; target=&quot;_blank&quot;&gt;IT-Sicherheitsrichtlinien&lt;/a&gt;, die Sie selbstverständlich bei der Softwareentwicklung beachten müssen. Sehen Sie hierzu die &lt;a href=&quot;https://max.mpg.de/Zentrale-Beauftragte/IT-Sicherheit/Pages/IT-Sicherheit.aspx&quot; target=&quot;_blank&quot;&gt;​​​​​​​​​​​Informationssicherheit innerhalb der Max-Planck-Gesellschaft&lt;/a&gt; und kontaktieren Sie im Zweifel auch Ihre lokalen IT-Sicherheitsbeauftragten.
 
 Folgende Dokumente können für Sie hierbei relevant sein:
 
@@ -1237,12 +1233,12 @@ Folgende Dokumente können für Sie hierbei relevant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">In addition to avoiding security gaps, it is also necessary to ensure that the software developed also offers protection against unintentional accidents. Various risk analysis procedures exist. For the identified risks, adequate measures can be identified and documented within the framework of a quality assurance plan. For example, the programmed software should not be lost, which could quickly be the case if it is only stored on a single USB stick. Such and similar vulnerabilities must be avoided in advance through distributed systems, a separate backup strategy or similar.</help>
+		<help lang="en">In addition to avoiding security vulnerabilities, it is also necessary to ensure that the software developed is also protected against accidents. Various risk analysis procedures exist. For the identified risks, adequate measures can be recognized and documented within the framework of a quality assurance plan. For example, the programmed software should not be lost, which quickly happens in case it is only stored on a single USB stick. Such and similar vulnerabilities can be avoided in advance through distributed systems, a separate backup strategy or similar.</help>
 		<text lang="en">What Measures Do You Take to Minimise Risks in Relation to Software Development?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Neben der Vermeidung von Sicherheitslücken ist es auch notwendig sicherzustellen, dass die entwickelte Software auch Schutz vor unbeabsichtigten Unfällen bietet. Es existieren verschiedene Risikoanalyseverfahren. Für die identifizierten Risiken können im Rahmen eines Qualitätssicherungsplans adäquate Maßnahmen identifiziert und dokumentiert werden können. Beispielsweise sollte die programmierte Software nicht verloren geht, was schnell der Fall sein könnte, wenn sie nur auf einem einzigen USB-Stick gespeichert wird. Solche und ähnliche Schwachstellen gilt es bereits im Vorhinein durch verteilte Systeme, eine eigene Backup-Strategie oder ähnliches zu vermeiden.</help>
+		<help lang="de">Neben der Vermeidung von Sicherheitslücken ist es auch notwendig sicherzustellen, dass die entwickelte Software auch vor Unfällen geschützt ist. Es existieren verschiedene Risikoanalyseverfahren. Für die identifizierten Risiken können im Rahmen eines Qualitätssicherungsplans adäquate Maßnahmen identifiziert und dokumentiert werden. Beispielsweise sollte die programmierte Software nicht verloren geht, was schnell der Fall sein könnte, wenn sie nur auf einem einzigen USB-Stick gespeichert wird. Solche und ähnliche Schwachstellen gilt es bereits im Vorhinein durch verteilte Systeme, eine eigene Backup-Strategie oder ähnliches zu vermeiden.</help>
 		<text lang="de">Welche Maßnahmen ergreifen Sie, Risiken in Bezug auf die Softwareentwicklung zu minimieren?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1299,7 +1295,7 @@ Folgende Dokumente können für Sie hierbei relevant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">Software development can be a project with complex requirements and structures. To deal with this, it is advisable, as &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.1 does, to explicitly communicate the project-related process through documentation. Especially in larger collaborative projects, this can be particularly advisable for working with multiple partners. Examples include a joint Memorandum of Understanding (MoU) or something describing the process when a person joins or leaves the work team. Please consider here not only the pure process level, but also beyond that. The publication &lt;a href=&quot;https://www.software.ac.uk/blog/2022-07-07-ethical-considerations-your-open-source-governance&quot; target=&quot;_blank&quot;&gt;Yehudi et al., Ethical considerations for your open source governance, 2022, Software Sustainability Institute Blog&lt;/a&gt;, is a good source of inspiration.</help>
+		<help lang="en">Software development can be a project with complex requirements and structures. To deal with this, it is advisable, as &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.1 does, to explicitly communicate the project-related process through documentation. Especially in larger collaborative projects, this can be particularly advisable for working with multiple partners. Examples include a joint Memorandum of Understanding (MoU) or something describing the process when a person joins or leaves the work team. Please consider here not only the pure process level, but also beyond that, i.e. ethical aspects. The publication &lt;a href=&quot;https://www.software.ac.uk/blog/2022-07-07-ethical-considerations-your-open-source-governance&quot; target=&quot;_blank&quot;&gt;Yehudi et al., Ethical considerations for your open source governance, 2022, Software Sustainability Institute Blog&lt;/a&gt;, is a good source of inspiration.</help>
 		<text lang="en">Do you have a governance model for the software development?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -1331,7 +1327,7 @@ Folgende Dokumente können für Sie hierbei relevant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">When developing software, it can be helpful to adhere to certain standards. These can be, for example, common code conventions in the professional community or language-specific standards (e.g. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;). Tools for static code analysis (e.g. Lint) can help to find problematic code automatically.</help>
+		<help lang="en">When developing software, it can be helpful to adhere to certain standards. These can be, for example, common code conventions in the professional community or language-specific standards (e.g. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;). Tools for static code analysis (e.g. Lint) can help to find problematic code.</help>
 		<text lang="en">Do you apply specific coding standards? How do you take care about code quality control?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -1383,20 +1379,20 @@ Folgende Dokumente können für Sie hierbei relevant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">It is advisable to think about an adequate strategy for the documentation of the project, which also corresponds to the framework conditions of the project. Documentation is only helpful if it corresponds to the current status of the software. More often, this is not given high priority compared to writing the code. It is, however, advisable to describe the developed software sensibly and completely. Documentation should also include statements about the software architecture, the development environment and the code style guide.
+		<help lang="en">It is advisable to think about an adequate strategy for the documentation of the project, which also should be consistent with the framework conditions of the project. Documentation is only helpful if it corresponds to the current status of the software. Often, this is not given high priority compared to writing the code. It is, however, advisable to describe the developed software sensibly and completely. Documentation should also include statements about the software architecture, the development environment and the code style guide.
 
 The following questions could be answered in a documentation:
 
 * What should be documented, e.g. process, code or system?
 * For what purpose should documentation be done?
-* What level of detail should be documented?
+* At what level of detail should be documented?
 * Who is the target group for which type of documentation?
 * In which formats will the documentation be produced?</help>
 		<text lang="en">How is software documentation created?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Es ist empfehlenswert sich adäquate Strategie für die Dokumentation des Projekts zu überlegen, die aber auch den Rahmenbedingungen des Projekts entsprechen. Eine Dokumentation ist nur hilfreich, wenn sie dem aktuellen Stand der Software entspricht. Häufiger wird dem aber gegenüber dem Schreiben am Code keine hohe Priorität eingeräumt. Es ist aber ratsam, die entwickelte Software sinnvoll und vollständig zu beschreiben. Eine Dokumentation sollte auch Aussagen über die Software-Architektur, die Entwicklungsumgebung und den Code Style Guide treffen.
+		<help lang="de">Es ist empfehlenswert, sich adäquate Strategie für die Dokumentation des Projekts zu überlegen, die auch den Rahmenbedingungen des Projekts entspricht. Eine Dokumentation ist nur hilfreich, wenn sie dem aktuellen Stand der Software entspricht. Häufiger wird dem gegenüber dem Schreiben am Code keine hohe Priorität eingeräumt. Es ist jedoch ratsam, die entwickelte Software sinnvoll und vollständig zu beschreiben. Eine Dokumentation sollte auch Aussagen über die Software-Architektur, die Entwicklungsumgebung und den Code Style Guide treffen.
 
 Folgende Fragen könnten in einer Dokumentation beantwortet werden:
 
@@ -1432,7 +1428,7 @@ Folgende Fragen könnten in einer Dokumentation beantwortet werden:
 		<is_optional>False</is_optional>
 		<order>1</order>
 		<help lang="en">It is useful to ensure that the documentation for the software is accessible to all team members. It has also proven useful to agree on a language for the formulation of documents right from the start. This is often English.</help>
-		<text lang="en">Where will the documentation be stored or available? Which language will be used?</text>
+		<text lang="en">Where will the documentation be stored or made available? Which language will be used?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -1483,12 +1479,12 @@ Folgende Fragen könnten in einer Dokumentation beantwortet werden:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">It can be helpful to be clear about a testing strategy in advance. This avoids the indiscriminate search for errors, but leads to more targeted, structured testing. Following on from this, you need to be clear about which test principles you want to apply. In parallel, it should be clarified whether standards (e.g. &lt;a href=&quot;https://www.iso.org/standard/64764.html&quot; target=&quot;_blank&quot;&gt;ISO/IEC 25000:2014&lt;/a&gt;, &lt;a href=&quot;https://www.istqb.org&quot; target=&quot;_blank&quot;&gt;ISTQB&lt;/a&gt;) are required for the software. Testing a software on different levels (Unit-, Integration-, E2E-Tests) is always useful. Depending on the project different types of testing security testing, functional tests / non-functional tests, performance testing etc. are important.</help>
+		<help lang="en">It can be helpful to be clear about a testing strategy in advance. This avoids the eclectic search for errors, but leads to more targeted, structured testing. Following on from this, you need to be clear about which test principles you want to apply. In parallel, it should be clarified whether standards (e.g. &lt;a href=&quot;https://www.iso.org/standard/64764.html&quot; target=&quot;_blank&quot;&gt;ISO/IEC 25000:2014&lt;/a&gt;, &lt;a href=&quot;https://www.istqb.org&quot; target=&quot;_blank&quot;&gt;ISTQB&lt;/a&gt;) apply. Testing a software on different levels (Unit-, Integration-, E2E-Tests) is always useful. Depending on the project, different types of testing (security testing, functional tests / non-functional tests, performance testing etc.) are important. &lt;a href=&quot;https://www.ministryoftesting.com&quot; target=&quot;_blank&quot;&gt;Ministry of Testing&lt;/a&gt;, as a global community for software testing, is a useful first start to approach this topic.</help>
 		<text lang="en">Which software test strategy are you going to follow? Which types of tests are planned for the project?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Es kann hilfreich sein, sich im Vorfeld bereits über eine Teststrategie im Klaren zu sein. Dies vermeidet die wahllose Suche nach Fehler, sondern führt zu einem zielgerichteterem, strukturiertem Testen. Daran anknüpfend muss man sich darüber im Klaren sein, welche Testprinzipien man anwenden möchte. Parallel dazu ist zu klären, ob Standards (z.B. &lt;a href=&quot;https://www.iso.org/standard/64764.html&quot; target=&quot;_blank&quot;&gt;ISO/IEC 25000:2014&lt;/a&gt;, &lt;a href=&quot;https://www.istqb.org&quot; target=&quot;_blank&quot;&gt;ISTQB&lt;/a&gt;) für die Software benötigt werden. Das Testen einer Software auf verschiedenen Ebenen (Unit-, Integrations-, E2E-Tests) ist immer sinnvoll. Je nach Projekt sind verschiedene Arten von Tests wie Security Testing, funktionale Tests bzw. nicht-funktionale Tests, Performance Testing etc. ebenso wichtig.</help>
+		<help lang="de">Es kann hilfreich sein, sich im Vorfeld bereits über eine Teststrategie im Klaren zu sein. Dies vermeidet die wahllose Suche nach Fehlern, sondern führt zu einem zielgerichteteren, strukturierten Testen. Daran anknüpfend muss man sich darüber im Klaren sein, welche Testprinzipien man anwenden möchte. Parallel dazu ist zu klären, ob Standards (z.B. &lt;a href=&quot;https://www.iso.org/standard/64764.html&quot; target=&quot;_blank&quot;&gt;ISO/IEC 25000:2014&lt;/a&gt;, &lt;a href=&quot;https://www.istqb.org&quot; target=&quot;_blank&quot;&gt;ISTQB&lt;/a&gt;) für die Software benötigt werden. Das Testen einer Software auf verschiedenen Ebenen (Unit-, Integrations-, E2E-Tests) kann sinnvoll sein. Je nach Projekt sind verschiedene Arten von Tests wie Security Testing, funktionale Tests bzw. nicht-funktionale Tests, Performance Testing etc. ebenso wichtig. &lt;a href=&quot;https://www.ministryoftesting.com&quot; target=&quot;_blank&quot;&gt;Ministry of Testing&lt;/a&gt; ist als globale Community für Software-Testing ein sinnvoller erster Start, um sich diesem Thema zu nähern.</help>
 		<text lang="de">Welche Software-Teststrategie werden Sie verfolgen? Welche Arten von Tests sind für das Projekt geplant?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1515,13 +1511,13 @@ Folgende Fragen könnten in einer Dokumentation beantwortet werden:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">There are different types of tests. Unit and integration tests are usually carried out by the developers, system tests by quality assurance persons, user tests by the users. It is therefore advisable to consider how to plan quality measures and which processes are necessary for this.</help>
-		<text lang="en">How was testing and test documentation organised?</text>
+		<help lang="en">There are different types of tests. Unit and integration tests are usually carried out by the developers, system tests by quality assurance persons, user tests by the users. It is therefore advisable to plan quality measures and the necessary process.</help>
+		<text lang="en">How is testing and test documentation organised?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Es gibt unterschiedliche Arten von Tests. Unit- und Integrationstests werden in der Regel von den Entwickler_innen durchgeführt, Systemtests von Qualitätssicherungs-Expert_innen, Nutzertests von den Anwendern. Es empfiehlt sich daher zu überlegen, wie man Qualitätsmaßnahmen planen und welche Prozesse dafür notwendig sind.</help>
-		<text lang="de">Wie war das Testen und die Testdokumentation organisiert?</text>
+		<help lang="de">Es gibt unterschiedliche Arten von Tests. Unit- und Integrationstests werden in der Regel von den Entwickler_innen durchgeführt, Systemtests von Qualitätssicherungs-Expert_innen, Nutzertests von den Anwendern. Es empfiehlt sich daher zu überlegen, wie man Qualitätsmaßnahmen plant und welche Prozesse dafür notwendig sind.</help>
+		<text lang="de">Wie ist das Testen und die Testdokumentation organisiert?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -1545,7 +1541,7 @@ Folgende Fragen könnten in einer Dokumentation beantwortet werden:
 		<catalog dc:uri="https://rdmo.mpdl.mpg.de/terms/questions/smp"/>
 		<order>3</order>
 		<title lang="en">Release and Publish</title>
-		<title lang="de">Freigeben und Publizieren</title>
+		<title lang="de">Release und öffentliche Verfügbarkeit</title>
 	</section>
 	<questionset dc:uri="https://rdmo.mpdl.mpg.de/terms/questions/smp/release-and-publish/releasing">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
@@ -1561,7 +1557,7 @@ Folgende Fragen könnten in einer Dokumentation beantwortet werden:
 		<help lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<title lang="de">Freigeben</title>
+		<title lang="de">Release</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -1583,7 +1579,7 @@ Folgende Fragen könnten in einer Dokumentation beantwortet werden:
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Gibt es definierte Freigabeprozesse für die Software?</text>
+		<text lang="de">Gibt es definierte Release-Prozesse für die Software?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -1614,8 +1610,8 @@ Folgende Fragen könnten in einer Dokumentation beantwortet werden:
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Es ist empfehlenswert, sich im Vorfeld bereits über den Entscheidungsprozess zur Software-Freigabe (&quot;Release&quot;) bewusst zu werden. Besonders sollte hierbei klar werden, welche Prozesse dem vorausgehen und welche Qualitätskriterien hierfür jeweils erfüllt sein müssen. Darüber hinaus kann es hilfreich für die Projektplanung sein zu klären, in welche Intervallen größere oder kleine Software-Freigaben geplant werden. Bei der Einordnung von Versionsnummern gibt &lt;a href=&quot;https://semver.org&quot; target=&quot;_blank&quot;&gt;Semantic Versioning&lt;/a&gt; eine gute Orientierung.</help>
-		<text lang="de">Wie sieht der Entscheidungsprozess für die Freigabe aus? Wie oft wird eine Softwareversion erstellt?</text>
+		<help lang="de">Es ist empfehlenswert, sich im Vorfeld bereits über den Entscheidungsprozess zum Software-Freigabe (&quot;Release&quot;) bewusst zu werden. Besonders sollte hierbei klar werden, welche Prozesse dem vorausgehen und welche Qualitätskriterien hierfür jeweils erfüllt sein müssen. Darüber hinaus kann es hilfreich für die Projektplanung sein, zu klären, in welche Intervallen größere oder kleine Software-Freigaben geplant werden. Bei der Einordnung von Versionsnummern gibt &lt;a href=&quot;https://semver.org&quot; target=&quot;_blank&quot;&gt;Semantic Versioning&lt;/a&gt; eine gute Orientierung.</help>
+		<text lang="de">Wie sieht der Entscheidungsprozess für den Release aus? Wie oft wird eine Softwareversion erstellt?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -1641,7 +1637,7 @@ Folgende Fragen könnten in einer Dokumentation beantwortet werden:
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>1</order>
-		<title lang="en">Publicly Available</title>
+		<title lang="en">Publicly Availability</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -1663,7 +1659,7 @@ Folgende Fragen könnten in einer Dokumentation beantwortet werden:
 		<order>0</order>
 		<help lang="en">Software is increasingly perceived as a relevant outcome of the scientific knowledge process. Thus, the &lt;a href=&quot;https://www.ouvrirlascience.fr/second-national-plan-for-open-science/&quot; target=&quot;_blank&quot;&gt;Second French plan for Open Science&lt;/a&gt; foresees that software will become the third pillar in scientific publishing, alongside text and data publications.
 
-&lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/providing-public-access-to-research-results/&quot; target=&quot;_blank&quot;&gt;Guideline 13 in the DFG Code &quot;Guidelines for Safeguarding Good Scientific Practice&quot;&lt;/a&gt; explicitly recommends that &quot;[s]elf-programmed software [...] be made publicly available with the source code&quot;.</help>
+&lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/providing-public-access-to-research-results/&quot; target=&quot;_blank&quot;&gt;Guideline 13 in the DFG Code &quot;Guidelines for Safeguarding Good Scientific Practice&quot;&lt;/a&gt; explicitly recommends that &quot;[s]oftware programmed by researchers themselves is made publicly available along with the source code&quot;.</help>
 		<text lang="en">Will this software be publicly available?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -1697,7 +1693,7 @@ Die &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/herstellung-
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">If software is to be made publicly accessible, then it makes sense to find a suitable place for this. For example, &lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/documentation/&quot; target=&quot;_blank&quot;&gt;Guideline 12 in the DFG Code of Good Scientific Practice&lt;/a&gt; recommends that &quot;[b]y developing research software [...] the source code should be documented&quot;. 
+		<help lang="en">If software is to be made publicly accessible, then it makes sense to find a suitable place for this. For example, &lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/documentation/&quot; target=&quot;_blank&quot;&gt;Guideline 12 in the DFG Code of Good Scientific Practice&lt;/a&gt; recommends that &quot;[w]here research software is being developed, the source code is documented&quot;. 
 &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F4 and A1 also explicitly ask how easy software can be found and to what extent scientific citation is supported.</help>
 		<text lang="en">In which repository or archive will the software be held? How easy can it be found?</text>
 		<default_text lang="en"/>
@@ -1731,12 +1727,12 @@ In &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
-		<help lang="en">It can make sense for software to be handed over to a scientific community for collective processing once it has reached a certain level of maturity. Such decisions should be planned well in advance. For this purpose, for example, the corresponding Git system could be opened up for the software project so that external people can also contribute to the code.</help>
+		<help lang="en">It is reasonable for software to be handed over to a scientific community for collective processing once it has reached a certain level of maturity. Such decisions should be planned well in advance. Experience shows that this can either mean a lot of communication work or no one taking notice of this possibility. For this purpose, for example, the corresponding Git system could enable external developer to contribute to the code.</help>
 		<text lang="en">Will users have the possibility to contribute to your software?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Es kann sinnvoll sein, dass Software ab einem gewissen Reifegrad an eine wissenschaftliche Gemeinschaft zur kollektiven Bearbeitung übergeben wird. Solche Entscheidungen sollten gut im Voraus geplant werden. Hierfür könnte beispielsweise das entsprechende Git-System für das Software-Projekt geöffnet werden, damit auch Externe zum Code beitragen können.</help>
+		<help lang="de">Es kann sinnvoll sein, dass Software ab einem gewissen Reifegrad an eine wissenschaftliche Gemeinschaft zur kollektiven Bearbeitung übergeben wird. Solche Entscheidungen sollten gut im Voraus geplant werden. Die Erfahrung zeigt, dass dies entweder viel Kommunikationsarbeit bedeuten kann oder aber niemand von dieser Möglichkeit Notiz nimmt. Hierfür könnte beispielsweise das entsprechende Git-System für das Software-Projekt geöffnet werden, damit auch Externe zum Code beitragen können.</help>
 		<text lang="de">Werden die Nutzer die Möglichkeit haben, zu Ihrer Software beizutragen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1763,24 +1759,24 @@ In &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
-		<help lang="en">For software in a scientific context, it may make sense to subject it to an (open) review process. This can be in the form of a review or also a certification. For scientific software, for example, there is the &lt;a href=&quot;https://joss.theoj.org&quot; target=&quot;_blank&quot;&gt;Journal of Open Source Software&lt;/a&gt;. Parallel to this, subject-specific standards for reviewing scientific software are also becoming established, for &lt;a href=&quot;https://doi.org/10.11588/ai.2020.1.81423&quot; target=&quot;_blank&quot;&gt;example in archaeology&lt;/a&gt;.
+		<help lang="en">For software in a scientific context, it is reasonable to subject it to an (open) review process. This can be in the form of a review or also a certification. For scientific software review, for example, there is the &lt;a href=&quot;https://joss.theoj.org&quot; target=&quot;_blank&quot;&gt;Journal of Open Source Software&lt;/a&gt;. Besides this, subject-specific standards for reviewing scientific software are also becoming established, for &lt;a href=&quot;https://doi.org/10.11588/ai.2020.1.81423&quot; target=&quot;_blank&quot;&gt;example in archaeology&lt;/a&gt;.
 
 Further literature references on the topic may also be of interest:
 
 * Code review checklist used at the Max Planck Insitute of Psychiatry for the CodeClub: &lt;a href=&quot;https://pad.gwdg.de/GJnR391mTxmMVzcbAEs7Mg#&quot; target=&quot;_blank&quot;&gt;https://pad.gwdg.de/GJnR391mTxmMVzcbAEs7Mg#&lt;/a&gt;.
-* Eisty and Carver (2022): Developers perception of peer code review in research software development, In: Empirical Software Engineering 27, 13, &lt;a href=&quot;https://doi.org/10.1007/s10664-021-10053-x&quot; target=&quot;_blank&quot;&gt;​​​​​​​​​​​https://doi.org/10.1007/s10664-021-10053-x&lt;/a&gt;.
-* Bosu (2013): Modeling Modern Code Review Practices in Open Source Software Development Organizations, IDoESE ’13 Baltimore, &lt;a href=&quot;https://www2.umbc.edu/eseiw2013/idoese/pdf/eseiw2013_IDoESE_188.pdf&quot; target=&quot;_blank&quot;&gt;​​​​​​​​​​​https://www2.umbc.edu/eseiw2013/idoese/pdf/eseiw2013_IDoESE_188.pdf&lt;/a&gt;.</help>
+* Eisty and Carver (2022): Developers perception of peer code review in research software development, In: Empirical Software Engineering 27, 13, &lt;a href=&quot;https://doi.org/10.1007/s10664-021-10053-x&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1007/s10664-021-10053-x&lt;/a&gt;.
+* Bosu (2013): Modeling Modern Code Review Practices in Open Source Software Development Organizations, IDoESE '13 Baltimore, &lt;a href=&quot;https://www2.umbc.edu/eseiw2013/idoese/pdf/eseiw2013_IDoESE_188.pdf&quot; target=&quot;_blank&quot;&gt;https://www2.umbc.edu/eseiw2013/idoese/pdf/eseiw2013_IDoESE_188.pdf&lt;/a&gt;.</help>
 		<text lang="en">Is (Open) Peer Review planned for the software?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Für Software im wissenschaftlichen Kontext kann es Sinn ergeben, diese einem (offenen) Begutachtungsprozess zu unterziehen. Dies kann in Form einer Rezension oder auch einer Zertifizierung sein. Für wissenschaftliche Software gibt es beispielsweise das &lt;a href=&quot;https://joss.theoj.org&quot; target=&quot;_blank&quot;&gt;Journal of Open Source Software&lt;/a&gt;. Parallel dazu etablieren sich auch fachspezifische Standards zur Begutachtung von wissenschaftlicher Software, wie &lt;a href=&quot;https://doi.org/10.11588/ai.2020.1.81423&quot; target=&quot;_blank&quot;&gt;beispielsweise in der Archäologie&lt;/a&gt;.
+		<help lang="de">Für Software im wissenschaftlichen Kontext kann es Sinn ergeben, diese einem (offenen) Begutachtungsprozess zu unterziehen. Dies kann in Form einer Rezension oder auch einer Zertifizierung geschehen. Für wissenschaftliche Software gibt es beispielsweise das &lt;a href=&quot;https://joss.theoj.org&quot; target=&quot;_blank&quot;&gt;Journal of Open Source Software&lt;/a&gt;. Parallel dazu etablieren sich auch fachspezifische Standards zur Begutachtung von wissenschaftlicher Software, wie &lt;a href=&quot;https://doi.org/10.11588/ai.2020.1.81423&quot; target=&quot;_blank&quot;&gt;beispielsweise in der Archäologie&lt;/a&gt;.
 
 Weitere Literaturhinweise zu dem Thema können ebenfalls interessant sein:
 
-* Code Review Checklist die vom CodeClub am Max-Planck-Insitut für Psychiatrie genutzt: &lt;a href=&quot;https://pad.gwdg.de/GJnR391mTxmMVzcbAEs7Mg#&quot; target=&quot;_blank&quot;&gt;https://pad.gwdg.de/GJnR391mTxmMVzcbAEs7Mg#&lt;/a&gt;.
-* Eisty und Carver (2022): Developers perception of peer code review in research software development, In: Empirical Software Engineering 27, 13, &lt;a href=&quot;https://doi.org/10.1007/s10664-021-10053-x&quot; target=&quot;_blank&quot;&gt;​​​​​​​​​​​https://doi.org/10.1007/s10664-021-10053-x&lt;/a&gt;.
-* Bosu (2013): Modeling Modern Code Review Practices in Open Source Software Development Organizations, IDoESE ’13 Baltimore, &lt;a href=&quot;https://www2.umbc.edu/eseiw2013/idoese/pdf/eseiw2013_IDoESE_188.pdf&quot; target=&quot;_blank&quot;&gt;​​​​​​​​​​​https://www2.umbc.edu/eseiw2013/idoese/pdf/eseiw2013_IDoESE_188.pdf&lt;/a&gt;.</help>
+* Code Review Checklist die vom CodeClub am Max-Planck-Institut für Psychiatrie genutzt: &lt;a href=&quot;https://pad.gwdg.de/GJnR391mTxmMVzcbAEs7Mg#&quot; target=&quot;_blank&quot;&gt;https://pad.gwdg.de/GJnR391mTxmMVzcbAEs7Mg#&lt;/a&gt;.
+* Eisty und Carver (2022): Developers perception of peer code review in research software development, In: Empirical Software Engineering 27, 13, &lt;a href=&quot;https://doi.org/10.1007/s10664-021-10053-x&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1007/s10664-021-10053-x&lt;/a&gt;.
+* Bosu (2013): Modeling Modern Code Review Practices in Open Source Software Development Organizations, IDoESE '13 Baltimore, &lt;a href=&quot;https://www2.umbc.edu/eseiw2013/idoese/pdf/eseiw2013_IDoESE_188.pdf&quot; target=&quot;_blank&quot;&gt;https://www2.umbc.edu/eseiw2013/idoese/pdf/eseiw2013_IDoESE_188.pdf&lt;/a&gt;.</help>
 		<text lang="de">Ist (offenes) Peer Review für die Software geplant?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1827,16 +1823,16 @@ Weitere Literaturhinweise zu dem Thema können ebenfalls interessant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">For the publication of software, it is strongly recommended to include metadata (see &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F1 to F2 and A2). &lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/cross-phase-quality-assurance/&quot; target=&quot;_blank&quot;&gt;Guideline 7 in the DFG Code &quot;Guidelines for Safeguarding Good Scientific Practice&quot;&lt;/a&gt; also stipulates that &quot;[t]he source code of publicly available software [...] must be persistently citable and documented&quot;. If no publication is planned, it can still be useful to enrich the software with metadata. This can be particularly helpful for long-term storage at the institute.
+		<help lang="en">For the publication of software, it is strongly recommended to include metadata (see &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F1 to F2 and A2). &lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/cross-phase-quality-assurance/&quot; target=&quot;_blank&quot;&gt;Guideline 7 in the DFG Code &quot;Guidelines for Safeguarding Good Scientific Practice&quot;&lt;/a&gt; also stipulates that &quot;[t]he source code of publicly available software must be persistent, citable and documented&quot;. If no publication is planned, it can still be useful to enrich the software with metadata. This can be particularly helpful for long-term storage at the institute, to make it easier to use the software at a later stage.
 
-With a &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&quot;_blank&quot;&gt;.cff file&lt;/a&gt; you can comparatively easily provide metadata in a human- and machine-readable way for your software. With the &lt;a href=&quot;https://w3id.org/okn/o/sd&quot; target=&quot;_blank&quot;&gt;Software Description Ontology&lt;/a&gt; you can also use an ontology to formally describe the software. And this handout on the &lt;a href=&quot;https://doi.org/10.12688/f1000research.26932.2&quot; target=&quot;_blank&quot;&gt;relevance of software citations&lt;/a&gt; once again collects the essential points on this complex of topics.</help>
+For example with a &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&quot;_blank&quot;&gt;.cff file&lt;/a&gt; you can provide metadata in a human- and machine-readable way for your software. With the &lt;a href=&quot;https://w3id.org/okn/o/sd&quot; target=&quot;_blank&quot;&gt;Software Description Ontology&lt;/a&gt; you can also use an ontology to formally describe the software. And this handout on the &lt;a href=&quot;https://doi.org/10.12688/f1000research.26932.2&quot; target=&quot;_blank&quot;&gt;relevance of software citations&lt;/a&gt; once again collects the essential points on this complex of topics.</help>
 		<text lang="en">How do you assign metadata for your software?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Für die Veröffentlichung von Software ist es dringend empfohlen, Metadaten mitzugeben (siehe &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F1 bis F2 und A2). Die &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/phasenubergreifende-qualitatssicherung/&quot; target=&quot;_blank&quot;&gt;Leitlinie 7 im DFG-Kodex &quot;Leitlinien zur Sicherung guter wissenschaftlicher Praxis&quot;&lt;/a&gt; schreibt ebenfalls vor, dass &quot;[d]er Quellcode von öffentlich zugänglicher Software [..] persistent zitierbar und dokumentiert sein&quot; muss. Falls keine Publikation geplant ist, kann es dennoch sinnvoll sein, die Software mit Metadaten anzureichern. Besonders für die langfristige Aufbewahrung am Institut kann dies hilfreich sein.
+		<help lang="de">Für die Veröffentlichung von Software ist es empfohlen die Software mit Metadaten zu beschreiben (siehe &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F1 bis F2 und A2). Die &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/phasenubergreifende-qualitatssicherung/&quot; target=&quot;_blank&quot;&gt;Leitlinie 7 im DFG-Kodex &quot;Leitlinien zur Sicherung guter wissenschaftlicher Praxis&quot;&lt;/a&gt; schreibt ebenfalls vor, dass &quot;[d]er Quellcode von öffentlich zugänglicher Software [..] persistent zitierbar und dokumentiert sein&quot; muss. Falls keine Publikation geplant ist, kann es dennoch sinnvoll sein, die Software mit Metadaten anzureichern. Besonders für die langfristige Aufbewahrung am Institut kann dies hilfreich sein, um ein späteres Umgehen mit der Software zu erleichtern.
 
-Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&quot;_blank&quot;&gt;.cff-Datei&lt;/a&gt; können Sie vergleichsweise einfach Metadaten in menschen- und maschinenlesbarer Art zu Ihrer Software zur Verfügung stellen. Mit der &lt;a href=&quot;https://w3id.org/okn/o/sd&quot; target=&quot;_blank&quot;&gt;Software Description Ontology&lt;/a&gt; können Sie auch eine Ontologie zur formalen Beschreibung der Software verwenden. Und diese Handreichung zur &lt;a href=&quot;https://doi.org/10.12688/f1000research.26932.2&quot; target=&quot;_blank&quot;&gt;Relevanz von Software-Zitationen&lt;/a&gt; sammelt nochmals die wesentlichen Punkte zu diesem Themenkomplex.</help>
+Beispielsweise mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&quot;_blank&quot;&gt;.cff-Datei&lt;/a&gt; können Sie vergleichsweise einfach Metadaten in menschen- und maschinenlesbarer Art zu Ihrer Software zur Verfügung stellen. Mit der &lt;a href=&quot;https://w3id.org/okn/o/sd&quot; target=&quot;_blank&quot;&gt;Software Description Ontology&lt;/a&gt; können Sie auch eine Ontologie zur formalen Beschreibung der Software verwenden. Diese Handreichung zur &lt;a href=&quot;https://doi.org/10.12688/f1000research.26932.2&quot; target=&quot;_blank&quot;&gt;Relevanz von Software-Zitationen&lt;/a&gt; sammelt nochmals die wesentlichen Punkte zu diesem Themenkomplex.</help>
 		<text lang="de">Wie vergeben Sie Metadaten für Ihre Software?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1863,12 +1859,12 @@ Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">For long-term availability and clear allocation, it is recommended to publish the software with a persistent identifier. This recommendation goes hand in hand with &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F3 and &lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/cross-phase-quality-assurance/&quot; target=&quot;_blank&quot;&gt;guideline 7 in the DFG Code &quot;Guidelines for Safeguarding Good Scientific Practice&quot;&lt;/a&gt;. An example of a persistent identifier is the Digital Object Identifier (DOI).</help>
+		<help lang="en">For long-term availability and clear allocation, it is recommended to publish the software (version) with a persistent identifier. This recommendation goes hand in hand with &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F3 and &lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/cross-phase-quality-assurance/&quot; target=&quot;_blank&quot;&gt;guideline 7 in the DFG Code &quot;Guidelines for Safeguarding Good Scientific Practice&quot;&lt;/a&gt;. An example of a persistent identifier is the Digital Object Identifier (DOI). Asignning DOIs is easily possible i.e. with the &lt;a href=&quot;https://doi.mpdl.mpg.de/request-doi/&quot; target=&quot;_blank&quot;&gt;DOI Selfservice&lt;/a&gt; by Max Planck Digital Library.</help>
 		<text lang="en">Do you give a persistent identifier for you software?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Für die langfristige Verfügbarkeit und die klare Zuordnung ist es empfehlenswert, die Software mit einem persistenten Identifikator zu veröffentlichen. Diese Empfehlung geht einher mit &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F3 und der &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/phasenubergreifende-qualitatssicherung/&quot; target=&quot;_blank&quot;&gt;Leitlinie 7 im DFG-Kodex &quot;Leitlinien zur Sicherung guter wissenschaftlicher Praxis&quot;&lt;/a&gt;. Ein Beispiel für einen persistenten Identifikator ist etwa der Digital Object Identifier (DOI).</help>
+		<help lang="de">Für die langfristige Verfügbarkeit und die klare Zuordnung ist es empfehlenswert, die Software(-version) mit einem persistenten Identifikator zu veröffentlichen. Diese Empfehlung geht einher mit &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; F3 und der &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/phasenubergreifende-qualitatssicherung/&quot; target=&quot;_blank&quot;&gt;Leitlinie 7 im DFG-Kodex &quot;Leitlinien zur Sicherung guter wissenschaftlicher Praxis&quot;&lt;/a&gt;. Ein Beispiel für einen persistenten Identifikator ist etwa der Digital Object Identifier (DOI). Dies kann beispielsweise einfach über den &lt;a href=&quot;https://doi.mpdl.mpg.de/request-doi/&quot; target=&quot;_blank&quot;&gt;DOI Selfservice&lt;/a&gt; der Max Planck Digital Library geschehen.</help>
 		<text lang="de">Geben Sie einen dauerhaften Identifikator für Ihre Software an?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1915,20 +1911,20 @@ Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">When you make your software available to interested parties, it is advisable to think about how communication processes should be set up. For example, which channels do you offer? And do you want to provide support on your own or does it make sense to support a (developing) software community?</help>
+		<help lang="en"/>
 		<text lang="en">Do you plan to give support or help to re-users of your software?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Wenn Sie Ihre Software Interessierten zur Verfügung stellen ist es ratsam sich auch gleich darüber Gedanken zu machen, wie eventuell Kommunikationsprozesse angelegt werden sollen. Welche Kanäle bietet man beispielsweise an? Und möchte man die Unterstützung alleine gewährleisten oder ist die Unterstützung einer (sich zu entwickelnden) Software-Gemeinschaft hierfür sinnvoll?</help>
+		<help lang="de"/>
 		<text lang="de">Planen Sie Unterstützung oder Hilfe für Nutzende Ihrer Software anzubieten?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>textarea</widget_type>
-		<value_type>text</value_type>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
@@ -1949,13 +1945,13 @@ Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">Depending on the extent of communication with other users, it may be advisable to be aware of the organisation of incoming requests in advance. For example, the Git systems already offer ticket systems with which external requests can be organised in a structured and transparent way.</help>
+		<help lang="en">When you make your software available to interested parties, it is advisable to think about how communication processes should be set up. For example, which channels do you offer? And do you want to provide support on your own or is it reasonable to support a (developing) software community? Depending on the extent of communication with other users, it may be advisable to be aware of the organisation of incoming requests in advance. For example, Git systems already offer ticket systems with which external requests can be organised in a structured and transparent way.</help>
 		<text lang="en">How do you organise the support and feedback process with other users?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Je nach Umfang der Kommunikation mit anderen Nutzenden kann es empfehlenswert sein sich schon im Vorfeld über die Organisation der eingehenden Anfragen bewusst zu werden. So bieten beispielsweise die Git-Systeme schon Ticket-Systeme, mit welchen externe Anfragen strukturiert und transparent organisiert werden können.</help>
-		<text lang="de">Wie organisieren Sie den Support- und Feedbackprozess mit anderen Nutzern?</text>
+		<help lang="de">Wenn Sie Ihre Software Interessierten zur Verfügung stellen ist es ratsam sich auch gleich darüber Gedanken zu machen, wie eventuell Kommunikationsprozesse angelegt werden sollen. Welche Kanäle bietet man beispielsweise an? Und möchte man die Unterstützung alleine gewährleisten oder ist die Unterstützung einer (sich entwickelnden) Software-Gemeinschaft hierfür sinnvoll? Je nach Umfang der Kommunikation mit anderen Nutzenden kann es empfehlenswert sein sich schon im Vorfeld über die Organisation der eingehenden Anfragen bewusst zu werden. So bieten beispielsweise die Git-Systeme schon Ticket-Funktionen, mit denen externe Anfragen strukturiert und transparent organisiert werden können.</help>
+		<text lang="de">Wie organisieren Sie den Support- und Feedbackprozess mit anderen Nutzenden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -1983,13 +1979,13 @@ Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
-		<help lang="en">If your software management plan is linked to other management plans, e.g. as a sub-project of a larger research network, then you can document this here.</help>
+		<help lang="en">If your software management plan is linked to other management plans, e.g. as a sub-project of a larger research network, you can document this here.</help>
 		<text lang="en">Does your Software Management Plan relate to other Software/Data Management Plans?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Wenn Ihr Software-Management-Plan in Verbindung mit anderen Management-Plänen steht, z.B. als Teilprojekt eines größeren Forschungsverbundes, dann können Sie dies hier dokumentieren.</help>
-		<text lang="de">Steht Ihr Softwaremanagementplan in Beziehung zu anderen Software-/Datenmanagementplänen?</text>
+		<text lang="de">Steht Ihr Software-Management-Plan in Beziehung zu anderen Software-/Daten-Management-Plänen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -2015,12 +2011,12 @@ Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
-		<help lang="en"/>
+		<help lang="en">If so, you can note the location here.</help>
 		<text lang="en">Do you intend to make your software management plan publicly available (later)?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Wenn ja, können Sie hier auch noch den Ort notieren.</help>
 		<text lang="de">Beabsichtigen Sie, Ihren Software-Management-Plan (später) öffentlich zugänglich zu machen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2079,13 +2075,13 @@ Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">It is advisable to be clear in advance about the legal situation at the software (see &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.2). In addition to institutional regulations, labour law provisions are particularly relevant here. In most cases, there is already something in the employment contracts. Please check this. If you are unsure about this, it is advisable to contact your own superiors. It can also be useful to ask your own institute for advice; colleagues from the IT, Scientific Computing Unit, Research Coordination, Legal Department, etc. can help you. If this is not possible, you can alternatively contact the IT legal advice service in the MPG General Administration (&lt;a href=&quot;mailto:it-recht@gv.mpg.de&quot; &gt;it-recht@gv.mpg.de&lt;/a&gt;)</help>
-		<text lang="en">What is the legal ownership?</text>
+		<help lang="en">It is advisable to be clear in advance about the legal situation of the software (see &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.2). In addition to institutional regulations, labour law exploitation are particularly relevant here. In most cases, it is written down in the employment contracts. Please check this. If you are unsure about this, it is advisable to contact your own superior(s). It can also be useful to ask at your own institute for advice; colleagues from the IT, Scientific Computing Unit, Research Coordination, Legal Department, etc. can help you. If this is not possible, you can alternatively contact the IT legal advice service in the MPG Administrative Headquarters (&lt;a href=&quot;mailto:it-recht@gv.mpg.de&quot; &gt;it-recht@gv.mpg.de&lt;/a&gt;)</help>
+		<text lang="en">What is the legal ownership of the software?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Es ist empfehlenswert, sich im Vorfeld bereits über die rechtliche Situation an der Software klar zu werden (siehe &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.2). Neben institutionellen Regelungen sind hier besonders arbeitsrechtliche Vorgaben relevant. Meist steht in den Arbeitsverträgen hierzu bereits etwas. Bitte überprüfen Sie dies. Wenn Sie sich hierbei unsicher sind, ist es ratsam, sich mit den eigenen Vorgesetzten in Verbindung zu setzen. Ebenso kann es sinnvoll sein, am eigenen Institut hierbei um Rat zu fragen; Kolleg_innen aus der IT, Scientific Computing Unit, Forschungskoordination, Rechtsabteilung etc. können Ihnen hierbei weiterhelfen. Falls dies nicht möglich sein sollte, können Sie sich alternativ auch an die IT-Rechtsberatung in der MPG-Generalverwaltung wenden (&lt;a href=&quot;mailto:it-recht@gv.mpg.de&quot; &gt;it-recht@gv.mpg.de&lt;/a&gt;).</help>
-		<text lang="de">Wie sind die rechtlichen Besitzverhältnisse?</text>
+		<help lang="de">Es ist empfehlenswert, sich im Vorfeld bereits über die rechtlichen Besitzverhältnisse an der Software klar zu werden (siehe &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.2). Neben institutionellen Regelungen sind hier besonders arbeitsrechtliche Vorgaben relevant. Meist steht in den Arbeitsverträgen hierzu bereits etwas. Bitte überprüfen Sie dies. Wenn Sie sich hierbei unsicher sind, ist es ratsam, sich mit den eigenen Vorgesetzten in Verbindung zu setzen. Ebenso kann es sinnvoll sein, am eigenen Institut hierbei um Rat zu fragen; Kolleg_innen aus der IT, Scientific Computing Unit, Forschungskoordination, Rechtsabteilung etc. können Ihnen hierbei weiterhelfen. Falls dies nicht möglich sein sollte, können Sie sich alternativ auch an die IT-Rechtsberatung in der MPG-Generalverwaltung wenden (&lt;a href=&quot;mailto:it-recht@gv.mpg.de&quot; &gt;it-recht@gv.mpg.de&lt;/a&gt;).</help>
+		<text lang="de">Wie ist die rechtliche Situation?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -2111,12 +2107,12 @@ Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">When using external code elements, you must clarify in advance to what extent you are allowed to use these components for your software. Especially if you are planning to publish the software and grant a licence, you must take this point into account. If in doubt, ask your local colleagues from the IT, Scientific Computing Unit, Research Coordination, Legal Department etc. can help you here.</help>
-		<text lang="en">Does the project use and/or produce software that is protected by third party intellectural or indstrial property rights?</text>
+		<help lang="en">When using external code elements, you must clarify in advance to what extent you are allowed to use these components for your software. Especially if you are planning to publish the software and grant a licence, you must take this point into account. If in doubt, ask your local colleagues from the IT, Scientific Computing Unit, Research Coordination, Legal Department etc.</help>
+		<text lang="en">Does the project use and/or produce software that is protected by third party intellectual or industrial property rights?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Bei der Nutzung von externen Code-Elementen müssen Sie vorab schon klären, inwiefern Sie diese Komponenten für Ihre Software nutzen dürfen. Besonders wenn Sie eine Veröffentlichung der Software und eine Lizenzvergabe planen, müssen Sie diesen Punkt beachten. Im Zweifel fragen Sie Ihre lokalen Kolleg_innen aus der IT, Scientific Computing Unit, Forschungskoordination, Rechtsabteilung etc. können Ihnen hierbei weiterhelfen.</help>
+		<help lang="de">Bei der Nutzung von externen Code-Elementen müssen Sie vorab schon klären, inwiefern Sie diese Komponenten für Ihre Software nutzen dürfen. Besonders wenn Sie eine Veröffentlichung der Software und eine Lizenzvergabe planen, müssen Sie diesen Punkt beachten. Im Zweifel fragen Sie Ihre lokalen Kolleg_innen aus der IT, Scientific Computing Unit, Forschungskoordination, Rechtsabteilung etc.</help>
 		<text lang="de">Wird im Rahmen des Projekts Software verwendet und/oder hergestellt, die durch geistige oder gewerbliche Eigentumsrechte Dritter geschützt ist?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2163,7 +2159,7 @@ Mit einer &lt;a href=&quot;https://citation-file-format.github.io&quot; target=&
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">If you develop software, there is a lot to be said for understanding it with a licence. &lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/providing-public-access-to-research-results/&quot; target=&quot;_blank&quot;&gt;Guideline 13 in the DFG Code of Conduct &quot;Guidelines for Safeguarding Good Scientific Practice&quot;&lt;/a&gt; even explicitly states that if &quot;research software developed in-house is made available to third parties, it shall be provided with an appropriate licence&quot;. &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.1 also emphasises the same.
+		<help lang="en">There are good arguments for assigning a license. &lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/providing-public-access-to-research-results/&quot; target=&quot;_blank&quot;&gt;Guideline 13 in the DFG Code of Conduct &quot;Guidelines for Safeguarding Good Scientific Practice&quot;&lt;/a&gt; even explicitly states that if &quot;self-developed research software is to be made available to third parties, an appropriate licence is provided&quot;. &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.1 also emphasises the same. Please also consider the compatibility with already integrated third-party libraries.
 
 The following websites give you an initial overview of software and licences:
 
@@ -2171,11 +2167,11 @@ The following websites give you an initial overview of software and licences:
 * &lt;a href=&quot;https://github.com/readme/guides/open-source-licensing&quot; target=&quot;_blank&quot;&gt;https://github.com/readme/guides/open-source-licensing&lt;/a&gt;
 * &lt;a href=&quot;https://opensource.org/licenses&quot; target=&quot;_blank&quot;&gt;https://opensource.org/licenses&lt;/a&gt;
 * &lt;a href=&quot;https://tldrlegal.com&quot; target=&quot;_blank&quot;&gt;https://tldrlegal.com&lt;/a&gt;</help>
-		<text lang="en">Under what kind of license(s) will the software be?</text>
+		<text lang="en">Under what kind of license(s) will the software be published?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Wenn Sie eine Software entwickeln, spricht vieles dafür, diese auch mit einer Lizenz zu versehen. Die &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/herstellung-von-offentlichem-zugang-zu-forschungsergebnissen/&quot; target=&quot;_blank&quot;&gt;Leitlinie 13 im DFG-Kodex &quot;Leitlinien zur Sicherung guter wissenschaftlicher Praxis&quot;&lt;/a&gt; sieht sogar explizit vor, dass wenn eine &quot;eigens entwickelte Forschungssoftware für Dritte bereitgestellt [wird], wird diese mit einer angemessenen Lizenz [zu] versehen&quot; ist. Das Gleiche betont auch &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.1.
+		<help lang="de">Wenn Sie eine Software entwickeln, spricht vieles dafür, diese auch mit einer Lizenz zu versehen. Die &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/herstellung-von-offentlichem-zugang-zu-forschungsergebnissen/&quot; target=&quot;_blank&quot;&gt;Leitlinie 13 im DFG-Kodex &quot;Leitlinien zur Sicherung guter wissenschaftlicher Praxis&quot;&lt;/a&gt; sieht dies explizit vor. Wenn Sie eine &quot;eigens entwickelte Forschungssoftware für Dritte bereitgestellt [wird, ist] diese mit einer angemessenen Lizenz [zu] versehen&quot;. Das Gleiche betont auch &lt;a href=&quot;https://doi.org/10.15497/RDA00068&quot; target=&quot;_blank&quot;&gt;FAIR4RS&lt;/a&gt; R1.1. Beachten Sie bitte auch die Kompatibilität mit bereits eingebundenen Dritt-Bibliotheken.
 
 Folgende Seiten geben Ihnen einen ersten Überblick zu Software und Lizenzen:
 
@@ -2213,7 +2209,7 @@ Folgende Seiten geben Ihnen einen ersten Überblick zu Software und Lizenzen:
 		<help lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<title lang="de">Doppelter Verwendungszweck</title>
+		<title lang="de">Doppelter Verwendungszweck (&quot;Dual Use&quot;)</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -2229,12 +2225,12 @@ Folgende Seiten geben Ihnen einen ersten Überblick zu Software und Lizenzen:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">Please note that depending on the field of application, software may have a dual use (civilian and military). If this is the case, special measures are required. With Regulation &lt;a href=&quot;http://data.europa.eu/eli/reg/2021/821/oj&quot; target=&quot;_blank&quot;&gt;EU 2021/821 (EU Dual-Use Regulation)&lt;/a&gt;, all EU Member States have established common licensing requirements and procedures for the export, techanical assistance and transfer of dual-use items (see the description of the &lt;a href=&quot;https://www.zoll.de/DE/Fachthemen/Aussenwirtschaft-Bargeldverkehr/Warenausfuhr/Waren/Dual-Use-Gueter/dual-use-gueter_node.html&quot; target=&quot;_blank&quot;&gt;Federal German Customs&lt;/a&gt;). The &lt;a href=&quot;https://www.bafa.de&quot; target=&quot;_blank&quot;&gt;Federal Office of Economics and Export Control&lt;/a&gt; is responsible for issuing export licences in the Federal Republic.  If in doubt, contact your local IT security officer.</help>
+		<help lang="en">Please note that depending on the field of application, software may have a dual use potential (civil and military). If this is the case, special measures are required. With Regulation &lt;a href=&quot;http://data.europa.eu/eli/reg/2021/821/oj&quot; target=&quot;_blank&quot;&gt;EU 2021/821 (EU Dual-Use Regulation)&lt;/a&gt;, all EU Member States have established common licensing requirements and procedures for the export, technical assistance and transfer of dual use items (see the description of the &lt;a href=&quot;https://www.zoll.de/DE/Fachthemen/Aussenwirtschaft-Bargeldverkehr/Warenausfuhr/Waren/Dual-Use-Gueter/dual-use-gueter_node.html&quot; target=&quot;_blank&quot;&gt;Federal German Customs&lt;/a&gt;). The &lt;a href=&quot;https://www.bafa.de&quot; target=&quot;_blank&quot;&gt;Federal Office of Economics and Export Control&lt;/a&gt; is responsible for issuing export licenses in the Federal Republic.  If in doubt, contact your local IT security officer.</help>
 		<text lang="en">Can the software also be used for military purposes?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Bitte beachten Sie, dass Software, je nach Anwendungsfeld, einen doppelten Verwendungszweck (zivil und militärisch) aufweisen kann. Sollte dies der Fall sein, sind besondere Maßnahmen erforderlich. Mit der Verordnung &lt;a href=&quot;http://data.europa.eu/eli/reg/2021/821/oj&quot; target=&quot;_blank&quot;&gt;EU 2021/821 (EU Dual-Use Regulation)&lt;/a&gt; haben alle EU-Mitgliedstaaten eine gemeinsame Genehmigungspflicht und Verfahrensweise bei der Ausfuhr, der technischen Unterstützung und der Verbringung von Gütern mit doppeltem Verwendungszweck festgelegt (siehe die &lt;a href=&quot;https://www.zoll.de/DE/Fachthemen/Aussenwirtschaft-Bargeldverkehr/Warenausfuhr/Waren/Dual-Use-Gueter/dual-use-gueter_node.html&quot; target=&quot;_blank&quot;&gt;Beschreibung des bundesdeutschen Zolls&lt;/a&gt;). Die Erteilung von Ausfuhrgenehmigungen in der Bundesrepublik geschieht durch das &lt;a href=&quot;https://www.bafa.de&quot; target=&quot;_blank&quot;&gt;Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)&lt;/a&gt;. Kontaktieren Sie im Zweifel Ihre lokalen IT-Sicherheitsbeauftragten.</help>
+		<help lang="de">Bitte beachten Sie, dass Software, je nach Anwendungsfeld, eine doppelte Verwendungsmöglichkeit (zivil und militärisch) aufweisen kann. Sollte dies der Fall sein, sind besondere Maßnahmen erforderlich. Mit der Verordnung &lt;a href=&quot;http://data.europa.eu/eli/reg/2021/821/oj&quot; target=&quot;_blank&quot;&gt;EU 2021/821 (EU Dual-Use Regulation)&lt;/a&gt; haben alle EU-Mitgliedstaaten eine gemeinsame Genehmigungspflicht und Verfahrensweise bei der Ausfuhr, der technischen Unterstützung und der Verbringung von Gütern mit doppelter Verwendungsmöglichkeit festgelegt (siehe die &lt;a href=&quot;https://www.zoll.de/DE/Fachthemen/Aussenwirtschaft-Bargeldverkehr/Warenausfuhr/Waren/Dual-Use-Gueter/dual-use-gueter_node.html&quot; target=&quot;_blank&quot;&gt;Beschreibung des bundesdeutschen Zolls&lt;/a&gt;). Die Erteilung von Ausfuhrgenehmigungen in der Bundesrepublik geschieht durch das &lt;a href=&quot;https://www.bafa.de&quot; target=&quot;_blank&quot;&gt;Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)&lt;/a&gt;. Kontaktieren Sie im Zweifel Ihre lokalen IT-Sicherheitsbeauftragten.</help>
 		<text lang="de">Kann die Software auch für militärische Zwecke genutzt werden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
