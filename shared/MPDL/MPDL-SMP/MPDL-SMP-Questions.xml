@@ -123,9 +123,9 @@ This SMP template was inspired by some documentation, specially:
 
 We offer here some recommended reading that may be helpful in answering the questions:
 
-* Anzt et al.(2021): deRSE Position Paper: &quot;An environment for sustainable research software in Germany and beyond: Current state, open challenges, and call for action&quot;, &lt;a href=&quot;https://doi.org/10.12688/f1000research.23224.2&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.12688/f1000research.23224.2&lt;/a&gt;.
+* Anzt et al. (2021): deRSE Position Paper: &quot;An environment for sustainable research software in Germany and beyond: Current state, open challenges, and call for action&quot;, &lt;a href=&quot;https://doi.org/10.12688/f1000research.23224.2&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.12688/f1000research.23224.2&lt;/a&gt;.
 * Gardner et al. (2022): Sustained software development, not number of citations or journal choice, is indicative of accurate bioinformatic software, In: Genome Biology 23, 56, &lt;a href=&quot;https://doi.org/10.1186/s13059-022-02625-x&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1186/s13059-022-02625-x&lt;/a&gt;.
-* Katerbow, &amp; Feulner (2018): Recommendations on the development, use and provision of Research Software, &lt;a href=&quot;https://doi.org/10.5281/zenodo.1172988&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.1172988&lt;/a&gt;.
+* Katerbow &amp; Feulner (2018): Recommendations on the development, use and provision of Research Software, &lt;a href=&quot;https://doi.org/10.5281/zenodo.1172988&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.1172988&lt;/a&gt;.
 * Lee, et al. (2021): Barely sufficient practices in scientific computing, In: Patterns, 2(2), 100206, &lt;a href=&quot;https://doi.org/10.1016/j.patter.2021.100206&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1016/j.patter.2021.100206&lt;/a&gt;.
 * Wuttke et al. (2022): Guidelines for collaborative development of sustainable data treatment software, In: Journal of Neutron Research, vol. 24, no. 1, pp. 33-72, &lt;a href=&quot;https://doi.org/10.3233/JNR-220002&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.3233/JNR-220002&lt;/a&gt;.
 * Wilson et al. (2017): Good enough practices in scientific computing, In: PLOS Computational Biology, 13(6), e1005510, &lt;a href=&quot;https://doi.org/10.1371/journal.pcbi.1005510&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1371/journal.pcbi.1005510&lt;/a&gt;.
@@ -139,9 +139,9 @@ By their very nature, these references are not exhaustive. If you need particula
 
 Zur Orientierung und als Unterstützung bieten wir hier einige Literaturempfehlungen, die bei der Beantwortung der Fragen hilfreich seinen können:
 
-* Anzt et al.(2021): deRSE Position Paper: &quot;An environment for sustainable research software in Germany and beyond: Current state, open challenges, and call for action&quot;, &lt;a href=&quot;https://doi.org/10.12688/f1000research.23224.2&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.12688/f1000research.23224.2&lt;/a&gt;.
+* Anzt et al. (2021): deRSE Position Paper: &quot;An environment for sustainable research software in Germany and beyond: Current state, open challenges, and call for action&quot;, &lt;a href=&quot;https://doi.org/10.12688/f1000research.23224.2&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.12688/f1000research.23224.2&lt;/a&gt;.
 * Gardner et al. (2022): Sustained software development, not number of citations or journal choice, is indicative of accurate bioinformatic software, In: Genome Biology 23, 56, &lt;a href=&quot;https://doi.org/10.1186/s13059-022-02625-x&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1186/s13059-022-02625-x&lt;/a&gt;.
-* Katerbow, &amp; Feulner (2018): Recommendations on the development, use and provision of Research Software, &lt;a href=&quot;https://doi.org/10.5281/zenodo.1172988&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.1172988&lt;/a&gt;.
+* Katerbow &amp; Feulner (2018): Recommendations on the development, use and provision of Research Software, &lt;a href=&quot;https://doi.org/10.5281/zenodo.1172988&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.1172988&lt;/a&gt;.
 * Lee, et al. (2021): Barely sufficient practices in scientific computing, In: Patterns, 2(2), 100206, &lt;a href=&quot;https://doi.org/10.1016/j.patter.2021.100206&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1016/j.patter.2021.100206&lt;/a&gt;.
 * Wuttke et al. (2022): Guidelines for collaborative development of sustainable data treatment software, In: Journal of Neutron Research, vol. 24, no. 1, pp. 33-72, &lt;a href=&quot;https://doi.org/10.3233/JNR-220002&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.3233/JNR-220002&lt;/a&gt;.
 * Wilson et al. (2017): Good enough practices in scientific computing, In: PLOS Computational Biology, 13(6), e1005510, &lt;a href=&quot;https://doi.org/10.1371/journal.pcbi.1005510&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.1371/journal.pcbi.1005510&lt;/a&gt;.
@@ -174,7 +174,7 @@ Es liegt in der Natur der Sache, dass diese Literaturhinweise nicht vollumfängl
 		<is_optional>False</is_optional>
 		<order>3</order>
 		<help lang="en">Please consider whether it would be more effective to purchase existing software or to adapt an existing open source instead of developing software yourself.</help>
-		<text lang="en">Are your sure that no suitable exists with the functionality your are planning?</text>
+		<text lang="en">Are your sure that no suitable software exists with the functionality your are planning?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
@@ -721,9 +721,9 @@ An dieser Stelle bietet es sich zusätzlich an, zu dokumentieren, ob technische 
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">Versioning code during development is strongly recommended. Applications such as Git systems are widespread.
-
-Various Max Planck Institutes maintain their own Git systems. At the same time, there are also several central Git systems that are accessible to Max Planck scientists:
+		<help lang="en">Versioning code during development is strongly recommended. A widely used software versioning tool is Git.
+		
+Various Max Planck Institutes maintain their own hosting services for git repositories such as Gitlab and Github:
 
 * Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen: &lt;a href=&quot;https://gitlab.gwdg.de&quot; target=&quot;_blank&quot;&gt;https://gitlab.gwdg.de&lt;/a&gt;
 * Max Planck Computing and Data Facility: &lt;a href=&quot;https://gitlab.mpcdf.mpg.de&quot; target=&quot;_blank&quot;&gt;https://gitlab.mpcdf.mpg.de&lt;/a&gt;
@@ -1327,12 +1327,12 @@ Folgende Dokumente können für Sie hierbei relevant sein:
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">When developing software, it can be helpful to adhere to certain standards. These can be, for example, common code conventions in the professional community or language-specific standards (e.g. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;). Tools for static code analysis (e.g. Lint) can help to find problematic code.</help>
+		<help lang="en">When developing software, it can be helpful to adhere to certain standards. These can be, for example, common code conventions in the professional community or language-specific standards (e.g. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://peps.python.org/pep-0008/&quot; target=&quot;_blank&quot;&gt;PEP8&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;). Tools for static code analysis (e.g. Lint) can help to find problematic code.</help>
 		<text lang="en">Do you apply specific coding standards? How do you take care about code quality control?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Bei der Entwicklung von Software kann es hilfreich sein, bestimmte Standards einzuhalten. Dies können beispielsweise gemeinsame Code-Konventionen in der Fachgemeinschaft sein oder sprachspezifische Standards (z.B. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;). Werkzeuge zur statischen Codeanalyse (z.B. Lint) können helfen, problematischen Code automatisch zu finden.</help>
+		<help lang="de">Bei der Entwicklung von Software kann es hilfreich sein, bestimmte Standards einzuhalten. Dies können beispielsweise gemeinsame Code-Konventionen in der Fachgemeinschaft sein oder sprachspezifische Standards (z.B. &lt;a href=&quot;https://www.oracle.com/technetwork/java/codeconventions-150003.pdf&quot; target=&quot;_blank&quot;&gt;Java Coding Standards&lt;/a&gt;, &lt;a href=&quot;https://peps.python.org/pep-0008/&quot; target=&quot;_blank&quot;&gt;PEP8&lt;/a&gt;, &lt;a href=&quot;https://clean-code-developer.de&quot; target=&quot;_blank&quot;&gt;Clean Code Developer&lt;/a&gt;). Werkzeuge zur statischen Codeanalyse (z.B. Lint) können helfen, problematischen Code automatisch zu finden.</help>
 		<text lang="de">Wenden Sie bestimmte Code-Standards an? Wie kümmern Sie sich um die Qualitätskontrolle des Codes?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
