@@ -1,5 +1,6 @@
 # General
 This RDMO catalogue supports the writing of a Software Management Plan. This questionnaire was developed by the Max Planck Digital Library in the Collections area in late summer and autumn 2022. It can be used to create a software management plan in RDMO.
+A software management plan (SMP) can help significantly with design, implementation and long-term availability. The essential advantage of an SMP filled out in advance is the explicit handling of the emerging research software with documented information. At the same time, it also makes it clearer which topics (fields) have not yet been solved or covered.
 
 # Development
 This catalogue was developed through many conversations and iterations. It represents an attempt or approximation of what a Software Management Plan could possibly be. The main focus from our side was on added value for scientists who write software for their research themselves, but have not learned how to do this or have learned it only a little. At the same time, such an SMP can also be helpful in advising information and infrastructure experts.
