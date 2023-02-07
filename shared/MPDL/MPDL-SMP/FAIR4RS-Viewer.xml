@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo created="2023-02-07T14:44:28.635711+01:00" xmlns:dc="http://purl.org/dc/elements/1.1/">
-	<view dc:uri="https://rdmo.mpdl.mpg.de/terms/fair4rs/views/FAIR4RSview">
-		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/fair4rs</uri_prefix>
+<rdmo created="2023-02-07T17:05:26.634894+01:00" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<view dc:uri="https://rdmo.mpdl.mpg.de/views/FAIR4RSview">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/</uri_prefix>
 		<key>FAIR4RSview</key>
 		<dc:comment>View of the FAIR Principles for Research Software (https://zenodo.org/record/6623556)</dc:comment>
 		<title lang="en">FAIR4RS</title>
@@ -9,7 +9,6 @@
 		<title lang="de">FAIR4RS</title>
 		<help lang="de">Ansicht der FAIR Principles for Research Software (&lt;a href=&quot;https://zenodo.org/record/6623556&quot; target=&quot;_blank&quot;&gt;https://zenodo.org/record/6623556&lt;/a&gt;)</help>
 		<catalogs>
-			<catalog dc:uri="https://rdmo.mpdl.mpg.de/terms/questions/smp"/>
 		</catalogs>
 		<template>{% load view_tags %}
 
