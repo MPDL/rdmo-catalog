@@ -4,11 +4,15 @@
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>horizon-europe</key>
 		<dc:comment>RDMO questionnaire for the funding framework program "Horizon Europe" (2021-2027) of the European Commission</dc:comment>
-		<order>5</order>
-		<title lang="en">Horizon Europe</title>
-		<help lang="en"/>
-		<title lang="de">Horizon Europe</title>
-		<help lang="de"/>
+		<order>3</order>
+<title lang="en">Horizon Europe</title>
+<help lang="en">
+This catalogue is for creating data management plans for projects in Horizon Europe and at the European Research Council.
+</help>
+<title lang="de">Horizon Europe</title>
+<help lang="de">
+Dieser Katalog ist für das Erstellen von Datenmanagementplänen für Projekte in Horizon Europe und am European Reseach Council.
+</help>
 		<title lang="es">Horizon Europe</title>
 		<help lang="es"/>
 		<title lang="fr">Horizon Europe</title>
@@ -4201,12 +4205,12 @@ A estas dos preguntas se refieren todas las preguntas detalladas hasta el final 
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">The handling and processing of personal data is regulated by law. The EU-wide uniform application follows the &lt;a href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679" target="_blank"&gt; EU General Data Protection Regulation (GDPR)&lt;/a&gt;. It allows room for maneuver at national level. Germany has made use of this regulatory leeway in the form of the &lt;a href="http://www.gesetze-im-internet.de/bdsg_2018/" target="_blank"&gt; Federal Data Protection Act (BDSG)&lt;/a&gt;. For universities, the individual data protection laws of the federal states apply to a large extent. The European GDPR defines personal data as all information that relates to an identified or identifiable natural person (Art. 4 GDPR, Paragraph 1). &lt;b&gt; Identified &lt;/b&gt; is a person if he or she can be clearly identified who the data belongs to. A person becomes &lt;b&gt; identifiable &lt;/b&gt; if he or she can be identified by means of additional information.</help>
+		<help lang="en">The handling and processing of personal data is regulated by law. The EU-wide uniform application follows the &lt;a href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679" target="_blank"&gt; EU General Data Protection Regulation (GDPR)&lt;/a&gt;. It allows room for maneuver at national level. Germany has made use of this regulatory leeway in the form of the &lt;a href="http://www.gesetze-im-internet.de/bdsg_2018/" target="_blank"&gt; Federal Data Protection Act (BDSG)&lt;/a&gt;. For universities, the individual data protection laws of the federal states apply to a large extent. The European GDPR defines personal data as all information that relates to an identified or identifiable natural person (Art. 4 GDPR, Paragraph 1). &lt;b&gt; Identified &lt;/b&gt; is a person if he or she can be clearly identified who the data belongs to. A person becomes &lt;b&gt; identifiable &lt;/b&gt; if he or she can be identified by means of additional information. If in doubt, please contact the &lt;b&gt;local data protection officers at your Max Planck Institute&lt;/b&gt;. A &lt;a href=&quot;https://max.mpg.de/Zentrale-Beauftragte/Datenschutz/Pages/02%20Ansprechpartner/2.2_Lokale%20Datenschutzkoordination.aspx&quot; target=&quot;_blank&quot;&gt;list with the relevant contact persons is available on MaxNet&lt;/a&gt;. In addition, there is the &lt;a href=&quot;https://max.mpg.de/Zentrale-Beauftragte/Datenschutz/Pages/01%20Datenschutz_Homepage/01%20Datenschutz.aspx&quot; target=&quot;_blank&quot;&gt;Data Protection Officer of the Max Planck Society&lt;/a&gt;, who can also help with data protection issues in research data management.</help>
 		<text lang="en">Does this dataset contain personal data?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Der Umgang und die Verarbeitung personenbezogener Daten ist gesetzlich geregelt. Die EU-weit einheitliche Anwendung erfolgt nach der &lt;a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679" target="_blank"&gt;EU-Datenschutz-Grundverordnung (DSGVO)&lt;/a&gt;. Sie gestattet Regelungsspielräume auf nationaler Ebene. Deutschland hat diese Regelungsspielräume in Form des &lt;a href="http://www.gesetze-im-internet.de/bdsg_2018/" target="_blank"&gt;Bundesdatenschutzgesetzes (BDSG)&lt;/a&gt; wahrgenommen. Für Hochschulen gelten zum großen Teil die individuellen Datenschutzgesetze der Länder, z. B. das &lt;a href="https://recht.nrw.de/lmi/owa/br_text_anzeigen?v_id=3520071121100436275" target="_blank"&gt;Datenschutzgesetz Nordrhein-Westfalen (DSG NRW)&lt;/a&gt;. Die europäische DSGVO definiert personenbezogene Daten als alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (Art. 4 DSGVO, Abs. 1). &lt;b&gt;Identifiziert &lt;/b&gt;ist eine Person, wenn eindeutig erkennbar ist, zu welcher Person die Daten gehören. &lt;b&gt;Identifizierbar&lt;/b&gt; wird eine Person, wenn sie mittels Zusatzinformationen identifiziert werden kann.</help>
+		<help lang="de">Der Umgang und die Verarbeitung personenbezogener Daten ist gesetzlich geregelt. Die EU-weit einheitliche Anwendung erfolgt nach der &lt;a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679" target="_blank"&gt;EU-Datenschutz-Grundverordnung (DSGVO)&lt;/a&gt;. Sie gestattet Regelungsspielräume auf nationaler Ebene. Deutschland hat diese Regelungsspielräume in Form des &lt;a href="http://www.gesetze-im-internet.de/bdsg_2018/" target="_blank"&gt;Bundesdatenschutzgesetzes (BDSG)&lt;/a&gt; wahrgenommen. Für Hochschulen gelten zum großen Teil die individuellen Datenschutzgesetze der Länder, z. B. das &lt;a href="https://recht.nrw.de/lmi/owa/br_text_anzeigen?v_id=3520071121100436275" target="_blank"&gt;Datenschutzgesetz Nordrhein-Westfalen (DSG NRW)&lt;/a&gt;. Die europäische DSGVO definiert personenbezogene Daten als alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (Art. 4 DSGVO, Abs. 1). &lt;b&gt;Identifiziert &lt;/b&gt;ist eine Person, wenn eindeutig erkennbar ist, zu welcher Person die Daten gehören. &lt;b&gt;Identifizierbar&lt;/b&gt; wird eine Person, wenn sie mittels Zusatzinformationen identifiziert werden kann. Eine &lt;a href=&quot;https://max.mpg.de/Zentrale-Beauftragte/Datenschutz/Pages/02%20Ansprechpartner/2.2_Lokale%20Datenschutzkoordination.aspx&quot; target=&quot;_blank&quot;&gt;Liste mit den entsprechenden Ansprechpartnern ist im MaxNet&lt;/a&gt; verfügbar. Darüber hinaus gibt es den &lt;a href=&quot;https://max.mpg.de/Zentrale-Beauftragte/Datenschutz/Pages/01%20Datenschutz_Homepage/01%20Datenschutz.aspx&quot; target=&quot;_blank&quot;&gt;Datenschutzbeauftragten der Max-Planck-Gesellschaft&lt;/a&gt;, der auch bei Fragen des Datenschutzes im Forschungsdatenmanagement helfen kann</help>
 		<text lang="de">Enthält dieser Datensatz personenbezogene Daten?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
