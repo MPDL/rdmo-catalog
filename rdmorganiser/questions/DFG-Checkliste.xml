@@ -4,11 +4,11 @@
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>DFG-Checkliste</key>
 		<dc:comment/>
-		<order>30</order>
-		<title lang="en">DFG checklist</title>
-		<help lang="en">Catalog according to the DFG checklist of December 21, 2021</help>
+		<order>3</order>
+		<title lang="en">DFG Checklist</title>
+		<help lang="en">&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/forschungsdaten_checkliste_en.pdf&quot; target=&quot;_blank&quot;&gt;DFG Checkliste for Handling of Research Data&lt;/a&gt; from December 2021</help>
 		<title lang="de">DFG-Checkliste</title>
-		<help lang="de">Katalog entsprechend der DFG-Checkliste vom 21.12.2021</help>
+		<help lang="de">&lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/forschungsdaten_checkliste_de.pdf&quot; target=&quot;_blank&quot;&gt;DFG-Checkliste zum Umgang mit Forschungsdaten&lt;/a&gt; vom Dezember 2021</help>
 	</catalog>
 	<section dc:uri="https://rdmorganiser.github.io/terms/questions/DFG-Checkliste/data_description">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -31,7 +31,7 @@
 		<is_collection>True</is_collection>
 		<order>0</order>
 		<title lang="en">Contentwise data description</title>
-		<help lang="en">&lt;u&gt;General notes:&lt;/u&gt; This catalog is the checklist published by the DFG, supplemented by help texts, option sets with suggested texts and further information. The DFG checklist must be taken into account when submitting an application and when completing the project and is intended to help you to structure your data management. If you have any questions, please contact the central research data management team at your institution.
+		<help lang="en">&lt;u&gt;General notes:&lt;/u&gt; This catalog is &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/forschungsdaten_checkliste_en.pdf&quot; target=&quot;_blank&quot;&gt;the checklist published by the DFG&lt;/a&gt;, supplemented by help texts, option sets with suggested texts and further information. The DFG checklist must be taken into account when submitting an application and when completing the project and is intended to help you to structure your data management. If you have any questions, please contact the central research data management team at your Max Planck Institute. If this is not posibble you can, for example, also contact the &lt;a href=&quot;https://rdm.mpdl.mpg.de/mpdl-services/support/&quot; target=&quot;_blank&quot;&gt;RDM-Support-Team at the Max Planck Digital Library&lt;/a&gt;.
 
 The following questions are intended to describe the datasets that are created and/or used in the project. The definition of a data set is an important conceptual decision that must be made individually for each undertaking or project. Choose a logical unit of your research data as the data set, for which the same information regarding methodology, technology, accessibility, etc. applies.
 
@@ -39,7 +39,7 @@ The division into data sets helps to assess the value of the data with regard to
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<title lang="de">Inhaltliche Datenbeschreibung</title>
-		<help lang="de">&lt;u&gt;Allgemeine Hinweise:&lt;/u&gt; Der vorliegende Fragenkatalog ist die von der DFG herausgegebene Checkliste ergänzt um Hilfetexte, Auswahllisten mit Textvorschlägen und weiterführende Hinweise. Die DFG-Checkliste muss bei Antragstellung sowie bei Projektabschluss berücksichtigt werden und soll Ihnen helfen, Ihr Datenmanagement zu strukturieren. Bei Fragen wenden Sie sich bitte an das zentrale Forschungsdatenmanagement-Team ihrer Einrichtung.
+		<help lang="de">&lt;u&gt;Allgemeine Hinweise:&lt;/u&gt; Der vorliegende Fragenkatalog ist &lt;a href=&quot;https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/forschungsdaten_checkliste_de.pdf&quot; target=&quot;_blank&quot;&gt;die von der DFG herausgegebene Checkliste&lt;/a&gt; ergänzt um Hilfetexte, Auswahllisten mit Textvorschlägen und weiterführende Hinweise. Die DFG-Checkliste muss bei Antragstellung sowie bei Projektabschluss berücksichtigt werden und soll Ihnen helfen, Ihr Datenmanagement zu strukturieren. Bei Fragen wenden Sie sich bitte an das Forschungsdatenmanagement-Team an Ihrem Max-Planck-Institut. Sollte dies nicht möglich sein können Sie sich beispielsweise auch an &lt;a href=&quot;https://rdm.mpdl.mpg.de/mpdl-services/support/&quot; target=&quot;_blank&quot;&gt;das FDM-Support-Team der Max Planck Digital Library&lt;/a&gt; wenden.
 
 &lt;u&gt;Strukturierung in Datensätze:&lt;/u&gt; Wählen Sie als Datensatz eine logische Einheit Ihrer Forschungsdaten, für die gleiche Angaben bezüglich Methodik, Technik, Zugänglichkeit, usw. gelten. Zum Beispiel verschiedene Arten der Datenerhebung (Modalitäten), oder ob es sich um gemessene, simulierte oder analysierte Daten handelt. Die folgenden Fragen werden für jeden Datensatz beantwortet.
 
@@ -335,7 +335,7 @@ Andere Daten wiederum lassen sich per se nicht erneut erheben. Dies ist etwa bei
 		<order>1</order>
 		<help lang="en">In order to be able to reuse data, in addition to the data itself, the software, if applicable (measuring) devices etc. and knowledge of special procedures for use are required.
 
-Since usage can vary depending on the discipline, either discuss with your colleagues or contact the &lt;i&gt;&lt;a href="https://www.nfdi. en/consortia/" target="_blank"&gt;NFDI consortium&lt;/a&gt;&lt;/i&gt; for your discipline if you don't know exactly what is needed.
+Since usage can vary depending on the discipline, either discuss with your colleagues or contact the &lt;a href=&quot;https://rdm.mpdl.mpg.de/mpdl-services/support/&quot; target=&quot;_blank&quot;&gt;RDM-Support-Team at the Max Planck Digital Library&lt;/a&gt;.
 
 &lt;details&gt;
 &lt;summary style="color:blue; cursor:pointer;"&gt;Read more...&lt;/summary&gt;
@@ -349,7 +349,7 @@ The establishment of standards for methods, use of software, collection of resea
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Um Daten nachnutzen zu können, werden neben den Daten selbst auch die Software, ggf. (Mess-)Geräte etc. und das Wissen über spezielle Verfahren zur Nutzung benötigt.
 
-Da die Nutzung je nach Disziplin unterschiedlich sein kann, tauschen Sie sich entweder mit Ihren Kolleg*innen aus, oder wenden Sie sich an das in Ihrer Disziplin arbeitende &lt;i&gt;&lt;a href="https://www.nfdi.de/konsortien/" target="_blank"&gt;NFDI-Konsortium&lt;/a&gt;&lt;/i&gt;, wenn Sie nicht genau wissen, was nötig ist.
+Da die Nutzung je nach Disziplin unterschiedlich sein kann, tauschen Sie sich entweder mit Ihren Kolleg*innen aus, oder wenden Sie sich an das &lt;a href=&quot;https://rdm.mpdl.mpg.de/mpdl-services/support/&quot; target=&quot;_blank&quot;&gt;FDM-Support-Team der Max Planck Digital Library&lt;/a&gt;.
 
 &lt;details&gt;
 &lt;summary style="color:blue; cursor:pointer;"&gt;Weiterlesen...&lt;/summary&gt;
@@ -506,14 +506,14 @@ Wichtig ist, dass die Qualitätskontrolle unabhängig von den getroffenen Maßna
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">Please note that depending on the storage location, your data are not automatically backed up. You can find out advantages and disadvantages of storage media at &lt;i&gt;&lt;a href="https://www.forschungsdaten.info/themen/speichern-und-rechner/datenspeicherung-und-die-lebensdauer-von-datentraegern/ Read" target="_blank"&gt;www.forschungsdaten.info&lt;/a&gt;&lt;/i&gt;.
+		<help lang="en">Please note that depending on the storage location, your data are not automatically backed up.
 
 The DFG expects here a description of the infrastructure you use for data storage and backup. In particular, describe the use of storage and backup infrastructure offered centrally at your institution or justify your use of local or (subject)-specific solutions.</help>
 		<text lang="en">How are data stored and secured during the project duration?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Beachten Sie, dass je nach Speicherort Ihre Daten nicht automatisch gesichert sind. Welche Speichermedien welche Vor- und Nachteile haben, können Sie auf &lt;i&gt;&lt;a href="https://www.forschungsdaten.info/themen/speichern-und-rechnen/datenspeicherung-und-die-lebensdauer-von-datentraegern/" target="_blank"&gt;www.forschungsdaten.info&lt;/a&gt;&lt;/i&gt; nachlesen.
+		<help lang="de">Beachten Sie, dass je nach Speicherort Ihre Daten nicht automatisch gesichert sind.
 
 Die DFG möchte hier eine Beschreibung der von Ihnen zur Datenspeicherung und Sicherung verwendeten Infrastruktur. Gehen Sie insbesondere auf die Nutzung von zentral an Ihrer Einrichtung angebotener Speicher- und Backup- Infrastruktur ein oder begründen Sie Ihre lokalen oder (fach-)spezifischen Lösungen.</help>
 		<text lang="de">Auf welche Weise werden die Daten während der Projektlaufzeit gespeichert und gesichert?</text>
@@ -566,14 +566,14 @@ Die DFG möchte hier eine Beschreibung der von Ihnen zur Datenspeicherung und Si
 		<order>0</order>
 		<help lang="en">Sensitive data can appear in different contexts, e.g. personal data or data that arise in economic cooperation projects or licensed data.
 
-If you have any questions about personal data and its security, please contact your institution's local data protection officer. In the case of economic cooperation projects, the access and usage rights are usually recorded in the non-disclosure agreements, while the usage conditions for data are recorded in license agreements.</help>
+If you have any questions about personal data and its security, please contact your &lt;b&gt;local data protection officers at your Max Planck Institute&lt;/b&gt;. A &lt;a href=&quot;https://max.mpg.de/Zentrale-Beauftragte/Datenschutz/Pages/02%20Ansprechpartner/2.2_Lokale%20Datenschutzkoordination.aspx&quot; target=&quot;_blank&quot;&gt;list with the relevant contact persons is available on MaxNet&lt;/a&gt;. In addition, there is the &lt;a href=&quot;https://max.mpg.de/Zentrale-Beauftragte/Datenschutz/Pages/01%20Datenschutz_Homepage/01%20Datenschutz.aspx&quot; target=&quot;_blank&quot;&gt;Data Protection Officer of the Max Planck Society&lt;/a&gt;, who can also help with data protection issues in research data management. In the case of economic cooperation projects, the access and usage rights are usually recorded in the non-disclosure agreements, while the usage conditions for data are recorded in license agreements.</help>
 		<text lang="en">What is in place to address security of sensitive data during the project (access and use controls)?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Sensible Daten können in verschiedenen Kontexten auftreten, z. B. personenbezogene Daten oder Daten, die in wirtschaftlichen Kooperationsprojekten entstehen oder auch lizenzierte Daten.
 
-Bei Fragen zu personenbezogenen Daten und deren Sicherheit wenden Sie sich bitte an die lokalen Datenschutzbeauftragten Ihrer Einrichtung. Bei wirtschaftlichen Kooperationsprojekten sind die Zugriffs- und Nutzungsrechte in der Regel in den Geheimhaltungserklärungen festgehalten, die Nutzungsbedingungen von Daten sind ansonsten oft in Lizenzen definiert.</help>
+Bei Fragen zu personenbezogenen Daten und deren Sicherheit wenden Sie sich bitte an wenden Sie sich bitte an die &lt;b&gt;lokalen Datenschutzbeauftragten an Ihrem Max-Planck-Institut&lt;/b&gt;. Eine &lt;a href=&quot;https://max.mpg.de/Zentrale-Beauftragte/Datenschutz/Pages/02%20Ansprechpartner/2.2_Lokale%20Datenschutzkoordination.aspx&quot; target=&quot;_blank&quot;&gt;Liste mit den entsprechenden Ansprechpartnern finden Sie auf MaxNet&lt;/a&gt;. Darüber hinaus gibt es den &lt;a href=&quot;https://max.mpg.de/Zentrale-Beauftragte/Datenschutz/Pages/01%20Datenschutz_Homepage/01%20Datenschutz.aspx&quot; target=&quot;_blank&quot;&gt;Datenschutzbeauftragten der Max-Planck-Gesellschaft&lt;/a&gt;, der auch bei Fragen des Datenschutzes im Forschungsdatenmanagement helfen kann. Bei wirtschaftlichen Kooperationsprojekten sind die Zugriffs- und Nutzungsrechte in der Regel in den Geheimhaltungserklärungen festgehalten, die Nutzungsbedingungen von Daten sind ansonsten oft in Lizenzen definiert.</help>
 		<text lang="de">Wie wird die Sicherheit sensibler Daten während der Projektlaufzeit gewährleistet (Zugriffs- und Nutzungsverwaltung)?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -688,7 +688,7 @@ Bedenken Sie bitte, dass ggf. nach einer gewissen Sperr- oder Embargofrist eine 
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">In addition to general scientific codes, there can also be discipline-specific codes. If you do not know these, find out more from suitable NFDI consortia or professional associations. The &lt;i&gt;&lt;a href="https://wissenschaften-integritaet.de/" target="_blank"&gt;DFG page on academic integrity&lt;/a&gt;&lt;/i&gt; also provides information. Here you will find references to laws, &lt;a href="https://www.dfg.de/foerderung/basic-conditions/research-data/recommendations/index.html" target="_blank"&gt;subject-specific comments on the guidelines&lt;/a&gt;&lt;/ i&gt; and explanations as well as case studies.</help>
+		<help lang="en">In addition to general scientific codes, there can also be discipline-specific codes. If you do not know these, find out more from suitable NFDI consortia or professional associations. The &lt;i&gt;&lt;a href="https://wissenschaftliche-integritaet.de/" target="_blank"&gt;DFG page on academic integrity&lt;/a&gt;&lt;/i&gt; also provides information. Here you will find references to laws, &lt;a href="https://www.dfg.de/en/research_funding/principles_dfg_funding/research_data/recommendations/index.html" target="_blank"&gt;subject-specific comments on the guidelines&lt;/a&gt;&lt;/i&gt; and explanations as well as case studies.</help>
 		<text lang="en">Are there any significant research codes or professional standards to be taken into account?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -908,17 +908,18 @@ Das ist der Fall bei Digitalisaten analoger Objekte (falls die Originale noch vo
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
-		<help lang="en">Accordingly to the &lt;i&gt;&lt;a href="https://www.dfg.de/download/pdf/foerderung/basisn_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf" target="_blank"&gt;DFG Guidelines for Research Data Management&lt;/a &gt;&lt;/i&gt;, research data should be made available as soon as possible and ideally according to the &lt;i&gt;&lt;a href="https://force11.org/info/guiding-principles-for-findable-accessible-interoperable -and-re-usable-data-publishing-version-b1-0/" target="_blank"&gt;FAIR principles&lt;/a&gt;&lt;/i&gt;.
+		<help lang="en">Accordingly to the &lt;i&gt;&lt;a href="https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/leitlinien_forschungsdaten.pdf" target="_blank"&gt;DFG Guidelines for Research Data Management&lt;/a &gt;&lt;/i&gt;, research data should be made available as soon as possible and ideally according to the &lt;i&gt;&lt;a href="https://force11.org/info/guiding-principles-for-findable-accessible-interoperable-and-re-usable-data-publishing-version-b1-0/" target="_blank"&gt;FAIR principles&lt;/a&gt;&lt;/i&gt;.
 
 The importance of data publication is underscored once again by the
-&lt;i&gt;&lt;a href="https://scientific-integrity.de/code/production-of-public-access-to-research-results/" target="_blank"&gt;Guideline 13 of the Code of Good Scientific Practice&lt;/a &gt;&lt;/i&gt;. Discipline-specific practices are pointed out here.
+&lt;i&gt;&lt;a href="https://wissenschaftliche-integritaet.de/en/code-of-conduct/providing-public-access-to-research-results/" target="_blank"&gt;Guideline 13 of the Code of Good Scientific Practice&lt;/a &gt;&lt;/i&gt;. Discipline-specific practices are pointed out here.
 
 &lt;details&gt;
 &lt;summary style="color:blue; cursor:pointer;"&gt;Recommended repositories&lt;/summary&gt;
 
 For the publication of research data, it is recommended to use subject-specific repositories. Recommended directories are &lt;i&gt;&lt;a href="https://www.re3data.org/" target="_blank"&gt;re3data.org&lt;/a&gt;&lt;/i&gt; and &lt;i&gt;&lt;a href="https://fairsharing.org/" target="_blank"&gt;FAIRsharing.org&lt;/a&gt;&lt;/i&gt;.
 
-If no suitable subject-specific repository exists, inquire whether your facility operates an institutional repository. Another alternative would be &lt;i&gt;&lt;a href="https://zenodo.org/" target="_blank"&gt;Zenodo&lt;/a&gt;&lt;/i&gt;.
+If no suitable subject-specific repository exists, use for example &lt;a href=&quot;https://edmond.mpdl.mpg.de/&quot; target=&quot;_blank&quot;&gt;Edmond as Open Research Data Repository for the Max Planck Society&lt;/a&gt;.
+
 &lt;/details&gt;</help>
 		<text lang="en">When are the research data available for use by third parties?</text>
 		<default_text lang="en"/>
@@ -934,7 +935,8 @@ Die Bedeutung der Datenpublikation wird noch einmal unterstrichen durch die
 
 Für die Publikation von Forschungsdaten wird empfohlen, bevorzugt fachspezifische Repositorien zu nutzen. Empfehlenswerte Verzeichnisse sind dafür &lt;i&gt;&lt;a href="https://www.re3data.org/" target="_blank"&gt;re3data.org&lt;/a&gt;&lt;/i&gt; und &lt;i&gt;&lt;a href="https://fairsharing.org/" target="_blank"&gt;FAIRsharing.org&lt;/a&gt;&lt;/i&gt;.
 
-Falls kein geeignetes fachspezifisches Repositorium existiert, erkundigen Sie sich, ob Ihre Einrichtung ein institutionelles Repositorium betreibt. Eine weitere Alternative wäre &lt;i&gt;&lt;a href="https://zenodo.org/" target="_blank"&gt;Zenodo&lt;/a&gt;&lt;/i&gt;.
+Falls kein geeignetes fachspezifisches Repositorium existiert, können Sie beispielsweise auch &lt;a href=&quot;https://edmond.mpdl.mpg.de/&quot; target=&quot;_blank&quot;&gt;Edmond als Open Research Data Repository für die Max-Planck-Society&lt;/a&gt; nutzen.
+
 &lt;/details&gt;</help>
 		<text lang="de">Wann ist dieser Datensatz für Dritte nutzbar?</text>
 		<default_text lang="de"/>
@@ -984,7 +986,7 @@ Falls kein geeignetes fachspezifisches Repositorium existiert, erkundigen Sie si
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en">In accordance with good scientific practice, research data must generally be stored for 10 years (see the &lt;i&gt;&lt;a href="https://wissenschaften-integritaet.de/kodex/archivierung/" target=" _blank"&gt;Guideline 17&lt;/a&gt;&lt;/i&gt; of the Code of Good Scientific Practice).
+		<help lang="en">In accordance with good scientific practice, research data must generally be stored for 10 years (see the &lt;i&gt;&lt;a href="https://wissenschaftliche-integritaet.de/en/code-of-conduct/archiving/" target=" _blank"&gt;Guideline 17&lt;/a&gt;&lt;/i&gt; of the Code of Good Scientific Practice).
 
 In order for the data to remain available and findable, they must also be curated beyond the project. If you archive the data in a data center or repository, the responsibility is usually assumed by the operator. Please check or clarify the responsibilities in advance. Archiving includes metadata, documentation and any relevant code/software.</help>
 		<text lang="en">Are you planning to archive your data in a suitable infrastructure? How and where?</text>
