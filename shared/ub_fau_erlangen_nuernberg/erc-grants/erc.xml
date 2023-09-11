@@ -6,9 +6,9 @@
 		<dc:comment/>
 		<order>100</order>
 		<title lang="en">European Research Council (ERC)</title>
-		<help lang="en"/>
+		<help lang="en">This questionnaire is based on the template for the ERC Open Research Data Management Plan.</help>
 		<title lang="de">European Research Council (ERC)</title>
-		<help lang="de"/>
+		<help lang="de">Dieser Katalog basiert auf der Vorlage des ERC für offene Forschungsdatenmanagement-Pläne.</help>
 	</catalog>
 	<section dc:uri="https://fdm-bayern.org/eHumanities/questions/erc/allgemeines">
 		<uri_prefix>https://fdm-bayern.org/eHumanities</uri_prefix>
@@ -31,13 +31,12 @@
 		<is_collection>False</is_collection>
 		<order>0</order>
 		<title lang="en">Introductory information</title>
-		<help lang="en">This questionnaire is based on the template for the ERC Open Research Data Management Plan (DMP). The following sections should describe how you plan to make the project data Findable, Accessible, Interoperable and Reusable (&lt;a href="https://www.go-fair.org/fair-principles"&gt;FAIR&lt;/a&gt;). Each of the following issues should be addressed with a level of detail appropriate to the project.
+		<help lang="en">This questionnaire is based on the template for the ERC Open Research Data Management Plan (DMP). The following sections should describe how you plan to make the project data Findable, Accessible, Interoperable and Reusable (&lt;a href="https://www.go-fair.org/fair-principles" target="_blank" &gt;FAIR&lt;/a&gt;). Each of the following issues should be addressed with a level of detail appropriate to the project.
 
 Before going through the questionnaire, here is some additional information:
 
 &lt;ul&gt;
 &lt;li&gt; We provide a short example DMP that was created using this questionnaire and which answers are linked after each question to show an example. The example DMP is shorter than usual ERC DMPs: Typically, an ERC DMP has 4-6 pages.
-You can find the full example DMP &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md"&gt; here on GitLab&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;If you want to have a look at actual ERC grant DMPs to get a better feeling for the scope, you can have a look at some published DMP, e.g.
 &lt;ul&gt;
 &lt;li&gt;&lt;a  href="https://zenodo.org/record/6421146#.Y8VjixWZOcg" target="_blank"&gt;C0PEP0D DMP on Zenodo&lt;/a&gt; - an initale DMP based on the ERC DMP template.&lt;/li&gt;
@@ -49,12 +48,12 @@ Note that these DMPs were written for the previous ERC funding scheme, but the D
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<title lang="de">Einführende Informationen</title>
-		<help lang="de">Dieser Fragebogen orientiert sich am Template für den ERC Open Research Datenmanagementplan (DMP). In den folgenden Abschnitten sollten Sie beschreiben, wie Sie die Projektdaten auffindbar, zugänglich, interoperabel und wiederverwendbar machen (&lt;a href="https://www.go-fair.org/fair-principles"&gt;FAIR&lt;/a&gt;). Jeder der folgenden Punkte sollte mit einem für das Projekt angemessenen Detailgrad behandelt werden.
+		<help lang="de">Dieser Fragebogen orientiert sich am Template für den ERC Open Research Datenmanagementplan (DMP). In den folgenden Abschnitten sollten Sie beschreiben, wie Sie die Projektdaten auffindbar, zugänglich, interoperabel und wiederverwendbar machen (&lt;a href="https://www.go-fair.org/fair-principles" target="_blank" &gt;FAIR&lt;/a&gt;). Jeder der folgenden Punkte sollte mit einem für das Projekt angemessenen Detailgrad behandelt werden.
 
 Bevor Sie den Fragebogen ausfüllen, finden Sie hier einige zusätzliche Informationen:
 &lt;ul&gt;
 &lt;li&gt;
-Wir stellen ein kurzes DMP-Beispiel zur Verfügung, das mit Hilfe dieses Fragebogens erstellt wurde. Wenn Fragen von einer Beispielantwort profitieren, verlinken wir auf diesen. Der Beispiel-DMP ist kürzer als die üblichen ERC-DMPs: typische ERC-DMPs haben einen Umfang von 4-6 Seiten. Der DMP kann &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md"&gt; hier auf GitLab&lt;/a&gt; eingesehen werden.&lt;/li&gt;
+Wir stellen ein kurzes DMP-Beispiel zur Verfügung, das mit Hilfe dieses Fragebogens erstellt wurde. Wenn Fragen von einer Beispielantwort profitieren, verlinken wir auf diesen. Der Beispiel-DMP ist kürzer als die üblichen ERC-DMPs: typische ERC-DMPs haben einen Umfang von 4-6 Seiten.
 &lt;li&gt;Wenn Sie an weiteren Beispielen interessiert sind, um ein besseres Gefühl für den Umfang zu bekommen, können Sie einen Blick auf einige veröffentlichte ERC-DMPs werfen, z.B.
 &lt;ul&gt;
 &lt;li&gt;&lt;a  href="https://zenodo.org/record/6421146#.Y8VjixWZOcg" target="_blank"&gt;C0PEP0D DMP auf Zenodo&lt;/a&gt; - die erste Version eines DMPs auf der Grundlage der ERC-DMP-Vorlage.&lt;/li&gt;
@@ -196,15 +195,13 @@ Es ist wichtig, im Antrag die Art und den Umfang der Daten knapp zu vermitteln, 
 		<is_optional>False</is_optional>
 		<order>1</order>
 		<help lang="en">The short description should very briefly cover what the data are, how they are collected (indicate the methodology) and what they will be used for. Details on data volume and data formats will be addressed later. 
-
-Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#description"&gt;answer in the example DMP&lt;/a&gt;.</help>
+</help>
 		<text lang="en">Give a short descriptive abstract for the dataset:</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">dataset</verbose_name>
 		<verbose_name_plural lang="en">datasets</verbose_name_plural>
 		<help lang="de">Beschreiben Sie die Daten und / oder Software im Antrag ganz knapp (z.B. wofür und womit die Daten erhoben werden, welche Methodologie und Technik verwendet wird). Eine Frage zu Datenformaten folgt im Anschluss gesondert.
-
-Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#description"&gt;Antwort in dem Beispiel-DMP&lt;/a&gt;.</help>
+</help>
 		<text lang="de">Bitte beschreiben Sie den Datensatz knapp:</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Datensatz</verbose_name>
@@ -252,15 +249,13 @@ Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literac
 		<is_optional>False</is_optional>
 		<order>0</order>
 		<help lang="en">Further information is particularly needed if you reuse (parts of) existing data. Then mention what data is being reused and, if possible, provide the DOI or link to the source.
-		
-Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#data-origin"&gt;answer in the example DMP&lt;/a&gt;.</help>
+		</help>
 		<text lang="en">Is the dataset being created or reused?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Weitere Angaben sind vor allem wichtig, wenn Daten nicht ausschließlich selbst erhoben werden. Dann ist zu erwähnen, was nachgenutzt wird und, wenn möglich, mit einem DOI oder einem Link zur Website der Gruppe anzugeben, woher die Daten stammen.
-		
-Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#data-origin"&gt;Antwort in dem Beispiel-DMP&lt;/a&gt;.</help>
+		</help>
 		<text lang="de">Wird der Datensatz selbst erzeugt oder nachgenutzt?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -373,16 +368,12 @@ Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literac
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">In which formats are the data available (e.g., cif format for crystal structures, csv, netCDF container, ...)? Distinguish between formats of the raw data and the processed data.
-
-Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#data-type"&gt;answer in the example DMP&lt;/a&gt;.</help>
+		<help lang="en">In which formats are the data available (e.g., cif format for crystal structures, csv, netCDF container, ...)? Distinguish between formats of the raw data and the processed data.</help>
 		<text lang="en">Which file formats are used?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Bitte geben Sie an, in welchen Formaten die Daten vorliegen (z.B. cif-Format für Kristallstrukturen, csv, netCDF-Container, …). Unterscheiden Sie dabei zwischen den Formaten der Rohdaten und der aufbereiteten Daten.
-
-Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#data-type"&gt;Antwort in dem Beispiel-DMP&lt;/a&gt;.</help>
+		<help lang="de">Bitte geben Sie an, in welchen Formaten die Daten vorliegen (z.B. cif-Format für Kristallstrukturen, csv, netCDF-Container, …). Unterscheiden Sie dabei zwischen den Formaten der Rohdaten und der aufbereiteten Daten.</help>
 		<text lang="de">In welchen Formaten liegen die Daten vor?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -482,9 +473,7 @@ as well as administrative steps
 &lt;li&gt;documentation of each modification / step during data analysis in a wiki&lt;/li&gt;
 &lt;/ul&gt;
 
-In particular, you should clearly address how and where data (raw data, cleansed data etc.) will be stored and backuped during the project.
-
-Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#further-information"&gt;answer in the example DMP&lt;/a&gt;.</help>
+In particular, you should clearly address how and where data (raw data, cleansed data etc.) will be stored and backuped during the project.</help>
 		<text lang="en">What measures will be taken to ensure integrity and quality of the data?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -507,9 +496,7 @@ oder administrative Maßnahmen:
 &lt;li&gt;Dokumentation aller Arbeitsschritte während der Analyse in einem Wiki&lt;/li&gt;
 &lt;/ul&gt;
 
-Hier sollte in jedem Fall beschrieben werden, wie und wo die Daten (Rohdaten, aufbereitete Daten, usw.) während des Projektes gespeichert und gesichert (Backup) werden.
-
-Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#further-information"&gt;Antwort in dem Beispiel-DMP&lt;/a&gt;.</help>
+Hier sollte in jedem Fall beschrieben werden, wie und wo die Daten (Rohdaten, aufbereitete Daten, usw.) während des Projektes gespeichert und gesichert (Backup) werden.</help>
 		<text lang="de">Welche Maßnahmen zur Qualitätssicherung der Datenspeicherung und der Datenerhebung werden durchgeführt?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -601,8 +588,7 @@ Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literac
 		<help lang="en">Findabiliy (in the FAIR principles sense) is closely tied to the use of ideally unique and persistent identifiers. Depending on the research field, it may be common to assign unique internal IDs to samples, measurements or sources, that can be included in the dataset metadata (see question below). Persistent identifiers (PID) are provided by some trusted intermediary that guarantees that the ID can be used to locate information on the corresponding dataset for the foreseeable future. The most common PID is the DOI, which can be assigned to static (as in  no longer changing) datasets. 
 
 If you use internal IDs, it is good to mention this here. More important is the assignment of persistant identifiers to each datasets at least in its final form. This is generally expected and a DOI is usually provided by all data repositories (such as e.g. the European repository Zenodo) that publish data. DOI can also be provided for datasets that cannot be made public.
-
-Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#identifiers-and-metadata"&gt;answer in the example DMP&lt;/a&gt;.</help>
+</help>
 		<text lang="en">Will you use unique identifiers for measurements and samples? Are you assigning persistent identifiers to datasets at certain stages of processing?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">data type</verbose_name>
@@ -612,8 +598,7 @@ Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/lite
 Persistente Identifikatoren (PID) werden von einer vertrauenswürdigen Vermittlungsstelle bereitgestellt, die garantiert, dass die ID in absehbarer Zukunft zum Auffinden von Informationen über den entsprechenden Datensatz verwendet werden kann. Die gebräuchlichste PID ist der DOI, welcher statischen (d. h. sich nicht mehr ändernden) Datensätzen zugewiesen werden kann. 
 
 Wenn Sie eine interne ID verwenden, ist es sinnvoll, dies hier zu erwähnen. Wichtiger ist jedoch die Zuweisung von dauerhaften Identifikatoren für jeden Datensatz, zumindest in seiner endgültigen Form. Dies wird im Allgemeinen erwartet, und ein DOI wird in der Regel von allen Datenrepositorien (wie z. B. dem europäischen Repositorium Zenodo) bereitgestellt, die Daten veröffentlichen. DOI können auch für Datensätze bereitgestellt werden, die nicht veröffentlicht werden können.
-
-Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#making-data-findable"&gt;Antwort in dem Beispiel-DMP&lt;/a&gt;.</help>
+</help>
 		<text lang="de">Wie wird der Datensatz und dessen Entstehung dokumentiert? Nutzen Sie eindeutige Identifikatoren für Messungen und Proben?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Datentyp</verbose_name>
@@ -689,11 +674,11 @@ Beachten Sie auch, dass sich die ERC-Vorlage in Bezug auf die Metadaten leicht w
 		<is_collection>True</is_collection>
 		<order>0</order>
 		<title lang="en">Data sharing</title>
-		<help lang="en">For an example text, see this &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#data-publication"&gt;illustrative DMP&lt;/a&gt;.</help>
+		<help lang="en"/>
 		<verbose_name lang="en">dataset</verbose_name>
 		<verbose_name_plural lang="en">datasets</verbose_name_plural>
 		<title lang="de">Datenzugang</title>
-		<help lang="de">Für Textbeispiele siehe auch den &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#data-publication"&gt;Beispiel-DMP&lt;/a&gt; .</help>
+		<help lang="de"/>
 		<verbose_name lang="de">Datensatz</verbose_name>
 		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
 		<conditions/>
@@ -711,8 +696,7 @@ Beachten Sie auch, dass sich die ERC-Vorlage in Bezug auf die Metadaten leicht w
 		<help lang="en">Describe briefly which parts of the data will be made available and when you plan to do so during the project. You do not have to make data public, but if you restrict data access, you have to give reasons for doing so in the following question.
 
 **Note:** The metadata should always be accessible to all according to ERC requirements and FAIR principles. If you cannot make any part of a dataset available, you should still point out that the metadata will be accessible.
-
-Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#data-sharing"&gt;answer in the example DMP&lt;/a&gt;.</help>
+</help>
 		<text lang="en">Will the data be made available to other research projects / published?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -720,8 +704,7 @@ Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/lite
 		<help lang="de">Hier sollten Sie kurz beschreiben, welche Teile der Daten zur Verfügung gestellt werden sollen und idealerweise auch angeben, wann Sie dies im Laufe des Projekts tun wollen.  Sie müssen die Daten nicht veröffentlichen, aber wenn Sie den Zugang zu den Daten einschränken, müssen Sie dies in der folgenden Frage begründen.
 
 **Hinweis:** Die Metadaten sollten gemäß den Anforderungen des ERC und den FAIR-Grundsätzen immer für alle zugänglich sein. Wenn Sie einen Teil eines Datensatzes nicht zugänglich machen können, sollten Sie dennoch darauf hinweisen, dass die Metadaten zugänglich sein werden.
-
-Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#data-sharing"&gt;Antwort in dem Beispiel-DMP&lt;/a&gt;.</help>
+</help>
 		<text lang="de">Werden die Daten anderen Forschungsprojekten zugänglich gemacht bzw. publiziert?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -918,8 +901,7 @@ Die grundlegenden Informationen und eine Beschreibung der Daten sollten auch in 
 		<help lang="en">Select as appropriate and make use of the "other" field to add specific pieces of information. This DMP template assumes that basic bibliographic information (creators, authors, title, a brief description, etc.) will be provided and recorded anyways.
 
 These pieces of information should be part of the recorded metadata.
-
-Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#documentation-and-metadata"&gt;answer in the example DMP&lt;/a&gt;.</help>
+</help>
 		<text lang="en">Which information is necessary and provided for other parties to understand the data (that is, to understand their collection or creation, analysis, and research results obtained on its basis) and to reuse it?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -927,8 +909,7 @@ Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/lite
 		<help lang="de">Wählen Sie Zutreffendes aus und nutzen Sie das Feld "Sonstiges", um spezifische Informationen hinzuzufügen. In dieser DMP-Vorlage wird davon ausgegangen, dass grundlegende bibliografische Informationen (Verfasser, Autoren, Titel, Kurzbeschreibung usw.) ohnehin bereitgestellt und erfasst werden.
 
 Diese ausgewählten Informationen sollten Teil der erfassten Metadaten sein.
-
-Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#documentation-and-metadata"&gt;Antwort in dem Beispiel-DMP&lt;/a&gt;.</help>
+</help>
 		<text lang="de">Welche Informationen sind für Außenstehende notwendig, um die Daten zu verstehen (d. h. ihre Erhebung bzw. Entstehung, Analyse sowie die auf ihrer Basis gewonnenen Forschungsergebnisse nachvollziehen) und nachnutzen zu können?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1024,8 +1005,7 @@ Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literac
 		<help lang="en">By publishing the dataset via a data archive or repository like Zenodo or RADAR availability for at least 20 / 25 years is usually guaranteed. In case the data will be archived by the project itself (for example, because data security issues prevent the use of a repository), one should clarify how long-term storage and access will be organised.
 
 However, if the dataset has to be preserved for even longer periods of time, new long-term solutions may have to be established.
-
-Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#re-use"&gt;answer in the example DMP&lt;/a&gt;.</help>
+</help>
 		<text lang="en">How will you ensure that the data is preserved?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -1033,8 +1013,7 @@ Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/lite
 		<help lang="de">Sollte ein Datenarchiv wie beispielsweise Zenodo, oder RADAR zur Publikation der Daten verwendet werden, so ist die Verfügbarkeit für die nächsten 20 / 25 Jahre meist sichergestellt. Falls die Daten durch das Projekt selbst archiviert werden, bietet es sich an, zu klären, wie die langfristige Archivierung und der Zugang organisiert und betreut werden wird.
 
 Sollte ein noch längerer Zeitraum angestrebt werden, müssten gegebenenfalls spezielle Lösungen entwickelt werden.
-
-Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#re-use"&gt;Antwort in dem Beispiel-DMP&lt;/a&gt;.</help>
+</help>
 		<text lang="de">Wie wird die langfristige Verfügbarkeit der Daten sichergestellt?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1160,8 +1139,7 @@ Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literac
 		<help lang="en">Storage of hot (in-use) data is typically done on local IT infrastructures (IT centre, lab server ...) or via a specialised (national) data centre.
 
 You should also note how the backup for the datasets is organised.
-
-Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#storage"&gt;answer in the example DMP&lt;/a&gt;.</help>
+		</help>
 		<text lang="en">Where will the data be stored during the project?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -1169,8 +1147,7 @@ Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/lite
 		<help lang="de">Die Daten, an denen aktiv geforscht wird, werden in der Regel innerhalb der lokalen IT-Infrastruktur (IT Zentrum, Lab Server, ...) oder in spezialisierten (nationalen) Datenzentren gespeichert.
 
 Bitte beschrieben Sie hier auch Ihre Backup-Strategie.  
-		
-Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#storage"&gt;Antwort in dem Beispiel-DMP&lt;/a&gt;.</help>
+		</help>
 		<text lang="de">Wo werden die Daten während des Projektes gespeichert?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1249,12 +1226,12 @@ Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literac
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#data-security"&gt;answer in the example DMP&lt;/a&gt;.</help>
+		<help lang="en"/>
 		<text lang="en">Which measures or provisions are in place to ensure data security (e.g., protection against unauthorised access, data recovery, transfer of sensitive data)?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#data-security"&gt;Antwort in dem Beispiel-DMP&lt;/a&gt;.</help>
+		<help lang="de"/>
 		<text lang="de">Welche Maßnahmen zur Gewährleistung der Datensicherheit werden getroffen (z. B. Schutz vor unbefugtem Zugriff, Datenwiederherstellung, Übertragung sensibler Daten)?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1303,12 +1280,12 @@ Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literac
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#potential-reuse-and-long-term-prospects"&gt;answer in the example DMP&lt;/a&gt;.</help>
+		<help lang="en"/>
 		<text lang="en">Which individuals, groups or institutions could be interested in re-using this dataset? What are possible scenarios? What consequences does the reuse potential have for the provision of the data later?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#potential-reuse-and-long-term-prospects"&gt;Antwort in dem Beispiel-DMP&lt;/a&gt;.</help>
+		<help lang="de"/>
 		<text lang="de">Für welche Personen, Gruppen oder Institutionen könnte dieser Datensatz (für die Nachnutzung) von Interesse sein? Für welche Szenarien ist dies denkbar? Welche Konsequenzen hat das Nachnutzungspotential später für die Bereitstellung der Daten?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1355,12 +1332,12 @@ Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literac
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">Link to the &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#costs"&gt;answer in the example DMP&lt;/a&gt;.</help>
+		<help lang="en"/>
 		<text lang="en">What personnel and material costs are associated with data management in the project (e.g., in terms of data documentation, creation of metadata, assignment of persistent identifiers, and long-term archiving)?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">Link zur &lt;a target="_blank" href="https://gitlab.rrze.fau.de/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/ERC/ERC_Example.md#costs"&gt;Antwort in dem Beispiel-DMP&lt;/a&gt;.</help>
+		<help lang="de"/>
 		<text lang="de">Wie hoch sind Personalaufwand und Sachkosten, die im Projekt im Rahmen des Datenmanagements entstehen (z.B. im Zusammenhang mit der Datendokumentation, der Erstellung der Metadaten, der Vergabe von persistenten Identifikatoren und der Langzeitcharchivierung)?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
