@@ -382,7 +382,7 @@ Dieser Katalog ist für das Datenmanagement in Klimamodellierungsprojekten gedac
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
-		<help lang="en">The list of disciplines follows the &lt;a href=&quot;http://www.dfg.de/en/dfg_profile/statutory_bodies/review_boards/subject_areas/index.jsp&quot; target=_blank&quot;&gt;subject classification of the DFG (German Research Foundation)&lt;/a&gt;.</help>
+		<help lang="en">The list of disciplines follows the &lt;a href=&quot;http://www.dfg.de/dfg_profil/gremien/fachkollegien/faecher/&quot; target=_blank&quot;&gt;subject classification of the DFG (German Research Foundation)&lt;/a&gt;.</help>
 		<text lang="en">Which research field(s) does this project belong to?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">discipline</verbose_name>
