@@ -1305,14 +1305,14 @@ Wenn auch da nichts passendes dabei sein sollte, gibt es immer noch die generisc
 		<order>0</order>
 		<help lang="en">Data or software may be subject to copyright or other protective rights. Works of literature, science and art that constitute a "personal intellectual creation" are usually protected by copyright.&lt;br /&gt;
 Pure data, e.g. &lt;b&gt;measurement data or survey data,&lt;/b&gt; but also metadata (except for "descriptive" metadata, if applicable), on the other hand, are &lt;b&gt;not eligible&lt;/b&gt; for protection.&lt;p /&gt;
-A handout on dealing with intellectual property rights in science can be found on the Federal Government's website at &lt;a href="https://www.bundesregierung.de/breg-de/service/publikationen/copyright-in-academic-work-1753436"&gt;https://www.bundesregierung.de/breg-de/service/publikationen/copyright-in-academic-work-1753436&lt;/a&gt;</help>
+A handout on dealing with intellectual property rights in science can be found on the Federal Government's website at &lt;a href="https://www.bmbf.de/SharedDocs/Publikationen/de/bmbf/1/31518_Urheberrecht_in_der_Wissenschaft.pdf?__blob=publicationFile&v=6"&gt;https://www.bmbf.de/SharedDocs/Publikationen/de/bmbf/1/31518_Urheberrecht_in_der_Wissenschaft.pdf?__blob=publicationFile&v=6&lt;/a&gt;</help>
 		<text lang="en">Does the project use and/or produce data that is protected by intellectual or industrial property rights?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Daten oder Software können Urheber- oder anderen Schutzrechten unterliegen. Werke der Literatur, Wissenschaft und Kunst, die eine „persönliche geistige Schöpfung“ darstellen, sind in der Regel urheberrechtlich geschützt.&lt;br /&gt;
 Reine Daten, z.B. &lt;b&gt;Messdaten oder Surveydaten,&lt;/b&gt; aber auch Metadaten (bis auf ggf. „beschreibende“ Metadaten) sind hingegen &lt;b&gt;nicht schutzfähig.&lt;/b&gt;&lt;p /&gt;
-Eine Handreichung zum Umgang mit Schutzrechten in der Wissenschaft findet sich auf den Seiten der Bundesregierung unter &lt;a href="https://www.bundesregierung.de/breg-de/service/publikationen/urheberrecht-in-der-wissenschaft-1682304"&gt;https://www.bundesregierung.de/breg-de/service/publikationen/urheberrecht-in-der-wissenschaft-1682304&lt;/a&gt;</help>
+Eine Handreichung zum Umgang mit Schutzrechten in der Wissenschaft findet sich auf den Seiten der Bundesregierung unter &lt;a href="https://www.bmbf.de/SharedDocs/Publikationen/de/bmbf/1/31518_Urheberrecht_in_der_Wissenschaft.pdf?__blob=publicationFile&v=6"&gt;https://www.bmbf.de/SharedDocs/Publikationen/de/bmbf/1/31518_Urheberrecht_in_der_Wissenschaft.pdf?__blob=publicationFile&v=6&lt;/a&gt;</help>
 		<text lang="de">Werden Daten genutzt und/oder erstellt, die durch Urheber- oder verwandte Schutzrechte geschützt sind?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1647,14 +1647,14 @@ Eine Handreichung zum Umgang mit Schutzrechten in der Wissenschaft findet sich a
 		<order>0</order>
 		<help lang="en">One example of discipline-specific requirements: 
 
-- &lt;a href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_biodiversity_research.pdf" target=_blank"&gt;Guidelines on the Handling of Research Data in Biodiversity Research&lt;/a&gt;&lt;p /&gt;</help>
+- &lt;a href="https://www.dfg.de/resource/blob/171716/cad14d794c39d50da731d681a56eb651/richtlinien-forschungsdaten-biodiversitaetsforschung-data.pdf" target=_blank"&gt;Guidelines on the Handling of Research Data in Biodiversity Research&lt;/a&gt;&lt;p /&gt;</help>
 		<text lang="en">Are there special or further requirements - beyond the MATH+ standards - regarding the data management from your scholarly/scientific community?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">Ein Beispiel für fachspezifische Empfehlungen und Richtlinien ist: 
 
-- &lt;a href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf" target=_blank"&gt;Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt;&lt;p /&gt;</help>
+- &lt;a href="https://www.dfg.de/resource/blob/171716/cad14d794c39d50da731d681a56eb651/richtlinien-forschungsdaten-biodiversitaetsforschung-data.pdf" target=_blank"&gt;Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt;&lt;p /&gt;</help>
 		<text lang="de">Gibt es von Seiten Eurer Fachcommunity - über die Standards von MATH+ hinaus - weitere Anforderungen an das Datenmanagement, die beachtet werden müssen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
