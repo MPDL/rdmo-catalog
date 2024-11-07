@@ -4,7 +4,7 @@
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>DFG-Checkliste</uri_path>
 		<dc:comment/>
-		<order>30</order>
+		<order>3</order>
 		<title lang="en">DFG checklist</title>
 		<help lang="en">Catalog according to the DFG checklist of December 21, 2021</help>
 		<title lang="de">DFG-Checkliste</title>
