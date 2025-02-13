@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-11T16:31:37.757660+01:00" version="2.2.2">
+	<view dc:uri="https://dev-rdmo.mpdl.mpg.de/terms/views/smp_github_citation">
+		<uri_prefix>https://dev-rdmo.mpdl.mpg.de/terms</uri_prefix>
+		<uri_path>smp_github_citation</uri_path>
+		<dc:comment>This view is used to generate a citation file from the answers in the smp catalogue.</dc:comment>
+		<order>0</order>
+		<title lang="en">SMP Citation Template</title>
+		<help lang="en">for internal control</help>
+		<title lang="de">SMP Citation Template</title>
+		<help lang="de">für interne Kontrolle</help>
+		<catalogs>
+			<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/smp"/>
+		</catalogs>
+		<template>{% load view_tags %}
+{% get_set 'project/structured_partner/id' as structured_partners %}
+{% get_value 'project/title' as title %}
+{% get_value 'project/schedule/project_end' as release_date %}
+
+cff-version: 1.0.0&lt;br&gt;
+message: &quot;If you use this software, please cite it as below.&quot;&lt;br&gt;
+authors:&lt;br&gt; {# inline block in for loop otherwise line breaks are added #}
+{% for partner in structured_partners %}
+  - family-names: &quot;{% render_set_value_inline_list partner 'project/structured_partner/family_names' %}&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;given-names: &quot;{% render_set_value_inline_list partner 'project/structured_partner/given_names' %}&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;orcid: &quot;{% render_set_value_inline_list partner 'project/structured_partner/orcid_id' %}&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;affiliation: &quot;{% render_set_value_inline_list partner 'project/structured_partner/affiliation' %}&quot;&lt;br&gt;
+{% endfor %}
+
+-----------------------
+{% for partner in structured_partners %}
+  - family-names: &quot;{% render_set_value_inline_list partner 'project/structured_partner/family_names' %}
+{% endfor %}
+-----------------------
+
+title: &quot;{{ title.value }}&quot;&lt;br&gt;
+version: {here comes the software version}&lt;br&gt;
+identifiers:&lt;br&gt;
+- type: doi&lt;br&gt;
+&amp;nbsp;&amp;nbsp;value: 10.5281/zenodo.1234&lt;br&gt;
+date-released: 2027-04-30
+
+{% comment %}
+{% for partner in partners %}- family-names: &quot;{{ partner.value }}&quot;&lt;br&gt;{{ 'given-names'|rjust:&quot;13&quot; }}: &quot;{{ partner.value }}&quot;&lt;br&gt;{{ 'orcid'|rjust:&quot;7&quot; }}: &quot;{{ partner.value }}&quot;&lt;br&gt;{% endfor %}
+{% endcomment %}</template>
+	</view>
+</rdmo>

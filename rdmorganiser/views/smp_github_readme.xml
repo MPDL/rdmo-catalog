@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-11T16:33:08.295562+01:00" version="2.2.2">
+	<view dc:uri="https://dev-rdmo.mpdl.mpg.de/terms/views/smp_github_readme">
+		<uri_prefix>https://dev-rdmo.mpdl.mpg.de/terms</uri_prefix>
+		<uri_path>smp_github_readme</uri_path>
+		<dc:comment>This view is used to generate a readme file from the answers in the smp catalogue.</dc:comment>
+		<order>0</order>
+		<title lang="en">SMP Readme Template</title>
+		<help lang="en">for internal control</help>
+		<title lang="de">SMP Readme Template</title>
+		<help lang="de">für interne Kontrolle</help>
+		<catalogs>
+			<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/smp"/>
+		</catalogs>
+		<template>{% load view_tags %}
+{% get_set 'project/structured_partner/id' as structured_partners %}
+
+&lt;h1&gt;Readme created with RDMO&lt;/h1&gt;
+
+&lt;b&gt;What is the title of the software project? (project/title):&lt;/b&gt;
+
+{% render_value_list 'project/title' %}
+
+&lt;b&gt;Which research field(s) does this software belong to? (project/research_field):&lt;/b&gt;
+
+{% render_value_list 'project/research_field' %}
+
+&lt;b&gt;What is the intended use of the software? How will your software contribute to research? (project/research_question/title):&lt;/b&gt;
+
+{% render_value_list 'project/research_question/title' %}
+
+&lt;b&gt;Who are the project participants that deal with this software? (project/partner):&lt;/b&gt;
+
+&lt;ul&gt;
+{% for partner in structured_partners %}
+  &lt;li&gt;{{ partner.value }} ({% render_set_value_inline_list partner 'project/structured_partner/orcid_id' %}), {% render_set_value_inline_list partner 'project/structured_partner/affiliation' %}&lt;/li&gt;
+{% endfor %}
+&lt;/ul&gt;
+
+&lt;b&gt;What licences are on the third-party software components? (smp/software-license):&lt;/b&gt;
+
+{% render_value_list 'smp/software-license' %}</template>
+	</view>
+</rdmo>

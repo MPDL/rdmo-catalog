@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-13T09:56:25.103323+01:00" version="2.2.2">
+	<condition dc:uri="https://dev-rdmo.int.mpdl.mpg.de/terms/conditions/smp_versioning_tool_undecided">
+		<uri_prefix>https://dev-rdmo.int.mpdl.mpg.de/terms/</uri_prefix>
+		<uri_path>smp_versioning_tool_undecided</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/smp/versioning"/>
+		<relation>empty</relation>
+		<target_text/>
+		<target_option/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/versioning">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>versioning</key>
+		<path>smp/versioning</path>
+		<dc:comment>introduced by the Max Planck Digital Library to implement the Software Management Plan</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/smp"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>smp</key>
+		<path>smp</path>
+		<dc:comment>introduced by the Max Planck Digital Library to implement the Software Management Plan</dc:comment>
+		<parent/>
+	</attribute>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/additional_rdm_policy">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>additional_rdm_policy</uri_path>
+		<dc:comment>There are additional data management requirements.</dc:comment>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/yesno"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/other_requirements_options/146"/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/yesno">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/additional_rdm_policy/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>additional_rdm_policy</key>
+		<path>project/additional_rdm_policy</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>project</key>
+		<path>project</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/other_requirements_options/146">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>other_requirements_options/146</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/application-class-1">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>application-class-1</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/smp/application-class"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/application-class/1"/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/application-class">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>application-class</key>
+		<path>smp/application-class</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/smp"/>
+	</attribute>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/application-class/1">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>application-class/1</uri_path>
+		<dc:comment/>
+		<text lang="en">Application Class 1: The software is only develop within a narrow scope. It is to be further developed and used beyond personal purposes.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Anwendungsklasse 1: Die Software wird nur in einem engen Rahmen entwickelt. Sie soll über persönliche Zwecke hinaus weiterentwickelt und genutzt werden.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/application-class-2">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>application-class-2</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/smp/application-class"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/application-class/2"/>
+	</condition>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/application-class/2">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>application-class/2</uri_path>
+		<dc:comment/>
+		<text lang="en">Application Class 2: The software is intended to ensure long-term development and maintainability. It is the basis for a transition to product status.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Anwendungsklasse 2: Die Software soll eine langfristige Entwicklung und Wartbarkeit gewährleisten. Sie ist die Grundlage für einen Übergang zum Produktstatus.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/application-class-3">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>application-class-3</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/smp/application-class"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/application-class/3"/>
+	</condition>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/application-class/3">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>application-class/3</uri_path>
+		<dc:comment/>
+		<text lang="en">Application Class 3: For the software it is essential to avoid errors and to reduce risks. This applies in particular to critical software and that with product characteristics.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Anwendungsklasse 3: Für die Software ist es wesentlich Fehler zu vermeiden und Risiken zu reduzieren. Dies gilt insbesondere für kritische Software und solche mit Produkteigenschaften.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/costs_relevant">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>costs_relevant</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>costs</key>
+		<path>project/costs</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project"/>
+	</attribute>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/data_published">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>data_published</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_publication_date"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_using_when/dfg-uw_08"/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_publication_date">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>data_publication_date</key>
+		<path>project/dataset/data_publication_date</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>dataset</key>
+		<path>project/dataset</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project"/>
+	</attribute>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_using_when/dfg-uw_08">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>dfg_using_when/dfg-uw_08</uri_path>
+		<dc:comment/>
+		<text lang="en">This data set is reused by us and already published</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Dieser Datensatz wird von uns nachgenutzt und ist bereits publiziert</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/data_sharing">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>data_sharing</uri_path>
+		<dc:comment>The data will be shared.</dc:comment>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/yesno"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options/69"/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/yesno">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/dataset/sharing/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>sharing</key>
+		<path>project/dataset/sharing</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options/69">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>dataset_sharing_options/69</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, externally for everyone</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, extern für alle</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/embargo">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>embargo</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/embargo_period"/>
+		<relation>gt</relation>
+		<target_text>0</target_text>
+		<target_option/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/embargo_period">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>embargo_period</key>
+		<path>project/dataset/preservation/embargo_period</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>preservation</key>
+		<path>project/dataset/preservation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/infrastructure_resources">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>infrastructure_resources</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_infrastructure"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/infrastructure_resources/261"/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_infrastructure">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>usage_infrastructure</key>
+		<path>project/dataset/usage_infrastructure</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/infrastructure_resources/261">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>infrastructure_resources/261</uri_path>
+		<dc:comment/>
+		<text lang="en">The following infrastructure resources are needed</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es werden folgende Infrastrukturressourcen benötigt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/intellectual_property_rights">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>intellectual_property_rights</uri_path>
+		<dc:comment>The project uses data or software that is protected by intellectual property rights.</dc:comment>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/ipr/yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/ipr/yesno">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/legal_aspects/ipr/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/ipr"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/ipr">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>ipr</key>
+		<path>project/legal_aspects/ipr</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>legal_aspects</key>
+		<path>project/legal_aspects</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project"/>
+	</attribute>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/international">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>international</uri_path>
+		<dc:comment>The legal situation of different countries has to be considered.</dc:comment>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/international_yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/international_yesno">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>international_yesno</key>
+		<path>project/legal_aspects/international_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects"/>
+	</attribute>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/law_international">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>law_international</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/international_yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/long_term_preservation">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>long_term_preservation</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/other_sensitive_data">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>other_sensitive_data</uri_path>
+		<dc:comment>Other sensitive data being used in the project.</dc:comment>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other/yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other/yesno">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/dataset/sensitive_data/other/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/other">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>other</key>
+		<path>project/dataset/sensitive_data/other</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>sensitive_data</key>
+		<path>project/dataset/sensitive_data</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/personal_data">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>personal_data</uri_path>
+		<dc:comment>Personal data is used in the project.</dc:comment>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data_yesno/yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data_yesno/yesno">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/dataset/sensitive_data/personal_data_yesno/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data_yesno"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data_yesno">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>personal_data_yesno</key>
+		<path>project/dataset/sensitive_data/personal_data_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data"/>
+	</attribute>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/personal_inf_bdsg_3_9">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>personal_inf_bdsg_3_9</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data/bdsg_3_9"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data/bdsg_3_9">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>bdsg_3_9</key>
+		<path>project/dataset/sensitive_data/personal_data/bdsg_3_9</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data/personal_data">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>personal_data</key>
+		<path>project/dataset/sensitive_data/personal_data</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data"/>
+	</attribute>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/publish-software">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>publish-software</uri_path>
+		<dc:comment>introduced by the Max Planck Digital Library to implement the Software Management Plan</dc:comment>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/smp/software-sharing"/>
+		<relation>neq</relation>
+		<target_text>0</target_text>
+		<target_option/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/smp/software-sharing">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>software-sharing</key>
+		<path>smp/software-sharing</path>
+		<dc:comment>introduced by the Max Planck Digital Library to implement the Software Management Plan</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/smp"/>
+	</attribute>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/repository_extern">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>repository_extern</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
+		<relation>neq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/preservation_repository_options/138"/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>repository</key>
+		<path>project/dataset/preservation/repository</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation"/>
+	</attribute>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/preservation_repository_options/138">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>preservation_repository_options/138</uri_path>
+		<dc:comment/>
+		<text lang="en">Another partner institution</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Eine andere Partner-Institution</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/reuse_scenario">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>reuse_scenario</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario"/>
+		<relation>neq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_reuse_context/dfg-rsc_04"/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>reuse_scenario</key>
+		<path>project/dataset/reuse_scenario</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_reuse_context/dfg-rsc_04">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>dfg_reuse_context/dfg-rsc_04</uri_path>
+		<dc:comment/>
+		<text lang="en">No, I can't imagine a future use scenario for the data, because</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein, ich kann mir kein Nachnutzungsszenario für die Daten vorstellen, weil</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/rights_owner_clear">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>rights_owner_clear</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/ipr/owner/name"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no/yes"/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/ipr/owner/name">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>name</key>
+		<path>project/dataset/ipr/owner/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/ipr/owner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/ipr/owner">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>owner</key>
+		<path>project/dataset/ipr/owner</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/ipr"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/ipr">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>ipr</key>
+		<path>project/dataset/ipr</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no/yes">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>yes_with_text_no/yes</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/rights_owner_unclear">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>rights_owner_unclear</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/ipr/owner/name"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no/no"/>
+	</condition>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no/no">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>yes_with_text_no/no</uri_path>
+		<dc:comment/>
+		<text lang="en">No</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/usage_support">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>usage_support</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_support"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no/yes"/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_support">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>usage_support</key>
+		<path>project/dataset/usage_support</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/versioning_tool_undecided">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>versioning_tool_undecided</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/versioning_tool"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/software_versioning_technology_options/164"/>
+	</condition>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/versioning_tool">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>versioning_tool</key>
+		<path>project/dataset/versioning_tool</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/software_versioning_technology_options/164">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>software_versioning_technology_options/164</uri_path>
+		<dc:comment/>
+		<text lang="en">Not yet decided</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Noch nicht entschieden</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+</rdmo>
