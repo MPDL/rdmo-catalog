@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-11T16:37:46.028906+01:00" version="2.2.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-13T17:30:30.169262+01:00" version="2.2.2">
 	<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/smp">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>smp</uri_path>
@@ -25,13 +25,11 @@ This SMP template was inspired by some documentation, specially:
 		<uri_path>smp/general</uri_path>
 		<dc:comment/>
 		<title lang="en">General</title>
-		<short_title lang="en"/>
 		<title lang="de">Allgemein</title>
-		<short_title lang="de"/>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/smp/general/topic" order="0"/>
 			<page dc:uri="https://dev-rdmo.int.mpdl.mpg.de/terms/questions/smp/general/project-partners-test-collection" order="1"/>
-			<page dc:uri="https://rdmorganiser.github.io/terms/questions/smp/general/project-partner" order="2"/>
+			<page dc:uri="https://dev-rdmo.int.mpdl.mpg.de/terms/questions/smp/general/project-funding" order="2"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/smp/general/schedule" order="3"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/smp/general/project-management" order="4"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/smp/general/software-requirements" order="5"/>
@@ -1246,23 +1244,23 @@ Folgende (ausgewählte) Plattformen können hierbei helfen:
 		<dc:comment/>
 		<parent dc:uri="https://dev-rdmo.int.mpdl.mpg.de/terms/domain/project/structured_partner"/>
 	</attribute>
-	<page dc:uri="https://rdmorganiser.github.io/terms/questions/smp/general/project-partner">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<uri_path>smp/general/project-partner</uri_path>
+	<page dc:uri="https://dev-rdmo.int.mpdl.mpg.de/terms/questions/smp/general/project-funding">
+		<uri_prefix>https://dev-rdmo.int.mpdl.mpg.de/terms/</uri_prefix>
+		<uri_path>smp/general/project-funding</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Software Project Partners Funding</title>
+		<title lang="en">Software Project Funding</title>
 		<short_title lang="en"/>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Software-Projektpartner</title>
+		<title lang="de">Finanzierung des Software-Projekts</title>
 		<short_title lang="de"/>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmorganiser.github.io/terms/questions/smp/general/project-partner/funding" order="2"/>
+			<question dc:uri="https://dev-rdmo.int.mpdl.mpg.de/terms/questions/smp/general/project-funding/funder" order="2"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/application-class-1"/>
@@ -1270,9 +1268,9 @@ Folgende (ausgewählte) Plattformen können hierbei helfen:
 			<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/application-class-3"/>
 		</conditions>
 	</page>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/smp/general/project-partner/funding">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<uri_path>smp/general/project-partner/funding</uri_path>
+	<question dc:uri="https://dev-rdmo.int.mpdl.mpg.de/terms/questions/smp/general/project-funding/funder">
+		<uri_prefix>https://dev-rdmo.int.mpdl.mpg.de/terms/</uri_prefix>
+		<uri_path>smp/general/project-funding/funder</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder"/>
 		<is_collection>False</is_collection>
