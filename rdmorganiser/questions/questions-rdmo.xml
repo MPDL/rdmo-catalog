@@ -6824,7 +6824,7 @@ Weitere relevante Schutzrechte können gewerbliche Schutzrechte wie Patente, Geb
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/re3data"/>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/preservation_repository_options"/>
 		</optionsets>
 		<conditions/>
 	</question>

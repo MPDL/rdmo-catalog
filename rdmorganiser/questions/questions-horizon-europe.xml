@@ -4,7 +4,7 @@
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>horizon-europe</uri_path>
 		<dc:comment>RDMO questionnaire for the funding framework program &quot;Horizon Europe&quot; (2021-2027) of the European Commission</dc:comment>
-		<order>5</order>
+		<order>3</order>
 		<title lang="en">Horizon Europe</title>
 		<help lang="en">This catalog is intended for research projects funded by EU Horizon Europe. It is compiled according to the &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Data Management Plan Template, Version 1.0 from May 5, 2021&lt;/a&gt;. Some of the EU questions are broken down into sub-questions. In addition, for many questions there is the option of answering the question on a dataset-specific basis. There is a suitable view for the output of the data management plan, which
 
