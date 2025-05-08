@@ -1598,6 +1598,41 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project"/>
 	</attribute>
+	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/role">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
+		<key>role</key>
+		<path>project/partner/role</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
+		<key>affiliation</key>
+		<path>project/partner/affiliation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/family-name">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
+		<key>family-name</key>
+		<path>project/partner/family-name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/given-name">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
+		<key>given-name</key>
+		<path>project/partner/given-name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/orcid-id">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
+		<key>orcid-id</key>
+		<path>project/partner/orcid-id</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner"/>
+	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/agreement">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>agreement</key>
