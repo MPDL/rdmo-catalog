@@ -1,0 +1,273 @@
+    <attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/archival_date">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>archival_date</key>
+		<path>project/data_management/archival_date</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management"/>
+	</attribute>
+    <attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/community_reuse">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>community_reuse</key>
+		<path>project/data_management/community_reuse</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/data_creation_start">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data_creation_start</key>
+		<path>project/data_management/data_creation_start</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/embargo">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>embargo</key>
+		<path>project/data_management/embargo</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>FAIR</key>
+		<path>project/data_management/FAIR</path>
+		<dc:comment>This is a collection of attributes meant to display the FAIR aspects in the questionnaire.</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR/accessibility">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>accessibility</key>
+		<path>project/data_management/FAIR/accessibility</path>
+		<dc:comment>Content related to data accessibility along the FAIR data principles.</dc:comment>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR/data_selection">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>data_selection</key>
+		<path>project/data_management/FAIR/data_selection</path>
+		<dc:comment>Refers to a detailed description of data to which the FAIR principles apply.</dc:comment>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR/findability">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>findability</key>
+		<path>project/data_management/FAIR/findability</path>
+		<dc:comment>Content related to the fundability along the FAIR data principles.</dc:comment>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR/interoperability">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>interoperability</key>
+		<path>project/data_management/FAIR/interoperability</path>
+		<dc:comment>Content related to the interoperability of data along the FAIR data principles.</dc:comment>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR/resources">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>resources</key>
+		<path>project/data_management/FAIR/resources</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR/reusability">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>reusability</key>
+		<path>project/data_management/FAIR/reusability</path>
+		<dc:comment>Content related to the reusability of project data along the FAIR data principles.</dc:comment>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/FAIR"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/interoperability">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>interoperability</key>
+		<path>project/data_management/interoperability</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/IT_infrastructure">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>IT_infrastructure</key>
+		<path>project/data_management/IT_infrastructure</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/IT_infrastructure/IT_details">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>IT_details</key>
+		<path>project/data_management/IT_infrastructure/IT_details</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/IT_infrastructure"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/licence">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>licence</key>
+		<path>project/data_management/licence</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management"/>
+	</attribute>
+    <attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/policy">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>policy</key>
+		<path>project/data_management/policy</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/data_management/reproducibility">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>reproducibility</key>
+		<path>project/data_management/reproducibility</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management"/>
+	</attribute>
+    <attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/content">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>content</key>
+		<path>project/dataset/content</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/content/variables">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>variables</key>
+		<path>project/dataset/content/variables</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/content"/>
+	</attribute>
+    <attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/data_security/backups/method">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>method</key>
+		<path>project/dataset/data_security/backups/method</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/backups"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/data_security/backups/no_reason">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>no_reason</key>
+		<path>project/dataset/data_security/backups/no_reason</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/backups"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/data_security/backups/yesno">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/dataset/data_security/backups/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/backups"/>
+	</attribute>
+    <attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>input</key>
+		<path>project/dataset/input</path>
+		<dc:comment>This attribute corresponds to input needed from other data providers.</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input/source">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>source</key>
+		<path>project/dataset/input/source</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input/source_external">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>source_external</key>
+		<path>project/dataset/input/source_external</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input/time">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>time</key>
+		<path>project/dataset/input/time</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input/yesno">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/dataset/input/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input/yesno_external">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>yesno_external</key>
+		<path>project/dataset/input/yesno_external</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/input"/>
+	</attribute>
+    <attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/preservation/purpose_responsible_name">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>purpose_responsible_name</key>
+		<path>project/dataset/preservation/purpose_responsible_name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation"/>
+	</attribute>
+    <attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/preservation/responsible_name">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>responsible_name</key>
+		<path>project/dataset/preservation/responsible_name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation"/>
+	</attribute>
+    <attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/responsible_person">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>responsible_person</key>
+		<path>project/dataset/responsible_person</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/responsible_person/after">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>after</key>
+		<path>project/dataset/responsible_person/after</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/responsible_person"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/responsible_person/during">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>during</key>
+		<path>project/dataset/responsible_person/during</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/responsible_person"/>
+	</attribute>
+    <attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/sharing/publication_infrastructure">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>publication_infrastructure</key>
+		<path>project/dataset/sharing/publication_infrastructure</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing"/>
+	</attribute>
+    <attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/dataset/usage_infrastructure/granted_yesno">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>granted_yesno</key>
+		<path>project/dataset/usage_infrastructure/granted_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_infrastructure"/>
+	</attribute>
+    <attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/title">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>title</key>
+		<path>project/title</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/title/acronym">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>acronym</key>
+		<path>project/title/acronym</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/title"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/terms/domain/project/title/long_name">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<key>long_name</key>
+		<path>project/title/long_name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.dkrz.de/terms/domain/project/title"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.dkrz.de/domain/project/dataset/storage/storage_load">
+		<uri_prefix>https://rdmo.dkrz.de</uri_prefix>
+		<key>storage_load</key>
+		<path>project/dataset/storage/storage_load</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/storage"/>
+	</attribute>
