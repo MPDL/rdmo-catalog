@@ -1,0 +1,2692 @@
+    <optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_archive">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_archive</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_archive/nfdi-a_00" order="0"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_archive/nfdi-a_01" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_archive/nfdi-a_02" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_archive/nfdi-a_00">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_archive/nfdi-a_00</uri_path>
+		<dc:comment/>
+		<text lang="en">Archive service of your university or research institution</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Archivdienst Ihrer Universität oder Forschungseinrichtung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_archive/nfdi-a_01">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_archive/nfdi-a_01</uri_path>
+		<dc:comment/>
+		<text lang="en">Cross-engineering archive services such as RADAR</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ingenieurwissenschaftlich-übergreifende Archivdienste wie z.B. RADAR</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_archive/nfdi-a_02">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_archive/nfdi-a_02</uri_path>
+		<dc:comment/>
+		<text lang="en">Other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstige</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_dataset_size">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_dataset_size</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_dataset_size/249" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_dataset_size/250" order="4"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_dataset_size/253" order="5"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_dataset_size/249">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_dataset_size/249</uri_path>
+		<dc:comment/>
+		<text lang="en">around</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ungefähr</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_dataset_size/250">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_dataset_size/250</uri_path>
+		<dc:comment/>
+		<text lang="en">exact size</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">genau</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_dataset_size/253">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_dataset_size/253</uri_path>
+		<dc:comment/>
+		<text lang="en">not yet defined</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">noch nicht bestimmt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_description_standards</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-des_0" order="-1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-des_00" order="0"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-des_01" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-des_02" order="2"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-des_03" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-r_04" order="4"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-des_05" order="5"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-r_06" order="6"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-r_07" order="7"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-des_0">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_description_standards/nfdi-des_0</uri_path>
+		<dc:comment/>
+		<text lang="en">The following standards, classifications, etc. are used</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es werden folgende Standards, Klassifikationen etc. genutzt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-des_00">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_description_standards/nfdi-des_00</uri_path>
+		<dc:comment/>
+		<text lang="en">A proprietary description system is used, which looks like this</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es wird ein eigenes Beschreibungssystem genutzt, das folgendermaßen aussieht</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-des_01">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_description_standards/nfdi-des_01</uri_path>
+		<dc:comment/>
+		<text lang="en">The following metadata are used to describe the data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es werden folgende Metadaten für die Beschreibung der Daten verwendet</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-des_02">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_description_standards/nfdi-des_02</uri_path>
+		<dc:comment/>
+		<text lang="en">The following metadata is used to describe the environmental conditions (e.g. machine, employee)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es werden folgende Metadaten für die Beschreibung der Umgebungsbedingungen (z.B. Maschine, Mitarbeiter) genutzt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-des_03">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_description_standards/nfdi-des_03</uri_path>
+		<dc:comment/>
+		<text lang="en">Other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstiges</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-r_04">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_description_standards/nfdi-r_04</uri_path>
+		<dc:comment/>
+		<text lang="en">The documentation, including the metadata specified above, is provided via a ReadMe file.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Dokumentation inklusive der oben angegebenen Metadaten erfolgt über ein ReadMe-File.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-des_05">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_description_standards/nfdi-des_05</uri_path>
+		<dc:comment/>
+		<text lang="en">The documentation, including the metadata specified above, uses the following naming convention</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Dokumentation inklusive der oben angegebenen Metadaten erfolgt über folgende Namenskonvention</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-r_06">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_description_standards/nfdi-r_06</uri_path>
+		<dc:comment/>
+		<text lang="en">The documentation, including the metadata specified above, takes place via the following electronic laboratory journal</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Dokumentation inklusive der oben angegebenen Metadaten erfolgt über folgendes Elektronisches Laborjournal</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_description_standards/nfdi-r_07">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_description_standards/nfdi-r_07</uri_path>
+		<dc:comment/>
+		<text lang="en">It has not yet been decided which system will be used to describe the metadata and context information.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es wurde noch nicht entschieden, mit welchem System die Metadaten und Kontextinformationen beschrieben werden sollen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_quality</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_00" order="0"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_01" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_03" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_04" order="4"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_05" order="5"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_07" order="7"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_08" order="8"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_09" order="9"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_10" order="10"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_12" order="12"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_00">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_quality/nfdi-dsq_00</uri_path>
+		<dc:comment/>
+		<text lang="en">Using a calibration method.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Verwendung einer Kalibrierungsmethode.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_01">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_quality/nfdi-dsq_01</uri_path>
+		<dc:comment/>
+		<text lang="en">Repetitions of measurements.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Wiederholungen von Messungen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_03">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_quality/nfdi-dsq_03</uri_path>
+		<dc:comment/>
+		<text lang="en">Validation of data input and data output.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Validierung der Dateneingabe und Datenausgabe.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_04">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_quality/nfdi-dsq_04</uri_path>
+		<dc:comment/>
+		<text lang="en">Validation of the evaluated data using external models/benchmarks or scientific experiments.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Validierung der ausgewerteten Daten durch externe Modelle / Benchmarks oder naturwissenschaftliche Experimente.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_05">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_quality/nfdi-dsq_05</uri_path>
+		<dc:comment/>
+		<text lang="en">Specification of the model uncertainty.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Angabe der Modellunsicherheit.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_07">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_quality/nfdi-dsq_07</uri_path>
+		<dc:comment/>
+		<text lang="en">Documentation of the relevant parameters and metadata.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Dokumentation der relevanten Parameter und Metadaten.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_08">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_quality/nfdi-dsq_08</uri_path>
+		<dc:comment/>
+		<text lang="en">Calibration of measuring devices.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Eichung von Messgeräten.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_09">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_quality/nfdi-dsq_09</uri_path>
+		<dc:comment/>
+		<text lang="en">Carrying out measurements according to the standard.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Durchführung von Messungen nach Norm.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_10">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_quality/nfdi-dsq_10</uri_path>
+		<dc:comment/>
+		<text lang="en">Use of predefined quality criteria. These include</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nutzung vordefinierter Qualitätskriterien. Diese beinhalten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_quality/nfdi-dsq_12">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_quality/nfdi-dsq_12</uri_path>
+		<dc:comment/>
+		<text lang="en">Other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstige</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_00" order="0"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_01" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_02" order="2"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_03" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_04" order="4"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_05" order="5"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_06" order="6"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_07" order="7"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_08" order="8"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_09" order="9"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_10" order="10"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_11" order="11"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_12" order="12"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_00">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what/nfdi-ds-w_00</uri_path>
+		<dc:comment/>
+		<text lang="en">tables</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Tabellen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_01">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what/nfdi-ds-w_01</uri_path>
+		<dc:comment/>
+		<text lang="en">Binary or numeric data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Binäre oder numerische Daten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_02">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what/nfdi-ds-w_02</uri_path>
+		<dc:comment/>
+		<text lang="en">code</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Code</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_03">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what/nfdi-ds-w_03</uri_path>
+		<dc:comment/>
+		<text lang="en">simulation data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Simulationsdaten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_04">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what/nfdi-ds-w_04</uri_path>
+		<dc:comment/>
+		<text lang="en">algorithm</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Algorithmen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_05">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what/nfdi-ds-w_05</uri_path>
+		<dc:comment/>
+		<text lang="en">Measurement data e.g. from test benches</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Messdaten z.B. von Prüfständen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_06">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what/nfdi-ds-w_06</uri_path>
+		<dc:comment/>
+		<text lang="en">image data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Bilddaten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_07">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what/nfdi-ds-w_07</uri_path>
+		<dc:comment/>
+		<text lang="en">Big Data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Big Data</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_08">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what/nfdi-ds-w_08</uri_path>
+		<dc:comment/>
+		<text lang="en">references</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Referenzen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_09">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what/nfdi-ds-w_09</uri_path>
+		<dc:comment/>
+		<text lang="en">textual data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Textuelle Daten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_10">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what/nfdi-ds-w_10</uri_path>
+		<dc:comment/>
+		<text lang="en">visual recordings / video data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Visuelle Aufnahmen / Videodaten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_11">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what/nfdi-ds-w_11</uri_path>
+		<dc:comment/>
+		<text lang="en">Stream data (e.g. the continuously supplied values ​​of a temperature sensor)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Streamdaten (z.B. die kontinuierlich gelieferten Werte eines Temperatursensors)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_ds_what/nfdi-ds-w_12">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_ds_what/nfdi-ds-w_12</uri_path>
+		<dc:comment/>
+		<text lang="en">Other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstige</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/90" order="90"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/91" order="91"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/92" order="92"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/93" order="93"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/94" order="94"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/95" order="95"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/96" order="96"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/97" order="97"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/98" order="98"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/99" order="99"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/106" order="106"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/199" order="199"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/200" order="200"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/201" order="201"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/202" order="202"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/203" order="203"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/204" order="204"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/205" order="205"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/206" order="206"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/207" order="207"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/208" order="208"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/209" order="209"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/210" order="210"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/211" order="211"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/212" order="212"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/213" order="213"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/214" order="214"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/215" order="215"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/216" order="216"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/217" order="217"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/218" order="218"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/219" order="219"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/220" order="220"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/221" order="221"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/222" order="222"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/223" order="223"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/300" order="300"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/301" order="301"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/302" order="302"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/303" order="303"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/304" order="304"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/305" order="305"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/306" order="306"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/307" order="307"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/308" order="308"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/310" order="310"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/311" order="311"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/312" order="312"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/313" order="313"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/314" order="314"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/316" order="316"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/317" order="317"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/318" order="318"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/319" order="319"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/320" order="320"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/321" order="321"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/322" order="322"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/324" order="324"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/400" order="400"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/501" order="501"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/90">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/90</uri_path>
+		<dc:comment/>
+		<text lang="en">proprietary formats from device manufacturers</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">proprietäre Formate von Geräteherstellern</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/91">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/91</uri_path>
+		<dc:comment/>
+		<text lang="en">(text) *.txt</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(text) *.txt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/92">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/92</uri_path>
+		<dc:comment/>
+		<text lang="en">(text) *.doc/.docx</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(text) *.doc/.docx</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/93">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/93</uri_path>
+		<dc:comment/>
+		<text lang="en">(text) *.pdf</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(text) *.pdf</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/94">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/94</uri_path>
+		<dc:comment/>
+		<text lang="en">(text) *.tex</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(text) *.tex</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/95">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/95</uri_path>
+		<dc:comment/>
+		<text lang="en">(text) *.bib</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(text) *.bib</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/96">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/96</uri_path>
+		<dc:comment/>
+		<text lang="en">(text) *.bibtex</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(text) *.bibtex</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/97">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/97</uri_path>
+		<dc:comment/>
+		<text lang="en">(text) *.rtf</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(text) *.rtf</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/98">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/98</uri_path>
+		<dc:comment/>
+		<text lang="en">(text) *.dot</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(text) *.dot</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/99">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/99</uri_path>
+		<dc:comment/>
+		<text lang="en">(text) *.odt</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(text) *.odt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/106">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/106</uri_path>
+		<dc:comment/>
+		<text lang="en">Other formats for text processing</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstige Formate für Textverarbeitung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/199">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/199</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.hdf5</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.hdf5</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/200">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/200</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.csv</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.csv</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/201">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/201</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.asc</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.asc</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/202">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/202</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.cdf, *.nc</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.cdf, *.nc</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/203">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/203</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.dat</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.dat</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/204">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/204</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.gnu</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.gnu</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/205">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/205</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.m</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.m</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/206">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/206</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.mat</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.mat</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/207">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/207</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.xlsx</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.xlsx</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/208">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/208</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.py</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.py</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/209">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/209</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.uproject</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.uproject</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/210">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/210</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.java</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.java</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/211">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/211</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.json</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.json</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/212">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/212</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.c</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.c</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/213">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/213</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.md</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.md</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/214">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/214</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.R</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.R</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/215">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/215</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.cpp</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.cpp</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/216">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/216</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.sh</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.sh</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/217">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/217</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.stl</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.stl</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/218">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/218</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.xmi</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.xmi</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/219">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/219</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.xml</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.xml</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/220">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/220</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.exe</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.exe</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/221">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/221</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.ods</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.ods</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/222">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/222</uri_path>
+		<dc:comment/>
+		<text lang="en">(data) *.owl</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(data) *.owl</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/223">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/223</uri_path>
+		<dc:comment/>
+		<text lang="en">Other formats for data processing and analysis</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstige Formate zur Datenanalyse und -verarbeitung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/300">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/300</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.dfx</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.dfx</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/301">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/301</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.avi</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.avi</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/302">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/302</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.cdr</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.cdr</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/303">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/303</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.eps</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.eps</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/304">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/304</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.cdx</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.cdx</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/305">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/305</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.jpg</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.jpg</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/306">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/306</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.mov</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.mov</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/307">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/307</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.mpeg4</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.mpeg4</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/308">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/308</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.png</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.png</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/310">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/310</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.ppt/.pptx</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.ppt/.pptx</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/311">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/311</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.tiff</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.tiff</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/312">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/312</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.vsdx</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.vsdx</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/313">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/313</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.vsd</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.vsd</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/314">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/314</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.wav</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.wav</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/316">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/316</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.3d</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.3d</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/317">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/317</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.obj</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.obj</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/318">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/318</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.mp3</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.mp3</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/319">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/319</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.mp4</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.mp4</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/320">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/320</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.odp</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.odp</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/321">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/321</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.xcad</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.xcad</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/322">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/322</uri_path>
+		<dc:comment/>
+		<text lang="en">(media) *.STEP</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(media) *.STEP</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/324">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/324</uri_path>
+		<dc:comment/>
+		<text lang="en">Other formats for picture, photo and video</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstige Formate für Bilder, Fotos und Videos</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/400">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/400</uri_path>
+		<dc:comment/>
+		<text lang="en">self-developed formats</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">selbst entwickelte Formate</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_formats/501">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_formats/501</uri_path>
+		<dc:comment/>
+		<text lang="en">Other file formats</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Andere Dateiformate</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_new_data</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_00" order="0"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_01" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_02" order="2"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_03" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_04" order="4"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_05" order="5"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_06" order="6"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_09" order="9"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_10" order="10"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_11" order="11"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_00">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_new_data/nfdi-nd_00</uri_path>
+		<dc:comment/>
+		<text lang="en">calculations</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Berechnungen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_01">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_new_data/nfdi-nd_01</uri_path>
+		<dc:comment/>
+		<text lang="en">models</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Modelle</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_02">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_new_data/nfdi-nd_02</uri_path>
+		<dc:comment/>
+		<text lang="en">simulations</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Simulationen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_03">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_new_data/nfdi-nd_03</uri_path>
+		<dc:comment/>
+		<text lang="en">laboratory tests</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Laborversuche</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_04">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_new_data/nfdi-nd_04</uri_path>
+		<dc:comment/>
+		<text lang="en">Observations (by human observation, instruments or sensors)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Beobachtungen (durch menschliche Beobachtung, Instrumente oder Sensoren)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_05">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_new_data/nfdi-nd_05</uri_path>
+		<dc:comment/>
+		<text lang="en">Derivation or compilation from other data sources</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ableitung oder Zusammenstellung aus anderen Datenquellen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_06">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_new_data/nfdi-nd_06</uri_path>
+		<dc:comment/>
+		<text lang="en">Creation of repositories, databases and catalogues</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Erstellung von Repositorien, Datenbanken und Katalogen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_09">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_new_data/nfdi-nd_09</uri_path>
+		<dc:comment/>
+		<text lang="en">visualizations</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Visualisierungen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_10">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_new_data/nfdi-nd_10</uri_path>
+		<dc:comment/>
+		<text lang="en">programming</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Programmierung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_new_data/nfdi-nd_11">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_new_data/nfdi-nd_11</uri_path>
+		<dc:comment/>
+		<text lang="en">Other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstige</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_publication-restrictions">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_publication-restrictions</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_publication-restrictions/nfdi-publ_00" order="0"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_publication-restrictions/nfdi-publ_01" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_publication-restrictions/nfdi-publ_02" order="2"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_publication-restrictions/nfdi-publ_03" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_publication-restrictions/nfdi-publ_04" order="4"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_publication-restrictions/nfdi-publ_00">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_publication-restrictions/nfdi-publ_00</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, the data is subject to a non-disclosure agreement and can only be published after the following years</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, die Daten unterliegen einer Geheimhaltungserklärung und können erst nach folgenden Jahren veröffentlicht werden</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_publication-restrictions/nfdi-publ_01">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_publication-restrictions/nfdi-publ_01</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, we work with personal data.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, es wird mit personenbezogenen Daten gearbeitet.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_publication-restrictions/nfdi-publ_02">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_publication-restrictions/nfdi-publ_02</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, publishing the data would violate the intellectual property rights of third parties.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, die Veröffentlichung der Daten würde die Rechte am geistigen Eigentum Dritter verletzen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_publication-restrictions/nfdi-publ_03">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_publication-restrictions/nfdi-publ_03</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, the data cannot be published due to the following legal aspects</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, die Daten können aufgrund folgender rechtlicher Aspekte nicht veröffentlicht werden</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_publication-restrictions/nfdi-publ_04">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_publication-restrictions/nfdi-publ_04</uri_path>
+		<dc:comment/>
+		<text lang="en">No, there are no restrictions.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein, es liegen keine Einschränkungen vor.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_01" order="0"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_02" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_03" order="2"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_04" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_05" order="4"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_06" order="5"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_07" order="6"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_08" order="7"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_09" order="8"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_13" order="12"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_14" order="13"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_15" order="14"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_16" order="15"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_17" order="16"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_18" order="17"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_19" order="18"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_01">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_01</uri_path>
+		<dc:comment/>
+		<text lang="en">infrastructure resource: archives</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Infrastrukturressource: Archive</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_02">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_02</uri_path>
+		<dc:comment/>
+		<text lang="en">infrastructure resource: institutional repository</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Infrastrukturressource: institutionelles Repositorium</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_03">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_03</uri_path>
+		<dc:comment/>
+		<text lang="en">infrastructure resource: data base</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Infrastrukturressource: Datenbank</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_04">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_04</uri_path>
+		<dc:comment/>
+		<text lang="en">infrastructure resource: RDMO</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Infrastrukturressource: RDMO</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_05">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_05</uri_path>
+		<dc:comment/>
+		<text lang="en">infrastructure resource: file server</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Infrastrukturressource: Dateiserver</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_06">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_06</uri_path>
+		<dc:comment/>
+		<text lang="en">infrastructure resource: cloud solution</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Infrastrukturressource: Cloud-Lösung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_07">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_07</uri_path>
+		<dc:comment/>
+		<text lang="en">infrastructure resource: licenses</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Infrastrukturressource: Lizenzen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_08">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_08</uri_path>
+		<dc:comment/>
+		<text lang="en">infrastructure resource: virtual server</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Infrastrukturressource: Virtuelle Server</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_09">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_09</uri_path>
+		<dc:comment/>
+		<text lang="en">infrastructure resource: GitLab</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Infrastrukturressource: GitLab</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_13">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_13</uri_path>
+		<dc:comment/>
+		<text lang="en">infrastructure resource: Sharepoint</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Infrastrukturressource: Sharepoint</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_14">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_14</uri_path>
+		<dc:comment/>
+		<text lang="en">The following additional infrastructure resources are required</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es werden folgende weitere Infrastrukturressourcen benötigt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_15">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_15</uri_path>
+		<dc:comment/>
+		<text lang="en">The usual infrastructure resources of the workplace are sufficient.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die üblichen Infrastrukturressourcen des Arbeitsplatzes reichen aus.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_16">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_16</uri_path>
+		<dc:comment/>
+		<text lang="en">Human resources through advice and/or training from the RDM team at your University or research institute</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Personelle Ressource durch Beratung und/oder Training des FDM-Teams Ihrer Universität oder Forschungseinrichtung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_17">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_17</uri_path>
+		<dc:comment/>
+		<text lang="en">Personnel expenses by the institute</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Personalaufwand durch das Institut</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_18">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_18</uri_path>
+		<dc:comment/>
+		<text lang="en">Personnel expenses in the project</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Personalaufwand im Projekt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_resources/nfdi-r_19">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_resources/nfdi-r_19</uri_path>
+		<dc:comment/>
+		<text lang="en">Other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstiges</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_context">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_context</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_context/nfdi-rsc_00" order="0"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_context/nfdi-rsc_01" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_context/nfdi-rsc_02" order="2"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_context/nfdi-rsc_03" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_context/nfdi-rsc_04" order="4"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_context/nfdi-rsc_05" order="5"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_context/nfdi-rsc_00">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_context/nfdi-rsc_00</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, re-use of the data by researchers in the following disciplines is conceivable</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, eine Nachnutzung der Daten durch Forschende der folgenden Disziplin ist denkbar</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_context/nfdi-rsc_01">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_context/nfdi-rsc_01</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, subsequent use of the data for training purposes is conceivable.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, eine Nachnutzung der Daten zu Trainingszwecken ist denkbar.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_context/nfdi-rsc_02">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_context/nfdi-rsc_02</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, my research is socially relevant and the data can be reused by society.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, meine Forschung ist gesellschaftlich relevant und eine Nachnutzung der Daten durch die Gesellschaft ist möglich.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_context/nfdi-rsc_03">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_context/nfdi-rsc_03</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, because</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, weil</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_context/nfdi-rsc_04">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_context/nfdi-rsc_04</uri_path>
+		<dc:comment/>
+		<text lang="en">No, I can't imagine a future use scenario for the data.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein, ich kann mir kein Nachnutzungsszenario für die Daten vorstellen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_context/nfdi-rsc_05">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_context/nfdi-rsc_05</uri_path>
+		<dc:comment/>
+		<text lang="en">No, because</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein, weil</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_00" order="0"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_01" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_02" order="2"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_03" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_04" order="4"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_05" order="5"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_06" order="6"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_07" order="7"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_08" order="8"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_09" order="9"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_10" order="10"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_11" order="11"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_12" order="12"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_13" order="13"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_14" order="14"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_00">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_00</uri_path>
+		<dc:comment/>
+		<text lang="en">simulation data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Simulationsdaten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_01">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_01</uri_path>
+		<dc:comment/>
+		<text lang="en">measurement data e.g. from test benches</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Messdaten z.B. von Prüfständen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_02">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_02</uri_path>
+		<dc:comment/>
+		<text lang="en">experimental, microbial and/or genomic data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">experimentelle, mikrobielle und/oder genomische Daten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_03">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_03</uri_path>
+		<dc:comment/>
+		<text lang="en">sequenced data such as parts of a production plan used to form a production order</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">sequenzierte Daten wie z.B. Teile einer Produktionsplanung, die zur Bildung einer Produktionsreihenfolge dienen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_04">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_04</uri_path>
+		<dc:comment/>
+		<text lang="en">Material properties and other material data from databases or from tables in various journals</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Materialeigenschaften und weitere Materialdaten aus Datenbanken oder aus Tabellen in verschiedenen Journals</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_05">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_05</uri_path>
+		<dc:comment/>
+		<text lang="en">Source code from GitHub or the following open source software</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Source-Code von GitHub oder folgende Open-Source Software</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_06">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_06</uri_path>
+		<dc:comment/>
+		<text lang="en">3D models</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">3D-Modelle</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_07">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_07</uri_path>
+		<dc:comment/>
+		<text lang="en">Calculations for Heusler alloys and MAB components</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Kalkulationen zu heuslerschen Legierungen und MAB Komponenten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_08">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_08</uri_path>
+		<dc:comment/>
+		<text lang="en">weather data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Wetterdaten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_09">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_09</uri_path>
+		<dc:comment/>
+		<text lang="en">Geographic data (e.g. Open Street Map)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Geographische Daten (z.B. Open Street Map)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_10">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_10</uri_path>
+		<dc:comment/>
+		<text lang="en">Output and model parameters for standardized models such as FEM</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Output- und Modellparameter für standardisierte Modelle wie z.B. FEM</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_11">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_11</uri_path>
+		<dc:comment/>
+		<text lang="en">open data from public databases such as Kaggle</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">offene Daten aus öffentlichen Datenbanken wie z.B. Kaggle</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_12">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_12</uri_path>
+		<dc:comment/>
+		<text lang="en">data from social media</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Daten aus den sozialen Medien</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_13">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_13</uri_path>
+		<dc:comment/>
+		<text lang="en">Reuse of data generated by your own working group or associated groups in previous projects</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nachnutzung von Daten, die durch die eigene Arbeitsgruppe oder assoziierte Gruppen in früheren Projekten erzeugt worden sind</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_data/nfdi-rd_14">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_data/nfdi-rd_14</uri_path>
+		<dc:comment/>
+		<text lang="en">No, no existing data will be used.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein, es werden keine existierenden Daten verwendet.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_motivation</uri_path>
+		<dc:comment>eingeführt mit mobilEM</dc:comment>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/1" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/2" order="2"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/3" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/4" order="4"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/5" order="5"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/6" order="6"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/7" order="7"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/8" order="8"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/9" order="9"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/10" order="10"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/1">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_motivation/1</uri_path>
+		<dc:comment/>
+		<text lang="en">Basis of scientific communication (According to the Good Research Practice, this data must be kept for 10 years)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Grundlage wissenschaftlicher Kommunikation: Entsprechend der Guten wissenschaftlichen Praxis müssen diese Forschungsdaten i.d.R. für 10 Jahre aufbewahrt werden.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/2">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_motivation/2</uri_path>
+		<dc:comment/>
+		<text lang="en">For reproduction or verification of scientific results</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Zur Reproduktion oder Verifizierung von Forschungsergebnissen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/3">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_motivation/3</uri_path>
+		<dc:comment/>
+		<text lang="en">For reproduction or verification of scientific results</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Grundlage weiterer Forschung (insbesondere Forschungsdaten mit hoher Nachnutzungsrelevanz)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/4">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_motivation/4</uri_path>
+		<dc:comment/>
+		<text lang="en">Uniqueness (data cannot be reproduced)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Einmaligkeit (Daten können nicht reproduziert werden)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/5">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_motivation/5</uri_path>
+		<dc:comment/>
+		<text lang="en">Cost / effort (Data production is very difficult or expensive)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Kosten/Aufwand (Die Datenproduktion ist sehr aufwändig oder teuer)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/6">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_motivation/6</uri_path>
+		<dc:comment/>
+		<text lang="en">As part of a scientific text publication</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Als Teil einer wissenschaftlichen Textveröffentlichung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/7">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_motivation/7</uri_path>
+		<dc:comment/>
+		<text lang="en">Better traceability of the associated text publication</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Bessere Nachvollziehbarkeit der zugehörigen Textpublikation</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/8">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_motivation/8</uri_path>
+		<dc:comment/>
+		<text lang="en">High data quality</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Hohe Datenqualität</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/9">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_motivation/9</uri_path>
+		<dc:comment/>
+		<text lang="en">High degree of novelty of the data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Hoher Neuheitsgrad der Daten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_reuse_motivation/10">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_reuse_motivation/10</uri_path>
+		<dc:comment/>
+		<text lang="en">Other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstige</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_scientific_guidelines">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_scientific_guidelines</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_scientific_guidelines/nfdi-sg_00" order="0"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_scientific_guidelines/nfdi-sg_01" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_scientific_guidelines/nfdi-sg_02" order="2"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_scientific_guidelines/nfdi-sg_03" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_scientific_guidelines/nfdi-sg_04" order="4"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_scientific_guidelines/nfdi-sg_05" order="5"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_scientific_guidelines/nfdi-sg_00">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_scientific_guidelines/nfdi-sg_00</uri_path>
+		<dc:comment/>
+		<text lang="en">„Ethical principles of the engineering profession“</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">&quot;Ethische Grundsätze des Ingenieurberufs&quot;</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_scientific_guidelines/nfdi-sg_01">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_scientific_guidelines/nfdi-sg_01</uri_path>
+		<dc:comment/>
+		<text lang="en">„Responsibility in the technological sciences“</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">„Verantwortung in den Technikwissenschaften“</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_scientific_guidelines/nfdi-sg_02">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_scientific_guidelines/nfdi-sg_02</uri_path>
+		<dc:comment/>
+		<text lang="en">Code &quot;Guidelines for Safeguarding Good Scientific Practice&quot;</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Kodex „Leitlinien zur Sicherung guter wissenschaftlicher Praxis“</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_scientific_guidelines/nfdi-sg_03">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_scientific_guidelines/nfdi-sg_03</uri_path>
+		<dc:comment/>
+		<text lang="en">Guidelines for research data management at your University or research institution</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Leitlinie zum Forschungsdatenmanagement an Ihrer Universität oder Forschungseinrichtung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_scientific_guidelines/nfdi-sg_04">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_scientific_guidelines/nfdi-sg_04</uri_path>
+		<dc:comment/>
+		<text lang="en">Open Access Policy of your University or research institution</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Open Access Policy Ihrer Universität oder Forschungseinrichtung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_scientific_guidelines/nfdi-sg_05">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_scientific_guidelines/nfdi-sg_05</uri_path>
+		<dc:comment/>
+		<text lang="en">Other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Andere</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_00" order="0"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_01" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_02" order="2"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_03" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_04" order="4"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_05" order="5"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_06" order="6"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_07" order="7"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_08" order="8"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_09" order="9"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_10" order="10"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_11" order="11"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_13" order="13"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_14" order="14"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_00">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_00</uri_path>
+		<dc:comment/>
+		<text lang="en">software: python, version</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Software: Python, Version</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_01">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_01</uri_path>
+		<dc:comment/>
+		<text lang="en">software: Origin, version</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Software: Origin, Version</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_02">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_02</uri_path>
+		<dc:comment/>
+		<text lang="en">software: Excel, version</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Software: Excel, Version</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_03">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_03</uri_path>
+		<dc:comment/>
+		<text lang="en">software: Matlab, version</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Software: Matlab, Version</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_04">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_04</uri_path>
+		<dc:comment/>
+		<text lang="en">software: Ansys, version</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Software: Ansys, Version</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_05">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_05</uri_path>
+		<dc:comment/>
+		<text lang="en">Self-developed software</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Selbstentwickelte Software</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_06">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_06</uri_path>
+		<dc:comment/>
+		<text lang="en">Other software</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstige Software</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_07">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_07</uri_path>
+		<dc:comment/>
+		<text lang="en">Use of new technologies, e.g. computer programs, web applications, apps, etc.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Einsatz neuer Technologien, z.B. Computerprogramme, Webanwendungen, Apps usw.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_08">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_08</uri_path>
+		<dc:comment/>
+		<text lang="en">Computer-aided data processing for obtaining information.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Computergestützte Datenverarbeitung zur Informationsgewinnung.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_09">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_09</uri_path>
+		<dc:comment/>
+		<text lang="en">Standardization of procedures and protocols through careful experiment planning and documentation of all steps.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Standardisierung der Abläufe und Protokolle mittels sorgfältiger Experimentplanung und Dokumentation aller Schritte.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_10">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_10</uri_path>
+		<dc:comment/>
+		<text lang="en">Use of a controlled vocabulary. It refers to</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nutzung eines kontrollierten Vokabulars. Dabei handelt es sich um</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_11">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_11</uri_path>
+		<dc:comment/>
+		<text lang="en">Open access to the data, the software, publications, etc., so that further processing can be permanently guaranteed.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Freier Zugang zu den Daten, der Software, Publikationen usw., damit eine Weiterverarbeitung dauerhaft gewährleistet werden kann.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_13">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_13</uri_path>
+		<dc:comment/>
+		<text lang="en">Other digital methods</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstige digitale Methoden</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_software/nfdi-soft_14">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_software/nfdi-soft_14</uri_path>
+		<dc:comment/>
+		<text lang="en">Other instruments associated with the use of certain software or methods</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstige Werkzeuge, die mit der Nutzung bestimmter Software oder Methoden einhergehen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_storage</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_00" order="0"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_01" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_02" order="2"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_03" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_04" order="4"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_06" order="6"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_07" order="7"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_08" order="8"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_00">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_storage/nfdi-st_00</uri_path>
+		<dc:comment/>
+		<text lang="en">GitHub/GitLab</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">GitHub/GitLab</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_01">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_storage/nfdi-st_01</uri_path>
+		<dc:comment/>
+		<text lang="en">Bitbucket</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Bitbucket</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_02">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_storage/nfdi-st_02</uri_path>
+		<dc:comment/>
+		<text lang="en">cloud solution</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Cloud-Lösung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_03">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_storage/nfdi-st_03</uri_path>
+		<dc:comment/>
+		<text lang="en">Central solution (e.g. network disks and automatic data mirroring, own server structure at the institute, etc.)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Zentrale Lösung (z.B. Netzwerkplatten und automatische Datenspiegelung, Eigene Serverstruktur am Institut, etc.)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_04">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_storage/nfdi-st_04</uri_path>
+		<dc:comment/>
+		<text lang="en">Decentralized solution (e.g. server in the computer center of your university or research institute)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Dezentrale Lösung (z.B. Server im Rechenzentrum Ihrer Universität oder Forschungseinrichtung)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_06">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_storage/nfdi-st_06</uri_path>
+		<dc:comment/>
+		<text lang="en">Own computer/laptop hard drive</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Eigene Computer-/Laptop-Festplatte</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_07">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_storage/nfdi-st_07</uri_path>
+		<dc:comment/>
+		<text lang="en">external hard drives</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Externe Festplatten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_storage/nfdi-st_08">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_storage/nfdi-st_08</uri_path>
+		<dc:comment/>
+		<text lang="en">Other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sonstige</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_using_when</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_00" order="0"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_01" order="1"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_02" order="2"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_03" order="3"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_04" order="4"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_05" order="5"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_06" order="6"/>
+			<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_07" order="7"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_00">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_using_when/nfdi-uw_00</uri_path>
+		<dc:comment/>
+		<text lang="en">In all probability already during the project.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Aller Voraussicht nach bereits während des Projekts.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_01">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_using_when/nfdi-uw_01</uri_path>
+		<dc:comment/>
+		<text lang="en">Immediately after the end of the project</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Direkt nach Projektende</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_02">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_using_when/nfdi-uw_02</uri_path>
+		<dc:comment/>
+		<text lang="en">1 year after the end of the project</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">1 Jahr nach Projektende</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_03">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_using_when/nfdi-uw_03</uri_path>
+		<dc:comment/>
+		<text lang="en">2 years after the end of the project</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">2 Jahre nach Projektende</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_04">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_using_when/nfdi-uw_04</uri_path>
+		<dc:comment/>
+		<text lang="en">5 years after the end of the project</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">5 Jahre nach Projektende</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_05">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_using_when/nfdi-uw_05</uri_path>
+		<dc:comment/>
+		<text lang="en">10 years after the end of the project</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">10 Jahre nach Projektende</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_06">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_using_when/nfdi-uw_06</uri_path>
+		<dc:comment/>
+		<text lang="en">Subsequent years after the end of the project</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Folgende Jahre nach Projektende</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.nfdi4ing.de/terms/options/NFDI_using_when/nfdi-uw_07">
+		<uri_prefix>https://rdmo.nfdi4ing.de/terms</uri_prefix>
+		<uri_path>NFDI_using_when/nfdi-uw_07</uri_path>
+		<dc:comment/>
+		<text lang="en">The data record will not be usable for third parties.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Der Datensatz wird für Dritte nicht nutzbar sein.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>

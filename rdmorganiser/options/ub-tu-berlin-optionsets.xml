@@ -1,0 +1,1524 @@
+    <optionset dc:uri="https://fdm.ub.tu-berlin.de/options/access">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>access</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/access/04" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/access/02" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/access/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/access/03" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/access/04">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>access/04</uri_path>
+		<dc:comment/>
+		<text lang="en">Further access regulations</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere/andere Zugriffsregelungen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/access/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>access/02</uri_path>
+		<dc:comment/>
+		<text lang="en">All project members have access to only specific research data as follows</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Alle Projektmitglieder haben jeweils nur auf einen bestimmten Ausschnitt der Forschungsdaten Zugriff, und zwar</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/access/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>access/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Only the following groups of people have access to all of the project’s research data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nur bestimmte Personenkreise erhalten Zugriff auf sämtliche Forschungsdaten des Projekts, und zwar</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/access/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>access/03</uri_path>
+		<dc:comment/>
+		<text lang="en">All project members have access to all research data.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Alle Projektmitglieder dürfen auf alle Forschungsdaten zugreifen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/archive-repo">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>archive-repo</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/archive-repo/03" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/archive-repo/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/archive-repo/02" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/archive-repo/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>archive-repo/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Research data is stored at the following multi-site repository or data archive</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Forschungsdaten werden in einem standortübergreifenden Repositorium oder Datenarchiv aufbewahrt, und zwar</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/archive-repo/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>archive-repo/01</uri_path>
+		<dc:comment/>
+		<text lang="en">All research data are stored in the archives of the following institution</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Alle Forschungsdaten werden in der Archivierungsinfrastruktur einer am Projekt beteiligten Institution aufbewahrt, und zwar</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/archive-repo/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>archive-repo/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Research data are stored in the archives of the different participating institutions.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Forschungsdaten werden verteilt in den jeweiligen Archivierungsinfrastrukturen der beteiligten Einrichtungen aufbewahrt.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/backup">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>backup</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/backup/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/backup/02" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/backup/03" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/backup/04" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/backup/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>backup/01</uri_path>
+		<dc:comment/>
+		<text lang="en">The back-up of research data is automated via the storage infrastructure used.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Das Back-Up der Forschungsdaten erfolgt automatisiert über die genutzte Speicherinfrastruktur.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/backup/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>backup/02</uri_path>
+		<dc:comment/>
+		<text lang="en">The creation of regular back-ups of the research data is ensured by project-internal responsibilities and workflows.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Durch projektinterne Zuständigkeiten und Workflows wird die Erstellung regelmäßiger Back-Ups der Forschungsdaten sichergestellt.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/backup/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>backup/03</uri_path>
+		<dc:comment/>
+		<text lang="en">The creation of regular back-ups is the responsibility of the individual project members.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Erstellung regelmäßiger Back-Ups liegt in der Verantwortung der einzelnen Projektmitglieder.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/backup/04">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>backup/04</uri_path>
+		<dc:comment/>
+		<text lang="en">Further/other specifications</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere/andere Festlegungen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/data">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/data/01" order="1"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/data/02" order="2"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/data/03" order="3"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/data/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data/01</uri_path>
+		<dc:comment/>
+		<text lang="en">The research data policy applies to all data generated and used within the project.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Forschungsdaten-Policy gilt für alle im Rahmen des Projekts erhobenen und nachgenutzten Daten.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/data/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data/02</uri_path>
+		<dc:comment/>
+		<text lang="en">The research data policy only applies to the following research data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Forschungsdaten-Policy gilt nur die folgenden Forschungsdaten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/data/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data/03</uri_path>
+		<dc:comment/>
+		<text lang="en">The following additions have been agreed</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Folgende Ergänzungen wurden vereinbart</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data-protection</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/02" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/03" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/09" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/07" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/06" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/08" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/05" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/04" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data-protection/02</uri_path>
+		<dc:comment/>
+		<text lang="en">The legal basis for managing personal research data within the project is informed consent.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Verarbeitung personenbezogener Forschungsdaten erfolgt im Projekt auf der Rechtsgrundlage der informierten Einwilligung.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data-protection/01</uri_path>
+		<dc:comment/>
+		<text lang="en">The legal basis as well as any necessary measures to be taken are agreed with the department at the institute responsible for data protection.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Rechtsgrundlage für die Verarbeitung sowie die erforderlichen Maßnahmen werden mit den Fachabteilungen der Einrichtung abgestimmt.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data-protection/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Consent forms will be made available to all project members.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Vorlagen für die informierte Einwilligung werden allen Projektmitgliedern zur Verfügung gestellt.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/09">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data-protection/09</uri_path>
+		<dc:comment/>
+		<text lang="en">Further measures include</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere Maßnahmen sind</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/07">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data-protection/07</uri_path>
+		<dc:comment/>
+		<text lang="en">Suitable technical and organizational measures are implemented to protect personal data (e.g. access rights, encryption, password protection)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es werden geeignete technisch-organisatorische Maßnahmen zum Schutz der personenbezogenen Daten getroffen (z.B. Zugriffsrechte, Verschlüsselung, Passwortschutz).</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/06">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data-protection/06</uri_path>
+		<dc:comment/>
+		<text lang="en">Research data are anonymized when the research goal permits. When it is not possible to fully anonymize data, the data are pseudonymized.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Forschungsdaten werden anonymisiert, sobald es der Forschungszweck es erlaubt. Wenn eine vollständige Anonymisierung nicht möglich ist, erfolgt eine Pseudonymisierung.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/08">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data-protection/08</uri_path>
+		<dc:comment/>
+		<text lang="en">Research data is only published in anonymized form or with the consent of the affected parties.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Eine Veröffentlichung der Forschungsdaten erfolgt ausschließlich in anonymisierter Form oder nach Einwilligung der Betroffenen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/05">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data-protection/05</uri_path>
+		<dc:comment/>
+		<text lang="en">For joint research projects, a written agreement regarding individual responsibility for the management of data is concluded between the project partners.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Bei gemeinsamer Verarbeitung im Rahmen von Verbundforschung wird zwischen den Projektpartnern eine schriftliche Vereinbarung über die individuelle Verantwortlichkeit jedes Partners getroffen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/data-protection/04">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>data-protection/04</uri_path>
+		<dc:comment/>
+		<text lang="en">A data processing agreement is concluded when passing on personal data to service providers (e.g. labs, transcription services).</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Bei Weitergabe der personenbezogenen Daten an Dienstleister (z.B. Labore, Transkriptionsdienstleister) wird mit diesem ein Auftragsverarbeitungsvertrag geschlossen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/definitions">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>definitions</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/definitions/03" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/definitions/02" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/definitions/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/definitions/05" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/definitions/04" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/definitions/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>definitions/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Research Data Management (RDM): Research Data Management refers to all measures relating to research data. This includes planning, collecting, storing, analyzing, describing, archiving, and sharing research data as well as their re-use.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Forschungsdatenmanagement (FDM): Unter FDM werden alle Maßnahmen im Zusammenhang mit Forschungsdaten verstanden. Dazu zählen Planung, Sammlung, Speicherung, Auswertung, Beschreibung, Archivierung, Veröffentlichung und Nachnutzung von Forschungsdaten.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/definitions/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>definitions/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Research data: Research data are all data that lead to analyzable results within the framework of research processes. These may include simulation data, raw data or audiovisual media.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Forschungsdaten: Forschungsdaten sind alle Daten, die im Rahmen von Forschungsprozessen zu auswertbaren Ergebnissen führen. Dies können u.a. Simulationsdaten, Rohdaten oder audiovisuelle Medien sein.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/definitions/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>definitions/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Researchers: In terms of this research policy, researchers refers to all professors, research associates and assistants, doctoral candidates, research students and other employees conducting research within the project.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Forschende: Forschende im Sinne dieser Policy sind alle Professor*innen, wissenschaftlichen Mitarbeiter*innen, Promovierenden, forschenden Studierenden und weiteren Beschäftigten, die im Rahmen eines Projektes Forschung betreiben.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/definitions/05">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>definitions/05</uri_path>
+		<dc:comment/>
+		<text lang="en">FAIR principles: The FAIR principles state that research data and their metadata should be findable, accessible, interoperable, and reusable.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">FAIR-Prinzipien: Die FAIR-Prinzipien besagen, dass die Forschungsdaten sowie ihre Metadaten auffindbar (findable), zugänglich (accessible), interoperabel (interoperable) und nachnutzbar (reusable) sein sollen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/definitions/04">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>definitions/04</uri_path>
+		<dc:comment/>
+		<text lang="en">Data management plan (DMP): A data management plan provides a structured description of the relevant research data and how they will be managed throughout the project.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Datenmanagementplan (DMP): Im Datenmanagementplan findet sich eine strukturierte Beschreibung der relevanten Forschungsdaten und des Umgangs mit ihnen im Laufe des Projekts.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>fdnext-goals</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/05" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/02" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/06" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/03" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/07" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/04" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>fdnext-goals/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Establish a uniform approach to managing research data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Etablierung eines einheitlichen Vorgehens im Umgang mit Forschungsdaten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/05">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>fdnext-goals/05</uri_path>
+		<dc:comment/>
+		<text lang="en">Achieve transparency both internally and externally</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Herstellung von Transparenz nach innen und außen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>fdnext-goals/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Facilitate cooperation</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Erleichterung der Zusammenarbeit</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/06">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>fdnext-goals/06</uri_path>
+		<dc:comment/>
+		<text lang="en">Ensure compliance with funding policy and legal requirements</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Sicherstellen von Compliance mit förderpolitischen und gesetzlichen Vorgaben</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>fdnext-goals/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Provide orientation for (new) employees</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Orientierung für (neue) Mitarbeiter*innen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/07">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>fdnext-goals/07</uri_path>
+		<dc:comment/>
+		<text lang="en">Further goals</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/fdnext-goals/04">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>fdnext-goals/04</uri_path>
+		<dc:comment/>
+		<text lang="en">Establish a framework for data management plans</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Bildung des Rahmens für Datenmanagementpläne</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/guidelines">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>guidelines</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/guidelines/02" order="2"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/guidelines/03" order="3"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/guidelines/04" order="4"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/guidelines/05" order="5"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/guidelines/06" order="6"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/guidelines/07" order="7"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/guidelines/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>guidelines/02</uri_path>
+		<dc:comment/>
+		<text lang="en">FAIR Principles</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">FAIR-Prinzipien</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/guidelines/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>guidelines/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Guidelines of the funding organizations</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Vorgaben des Forschungsförderers</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/guidelines/04">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>guidelines/04</uri_path>
+		<dc:comment/>
+		<text lang="en">Disciplinary guidelines of the research fields involved in the project</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Disziplinäre Richtlinien der am Projekt beteiligten Fachcommunities</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/guidelines/05">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>guidelines/05</uri_path>
+		<dc:comment/>
+		<text lang="en">Institutional bylaws on good scientific practice published by the participating institutions</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Institutionelle Satzungen zur guten wissenschaftlichen Praxis der beteiligten Einrichtungen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/guidelines/06">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>guidelines/06</uri_path>
+		<dc:comment/>
+		<text lang="en">Institutional research data policies of the participating institutions</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Institutionelle Forschungsdaten-Policies der beteiligten Einrichtungen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/guidelines/07">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>guidelines/07</uri_path>
+		<dc:comment/>
+		<text lang="en">Other policies relevant to the project include</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere für das Projekt relevante Richtlinien sind</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/law">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>law</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/law/02" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/law/04" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/law/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>law/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Data protection law</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Datenschutz</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/law/04">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>law/04</uri_path>
+		<dc:comment/>
+		<text lang="en">Other laws and regulations</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/lawm">
+		<uri_prefix>https://fdm.ub.tu-berlin.de/</uri_prefix>
+		<uri_path>lawm</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/lawm/03" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/lawm/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/lawm/02" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/lawm/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de/</uri_prefix>
+		<uri_path>lawm/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Further measures include</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere Maßnahmen sind</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/lawm/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de/</uri_prefix>
+		<uri_path>lawm/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Copyright status is clarified in consultation with the legal departments of the institution(s).</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">In Zusammenarbeit mit den rechtlichen Fachabteilungen der Einrichtung(en) wird der urheberrechtliche Status der Forschungsdaten geklärt.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/lawm/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de/</uri_prefix>
+		<uri_path>lawm/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Agreements on data usage within the project are agreed with all members of the project, such as on authorship for data publications or usage rights for individual project members for the duration of the project as well as after leaving the project.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es werden projektinterne Datennutzungsvereinbarungen mit allen Mitgliedern getroffen, z.B. zur Autorschaft bei Datenpublikationen sowie zu Nutzungsrechten der einzelnen Projektmitglieder während der Projektlaufzeit sowie nach eventuellem Ausscheiden.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/license">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>license</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/license/01" order="1"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/license/02" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/license/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>license/01</uri_path>
+		<dc:comment/>
+		<text lang="en">The choice of a suitable license is at the discretion of the individual researchers.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Wahl einer geeigneten Lizenz obliegt den einzelnen Forschenden.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/license/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>license/02</uri_path>
+		<dc:comment/>
+		<text lang="en">The research data are to be published under the following license</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Forschungsdaten sollen unter folgender Lizenz veröffentlicht werden</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/name">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>name</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/name/04" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/name/03" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/name/02" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/name/01" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/name/04">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>name/04</uri_path>
+		<dc:comment/>
+		<text lang="en">Further/other specifications</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere/andere Festlegungen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/name/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>name/03</uri_path>
+		<dc:comment/>
+		<text lang="en">The actual naming of files as well as the folder structure are at the discretion of the individual project members.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Benennung von Dateien sowie die Ordnerstruktur liegt im Ermessen der einzelnen Projektmitglieder.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/name/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>name/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Files should be names according to the following predetermined pattern</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Benennung der Dateien soll einem vorgegebenen Schema folgen, und zwar</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/name/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>name/01</uri_path>
+		<dc:comment/>
+		<text lang="en">The storage of research data should follow this predetermined folder structure</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Ablage der Forschungsdaten soll einer vorgegebenen Ordnerstruktur folgen, und zwar</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/options/documentation">
+		<uri_prefix>https://fdm.ub.tu-berlin.de/options/</uri_prefix>
+		<uri_path>documentation</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/options/documentation/02" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/options/documentation/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/options/documentation/04" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/options/documentation/03" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/options/documentation/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de/options/</uri_prefix>
+		<uri_path>documentation/02</uri_path>
+		<dc:comment/>
+		<text lang="en">An electronic laboratory notebook is used for data documentation, namely</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Für die Datendokumentation wird ein Elektronisches Laborbuch genutzt, und zwar</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/options/documentation/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de/options/</uri_prefix>
+		<uri_path>documentation/01</uri_path>
+		<dc:comment/>
+		<text lang="en">The data documentation takes place in one or more separate files, for which suitable templates are made available to the project members.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Datendokumentation erfolgt in einer oder mehreren separaten Dateien, für die den Projektmitgliedern geeignete Vorlagen zur Verfügung gestellt werden.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/options/documentation/04">
+		<uri_prefix>https://fdm.ub.tu-berlin.de/options/</uri_prefix>
+		<uri_path>documentation/04</uri_path>
+		<dc:comment/>
+		<text lang="en">Further/other specifications</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere/andere Festlegungen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/options/documentation/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de/options/</uri_prefix>
+		<uri_path>documentation/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Data documentation is the responsibility of the individual project members.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Datendokumentation liegt in der Verantwortung der einzelnen Projektmitglieder.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/persons">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>persons</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/persons/01" order="1"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/persons/02" order="2"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/persons/03" order="3"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/persons/04" order="4"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/persons/05" order="5"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/persons/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>persons/01</uri_path>
+		<dc:comment/>
+		<text lang="en">The research data policy applies to everyone involved in the research project.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Forschungsdaten-Policy gilt für alle am Forschungsprojekt beteiligten Personen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/persons/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>persons/02</uri_path>
+		<dc:comment/>
+		<text lang="en">The research data policy applies only to the following persons involved in the project</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Forschungsdaten-Policy gilt nur für bestimmte am Projekt beteiligte Personen. Zu diesen zählen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/persons/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>persons/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Third parties not directly involved in the project shall also be obliged to comply with this policy in corresponding agreements.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nicht direkt am Projekt beteiligte Dritte sollen in entsprechenden Vereinbarungen ebenfalls zur Einhaltung dieser Policy verpflichtet werden.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/persons/04">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>persons/04</uri_path>
+		<dc:comment/>
+		<text lang="en">If agreements with third parties not directly involved in the project are being concluded, these have priority.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Vereinbarungen mit nicht direkt am Projekt beteiligten Dritten haben ggf. Vorrang.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/persons/05">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>persons/05</uri_path>
+		<dc:comment/>
+		<text lang="en">The following additions have been agreed</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Folgende Ergänzungen wurden vereinbart</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/place">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>place</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/place/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/place/02" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/place/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>place/01</uri_path>
+		<dc:comment/>
+		<text lang="en">The choice of an appropriate research data repository or data center is the responsibility of the individual researcher.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Wahl eines geeigneten Forschungsdatenrepositoriums oder Datenzentrums obliegt den einzelnen Forschenden.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/place/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>place/02</uri_path>
+		<dc:comment/>
+		<text lang="en">The following research data repository or data center should be used for publishing research data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Für die Veröffentlichung von Forschungsdaten soll folgendes Forschungsdatenrepositorium oder Datenzentrum genutzt werden</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/pre_def">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>pre_def</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/pre_def/yes" order="1"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/pre_def/no" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/pre_def/yes">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>pre_def/yes</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/pre_def/no">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>pre_def/no</uri_path>
+		<dc:comment/>
+		<text lang="en">No</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/privacy">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>privacy</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/06" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/08" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/02" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/05" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/04" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/07" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/03" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/09" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/06">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>privacy/06</uri_path>
+		<dc:comment/>
+		<text lang="en">Research data are anonymized when the research goal permits. When it is not possible to fully anonymize data, the data are pseudonymized.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Forschungsdaten werden anonymisiert, sobald es der Forschungszweck es erlaubt. Wenn eine vollständige Anonymisierung nicht möglich ist, erfolgt eine Pseudonymisierung.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/08">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>privacy/08</uri_path>
+		<dc:comment/>
+		<text lang="en">Research data is only published in anonymized form or with the consent of the affected parties.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Eine Veröffentlichung der Forschungsdaten erfolgt ausschließlich in anonymisierter Form oder nach Einwilligung der Betroffenen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>privacy/02</uri_path>
+		<dc:comment/>
+		<text lang="en">The legal basis for managing personal research data within the project is informed consent.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Verarbeitung personenbezogener Forschungsdaten erfolgt im Projekt auf der Rechtsgrundlage der informierten Einwilligung.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/05">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>privacy/05</uri_path>
+		<dc:comment/>
+		<text lang="en">For joint research projects, a written agreement regarding individual responsibility for the management of data is concluded between the project partners.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Bei gemeinsamer Verarbeitung im Rahmen von Verbundforschung wird zwischen den Projektpartnern eine schriftliche Vereinbarung über die individuelle Verantwortlichkeit jedes Partners getroffen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/04">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>privacy/04</uri_path>
+		<dc:comment/>
+		<text lang="en">A data processing agreement is concluded when passing on personal data to service providers (e.g. labs, transcription services).</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Bei Weitergabe der personenbezogenen Daten an Dienstleister (z.B. Labore, Transkriptionsdienstleister) wird mit diesem ein Auftragsverarbeitungsvertrag geschlossen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>privacy/01</uri_path>
+		<dc:comment/>
+		<text lang="en">The legal basis as well as any necessary measures to be taken are agreed with the department at the institute responsible for data protection.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Rechtsgrundlage für die Verarbeitung sowie die erforderlichen Maßnahmen werden mit der für Datenschutz zuständigen Fachabteilung der Einrichtung abgestimmt.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/07">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>privacy/07</uri_path>
+		<dc:comment/>
+		<text lang="en">Suitable technical and organizational measures are implemented to protect personal data (e.g. access rights, encryption, password protection)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es werden geeignete technisch-organisatorische Maßnahmen zum Schutz der personenbezogenen Daten getroffen (z.B. Zugriffsrechte, Verschlüsselung, Passwortschutz).</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>privacy/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Consent forms will be made available to all project members.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Vorlagen für die informierte Einwilligung werden allen Projektmitgliedern zur Verfügung gestellt.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/privacy/09">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>privacy/09</uri_path>
+		<dc:comment/>
+		<text lang="en">Further measures include</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere Maßnahmen sind</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/publication">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>publication</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/publication/03" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/publication/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/publication/02" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/publication/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>publication/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Further/other specifications</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere/andere Festlegungen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/publication/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>publication/01</uri_path>
+		<dc:comment/>
+		<text lang="en">All research data generated in the project will be made publicly available unless there are legal, contractual, or ethical reasons for not doing so.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Alle im Projekt entstehenden Forschungsdaten werden öffentlich zur Verfügung gestellt, sofern keine rechtlichen, vertraglichen oder ethischen Gründe entgegenstehen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/publication/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>publication/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Research data generated in the project that are necessary for the verification of scientific results will be made publicly available, provided that there are no legal, contractual or ethical reasons to the contrary.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Im Projekt entstandene Forschungsdaten, die zur Nachprüfung wissenschaftlicher Ergebnisse notwendig sind, werden öffentlich zur Verfügung gestellt, sofern keine rechtlichen, vertraglichen oder ethischen Gründe entgegenstehen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/publication-venue">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>publication-venue</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/publication-venue/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/publication-venue/02" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/publication-venue/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>publication-venue/01</uri_path>
+		<dc:comment/>
+		<text lang="en">The choice of an appropriate research data repository or data center is the responsibility of the individual researcher.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Wahl eines geeigneten Forschungsdatenrepositoriums oder Datenzentrums obliegt den einzelnen Forschenden.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/publication-venue/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>publication-venue/02</uri_path>
+		<dc:comment/>
+		<text lang="en">The following research data repository or data center should be used for publishing research data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Für die Veröffentlichung von Forschungsdaten soll folgendes Forschungsdatenrepositorium oder Datenzentrum genutzt werden</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>responsibility</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/08" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/02" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/10" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/04" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/07" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/03" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/09" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/05" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/06" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/08">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>responsibility/08</uri_path>
+		<dc:comment/>
+		<text lang="en">Conception and implementation of information and training events on research data management</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Konzeption und Durchführung von Informations- und Schulungsveranstaltungen zum Forschungsdatenmanagement</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>responsibility/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Clarification of legal issues in dealing with the resulting research data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Klärung rechtlicher Fragen im Umgang mit den entstehenden Forschungsdaten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/10">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>responsibility/10</uri_path>
+		<dc:comment/>
+		<text lang="en">Further tasks and responsibilities</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere Aufgaben und Zuständigkeiten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/04">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>responsibility/04</uri_path>
+		<dc:comment/>
+		<text lang="en">Development, dissemination and monitoring of project-internal standards (e.g. for documentation and storage)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Erarbeitung, Verbreitung und Monitoring projektinterner Standards (z.B. für die Dokumentation und Speicherung)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/07">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>responsibility/07</uri_path>
+		<dc:comment/>
+		<text lang="en">Advice and support on research data management for project members</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Beratung und Unterstützung der Projektmitglieder im Forschungsdatenmanagement</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>responsibility/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Creation and updating of data management plans</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Erstellung und Aktualisierung von Datenmanagementplänen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>responsibility/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Creation of cross-project document templates (e.g. for consent forms, data use agreements, documentation)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Erstellung von projektübergreifenden Dokumentvorlagen (z.B. für Einwilligungserklärungen, Datennutzungsvereinbarungen, Dokumentation)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/09">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>responsibility/09</uri_path>
+		<dc:comment/>
+		<text lang="en">Selection, configuration and support of technical tools (e.g. collaborative work environment, electronic lab notebook, tool for data management planning)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Auswahl, Konfiguration und Betreuung technischer Tools (z.B. kollaborative Arbeitsumgebung, Elektronisches Laborbuch, Tool für die Datenmanagementplanung)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/05">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>responsibility/05</uri_path>
+		<dc:comment/>
+		<text lang="en">Evaluation and selection of suitable infrastructures for data archiving and publication</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Evaluation und Auswahl geeigneter Infrastrukturen für die Datenarchivierung und -veröffentlichung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/responsibility/06">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>responsibility/06</uri_path>
+		<dc:comment/>
+		<text lang="en">Preparation of research data for publication (e.g. conversion, anonymisation, data organisation, upload)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Aufbereitung der Forschungsdaten für die Veröffentlichung (z.B. Konvertierung, Anonymisierung, Datenorganisation, Upload)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/storage">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>storage</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/storage/02" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/storage/03" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/storage/01" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/storage/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>storage/02</uri_path>
+		<dc:comment/>
+		<text lang="en">For the storage of the research data, the project members use storage solutions that fully meet the requirements for IT security and data protection.</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Für die Speicherung der Forschungsdaten nutzen die Projektmitglieder Speicherlösungen, die den Anforderungen an IT-Sicherheit und Datenschutz vollumfänglich entsprechen.</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/storage/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>storage/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Further agreements</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere/andere Festlegungen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/storage/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>storage/01</uri_path>
+		<dc:comment/>
+		<text lang="en">The following central storage location is specified for the storage of research data for all persons involved in the project</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Für die Speicherung der Forschungsdaten wird für alle am Projekt beteiligten Personen ein zentraler Speicherort vorgegeben, und zwar</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://fdm.ub.tu-berlin.de/options/tasks">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>tasks</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/03" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/07" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/05" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/09" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/06" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/02" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/08" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/04" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/01" order="0"/>
+			<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/10" order="0"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/03">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>tasks/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Creating cross-project document templates (e.g. consent forms, data use agreements)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Erstellung von projektübergreifenden Dokumentvorlagen (z.B. für Einwilligungserklärungen, Datennutzungsvereinbarungen)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/07">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>tasks/07</uri_path>
+		<dc:comment/>
+		<text lang="en">Advising and supporting project members on research data management</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Beratung und Unterstützung der Projektmitglieder im FDM</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/05">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>tasks/05</uri_path>
+		<dc:comment/>
+		<text lang="en">Evaluating and selecting suitable infrastructures for data archiving and publication</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Evaluation und Auswahl geeigneter Infrastrukturen für die Datenarchivierung und -veröffentlichung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/09">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>tasks/09</uri_path>
+		<dc:comment/>
+		<text lang="en">Selecting, configuring and administering technical tools (e.g. collaborative work environment, electronic lab book, DMP tool)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Auswahl, Konfiguration und Betreuung technischer Tools (z.B. kollaborative Arbeitsumgebung, Elektronisches Laborbuch, DMP-Tool)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/06">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>tasks/06</uri_path>
+		<dc:comment/>
+		<text lang="en">Preparing research data for publication (e.g. conversion, anonymization, data organization, upload)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Aufbereitung der Forschungsdaten für die Veröffentlichung (z.B. Konvertierung, Anonymisierung, Datenorganisation, Upload)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/02">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>tasks/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Clarifying legal issues that arise managing the resulting research data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Klärung rechtlicher Fragen im Umgang mit den entstehenden Forschungsdaten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/08">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>tasks/08</uri_path>
+		<dc:comment/>
+		<text lang="en">Developing and organizing information and training events</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Konzeption und Durchführung von Informations- und Schulungsveranstaltungen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/04">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>tasks/04</uri_path>
+		<dc:comment/>
+		<text lang="en">Developing, disseminating and monitoring project-internal standards (e.g. for documentation and storage)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Erarbeitung, Verbreitung und Monitoring projektinterner Standards (z.B. für die Dokumentation und Speicherung)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/01">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>tasks/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Creating and updating of data management plans</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Erstellung und Aktualisierung von Datenmanagementplänen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://fdm.ub.tu-berlin.de/options/tasks/10">
+		<uri_prefix>https://fdm.ub.tu-berlin.de</uri_prefix>
+		<uri_path>tasks/10</uri_path>
+		<dc:comment/>
+		<text lang="en">Further tasks include</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Weitere Aufgaben sind</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>

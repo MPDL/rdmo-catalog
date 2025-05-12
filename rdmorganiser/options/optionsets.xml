@@ -1,5 +1,1081 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-09-30T09:17:50.978969+02:00" version="2.0.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-09T12:57:41.500485+02:00" version="2.2.1">
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/additional-sources/yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/additional-sources/yesno</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/additional-sources/yesno/01" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/additional-sources/yesno/02" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/additional-sources/yesno/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/additional-sources/yesno/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/additional-sources/yesno/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/additional-sources/yesno/02</uri_path>
+		<dc:comment/>
+		<text lang="en">No</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/origin">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/description/origin</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/origin/01" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/origin/02" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/origin/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/description/origin/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Original data</text>
+		<help lang="en">created within the project context</help>
+		<view_text lang="en"/>
+		<text lang="de">Originäre Daten</text>
+		<help lang="de">im Projektkontext produziert</help>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/origin/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/description/origin/02</uri_path>
+		<dc:comment/>
+		<text lang="en">(Re-)used data</text>
+		<help lang="en">acquired from external sources</help>
+		<view_text lang="en"/>
+		<text lang="de">(Wieder-)verwendete Daten</text>
+		<help lang="de">von externen Quellen bezogen</help>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/description/type</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/text" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/image" order="2"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/video" order="3"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/tabular" order="4"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/spreadsheet" order="5"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/binary" order="6"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/other" order="7"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/text">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/description/type/text</uri_path>
+		<dc:comment/>
+		<text lang="en">Text</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Text</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/image">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/description/type/image</uri_path>
+		<dc:comment/>
+		<text lang="en">Image</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Image</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/video">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/description/type/video</uri_path>
+		<dc:comment/>
+		<text lang="en">Video</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Video</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/tabular">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/description/type/tabular</uri_path>
+		<dc:comment/>
+		<text lang="en">Table</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Tabelle</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/spreadsheet">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/description/type/spreadsheet</uri_path>
+		<dc:comment/>
+		<text lang="en">Spreadsheet</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Mappen von Tabellen (Spreadsheet)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/binary">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/description/type/binary</uri_path>
+		<dc:comment/>
+		<text lang="en">Binary</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Binär</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type/other">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/description/type/other</uri_path>
+		<dc:comment/>
+		<text lang="en">Other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Andere</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/documentation/data-steward/yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/documentation/data-steward/yesno</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/documentation/data-steward/yesno/01" order="0"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/documentation/data-steward/yesno/02" order="1"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/documentation/data-steward/yesno/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/documentation/data-steward/yesno/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, with</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, mit</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/documentation/data-steward/yesno/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>datasets/documentation/data-steward/yesno/02</uri_path>
+		<dc:comment/>
+		<text lang="en">No, not yet</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein, noch nicht</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/processing/software/developed-yesno/">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>processing/software/developed-yesno/</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/processing/software/developed-yesno/01" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/processing/software/developed-yesno/02" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/processing/software/developed-yesno/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>processing/software/developed-yesno/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/processing/software/developed-yesno/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>processing/software/developed-yesno/02</uri_path>
+		<dc:comment/>
+		<text lang="en">No</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/processing/software/used-yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>processing/software/used-yesno</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/processing/software/used-yesno/01" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/processing/software/used-yesno/02" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/processing/software/used-yesno/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>processing/software/used-yesno/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/processing/software/used-yesno/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>processing/software/used-yesno/02</uri_path>
+		<dc:comment/>
+		<text lang="en">No</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/project/general/affiliation">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>project/general/affiliation</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/project/general/affiliation/01" order="0"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/project/general/affiliation/02" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/project/general/affiliation/03" order="2"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/project/general/affiliation/11" order="3"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/project/general/affiliation/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>project/general/affiliation/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Department Vogenauer</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Abteilung Vogenauer</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/project/general/affiliation/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>project/general/affiliation/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Department Duve</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Abteilung Duve</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/project/general/affiliation/03">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>project/general/affiliation/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Department Auer</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Abteilung Auer</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/project/general/affiliation/11">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>project/general/affiliation/11</uri_path>
+		<dc:comment/>
+		<text lang="en">Research group Erpelding</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Forschungsgruppe Erpelding</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/publication/data/yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>publication/data/yesno</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/reuse-publication/data/yesno/01" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/reuse-publication/data/yesno/02" order="2"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/reuse-publication/data/yesno/03" order="3"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/reuse-publication/data/yesno/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>reuse-publication/data/yesno/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, publication is intended</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, eine Veröffentlichung ist beabsichtigt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/reuse-publication/data/yesno/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>reuse-publication/data/yesno/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, internal retention and re-use is intended</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, interne Speicherung und Nachnutzung sind beabsichtigt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/reuse-publication/data/yesno/03">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>reuse-publication/data/yesno/03</uri_path>
+		<dc:comment/>
+		<text lang="en">No, because</text>
+		<help lang="en">Please specify why not.</help>
+		<view_text lang="en"/>
+		<text lang="de">Nein, weil</text>
+		<help lang="de">Bitte erläutern Sie warum nicht.</help>
+		<view_text lang="de"/>
+		<additional_input>textarea</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/publication/software/description">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>publication/software/description</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/publication/software/description/01" order="0"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/publication/software/description/03" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/publication/software/description/02" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/publication/software/description/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>publication/software/description/01</uri_path>
+		<dc:comment/>
+		<text lang="en">No</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/publication/software/description/03">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>publication/software/description/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Still unclear</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Noch unklar</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/publication/software/description/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>publication/software/description/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, namely</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, und zwar</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>textarea</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/offboarding/yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>rdm/offboarding/yesno</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/offboarding/yesno/01" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/offboarding/yesno/02" order="2"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/offboarding/yesno/03" order="3"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/offboarding/yesno/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>rdm/offboarding/yesno/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/offboarding/yesno/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>rdm/offboarding/yesno/02</uri_path>
+		<dc:comment/>
+		<text lang="en">No</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/offboarding/yesno/03">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>rdm/offboarding/yesno/03</uri_path>
+		<dc:comment/>
+		<text lang="en">To be clarified</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">To be clarified</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/onboarding/yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>rdm/onboarding/yesno</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/onboarding/yesno/01" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/onboarding/yesno/02" order="2"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/onboarding/yesno/03" order="3"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/onboarding/yesno/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>rdm/onboarding/yesno/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/onboarding/yesno/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>rdm/onboarding/yesno/02</uri_path>
+		<dc:comment/>
+		<text lang="en">No</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/onboarding/yesno/03">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>rdm/onboarding/yesno/03</uri_path>
+		<dc:comment/>
+		<text lang="en">To be clarified</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">To be clarified</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/rights-clearance/yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms/</uri_prefix>
+		<uri_path>rights-clearance/yesno</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rights-clearance/yesno/01" order="0"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rights-clearance/yesno/02" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rights-clearance/yesno/03" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rights-clearance/yesno/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms/</uri_prefix>
+		<uri_path>rights-clearance/yesno/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rights-clearance/yesno/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms/</uri_prefix>
+		<uri_path>rights-clearance/yesno/02</uri_path>
+		<dc:comment/>
+		<text lang="en">No</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/rights-clearance/yesno/03">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms/</uri_prefix>
+		<uri_path>rights-clearance/yesno/03</uri_path>
+		<dc:comment/>
+		<text lang="en">To be clarified</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Noch zu klären</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/description">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>services/platforms/description</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/description/01" order="0"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/description/03" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/description/02" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/description/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>services/platforms/description/01</uri_path>
+		<dc:comment/>
+		<text lang="en">No</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/description/03">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>services/platforms/description/03</uri_path>
+		<dc:comment/>
+		<text lang="en">Still unclear</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Noch unklar</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/description/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>services/platforms/description/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, namely</text>
+		<help lang="en">Please name and describe the service briefly.</help>
+		<view_text lang="en"/>
+		<text lang="de">Ja, und zwar</text>
+		<help lang="de">Bitte den Service benennen und kurz beschreiben.</help>
+		<view_text lang="de"/>
+		<additional_input>textarea</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/guidelines">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>services/platforms/guidelines</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/guidelines/01" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/guidelines/02" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/guidelines/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>services/platforms/guidelines/01</uri_path>
+		<dc:comment/>
+		<text lang="en">Not yet</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Noch nicht</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/guidelines/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>services/platforms/guidelines/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/services/resources/regular-contributions">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>services/resources/regular-contributions</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/resources/regular-contributions/01" order="0"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/resources/regular-contributions/03" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/resources/regular-contributions/02" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/resources/regular-contributions/01">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>services/resources/regular-contributions/01</uri_path>
+		<dc:comment/>
+		<text lang="en">No</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/resources/regular-contributions/03">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>services/resources/regular-contributions/03</uri_path>
+		<dc:comment/>
+		<text lang="en">To be clarified</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">To be clarified</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/resources/regular-contributions/02">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>services/resources/regular-contributions/02</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes, namely</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, und zwar</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>textarea</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/interview-survey" order="0"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/transcription-edition" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/derived-format" order="2"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/database-sources" order="3"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produces/database-events" order="4"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/network" order="5"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/geodata" order="6"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/3d" order="7"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/model-ocr" order="8"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/datamodel-ontology" order="9"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/graphic" order="10"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/software-website" order="11"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/oer" order="12"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/podcasts" order="13"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/video" order="14"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/other" order="15"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/interview-survey">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/interview-survey</uri_path>
+		<dc:comment/>
+		<text lang="en">Interviews or surveys</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Interviews oder Umfragen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/transcription-edition">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/transcription-edition</uri_path>
+		<dc:comment/>
+		<text lang="en">Transcriptions or editions</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Transkriptionen oder Editionen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/derived-format">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/derived-format</uri_path>
+		<dc:comment/>
+		<text lang="en">Derived data formats</text>
+		<help lang="en">like excerpts, annotations (e.g. CAQDAS), glossaries or other lists</help>
+		<view_text lang="en"/>
+		<text lang="de">Abgeleitete Datenformate</text>
+		<help lang="de">wie Auszüge, Annotationen (z. B. CAQDAS), Glossare oder andere Listen</help>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/database-sources">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/database-sources</uri_path>
+		<dc:comment/>
+		<text lang="en">Databases for the systematic collection of sources and literature</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Datenbanken für die systematische Sammlung von Quellen und Literatur</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produces/database-events">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produces/database-events</uri_path>
+		<dc:comment/>
+		<text lang="en">Database for the systematic collection of historical phenomena</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Datenbank für die systematische Erfassung von historischen Phänomenen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/network">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/network</uri_path>
+		<dc:comment/>
+		<text lang="en">Networks</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Netzwerke</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/geodata">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/geodata</uri_path>
+		<dc:comment/>
+		<text lang="en">Geodata</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Geodaten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/3d">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/3d</uri_path>
+		<dc:comment/>
+		<text lang="en">3D reconstructions</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">3D-Rekonstruktionen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/model-ocr">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/model-ocr</uri_path>
+		<dc:comment/>
+		<text lang="en">Recognition, prediction or classification models (including OCR and language models)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Erkennungs-, Vorhersage- oder Klassifizierungsmodelle (einschließlich OCR- und Sprachmodelle)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/datamodel-ontology">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/datamodel-ontology</uri_path>
+		<dc:comment/>
+		<text lang="en">Data models and ontologies</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Datenmodelle und Ontologien</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/graphic">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/graphic</uri_path>
+		<dc:comment/>
+		<text lang="en">Graphics or visualisations</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Grafiken oder Visualisierungen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/software-website">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/software-website</uri_path>
+		<dc:comment/>
+		<text lang="en">Scripts, programmes or software including websites</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Skripte, Programme oder Software, einschließlich Webseiten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/oer">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/oer</uri_path>
+		<dc:comment/>
+		<text lang="en">Open educational resources</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Open Educational Resources (freie Lehr- und Lernmaterialien)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/podcasts">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/podcasts</uri_path>
+		<dc:comment/>
+		<text lang="en">Podcasts (including videocasts)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Podcasts (inkl. Videocasts)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/video">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/video</uri_path>
+		<dc:comment/>
+		<text lang="en">Films and video recordings</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Filme und Videoaufnahmen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-produced/other">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-produced/other</uri_path>
+		<dc:comment/>
+		<text lang="en">Others</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Andere</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-used</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/deed" order="0"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/file" order="1"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/legacy" order="2"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/handwritten" order="3"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/printed-books" order="4"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/printed-periodicals" order="5"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/digital-resource" order="6"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/other-text" order="7"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/map" order="8"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/photo" order="9"/>
+			<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/other" order="10"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/deed">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-used/deed</uri_path>
+		<dc:comment/>
+		<text lang="en">Deeds</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Urkunden</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/file">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-used/file</uri_path>
+		<dc:comment/>
+		<text lang="en">Files and records</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Akten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/legacy">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-used/legacy</uri_path>
+		<dc:comment/>
+		<text lang="en">Personal legacies</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Persönliche Nachlässe</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/handwritten">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-used/handwritten</uri_path>
+		<dc:comment/>
+		<text lang="en">Manuscripts</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Manuskripte</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/printed-books">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-used/printed-books</uri_path>
+		<dc:comment/>
+		<text lang="en">Printed works: Monographs or collected editions</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Druckwerke: Monographien und Sammelwerke</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/printed-periodicals">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-used/printed-periodicals</uri_path>
+		<dc:comment/>
+		<text lang="en">Printed works: Newspapers or journals</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Printed works: Zeitungen oder Zeitschriften</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/digital-resource">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-used/digital-resource</uri_path>
+		<dc:comment/>
+		<text lang="en">Digital resources: Websites, blogs or digests</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Digitale Ressourcen: Webseiten, Blogs, Kurznachrichten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/other-text">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-used/other-text</uri_path>
+		<dc:comment/>
+		<text lang="en">Other text documents</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Andere Textdokumente</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/map">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-used/map</uri_path>
+		<dc:comment/>
+		<text lang="en">Maps</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Karten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/photo">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-used/photo</uri_path>
+		<dc:comment/>
+		<text lang="en">Photographs and drawings</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Fotografien und Zeichnungen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mpilhlt.de/terms/options/type-used/other">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>type-used/other</uri_path>
+		<dc:comment/>
+		<text lang="en">Others</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Andere</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
 	<optionset dc:uri="https://rdmorganiser.github.io/terms/options/access_authentication">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>access_authentication</uri_path>

@@ -1,0 +1,1292 @@
+    <optionset dc:uri="https://rdmo.dkrz.de/terms/options/archival_selection_criteria">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>archival_selection_criteria</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/archival_selection_criteria/342" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/termshttps://rdmo.dkrz.de/terms/options/archival_selection_criteria/343" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/archival_selection_criteria/344" order="3"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/archival_selection_criteria/345" order="4"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/archival_selection_criteria/346" order="5"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/archival_selection_criteria/347" order="6"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/archival_selection_criteria/342">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>archival_selection_criteria/342</uri_path>
+		<dc:comment/>
+		<text lang="en">basis of a scientific publication</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Basis einer wissenschaftlichen Veröffentlichung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/termshttps://rdmo.dkrz.de/terms/options/archival_selection_criteria/343">
+		<uri_prefix>https://rdmo.dkrz.de/termshttps://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>archival_selection_criteria/343</uri_path>
+		<dc:comment/>
+		<text lang="en">data publication</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Datenpublikation</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/archival_selection_criteria/344">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>archival_selection_criteria/344</uri_path>
+		<dc:comment/>
+		<text lang="en">re-use by project partner</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nachnutzung durch Projektpartner</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/archival_selection_criteria/345">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>archival_selection_criteria/345</uri_path>
+		<dc:comment/>
+		<text lang="en">re-use by the scientific community</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nachnutzung durch die wissenschaftliche Community</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/archival_selection_criteria/346">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>archival_selection_criteria/346</uri_path>
+		<dc:comment/>
+		<text lang="en">funder requirement</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Forderung der Forschungsförderer</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/archival_selection_criteria/347">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>archival_selection_criteria/347</uri_path>
+		<dc:comment/>
+		<text lang="en">other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">weitere</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/backup_method_options">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>backup_method_options</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_method_options/337" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_method_options/338" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_method_options/339" order="3"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_method_options/340" order="4"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_method_options/341" order="5"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_method_options/337">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>backup_method_options/337</uri_path>
+		<dc:comment/>
+		<text lang="en">automatic back-up set up by system administrators</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">automatischer Backup, aufgesetzt durch die IT Administratoren</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_method_options/338">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>backup_method_options/338</uri_path>
+		<dc:comment/>
+		<text lang="en">cloud storage</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Cloud-Speicher</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_method_options/339">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>backup_method_options/339</uri_path>
+		<dc:comment/>
+		<text lang="en">copy to external storage medium, e.g. external hard drive</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Kopie auf externes Speichermedium, z.B. externe Festplatte</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_method_options/340">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>backup_method_options/340</uri_path>
+		<dc:comment/>
+		<text lang="en">tape archive</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Bandarchiv</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_method_options/341">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>backup_method_options/341</uri_path>
+		<dc:comment/>
+		<text lang="en">other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">weitere</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/backup_yes_no_depends_options">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>backup_yes_no_depends_options</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_yes_no_depends_options/333" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_yes_no_depends_options/334" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_yes_no_depends_options/335" order="3"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_yes_no_depends_options/336" order="4"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_yes_no_depends_options/333">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>backup_yes_no_depends_options/333</uri_path>
+		<dc:comment/>
+		<text lang="en">yes, of all relevant data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, von allen relevanten Daten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_yes_no_depends_options/334">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>backup_yes_no_depends_options/334</uri_path>
+		<dc:comment/>
+		<text lang="en">yes, of selected data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, von ausgewählten Daten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_yes_no_depends_options/335">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>backup_yes_no_depends_options/335</uri_path>
+		<dc:comment/>
+		<text lang="en">yes, of model/tool source code</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, von Modell/Tool Quellcode</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/backup_yes_no_depends_options/336">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>backup_yes_no_depends_options/336</uri_path>
+		<dc:comment/>
+		<text lang="en">no</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_data_type_options">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_data_type_options</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_data_type_options/501" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_data_type_options/502" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_data_type_options/503" order="3"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_data_type_options/504" order="4"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_data_type_options/505" order="5"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_data_type_options/506" order="6"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_data_type_options/501">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_data_type_options/501</uri_path>
+		<dc:comment/>
+		<text lang="en">model simulation output</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Modellergebnis</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_data_type_options/502">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_data_type_options/502</uri_path>
+		<dc:comment/>
+		<text lang="en">measurement or observation</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Messung oder Beobachtung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_data_type_options/503">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_data_type_options/503</uri_path>
+		<dc:comment/>
+		<text lang="en">interview</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Interview</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_data_type_options/504">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_data_type_options/504</uri_path>
+		<dc:comment/>
+		<text lang="en">survey</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Umfrage</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_data_type_options/505">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_data_type_options/505</uri_path>
+		<dc:comment/>
+		<text lang="en">software or programming code</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Software oder Programmcode</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_data_type_options/506">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_data_type_options/506</uri_path>
+		<dc:comment/>
+		<text lang="en">other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">andere</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/411" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/412" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/413" order="3"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/414" order="4"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/415" order="5"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/416" order="6"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/421" order="11"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/422" order="12"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/423" order="13"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/424" order="14"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/425" order="15"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/431" order="21"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/432" order="22"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/433" order="23"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/441" order="41"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/442" order="42"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/443" order="43"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/411">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/411</uri_path>
+		<dc:comment/>
+		<text lang="en">A1</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">A1</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/412">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/412</uri_path>
+		<dc:comment/>
+		<text lang="en">A2</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">A2</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/413">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/413</uri_path>
+		<dc:comment/>
+		<text lang="en">A3</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">A3</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/414">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/414</uri_path>
+		<dc:comment/>
+		<text lang="en">A4</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">A4</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/415">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/415</uri_path>
+		<dc:comment/>
+		<text lang="en">A5</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">A5</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/416">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/416</uri_path>
+		<dc:comment/>
+		<text lang="en">A6</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">A6</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/421">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/421</uri_path>
+		<dc:comment/>
+		<text lang="en">B1</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">B1</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/422">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/422</uri_path>
+		<dc:comment/>
+		<text lang="en">B2</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">B2</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/423">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/423</uri_path>
+		<dc:comment/>
+		<text lang="en">B3</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">B3</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/424">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/424</uri_path>
+		<dc:comment/>
+		<text lang="en">B4</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">B4</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/425">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/425</uri_path>
+		<dc:comment/>
+		<text lang="en">B5</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">B5</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/431">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/431</uri_path>
+		<dc:comment/>
+		<text lang="en">C1</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">C1</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/432">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/432</uri_path>
+		<dc:comment/>
+		<text lang="en">C2</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">C2</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/433">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/433</uri_path>
+		<dc:comment/>
+		<text lang="en">C3</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">C3</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/441">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/441</uri_path>
+		<dc:comment/>
+		<text lang="en">Synthesis</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Synthese</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/442">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/442</uri_path>
+		<dc:comment/>
+		<text lang="en">HPC-DIS</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">HPC-DIS</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/cliccs_projects/443">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>cliccs_projects/443</uri_path>
+		<dc:comment/>
+		<text lang="en">Office</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Office</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options/315" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options/316" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options/317" order="3"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options/318" order="4"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options/319" order="5"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options/320" order="6"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options/315">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options/315</uri_path>
+		<dc:comment/>
+		<text lang="en">NetCDF</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">NetCDF</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options/316">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options/316</uri_path>
+		<dc:comment/>
+		<text lang="en">GRIB</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">GRIB</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options/317">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options/317</uri_path>
+		<dc:comment/>
+		<text lang="en">LiPD</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">LiPD</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options/318">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options/318</uri_path>
+		<dc:comment/>
+		<text lang="en">ASCII</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ASCII</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options/319">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options/319</uri_path>
+		<dc:comment/>
+		<text lang="en">Software code</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Software code</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options/320">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options/320</uri_path>
+		<dc:comment/>
+		<text lang="en">Other preferred file format</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Anderes bevorzugtes Dateiformat</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options_CLICCS</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/330" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/331" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/332" order="3"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/333" order="4"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/334" order="5"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/335" order="5"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/336" order="6"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/337" order="7"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/338" order="8"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/339" order="9"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/330">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options_CLICCS/330</uri_path>
+		<dc:comment/>
+		<text lang="en">NetCDF</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">NetCDF</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/331">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options_CLICCS/331</uri_path>
+		<dc:comment/>
+		<text lang="en">GRIB</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">GRIB</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/332">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options_CLICCS/332</uri_path>
+		<dc:comment/>
+		<text lang="en">LiPD</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">LiPD</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/333">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options_CLICCS/333</uri_path>
+		<dc:comment/>
+		<text lang="en">ASCII</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ASCII</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/334">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options_CLICCS/334</uri_path>
+		<dc:comment/>
+		<text lang="en">MS Word (.doc / .docx)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">MS Word (.doc / .docx)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/335">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options_CLICCS/335</uri_path>
+		<dc:comment/>
+		<text lang="en">MS Excel (.xls / .xlsx)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">MS Excel (.xls / .xlsx)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/336">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options_CLICCS/336</uri_path>
+		<dc:comment/>
+		<text lang="en">WAV / AIFF</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">WAV / AIFF</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/337">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options_CLICCS/337</uri_path>
+		<dc:comment/>
+		<text lang="en">FLAC / ALAC / APE (audio uncompressed lossless)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">FLAC / ALAC / APE (Audio unkomprimiert verlustfrei )</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/338">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options_CLICCS/338</uri_path>
+		<dc:comment/>
+		<text lang="en">MP3 / AAC / WMA / AC3 / DTS (audio compressed lossless)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">MP3 / AAC / WMA / AC3 / DTS (Audio komprimiert verlustfrei)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_format_options_CLICCS/339">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_format_options_CLICCS/339</uri_path>
+		<dc:comment/>
+		<text lang="en">other file format</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">anderes Datenformat</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/data_geographic_location">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_geographic_location</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_geographic_location/601" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_geographic_location/602" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_geographic_location/603" order="3"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_geographic_location/604" order="4"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_geographic_location/601">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_geographic_location/601</uri_path>
+		<dc:comment/>
+		<text lang="en">globally</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Global</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_geographic_location/602">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_geographic_location/602</uri_path>
+		<dc:comment/>
+		<text lang="en">continental</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">kontinental</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_geographic_location/603">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_geographic_location/603</uri_path>
+		<dc:comment/>
+		<text lang="en">regional</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">regional</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_geographic_location/604">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_geographic_location/604</uri_path>
+		<dc:comment/>
+		<text lang="en">single location/point</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ort (lokal)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/data_size_options_DKRZ">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_size_options_DKRZ</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_size_options_DKRZ/305" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_size_options_DKRZ/306" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_size_options_DKRZ/307" order="3"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_size_options_DKRZ/308" order="4"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_size_options_DKRZ/305">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_size_options_DKRZ/305</uri_path>
+		<dc:comment/>
+		<text lang="en">less than 1TB</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">weniger als 1TB</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_size_options_DKRZ/306">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_size_options_DKRZ/306</uri_path>
+		<dc:comment/>
+		<text lang="en">1TB to 100TB</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">1TB bis 100TB (bitte spezifizieren)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_size_options_DKRZ/307">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_size_options_DKRZ/307</uri_path>
+		<dc:comment/>
+		<text lang="en">100TB to 1PB</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">100TB bis 1PB (bitte spezifizieren)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_size_options_DKRZ/308">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_size_options_DKRZ/308</uri_path>
+		<dc:comment/>
+		<text lang="en">more than 1PB</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">mehr als 1PB (bitte spezifizieren)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/data_standard_options_DKRZ">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_standard_options_DKRZ</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_standard_options_DKRZ/321" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_standard_options_DKRZ/322" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_standard_options_DKRZ/323" order="3"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_standard_options_DKRZ/324" order="4"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_standard_options_DKRZ/325" order="5"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_standard_options_DKRZ/321">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_standard_options_DKRZ/321</uri_path>
+		<dc:comment/>
+		<text lang="en">PalMod-PMIP</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">PalMod-PMIP</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_standard_options_DKRZ/322">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_standard_options_DKRZ/322</uri_path>
+		<dc:comment/>
+		<text lang="en">NetCDF-CF</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">NetCDF-CF</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_standard_options_DKRZ/323">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_standard_options_DKRZ/323</uri_path>
+		<dc:comment/>
+		<text lang="en">A custom description system is used (please briefly outline and point to a reference)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ein eigenes System wird zur Beschreibung der Daten genutzt (bitte kurz erklären und auf eine Referenz verweisen)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_standard_options_DKRZ/324">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_standard_options_DKRZ/324</uri_path>
+		<dc:comment/>
+		<text lang="en">No fixed system for the description is used</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es wird kein festgelegtes System zur Beschreibung genutzt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_standard_options_DKRZ/325">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_standard_options_DKRZ/325</uri_path>
+		<dc:comment/>
+		<text lang="en">It has not yet been decided, with which system the metadata and contextual information will be described</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es wurde noch nicht entschieden, mit welchem System die Metadaten und Kontextinformationen beschrieben werden</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_type_options</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options/300" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options/302" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options/301" order="3"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options/303" order="4"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options/304" order="5"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options/304_2" order="6"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options/300">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_type_options/300</uri_path>
+		<dc:comment/>
+		<text lang="en">climate model output</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Erdsystemmodelldaten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options/302">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_type_options/302</uri_path>
+		<dc:comment/>
+		<text lang="en">other model output</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">anderer Modelloutput</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options/301">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_type_options/301</uri_path>
+		<dc:comment/>
+		<text lang="en">proxy data synthesis</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Proxydatensynthese</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options/303">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_type_options/303</uri_path>
+		<dc:comment/>
+		<text lang="en">software/tool</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">software</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options/304">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_type_options/304</uri_path>
+		<dc:comment/>
+		<text lang="en">model-data evaluation products</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Modell-Daten Evaluationsprodukte</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/data_type_options/304_2">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>data_type_options/304_2</uri_path>
+		<dc:comment/>
+		<text lang="en">other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">weitere</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>dkrz_storage_load_reduction_options</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/330" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/326" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/327" order="3"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/328" order="4"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/329" order="5"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/331" order="6"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/332" order="7"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/330">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>dkrz_storage_load_reduction_options/330</uri_path>
+		<dc:comment/>
+		<text lang="en">not applicable to this WP</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">nicht relevant für dieses WP</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/326">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>dkrz_storage_load_reduction_options/326</uri_path>
+		<dc:comment/>
+		<text lang="en">reduction of model output volume, e.g. compression, reduction of output frequency and/or variables (please specify shortly)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Reduktion von Modelloutput, z.B. durch Kompression, Reduktion der Output-Frequenz und/oder der geschriebenen Variablen (bitte kurz spezifizieren)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/327">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>dkrz_storage_load_reduction_options/327</uri_path>
+		<dc:comment/>
+		<text lang="en">automated transfer to tape archive during model runtime, incl. appropriate documentation and/or metadata capture</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">automatischer transfer von Daten in das Bandarchiv, inkl. entsprechender Dokumentation und/oder Metadatenerfassung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/328">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>dkrz_storage_load_reduction_options/328</uri_path>
+		<dc:comment/>
+		<text lang="en">deletion of superfluous data</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Löschung von überflüssigen Daten</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/329">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>dkrz_storage_load_reduction_options/329</uri_path>
+		<dc:comment/>
+		<text lang="en">transfer of not frequently used datasets to tape archive</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Transfer von nicht häufig benutzten Daten in das Bandarchiv (bitte &quot;nicht häufig&quot; spezifizieren)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/331">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>dkrz_storage_load_reduction_options/331</uri_path>
+		<dc:comment/>
+		<text lang="en">other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">weitere</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/dkrz_storage_load_reduction_options/332">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>dkrz_storage_load_reduction_options/332</uri_path>
+		<dc:comment/>
+		<text lang="en">Not specified yet, but needed</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Noch nicht festgelegt, wird aber benötigt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/infrastructure_resources_DKRZ">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>infrastructure_resources_DKRZ</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/infrastructure_resources_DKRZ/310" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/infrastructure_resources_DKRZ/311" order="3"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/infrastructure_resources_DKRZ/310">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>infrastructure_resources_DKRZ/310</uri_path>
+		<dc:comment/>
+		<text lang="en">required IT resources at DKRZ have been applied for</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">die benötigen IT Ressourcen wurden am DKRZ beantragt (Link zum Antrag)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/infrastructure_resources_DKRZ/311">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>infrastructure_resources_DKRZ/311</uri_path>
+		<dc:comment/>
+		<text lang="en">required IT resources at an HPC facility other than DKRZ have been applied for</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">benötigte IT Ressource sind an einem anderen HPC Zentrum als DKRZ beantragt worden (Link zum Antrag)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/IT_granted_options">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>IT_granted_options</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/IT_granted_options/312" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/IT_granted_options/313" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/IT_granted_options/314" order="3"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/IT_granted_options/312">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>IT_granted_options/312</uri_path>
+		<dc:comment/>
+		<text lang="en">yes</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/IT_granted_options/313">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>IT_granted_options/313</uri_path>
+		<dc:comment/>
+		<text lang="en">yes, with cuts (please specify)</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja, mit Einschränkungen (bitte spezifizieren)</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/IT_granted_options/314">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>IT_granted_options/314</uri_path>
+		<dc:comment/>
+		<text lang="en">no</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.dkrz.de/terms/options/research_position">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>research_position</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/research_position/469" order="0"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/research_position/470" order="1"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/research_position/471" order="2"/>
+			<option dc:uri="https://rdmo.dkrz.de/terms/options/research_position/472" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/research_position/469">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>research_position/469</uri_path>
+		<dc:comment/>
+		<text lang="en">Master-/Bachelor Student</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Master-/Bachelor - Student</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/research_position/470">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>research_position/470</uri_path>
+		<dc:comment/>
+		<text lang="en">PhD-student</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Doktorand</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/research_position/471">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>research_position/471</uri_path>
+		<dc:comment/>
+		<text lang="en">PostDoc</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">PostDoc</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.dkrz.de/terms/options/research_position/472">
+		<uri_prefix>https://rdmo.dkrz.de/terms</uri_prefix>
+		<uri_path>research_position/472</uri_path>
+		<dc:comment/>
+		<text lang="en">Senior Scientist</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Wissenschaftler_in</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>

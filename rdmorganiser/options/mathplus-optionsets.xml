@@ -1,0 +1,87 @@
+    <optionset dc:uri="https://rdmo.mathplus.de/terms/options/choose_repo">
+		<uri_prefix>https://rdmo.mathplus.de/terms</uri_prefix>
+		<uri_path>choose_repo</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mathplus.de/terms/options/choose_repo/repo_fu" order="1"/>
+			<option dc:uri="https://rdmo.mathplus.de/terms/options/choose_repo/repo_tu" order="2"/>
+			<option dc:uri="https://rdmo.mathplus.de/terms/options/choose_repo/repo_zib" order="3"/>
+			<option dc:uri="https://rdmo.mathplus.de/terms/options/choose_repo/dryad" order="4"/>
+			<option dc:uri="https://rdmo.mathplus.de/terms/options/choose_repo/zenodo" order="5"/>
+			<option dc:uri="https://rdmo.mathplus.de/terms/options/choose_repo/repo_other" order="6"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mathplus.de/terms/options/choose_repo/repo_fu">
+		<uri_prefix>https://rdmo.mathplus.de/terms</uri_prefix>
+		<uri_path>choose_repo/repo_fu</uri_path>
+		<dc:comment/>
+		<text lang="en">Re|fub|ium</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Re|fub|ium</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mathplus.de/terms/options/choose_repo/repo_tu">
+		<uri_prefix>https://rdmo.mathplus.de/terms</uri_prefix>
+		<uri_path>choose_repo/repo_tu</uri_path>
+		<dc:comment/>
+		<text lang="en">Deposit Once</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Deposit Once</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mathplus.de/terms/options/choose_repo/repo_zib">
+		<uri_prefix>https://rdmo.mathplus.de/terms</uri_prefix>
+		<uri_path>choose_repo/repo_zib</uri_path>
+		<dc:comment/>
+		<text lang="en">ZIB OPUS</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ZIB OPUS</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mathplus.de/terms/options/choose_repo/dryad">
+		<uri_prefix>https://rdmo.mathplus.de/terms</uri_prefix>
+		<uri_path>choose_repo/dryad</uri_path>
+		<dc:comment/>
+		<text lang="en">Data Dryad</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Data Dryad</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mathplus.de/terms/options/choose_repo/zenodo">
+		<uri_prefix>https://rdmo.mathplus.de/terms</uri_prefix>
+		<uri_path>choose_repo/zenodo</uri_path>
+		<dc:comment/>
+		<text lang="en">Zenodo</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Zenodo</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mathplus.de/terms/options/choose_repo/repo_other">
+		<uri_prefix>https://rdmo.mathplus.de/terms</uri_prefix>
+		<uri_path>choose_repo/repo_other</uri_path>
+		<dc:comment/>
+		<text lang="en">Other</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Andere</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
