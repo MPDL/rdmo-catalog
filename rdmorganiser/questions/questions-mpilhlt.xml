@@ -1,0 +1,2785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-12T12:11:38.172882+02:00" version="2.2.1">
+	<catalog dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt</uri_path>
+		<dc:comment/>
+		<order>0</order>
+		<title lang="en">mpilhlt RDMP (Entwurf)</title>
+		<help lang="en"/>
+		<title lang="de">mpilhlt RDMP (Entwurf)</title>
+		<help lang="de"/>
+		<sections>
+			<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/intro" order="0"/>
+			<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project" order="1"/>
+			<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm" order="2"/>
+			<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/material" order="3"/>
+			<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets" order="4"/>
+			<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing" order="5"/>
+			<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/reuse-publication" order="6"/>
+			<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services" order="7"/>
+			<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/archiving" order="8"/>
+			<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/nextsteps" order="9"/>
+		</sections>
+	</catalog>
+	<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/intro">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/intro</uri_path>
+		<dc:comment/>
+		<title lang="en">Start</title>
+		<short_title lang="en"/>
+		<title lang="de">Start</title>
+		<short_title lang="de"/>
+		<pages>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/intro/start" order="0"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/intro/start">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/intro/start</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Introduction</title>
+		<short_title lang="en"/>
+		<help lang="en">In its &lt;b&gt;&lt;a href=&quot;https://owncloud.gwdg.de/index.php/s/GEFa1LXRmGUu7Mv&quot;&gt;Research Data Policy&lt;/a&gt;&lt;/b&gt;, the mpilhlt commits to &lt;b&gt;systematic management of research data according to established standards and best practices&lt;/b&gt;. This contributes to the quality of research, consideration of legal and ethical conditions, and to responsible handling of resources.
+
+The central instrument of this policy is the &lt;b&gt;mpilhlt Research Data Management Plan (RDMP)&lt;/b&gt;, of which this questionnaire is the first component. The RDMP serves multiple purposes and has several different audiences:
+
+&lt;ol&gt;
+&lt;li&gt; When challenged, both project researchers and the mpilhlt can use the RDMP to prove that &lt;b&gt;&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot;&gt;rules of good scientific practice&lt;/a&gt;&lt;/b&gt; have been complied with. The most important kinds of information in this respect are the recording of rights and responsibilities as well as the documentation of data integrity, provenance and retention. &lt;p&gt;&lt;b&gt;The audience in this case are evaluation boards tasked by Max Planck society or externally&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt; Future projects at the mpilhlt should be able to benefit from earlier research done at – and supported by – the institute. The RDMP documents what data have been acquired in mpilhlt projects and how it can be interpreted and re-used. &lt;p&gt;&lt;b&gt;In this case, the audience are (future) mpilhlt researchers.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;The RDMP provides a systematic documentation of (existing and expected) processes and storage demands. Projects can thus benefit from it for project planning as well as for on- and offboarding of project members. &lt;p&gt;&lt;b&gt;The audience in this case are project members themselves.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Finally, it has become customary for research funding agencies to require the submission of research data management plans along with project proposals. If projects apply for funding, the RDMP can serve as a source for creating the respective materials for the application. &lt;p&gt;&lt;b&gt;In this case, the audience is a funding agency.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;b&gt;Beyond those audiences, the RDMP will not be published&lt;/b&gt; (unless you do it, as in scenario 4 above), and all sharing of it will be decided on by mpilhlt directors – in collaboration with mpilhlt data stewards.
+
+As some of the scenarios of usage of the RDMP require substantial technical detail, we have decided to keep only the &lt;b&gt;essentials in this questionnaire (part 1 of the RDMP)&lt;/b&gt; and ask you to document the &lt;b&gt;more technical aspects in separate documentation (part 2 of the RDMP, a.k.a. the &lt;a href=&quot;https://owncloud.gwdg.de/index.php/s/9DdOOgZuFGiDoXJ&quot;&gt;&quot;Data Manual&quot;&lt;/a&gt;)&lt;/b&gt;. However, most purposes will only be answerable by combining both questionnaire and separate documentation. It is therefore vital that this separate documentation can be readily located, read and understood. You should thus keep it in a sustainable and accessible location and reference it in this questionnaire precisely and exhaustively.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Einleitung</title>
+		<short_title lang="de"/>
+		<help lang="de">In der &lt;b&gt;&lt;a href=&quot;https://owncloud.gwdg.de/index.php/s/GEFa1LXRmGUu7Mv&quot;&gt;Forschungsdatenrichtlinie&lt;/a&gt;&lt;/b&gt; verpflichtet sich das mpilhlt zu einem &lt;b&gt;systematischen Management von Forschungsdaten nach etablierten Standards und best practices&lt;/b&gt;. Dies trägt zur Qualität der Forschung, zur Einhaltung rechtlicher und ethischer Standards und zum verantwortungsvollen Umgang mit Ressourcen bei.
+
+Das zentrale Instrument dieser Richtlinie ist der &lt;b&gt;mpilhlt-Forschungsdatenmanagementplan (Research Data Management Plan - RDMP)&lt;/b&gt;, dessen erster Bestandteil dieser Fragebogen ist. Der RDMP wird primär für vier Szenarien benötigt, welche sich durch jeweils verschiedene Zwecke und Zielgruppen unterschieden:
+
+&lt;ol&gt;
+&lt;li&gt;Bei etwaigen Rückfragen zum wissenschaftlichen Vorgehen können sowohl die Projektforscher*innen als auch das mpilhlt den RDMP verwenden, um nachzuweisen, dass die &lt;b&gt;&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot;&gt;Regeln guter wissenschaftlicher Praxis&lt;/a&gt;&lt;/b&gt; eingehalten wurden. Die wichtigsten Informationen in diesem Zusammenhang sind die Rechte und Pflichten sowie die Dokumentation zur Datenintegrität, -herkunft und -aufbewahrung. &lt;p&gt;&lt;b&gt;Die Zielgruppe in diesem Fall sind Evaluierungsgremien, die von der Max-Planck-Gesellschaft oder extern beauftragt wurden.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Zukünftige Projekte am mpilhlt sollten von früherer Forschung profitieren können, die am Institut durchgeführt und von diesem unterstützt wurden. Das RDMP dokumentiert, welche Daten in mpilhlt-Projekten erfasst wurden und wie sie interpretiert und wiederverwendet werden können. &lt;p&gt;&lt;b&gt;In diesem Fall sind die Adressaten (zukünftige) mpilhlt-Forscher*innen.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Der RDMP bietet eine systematische Dokumentation bestehender und geplanter Prozesse und Speicheranforderungen. Projekte können somit sowohl bei der Projektplanung als auch beim On- und Offboarding von Projektmitgliedern davon profitieren. &lt;p&gt;&lt;b&gt;Die Zielgruppe in diesem Fall sind die Projektmitglieder selbst.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;Mittlerweile erwarten viele Forschungsförderorganisationen die Erstellung von Forschungsdatenmanagementplänen bei der Beantragung von Fördermitteln. Wenn Drittmittel beantragt werden, kann der RDMP als Basis für einen solchen Plan bei der Antragstellung dienen. &lt;p&gt;&lt;b&gt;In diesem Fall ist die Zielgruppe eine Förderorganisation.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;b&gt;Außerhalb dieser Zielgruppen wird das RDMP nicht veröffentlicht oder zugänglich gemacht&lt;/b&gt; (es sei denn, Sie tun dies selbst), und über jede Weitergabe wird von den mpilhlt-Direktor*innen in Zusammenarbeit mit den mpilhlt-Data Stewards entschieden.
+
+&lt;b&gt;Dieser Fragebogen (Teil 1 des RDMP) behandelt nur die Eckpunkte eines Projekts&lt;/b&gt;, er deckt jedoch nicht die umfangreichen technischen Details ab, die einige der o.g. Szenarien erfordern. Diese &lt;b&gt;technischen Aspekte sind in einem gesonderten Dokument (Teil 2 des RDMP, dem sogenannten  &lt;a href=&quot;https://owncloud.gwdg.de/index.php/s/9DdOOgZuFGiDoXJ&quot;&gt;&quot;Data Manual&quot;&lt;/a&gt;)&lt;/b&gt; zu erfassen. Häufig werden die Zielgruppen für ihren jeweiligen Zweck jedoch sowohl den ausgefüllten Fragebogen als auch die technischen Dokumentation (Data Manual) benötigen. Daher ist es wichtig, dass diese Dokumentation leicht auffindbar, lesbar und verständlich ist. Sie sollten sie an einem dauerhaft zugänglichen Ort aufbewahren und in diesem Fragebogen entsprechend darauf verweisen.</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions/>
+		<conditions/>
+	</page>
+	<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project</uri_path>
+		<dc:comment/>
+		<title lang="en">Formal properties</title>
+		<short_title lang="en"/>
+		<title lang="de">Formale Angaben</title>
+		<short_title lang="de"/>
+		<pages>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/general" order="1"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/description" order="2"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/external" order="3"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/directories" order="4"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/general">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/general</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/project"/>
+		<is_collection>False</is_collection>
+		<title lang="en">General information</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Allgemeine Informationen</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/general/title" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/general/start-date" order="2"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/general/end-date" order="3"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/general/affiliation" order="4"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/general/responsibility" order="5"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/general/title">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/general/title</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/title"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Project title</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Projekttitel</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/general/start-date">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/general/start-date</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/schedule/project_start"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Project start</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Projektanfang</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>6</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/general/end-date">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/general/end-date</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/schedule/project_end"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Project end</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Projektende</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>6</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/general/affiliation">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/general/affiliation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/project/affiliation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Department / research group</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Abteilung / Forschungsgruppe</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/project/general/affiliation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/general/responsibility">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/general/responsibility</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/project/responsibility"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please provide the name of the person with overall project responsibility (with ORCID ID, if available).</help>
+		<text lang="en">Person with overall project responsibility</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Bitte den Namen der/des Projektverantwortlichen angeben (sowie ORCID ID, falls vorhanden).</help>
+		<text lang="de">Projektverantwortliche</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/description">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/project"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Project description</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Projektbeschreibung</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/description/text" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/description/keywords" order="2"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/description/communication" order="3"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/description/text">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/description/text</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/title"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Describe briefly the project and its aims.</help>
+		<text lang="en">Short project description</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Das Projekt und die Projektziele kurz beschreiben.</help>
+		<text lang="de">Kurze Projektbeschreibung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/description/keywords">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/description/keywords</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please give some keywords describing the research question. One entry per line.</help>
+		<text lang="en">Keywords</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Bitte Schlagwörter zum Projektinhalt vergeben. Ein Eintrag je Zeile.</help>
+		<text lang="de">Schlagwörter</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/description/communication">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/description/communication</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/project/communication"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please provide the name and URL of websites, blogs and/or social media channels that are used for the presentation of the project or used as a means of communication. One entry per line.</help>
+		<text lang="en">Homepage, blog, social media accounts (if available)</text>
+		<default_text lang="en">[Name or short description]: [URL]</default_text>
+		<verbose_name lang="en"/>
+		<help lang="de">Bitte Namen und URLs von Webseiten, Blogs und/oder Social-Media-Kanäle, die für den öffentlichen Auftritt des Projekts oder die Kommunikation über das Projekt verwendet werden. Ein Eintrag pro Zeile.</help>
+		<text lang="de">Homepage, Blog, Social-Media-Kanäle (falls vorhanden)</text>
+		<default_text lang="de">[Name oder Kurzbeschreibung]: [URL]</default_text>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/external">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/external</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/project"/>
+		<is_collection>True</is_collection>
+		<title lang="en">External partners</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Externe Stakeholder</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/external/partners" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/external/requirements" order="2"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/external/partners">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/external/partners</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please provide the institutions, contact persons, funding agency and number if applicable.</help>
+		<text lang="en">Involved external partners</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Bitte Namen von beteiligten Institutionen und Förderorganisationen sowie von Kontaktpersonen bei diesen und deren Kontaktdaten angeben.</help>
+		<text lang="de">Externe Beteiligte</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/external/requirements">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/external/requirements</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/requirements"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">Are there research data management guidelines or other policies that the abovementioned partner/funder (or, more generally speaking, the scientific discipline) expect you to follow? Is following them mandatory or optional? Leave empty if there are none.</help>
+		<text lang="en">Other requirements</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Gibt es Leitlinien oder Policies zu Forschungsdaten des obigen Partners/der Förderorganisation (oder allgemeiner gesprochen der jeweiligen wissenschaftlichen Community), die Sie einhalten sollen oder müssen? Leer lassen, wenn nicht relevant.</help>
+		<text lang="de">Weitere Anforderungen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/directories">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/directories</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/project"/>
+		<is_collection>False</is_collection>
+		<title lang="en">RDM directories</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">RDM Directories</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/directories/keeper" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/directories/rdmo" order="2"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/directories/data-manual" order="3"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/directories/keeper">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/directories/keeper</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/project/keeper"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Path/URL to the project repository in Keeper</text>
+		<default_text lang="en">https://keeper.mpdl.mpg.de/library/[...]</default_text>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Pfad/URL zum Projektverzeichnis in Keeper</text>
+		<default_text lang="de">https://keeper.mpdl.mpg.de/library/[...]</default_text>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>url</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/directories/rdmo">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/directories/rdmo</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/project/rdmo"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please provide the URL to the current RDMO project.</help>
+		<text lang="en">Path/URL to the present questionnaire in RDMO</text>
+		<default_text lang="en">https://rdmo.mpdl.mpg.de/projects/[...]</default_text>
+		<verbose_name lang="en"/>
+		<help lang="de">Bitte die URL zum aktuellen RDMO-Projekt angeben.</help>
+		<text lang="de">Pfad/URL für diesen Fragebogen in RDMO</text>
+		<default_text lang="de">https://rdmo.mpdl.mpg.de/projects/[...]</default_text>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>url</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/project/directories/data-manual">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/project/directories/data-manual</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/project/data-manual"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">If a separate data manual is available in the project directory (ideally Keeper), please provide the path/URL.</help>
+		<text lang="en">Path/URL to the Data Manual (RDMP part II - technical documentation)</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Falls ein Datenhandbuch als separate Datei im Projektverzeichnis (idealerweise Keeper) vorhanden ist, bitte Pfad/URL angeben.</help>
+		<text lang="de">Pfad/URL zum Datenhandbuch (Teil 2 des RDMP - technische Dokumentation)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>url</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm</uri_path>
+		<dc:comment/>
+		<title lang="en">Rights and responsibilities</title>
+		<short_title lang="en"/>
+		<title lang="de">Rechte und Pflichten</title>
+		<short_title lang="de"/>
+		<pages>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/responsibility" order="0"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/involved-persons" order="1"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/onboarding" order="2"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/offboarding" order="3"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-access" order="4"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-license" order="5"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/rights-clearance" order="6"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/responsibility">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/responsibility</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/responsibility"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Responsible persons</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Projektverantwortlichkeiten</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/responsibility/general" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/responsibility/operative" order="2"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/responsibility/general">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/responsibility/general</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/responsibility/general"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please provide one entry per line.</help>
+		<text lang="en">Person(s) with main responsibility for data management</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Ein Eintrag pro Zeile</help>
+		<text lang="de">Hauptverantwortliche für Forschungsdatenmanagement</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/responsibility/operative">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/responsibility/operative</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/responsibility/operative"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please consider responsibility(ies) for data acquisition, data cleaning, backup, metadata collection, documentation, data security, updates to PIDs, updates/retractions after end of project). If several persons, indicate their respective area of responsibility.</help>
+		<text lang="en">Person(s) with responsibility for the operative management of research data</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Bitte die Person oder Personen angeben, die Verantwortung für den Umgang mit Forschungsdaten haben (inklusive Tätigkeiten wie Datenerfassung, Datenbereinigung, Datensicherung, Metadatenerfassung, Dokumentation, Datensicherheit, Aktualisierungen der PIDs, Aktualisierungen/Widerrufe nach Projektende. Falls es sich um mehrere Personen handelt, geben Sie den jeweiligen Verantwortungsbereich an.</help>
+		<text lang="de">Verantwortung für die Verwaltung von Forschungsdaten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/involved-persons">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/involved-persons</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/involved-persons"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Involved persons</title>
+		<short_title lang="en"/>
+		<help lang="en">In order to discharge responsibility for making all contributions transparent according to the &lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot;&gt;MPS Rules of conduct for good scientific practice&lt;/a&gt; §1.5 and §2.5 as well as &lt;a href=&quot;https://doi.org/10.5281/zenodo.14281892&quot;&gt;DFG Code of conduct for Research Integrity&lt;/a&gt; guidelines 8 and 14, it is recommended to be very exhaustive here – add everyone acquiring, preparing, analysing, publishing or handling data in another way. 
+
+Use contributor roles as defined by the &lt;a href=&quot;https://credit.niso.org/contributor-roles-defined/&quot;&gt;CrediT taxonomy&lt;/a&gt;, add more specific descriptions if you wish.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Beteiligte Personen</title>
+		<short_title lang="de"/>
+		<help lang="de">Um der Verantwortung für die Transparenz aller Beiträge gemäß den &lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot;&gt;MPG Verhaltensregeln für gute wissenschaftliche Praxis&lt;/a&gt; §1.5 und §2.5 sowie den &lt;a href=&quot;https://doi.org/10.5281/zenodo.14281892&quot;&gt;DFG Leitlinien zur Sicherung guter wissenschaftlicher Praxis&lt;/a&gt; Richtlinien 8 und 14 gerecht zu werden, wird empfohlen, hier sehr umfassend zu sein – fügen Sie jeden hinzu, der Daten beschafft, aufbereitet, analysiert, veröffentlicht oder auf andere Weise verarbeitet.
+
+Verwenden Sie Rollen, wie sie in der &lt;a href=&quot;https://credit.niso.org/contributor-roles-defined/&quot;&gt;CrediT-Taxonomie&lt;/a&gt; definiert sind und fügen Sie bei Bedarf spezifischere Beschreibungen hinzu.</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/involved-persons/name-role" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/involved-persons/name-role">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/involved-persons/name-role</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/involved-persons/name-role"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please state the affiliation, if not mpilhlt. If persons have fulfilled different roles throughout the project, indicate the responsibilities along with the respective date ranges.</help>
+		<text lang="en">All researchers working on project data and their contibuting roles</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für Personen, die nicht am mpilhlt arbeiten, bitte die Institutionsangehörigkeit angeben. Falls Projektmitglieder verschiedene Rollen im Laufe des Projekts haben, bitte alle Rollen und die relevanten Zeiträume mitangeben.</help>
+		<text lang="de">Alle Forschende, die mit Forschungsdaten arbeiten, und ihre jeweilige Rolle</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/onboarding">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/onboarding</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/onboarding"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Onboarding</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Onboarding</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/onboarding/yesno" order="0"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/onboarding/workflow" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/onboarding/yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/onboarding/yesno</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/onboarding/yesno"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Is there an onboarding process that introduces new collaborators to data management in the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Gibt es einen Onboarding-Prozess für neue Mitarbeiter*innen, die sie ins Forschungsdatenmanagement für das Projekt einführt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/onboarding/yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/onboarding/workflow">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/onboarding/workflow</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/onboarding/workflow"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">How does the process look like? Where is it documented?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wie sieht dieser Prozess aus? Wo ist er dokumentiert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/onboarding/workflow"/>
+		</conditions>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/offboarding">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/offboarding</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/offboarding"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Offboarding</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Offboarding</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/offboarding/yesno" order="0"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/offboarding/workflow" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/offboarding/yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/offboarding/yesno</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/offboarding/yesno"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Also consider if, or how you want to stay in touch with alumni? What access (read/write) to data will they have?</help>
+		<text lang="en">Is there an offboarding process for project members leaving the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Überlegen Sie auch, ob bzw. wie Sie mit den Alumni in Kontakt bleiben wollen. Welchen Zugang (Lesen/Schreiben) zu den Daten werden sie haben?</help>
+		<text lang="de">Gibt es einen Offboarding-Prozess für Personen, die ein Projektteam verlassen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/rdm/offboarding/yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/offboarding/workflow">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/offboarding/workflow</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/offboarding/workflow"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">How does the process look like? Where is it documented?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wie sieht dieser Prozess aus? Wo ist er dokumentiert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/offboarding/workflow"/>
+		</conditions>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-access">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/data-access</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/data-access"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Access rights</title>
+		<short_title lang="en"/>
+		<help lang="en">Who has access rights to the data? Please specify the persons (or groups) below.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Zugriffsrechte</title>
+		<short_title lang="de"/>
+		<help lang="de">Wer hat Zugriffsrechte auf die Forschungsdaten? Bitte alle relevanten Personen (oder Gruppen) auflisten.</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-access/rw-during-project" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-access/rw-after-project" order="2"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-access/rw-after-mpilhlt" order="3"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-access/read-after-mpilhlt" order="4"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-access/passing-on" order="5"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-access/rw-during-project">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/data-access/rw-during-project</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/data-access/rw-during-project"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Read/write access during the project duration</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Lese- und Schreibzugriff während der Projektlaufzeit</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>6</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-access/rw-after-project">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/data-access/rw-after-project</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/data-access/rw-after-project"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Read/write access after leaving the project</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Lese- und Schreibzugriff nach Verlassen des Projektteams</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>6</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-access/rw-after-mpilhlt">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/data-access/rw-after-mpilhlt</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/data-access/rw-after-mpilhlt"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Read/write access after leaving mpilhlt</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Lese-/Schreibzugriff nach Verlassen des mpilhlts</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>12</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-access/read-after-mpilhlt">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/data-access/read-after-mpilhlt</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/data-access/read-after-mpilhlt"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">This extends to persons who are allowed to take a copy of the data with them after leaving mpilhlt, as discussed in &lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot;&gt;MPS rules of conduct for good scientific practice&lt;/a&gt; §3.3 and &lt;a href=&quot;https://doi.org/10.5281/zenodo.14281892&quot;&gt;DFG Code of conduct for Research Integrity&lt;/a&gt; guideline 10. Depending on how sensitive the data are, or how complex the rights of usage scheme is, more explicit rights of use agreements for all project participants might be necessary. Then these should be referred to here.</help>
+		<text lang="en">Read-only access after leaving mpilhlt</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Dies gilt auch für Personen, die nach Verlassen des Instituts eine Kopie der Daten mitnehmen dürfen, wie in &lt;a href=„https://www.mpg.de/199493/regelnWissPraxis.pdf“&gt;MPS-Verhaltensregeln für gute wissenschaftliche Praxis&lt;/a&gt; § 3.3 und &lt;a href=„https://doi.org/10.5281/zenodo.14281892“&gt;DFG-Verhaltenskodex für Integrität in der Forschung&lt;/a&gt;, Leitlinie 10, erläutert. Je nachdem, wie sensibel die Daten sind oder wie komplex die Regelung der Nutzungsrechte ist, können explizitere Nutzungsrechtsvereinbarungen für alle Projektteilnehmer erforderlich sein. Auf diese sollte dann hier verwiesen werden.</help>
+		<text lang="de">Nur Lesezugriff nach Verlassen des mpilhlts</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>12</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-access/passing-on">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/data-access/passing-on</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/data-access/passing-on"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">If you have documentation of on- and offboarding procedures, this should be explained there. Then, just refer to this documentation here.</help>
+		<text lang="en">How is the passing on of access and privileges to the storage areas handled?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Falls eine Dokumentation des On- und Offboarding-Prozesses haben, sollte dies dort erläutert werden. Verweisen Sie in diesem Fall einfach auf diese Dokumentation.</help>
+		<text lang="de">Wie werden Zugriffsrechte und Zugangsberechtigungen zu den relevanten Speicherorten gemanagt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-license">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/data-license</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/data-license"/>
+		<is_collection>False</is_collection>
+		<title lang="en">License</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Lizenzen</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-license/documentation" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-license/documentation">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/data-license/documentation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/data-license/documentation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Where is the license for the project to use the data documented (in writing)?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wo wurden die Lizenzen für die Projektdaten schriftlich dokumentiert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/rights-clearance">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/rdm/rights-clearance</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/rights-clearance"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Legal or ethical constraints</title>
+		<short_title lang="en">Legal or ethical constraints</short_title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Weitere rechtliche oder ethische Fragen</title>
+		<short_title lang="de">Rechtliche und ethische Fragen</short_title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/rights-clearance/yesno" order="0"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/rights-clearance/documentation" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/rights-clearance/yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms/</uri_prefix>
+		<uri_path>mpilhlt/rdm/rights-clearance/yesno</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/rights-clearance/yesno"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For example, privacy and data protection, export restrictions, right of indigenous peoples, non-disclosure agreements, merely temporary rights of use etc.</help>
+		<text lang="en">Are there other legal or ethical constraints to consider?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Beispielsweise Datenschutz, Ausfuhrbeschränkungen, Rechte indigener Völker, Geheimhaltungsvereinbarungen, zeitlich begrenzte Nutzungsrechte usw.</help>
+		<text lang="de">Gibt es weitere rechtliche oder ethische Normen, die beachtet werden müssen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/rights-clearance/yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/rights-clearance/documentation">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms/</uri_prefix>
+		<uri_path>mpilhlt/rdm/rights-clearance/documentation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/rdm/rights-clearance/documentation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Which ones? Where are they documented? Are there still any doubts you should clarify later?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Welche? Wo sind diese dokumentiert? Gibt es mögliche (rechtliche oder ethische) Probleme, die noch geklärt werden müssen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/rights-clearance/documentation"/>
+		</conditions>
+	</question>
+	<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/material">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/material</uri_path>
+		<dc:comment/>
+		<title lang="en">Material</title>
+		<short_title lang="en"/>
+		<title lang="de">Materialien</title>
+		<short_title lang="de"/>
+		<pages>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/material/description" order="1"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/material/description">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/material/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/material/description"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Materials used</title>
+		<short_title lang="en">Description</short_title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Verwendete Materialien</title>
+		<short_title lang="de">Beschreibung</short_title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/material/description/type" order="2"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/material/description/reproducibility" order="3"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/material/description/quantity" order="4"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/material/description/type">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/material/description/type</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/material/description/type"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Please specifiy the material you are working with</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Bitte beschreiben Sie die Materialien mit denen Sie arbeiten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/material/description/reproducibility">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/material/description/reproducibility</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/material/description/reproducibility"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">Possibly report how easy or impossible it would be to re-create/-acquire the data. Optional but it is recommended to fill this.</help>
+		<text lang="en">Can you indicate how easily the data could be reproduced?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Geben Sie idealerweise an, wie leicht oder unmöglich es wäre, die Daten neu zu erstellen bzw. wiederzubeschaffen. Optional, aber empfohlen, dies auszufüllen.</help>
+		<text lang="de">Wie einfach können die Daten reproduziert werden?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/material/description/quantity">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/material/description/quantity</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/material/description/quantity"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">Either provide a number of items/media units or (estimated) file sizes. This can possibly be specified only at a later stage or even at the end of the project. If you have rough guesses early on, note them here anyway.</help>
+		<text lang="en">How much material are you working with?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Geben Sie entweder eine Anzahl von Objekten/Medieneinheiten oder (geschätzte) Dateigrößen an. Dies kann möglicherweise erst zu einem späteren Zeitpunkt oder sogar erst am Ende des Projekts angegeben werden. Wenn Sie bereits zu Beginn grobe Schätzungen haben, sollten Sie diese trotzdem hier vermerken.</help>
+		<text lang="de">Mit wie viel Material arbeiten Sie?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets</uri_path>
+		<dc:comment/>
+		<title lang="en">Datasets</title>
+		<short_title lang="en"/>
+		<title lang="de">Datensätze</title>
+		<short_title lang="de"/>
+		<pages>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/description" order="1"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/additional-sources" order="2"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/storage" order="3"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/documentation" order="4"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/description">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/description"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Datasets description</title>
+		<short_title lang="en">Description</short_title>
+		<help lang="en">What datasets are you working with? Please specify each dataset and the kind of data its hold (text/image/video/tabular/spreadsheet/diverse/...) individually, i.e. in separate tabs. If applicable, distinguish between data acquired from external sources and data created by the project (as original or derivative data).</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Beschreibung der Datensätze</title>
+		<short_title lang="de">Beschreibung</short_title>
+		<help lang="de">Mit welchen Datensätzen arbeiten Sie? Bitte beschreiben Sie jeden Datensatz und die Art der darin enthaltenen Daten (Text/Bild/Video/Tabellen/Spreadsheet/Diverse/...) einzeln, d.h. mittels separater Tabs. Unterscheiden Sie gegebenenfalls zwischen Daten, die aus externen Quellen stammen, und Daten, die im Projektkontext erstellt wurden (Originaldaten oder nachgenutzte Daten).</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/description/type" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/description/origin" order="2"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/description/origin-external" order="3"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/description/details" order="4"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/description/type">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/description/type</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/description/type"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Data representation</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Datenrepäsentation</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/type"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/description/origin">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/description/origin</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/description/origin"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Data origin</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Datenursprung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/description/origin"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/description/origin-external">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/description/origin-external</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/description/origin-external"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">If possible, provide an URL to the external source or a PID of the dataset</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wenn möglich, geben Sie eine URL zur externen Quelle oder die PID des Datensatzes an:</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/datasets/description/original-external"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/description/details">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/description/details</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">If possible, please provide more detailed information on the data and its (technical) characteristics.</help>
+		<text lang="en">Additional Information</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wenn möglich, machen Sie bitte genauere Angaben zu den Daten und ihren (technischen) Merkmalen.</help>
+		<text lang="de">Zusätzliche Informationen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/additional-sources">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/additional-sources</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/additional-sources"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Additional sources/datasets</title>
+		<short_title lang="en">Additional sources</short_title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Zusätzliche Quellen/Datensätze</title>
+		<short_title lang="de">Zusätzliche Quellen</short_title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/additional-sources/yesno" order="0"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/additional-sources/description" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/additional-sources/yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/additional-sources/yesno</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/additional-sources/yesno"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Have you considered other/more sources and datasets?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Haben Sie andere/mehrere Quellen und Datensätze in Betracht gezogen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/additional-sources/yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/additional-sources/description">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/additional-sources/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/additional-sources/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Which ones and why? Please specifiy further.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Welche und warum? Bitte erläutern Sie genauer.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/datasets/additional-sources/description"/>
+		</conditions>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/storage">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/storage</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/storage"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Data storage</title>
+		<short_title lang="en">Datenspeicherung</short_title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Speicherung von Daten</title>
+		<short_title lang="de">Datenspeicherung</short_title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/storage/location" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/storage/location">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/storage/location</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/storage/location"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please list and describe the used data storage platforms and, ideally, provide specific URLs to all storage directories, repositories and project/individual folders. Some recommended possibilites include: 
+&lt;ul&gt;
+&lt;li&gt;mpilhlt Intranet (storage during project runtime, local)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://owncloud.gwdg.de&quot;&gt;GWDG ownCloud&lt;/a&gt; (cloud-based storage during project runtime, institutional)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://keeper.mpdl.mpg.de&quot;&gt;MPDL Keeper&lt;/a&gt; (cloud-based storage, institutional)&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;https://zenodo.org/&quot;&gt;Zenodo&lt;/a&gt; (generic repository, public)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://edmond.mpg.de/&quot;&gt;MPDL Edmond&lt;/a&gt; (generic repository, institutional)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gitlab.gwdg.de/&quot;&gt;GWDG GitLab&lt;/a&gt; (code hosting platform, institutional)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; (code hosting platform, commercial)&lt;/li&gt;
+&lt;/ul&gt;</help>
+		<text lang="en">What platform(s) are the files stored on?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Bitte führen Sie die verwendeten Plattformen zur Speicherung von Projektdaten auf und geben Sie nach Möglichkeit spezifische URLs zu allen Verzeichnissen, Repositorien und projektbezogenen/individuellen Ordnern an. Unsere Auswahl empfohlener Plattformen umfasst:
+&lt;ul&gt;
+&lt;li&gt;mpilhlt Intranet (Speicherlösung während der Projektlaufzeit, lokal)&lt;/li&gt;
+&lt;li&gt;&lt;a href=„https://owncloud.gwdg.de“&gt;GWDG ownCloud&lt;/a&gt; (cloudbasierte Speicherlösung während der Projektlaufzeit, institutionell)&lt;/li&gt;
+&lt;li&gt;&lt;a href=„https://keeper.mpdl.mpg.de“&gt;MPDL Keeper&lt;/a&gt; (Speicherlösung, institutionell)&lt;/li&gt; 
+&lt;li&gt;&lt;a href=„https://zenodo.org/“&gt;Zenodo&lt;/a&gt; (generisches Repositorium, öffentlich)&lt;/li&gt;
+&lt;li&gt;&lt;a href=„https://edmond.mpg.de/“&gt;MPDL Edmond&lt;/a&gt; (generisches Repositorium, institutionell)&lt;/li&gt;
+&lt;li&gt;&lt;a href=„https://gitlab.gwdg.de/“&gt;GWDG GitLab&lt;/a&gt; (Code-Hosting Plattform, institutionell)&lt;/li&gt;
+&lt;li&gt;&lt;a href=„https://github.com/“&gt;GitHub&lt;/a&gt; (Code-Hosting Plattform, kommerziell)&lt;/li&gt;
+&lt;/ul&gt;</help>
+		<text lang="de">Auf welcher(n) Plattform(en) sind die Dateien gespeichert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/documentation">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/documentation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/documentation"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Documentation</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Dokumentation</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/documentation/location" order="0"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/documentation/metadata" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/documentation/data-steward" order="3"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/documentation/location">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/documentation/location</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/documentation/location"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Where is the documentation about the file formats, storage and versioning schemes, backup and integrity checking procedures?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wo ist die Dokumentation über die Dateiformate, Speicher- und Versionsschemata, Sicherungs- und Integritätsprüfungsverfahren?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/documentation/metadata">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/documentation/metadata</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/documentation/metadata"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Where is documentation about which metadata are being collected, and according to which standard? Who is collecting the metadata?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wo ist es dokumentiert, welche Metadaten nach welchem Standard erfasst werden? Wer sammelt die Metadaten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/documentation/data-steward">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/datasets/documentation/data-steward</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/documentation/data-steward"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Has it been discussed with one of the mpilhlt data stewards?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wurde es mit einem der mpilhlt Data Stewards besprochen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/datasets/documentation/data-steward/yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/processing</uri_path>
+		<dc:comment/>
+		<title lang="en">Processing</title>
+		<short_title lang="en"/>
+		<title lang="de">Verarbeitung</title>
+		<short_title lang="de"/>
+		<pages>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/data-acquisition" order="1"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/quality-control" order="2"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/further-steps" order="3"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software" order="4"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/data-acquisition">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/processing/data-acquisition</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/processing/data-acquisition"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Data acquisition</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Datenerfassung</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/data-acquisition/workflow" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/data-acquisition/workflow">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/processing/data-acquisition/workflow</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/processing/data-acquisition/workflow"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">When, by whom and how has the data been acquired? Either describe it or refer to a separate, detailed documentation here.</help>
+		<text lang="en">What has been the process of data acquistion?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wann, von wem und wie wurden die Daten beschafft? Beschreiben Sie es entweder oder verweisen Sie auf eine separate, ausführliche Dokumentation hier.</help>
+		<text lang="de">Wie wurden die Daten beschafft?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/quality-control">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/processing/quality-control</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/processing/quality-control"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Quality control</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Qualitätskontrolle</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/quality-control/workflow" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/quality-control/workflow">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/processing/quality-control/workflow</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/processing/quality-control/workflow"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">If so, when and by whom? Consider if you can specify what level of correctness the data have (before and after quality control/check).</help>
+		<text lang="en">Are there any completness or consistency checks, quality control or data cleaning/reconciliation?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wenn ja, wann und von wem? Überlegen Sie auch, ob Sie angeben können, welchen Grad an Korrektheit die Daten (vor und nach der Qualitätskontrolle) haben?</help>
+		<text lang="de">Gibt es Vollständigkeits- oder Konsistenzprüfungen, Qualitätskontrollen oder Datenbereinigungen/-abgleiche?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/further-steps">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/processing/further-steps</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/processing/further-steps"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Further processing of data</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Weiterverarbeitung der Daten</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/further-steps/documentation" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/further-steps/documentation">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/processing/further-steps/documentation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/processing/further-steps/documentation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">I.e. the preparation, cleaning, anonymisation, analysis, information extraction, visualisation, etc.</help>
+		<text lang="en">Where is documentation about further processing of data?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Gemeint sind die Aufbereitung, Bereinigung, Anonymisierung, Analyse, Informationsextraktion, Visualisierung, etc.</help>
+		<text lang="de">Wo ist die Dokumentation über die Weiterverarbeitung der Daten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/processing/software</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/processing/software"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Software</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Software</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software/used-yesno" order="0"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software/used-description" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software/developed-yesno" order="2"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software/developed-description" order="3"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software/developed-documentation" order="4"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software/used-yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/processing/software/used-yesno</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/processing/software/used-yesno"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Are you using any (research) software?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Verwenden Sie (Forschungs-)Software?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/processing/software/used-yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software/used-description">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/processing/software/used-description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/processing/software/used-description"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please list each piece of software and state the version used as well as the license under which the software has been made available. If possible, provide a URL to a website/source with additional information.</help>
+		<text lang="en">Which one(s) do you use?</text>
+		<default_text lang="en">[Name]: [Short description]</default_text>
+		<verbose_name lang="en"/>
+		<help lang="de">Listen Sie die verwendete Software auf und machen Sie zusätzliche Angaben über die verwendete Version sowie Lizenz, unter der die Software zur Verfügung gestellt wurde. Wenn möglich, geben Sie die URL zur einer Webseite/Quelle mit weiterführenden Informationen an.</help>
+		<text lang="de">Welche Software verwenden Sie?</text>
+		<default_text lang="de">[Name]: [Kurzbeschreibung]</default_text>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/processing/software/used-description"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software/developed-yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/processing/software/developed-yesno</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/processing/software/developed-yesno"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Are you developing or customizing any (research) software?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Entwickeln oder passen Sie bestehende (Forschungs-)software weiter an?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/processing/software/developed-yesno/"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software/developed-description">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/processing/software/developed-description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/publication/software/developed-description"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please specify for each piece of software separately and provide URLs to websites or repository where feasible.</help>
+		<text lang="en">Which one(s) are you developing or customizing?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Bitte beschreiben Sie jede Software einzeln an und geben Sie nach Möglichkeit URLs zu Websites oder Repositories an.</help>
+		<text lang="de">Welche entwickeln oder passen Sie an?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/processing/software/developed-description"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software/developed-documentation">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/processing/software/developed-documentation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/processing/software/developed-documentation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Where is the research software management plan documented?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wo ist der Forschungssoftwaremanagementplan dokumentiert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/processing/software/developed-description"/>
+		</conditions>
+	</question>
+	<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/reuse-publication">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/reuse-publication</uri_path>
+		<dc:comment/>
+		<title lang="en">Re-use and publication</title>
+		<short_title lang="en"/>
+		<title lang="de">Nachnutzung und Veröffentlichung</title>
+		<short_title lang="de"/>
+		<pages>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data" order="1"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/software" order="2"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/publication/data</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/datasets/description"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Data re-use and publication</title>
+		<short_title lang="en">Data</short_title>
+		<help lang="en">According to the &lt;b&gt;&lt;a href=&quot;https://www.mpg.de/199493/regelnWissPraxis.pdf&quot;&gt;rules of good scientific practice&lt;/a&gt;&lt;/b&gt;, researchers are obliged to &quot;retain and store both research data and research results. It does not matter in this context whether the research results are published or not. Even inconclusive results and examinations must be documented.&quot; (section 2.4).
+
+&quot;For reasons of traceability, follow-on research and potential later use, scientists store the research data and central materials on which the publication is based whenever possible [...] in accessible, commonly recognized archives and repositories&quot; (section 2.7). &lt;b&gt;We therefore strongly encourage you to publish your data for the purposes of open science and in accordance with &lt;a href=&quot;https://www.go-fair.org/fair-principles/&quot;&gt;the FAIR principles&lt;/a&gt;&lt;/b&gt;, especially so if they contain primary data, which would be difficult or even impossible to reproduce or obtain.
+
+&lt;b&gt;Please note that - regardless of whether your data will finally be published or not - internal retention and re-use of data is prescribed by the rules of good scientific practice&lt;/b&gt;: &quot;Data collected in predominantly publicly financed research and which are not made generally accessible via archives or repositories must be made available to independent researchers who are in turn predominantly publicly financed for their own research projects, where this is possible and appropriate&quot; (section 2.7).
+
+While we assume that the re-use of your data is unproblematic in general, there might be reasons not to make individual datasets publicly accessible (either internally and/or externally): &quot;For example, the purpose of the scientist’s own research must not be negatively impacted and there must be no justified concerns regarding potential misuse of the data. In any case, any legal requirements which conflict with any transfer of research data (e.g. preservation of intellectual property rights, data protection) take precedence&quot; (section 2.7). &lt;b&gt;In cases, where data is to be excluded from potential re-use and internal sharing, please give the reasons for each dataset individually.&lt;/b&gt;</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Datennachnutzung und -veröffentlichung</title>
+		<short_title lang="de">Daten</short_title>
+		<help lang="de">Nach den &lt;b&gt;&lt;a href=„https://www.mpg.de/199493/regelnWissPraxis.pdf“&gt;Regeln guter wissenschaftlicher Praxis&lt;/a&gt;&lt;/b&gt; sind Forscher verpflichtet, „sowohl Forschungsdaten als
+auch Forschungsergebnisse vorzuhalten bzw. aufzubewahren. Es ist dabei unerheblich, ob Forschungsergebnisse veröffentlicht werden oder nicht. Selbst nicht-schlüssige Ergebnisse und Untersuchungen sind gegebenenfalls zu dokumentieren.“ (Abschnitt 2.4).
+
+„Aus Gründen der Nachvollziehbarkeit, Anschlussfähigkeit der Forschung und Nachnutzbarkeit hinterlegen Wissenschaftler*innen, wann immer möglich, die der Publikation zugrundeliegenden Forschungsdaten und zentralen Materialien [...] zugänglich in anerkannten Archiven und Repositorien.“ (Abschnitt 2.7). &lt;b&gt;Wir empfehlen Ihnen daher dringend, Ihre Datensätze im Sinne von Open Science und entsprechend der &lt;a href=&quot;https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/faire-daten/&quot;&gt;FAIR-Prinzipien&lt;/a&gt; zu veröffentlichen&lt;/b&gt;, insbesondere wenn sie Primärdaten enthalten, die kaum oder nicht reproduzierbar bzw. beschaffbar sind.
+
+&lt;b&gt;Bitte beachten Sie, dass – unabhängig davon, ob Ihre Daten letztendlich veröffentlicht werden oder nicht – die interne Aufbewahrung und Nachnutzung von Daten durch die Regeln guter wissenschaftlicher Praxis vorgeschrieben ist&lt;/b&gt; : „Daten, die im Rahmen von überwiegend öffentlich finanzierter Forschung erhoben und nicht über Archive oder Repositorien allgemein zugänglich gemacht werden, sind unabhängigen, ihrerseits überwiegend öffentlich finanzierten Forscher*innen, soweit möglich und angemessen, für deren eigene Forschungsprojekte zur
+Verfügung zu stellen“ (Abschnitt 2.7).
+
+Wir gehen davon aus, dass die Nachnutzung Ihrer Daten im Allgemeinen unproblematisch ist, es kann jedoch Gründe geben, einzelne Datensätze nicht öffentlich zugänglich zu machen (d.h. weder intern noch extern): „So darf der eigene Forschungszweck nicht beeinträchtigt werden, auch dürfen keine begründeten Bedenken im Hinblick auf einen möglichen Datenmissbrauch bestehen. Auf jeden Fall haben rechtliche Vorgaben, die einer Weitergabe von Forschungsdaten entgegenstehen (z. B. Wahrung der Rechte am geistigen Eigentum, Datenschutz), Vorrang“ (Abschnitt 2.7). &lt;b&gt;In Fällen, in denen Daten von einer möglichen Nachnutzung und internen Weitergabe ausgeschlossen werden sollen, geben Sie bitte die Gründe für jeden Datensatz einzeln an.&lt;/b&gt;</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data/yesno" order="0"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data/description" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data/access" order="2"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data/updating" order="3"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data/retention-only" order="4"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data/yesno">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/publication/data/yesno</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/publication/data/yesno"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Is this dataset to be published or made available for subsequent use?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wird dieser Datensatz veröffentlicht oder für eine Nachnutzung bereitgestellt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/publication/data/yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data/description">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/publication/data/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/publication/data/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Where and when will the data be published?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wo und wann werden die Daten veröffentlicht?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication/data/description"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data/access">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/publication/data/access</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/publication/data/access"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Under what conditions of access?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Unter welchen Bedingungen wird der Zugang erfolgen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication/data/description"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data/updating">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/publication/data/updating</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/publication/data/updating"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Do you plan to publish updates?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Planen Sie, Aktualisierungen zu veröffentlichen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication/data/description"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data/retention-only">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/publication/data/retention-only</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/publication/data/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Have you considered publishing the data? Are there any concerns that speak against it?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Haben Sie eine Veröffentlichung der Daten in Erwägung gezogen? Gibt es Bedenken, die dagegen sprechen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication/data/retention-only"/>
+		</conditions>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/software">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/publication/software</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/publication/software"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Software publication</title>
+		<short_title lang="en">Software</short_title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Software-Veröffentlichung</title>
+		<short_title lang="de">Software</short_title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/software/description" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/software/license" order="2"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/software/support" order="3"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/software/description">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/publication/software/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/publication/software/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Do you plan to publish software developed in/for the project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Planen Sie die Veröffentlichung von Software, die im Rahmen des Projekts oder für das Projekt entwickelt wurde?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/publication/software/description"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/software/license">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/publication/software/license</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/publication/software/license"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Under which license?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Unter welcher Lizenz?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication/software/description"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/software/support">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/publication/software/support</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/publication/software/support"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Will there be support for the software?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wird es Unterstützung für die Software geben?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication/software/description"/>
+		</conditions>
+	</question>
+	<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services</uri_path>
+		<dc:comment/>
+		<title lang="en">Information services</title>
+		<short_title lang="en"/>
+		<title lang="de">Informationsdienste</title>
+		<short_title lang="de"/>
+		<pages>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms" order="1"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/responsibility" order="2"/>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/resources" order="3"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services/platforms</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/platforms"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Additional public services</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Zusätzliche Angebote</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms/description" order="0"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms/guidelines" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms/audience" order="2"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms/access" order="3"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms/hosting" order="4"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms/description">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services/platforms/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/platforms/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For example, blog, digital edition, interactive visualisations etc. Please name and describe the service(s) briefly.</help>
+		<text lang="en">Are there any public information services provided by the project beyond the mpilhlt webpage and research publications (incl. the aforementioned data and software publications)?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Zum Beispiel ein Blog, eine digitale Ausgabe, interaktive Visualisierungen usw. Bitte nennen und beschreiben Sie die Angebote kurz.</help>
+		<text lang="de">Gibt es über die mpilhlt-Webseite und die Forschungspublikationen (inkl. der o.g. Daten- und Software-Publikationen) hinaus öffentliche Informationsangebote des Projekts?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/description"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms/guidelines">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services/platforms/guidelines</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/platforms/guidelines"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Are the mpilhlt guidelines for providing digital information services [in preparation] known and being followed?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Sind die mpilhlt Richtlinien für die Bereitstellung digitaler Informationsdienste [in Vorbereitung] bekannt und werden befolgt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/guidelines"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/services/platforms/guidelines"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms/audience">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services/platforms/audience</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/platforms/audience"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Who is the target audience?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wer ist das Zielpublikum?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/services/platforms/description"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms/access">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services/platforms/access</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/platforms/access"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">How can service be accessed?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wie kann der Dienst genutzt werden?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/services/platforms/description"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms/hosting">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services/platforms/hosting</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/platforms/hosting"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Where is the service being hosted (or planned to be hosted)?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wo wird der Dienst gehostet (oder soll er gehostet werden)?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/services/platforms/description"/>
+		</conditions>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/responsibility">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services/responsibility</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/responsibility"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Responsible persons</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Verantwortlichen</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/responsibility/technical" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/responsibility/content" order="2"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/responsibility/contact" order="3"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/responsibility/technical">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services/responsibility/technical</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/responsibility/technical"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Who is responsible for technical maintenance?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wer ist für ihre technische Wartung zuständig?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>6</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/responsibility/content">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services/responsibility/content</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/responsibility/content"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Who is responsible for the content?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wer ist für den Inhalt zuständig?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>6</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/responsibility/contact">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services/responsibility/contact</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/responsibility/contact"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">How can service consumers reach the responsible persons? How is the information about responsibilities and contact options documented for the users of the service?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wie können Nutzende der Angebote die Verantwortlichen erreichen? Wie wird die Information über Zuständigkeiten und Kontaktmöglichkeiten für die Nutzende dokumentiert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/resources">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services/resources</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/resources"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Resources</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Ressourcen</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/resources/regular-contributions" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/resources/longterm-support" order="3"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/resources/regular-contributions">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services/resources/regular-contributions</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/resources/regular-contributions"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">If yes, how much and in what intervals? Please consider all maintenance-related contributions as well as contractor fees and subscription fees.</help>
+		<text lang="en">Does the service require continuous or regular financial or labour contributions during the project duration?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Falls ja, wie viel und in welchen Abständen? Berücksichtigen Sie bitte alle Kosten für Wartung sowie die für externe Dienstleister und Abonnements.</help>
+		<text lang="de">Erfordert die Dienstleistung kontinuierliche oder regelmäßige finanzielle oder personelle Beiträge während der Projektlaufzeit?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/services/resources/regular-contributions"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/resources/longterm-support">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/services/resources/longterm-support</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/resources/longterm-support"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Is it planned that such services shall be maintained after project ending? Are there corresponding commitments (if so, by whom)?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Ist es vorgesehen, dass diese Dienste auch nach Projektende weitergeführt werden sollen? Gibt es entsprechende Verpflichtungen (wenn ja, von wem)?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/archiving">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/archiving</uri_path>
+		<dc:comment/>
+		<title lang="en">Archiving</title>
+		<short_title lang="en"/>
+		<title lang="de">Archivieren</title>
+		<short_title lang="de"/>
+		<pages>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/archiving/strategy" order="1"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/archiving/strategy">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/archiving/strategy</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/archiving/strategy"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Archiving strategy</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Strategie für die Archivierung</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/archiving/strategy/description" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/archiving/strategy/description">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/archiving/strategy/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/archiving/strategy/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please describe the strategy briefly and indicate separately for medium term (&lt; 10 years) and long-term (&gt; 10 years).</help>
+		<text lang="en">Is there a plan for archiving beyond the project's duration?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Bitte beschreiben Sie kurz die Strategie, getrennt zwischen mittelfristiger (&lt; 10 Jahre) und langfristiger (&gt; 10 Jahre) Strategie.</help>
+		<text lang="de">Gibt es einen Plan für die Archivierung nach der Projektlaufzeit?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/nextsteps">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/nextsteps</uri_path>
+		<dc:comment/>
+		<title lang="en">Next steps</title>
+		<short_title lang="en"/>
+		<title lang="de">Nächste Schritte</title>
+		<short_title lang="de"/>
+		<pages>
+			<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/nextsteps/general" order="1"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/nextsteps/general">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/nextsteps/general</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/nextsteps/general"/>
+		<is_collection>False</is_collection>
+		<title lang="en">General</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Allgemeine Fragen</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/nextsteps/general/questions" order="1"/>
+			<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/nextsteps/general/todo" order="2"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/nextsteps/general/questions">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/nextsteps/general/questions</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/nextsteps/general/questions"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">What is currently still lacking in terms of data management? In terms of contact persons?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Woran mangelt es derzeit noch im Bereich der Datenverwaltung? Bei den Ansprechpartnern?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/nextsteps/general/todo">
+		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
+		<uri_path>mpilhlt/nextsteps/general/todo</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/nextsteps/general/todo"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">What are the things you are planning to clarify most urgently?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Welchen Fragen müssen noch dringend geklärt werden?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+</rdmo>
