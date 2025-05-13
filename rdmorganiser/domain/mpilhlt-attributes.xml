@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-09T12:56:23.338065+02:00" version="2.2.1">
-    <attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt">
+	<attribute dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt">
 		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
 		<key>mpilhlt</key>
 		<path>mpilhlt</path>
@@ -727,3 +728,4 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mpilhlt.de/terms/domain/mpilhlt/services/responsibility"/>
 	</attribute>
+</rdmo>

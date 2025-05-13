@@ -1,4 +1,6 @@
-    <condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/datasets/additional-sources/description">
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-09T12:57:08.939829+02:00" version="2.2.1"> 
+	<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/datasets/additional-sources/description">
 		<uri_prefix>https://rdmo.mpilhlt.de/terms</uri_prefix>
 		<uri_path>datasets/additional-sources/description</uri_path>
 		<dc:comment/>
@@ -106,3 +108,4 @@
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/description/01"/>
 	</condition>
+</rdmo>
