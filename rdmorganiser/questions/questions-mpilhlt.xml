@@ -758,7 +758,7 @@ Verwenden Sie Rollen, wie sie in der &lt;a href=&quot;https://credit.niso.org/co
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/onboarding/workflow"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/onboarding-workflow"/>
 		</conditions>
 	</question>
 	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/offboarding">
@@ -837,7 +837,7 @@ Verwenden Sie Rollen, wie sie in der &lt;a href=&quot;https://credit.niso.org/co
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/offboarding/workflow"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/offboarding-workflow"/>
 		</conditions>
 	</question>
 	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/rdm/data-access">
@@ -1122,7 +1122,7 @@ Verwenden Sie Rollen, wie sie in der &lt;a href=&quot;https://credit.niso.org/co
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/rights-clearance/documentation"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/rights-clearance-documentation"/>
 		</conditions>
 	</question>
 	<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/material">
@@ -1362,7 +1362,7 @@ Verwenden Sie Rollen, wie sie in der &lt;a href=&quot;https://credit.niso.org/co
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/datasets/description/original-external"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/datasets-description-original-external"/>
 		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/description/details">
@@ -1468,7 +1468,7 @@ Verwenden Sie Rollen, wie sie in der &lt;a href=&quot;https://credit.niso.org/co
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/datasets/additional-sources/description"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/datasets-additional-sources-description"/>
 		</conditions>
 	</question>
 	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/datasets/storage">
@@ -1876,7 +1876,7 @@ Verwenden Sie Rollen, wie sie in der &lt;a href=&quot;https://credit.niso.org/co
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/processing/software/used-description"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/processing-software-used-description"/>
 		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software/developed-yesno">
@@ -1934,7 +1934,7 @@ Verwenden Sie Rollen, wie sie in der &lt;a href=&quot;https://credit.niso.org/co
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/processing/software/developed-description"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/processing-software-developed-description"/>
 		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/processing/software/developed-documentation">
@@ -1963,7 +1963,7 @@ Verwenden Sie Rollen, wie sie in der &lt;a href=&quot;https://credit.niso.org/co
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/processing/software/developed-description"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/processing-software-developed-description"/>
 		</conditions>
 	</question>
 	<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/reuse-publication">
@@ -2072,7 +2072,7 @@ Wir gehen davon aus, dass die Nachnutzung Ihrer Daten im Allgemeinen unproblemat
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication/data/description"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication-data-description"/>
 		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data/access">
@@ -2101,7 +2101,7 @@ Wir gehen davon aus, dass die Nachnutzung Ihrer Daten im Allgemeinen unproblemat
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication/data/description"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication-data-description"/>
 		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data/updating">
@@ -2130,7 +2130,7 @@ Wir gehen davon aus, dass die Nachnutzung Ihrer Daten im Allgemeinen unproblemat
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication/data/description"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication-data-description"/>
 		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/data/retention-only">
@@ -2159,7 +2159,7 @@ Wir gehen davon aus, dass die Nachnutzung Ihrer Daten im Allgemeinen unproblemat
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication/data/retention-only"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication-data-retention-only"/>
 		</conditions>
 	</question>
 	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/software">
@@ -2239,7 +2239,7 @@ Wir gehen davon aus, dass die Nachnutzung Ihrer Daten im Allgemeinen unproblemat
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication/software/description"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication-software-description"/>
 		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/publication/software/support">
@@ -2268,7 +2268,7 @@ Wir gehen davon aus, dass die Nachnutzung Ihrer Daten im Allgemeinen unproblemat
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication/software/description"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/publication-software-description"/>
 		</conditions>
 	</question>
 	<section dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services">
@@ -2366,7 +2366,7 @@ Wir gehen davon aus, dass die Nachnutzung Ihrer Daten im Allgemeinen unproblemat
 			<optionset dc:uri="https://rdmo.mpilhlt.de/terms/options/services/platforms/guidelines"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/services/platforms/guidelines"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/services-platforms-guidelines"/>
 		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms/audience">
@@ -2395,7 +2395,7 @@ Wir gehen davon aus, dass die Nachnutzung Ihrer Daten im Allgemeinen unproblemat
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/services/platforms/description"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/services-platforms-description"/>
 		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms/access">
@@ -2424,7 +2424,7 @@ Wir gehen davon aus, dass die Nachnutzung Ihrer Daten im Allgemeinen unproblemat
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/services/platforms/description"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/services-platforms-description"/>
 		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/platforms/hosting">
@@ -2453,7 +2453,7 @@ Wir gehen davon aus, dass die Nachnutzung Ihrer Daten im Allgemeinen unproblemat
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/services/platforms/description"/>
+			<condition dc:uri="https://rdmo.mpilhlt.de/terms/conditions/services-platforms-description"/>
 		</conditions>
 	</question>
 	<page dc:uri="https://rdmo.mpilhlt.de/terms/questions/mpilhlt/services/responsibility">
