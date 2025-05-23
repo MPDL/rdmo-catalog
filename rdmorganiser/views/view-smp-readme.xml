@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-07T16:50:58.967137+02:00" version="2.2.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-23T14:30:54.728041+02:00" version="2.2.2">
 	<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-readme">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>smp-readme</uri_path>
@@ -34,8 +34,8 @@
 &lt;ul&gt;
 {% for p in partners %}
   {% get_set_value p 'project/partner/orcid-id' as p_orcid_id %}
-  {% get_set_value p 'project/partner/role' as p_role %}
-  &lt;li&gt;{{ p.value }} ({{ p_orcid_id.value }}), {{ p_role.value }}, {% render_set_value_inline_list p 'project/partner/affiliation' %}&lt;/li&gt;
+  {% get_set_values p 'project/partner/affiliation' as p_affiliations %}
+  &lt;li&gt;{{ p.value }}{% if p_orcid_id.value %} ({{ p_orcid_id.value }}){% endif %}{% if p_affiliations %}, {% for a in p_affiliations %}{% if a.external_id %}{{ a.external_id }} at {% endif %}{{ a.value }}{% if not forloop.last %} &amp; {% endif %}{% endfor %}{% endif %}&lt;/li&gt;
 {% endfor %}
 &lt;/ul&gt;
 

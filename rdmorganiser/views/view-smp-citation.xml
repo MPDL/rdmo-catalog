@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-07T16:50:29.854943+02:00" version="2.2.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-23T14:29:51.601516+02:00" version="2.2.2">
 	<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-citation">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>smp-citation</uri_path>
@@ -17,27 +17,25 @@
 {% get_value 'project/title' as title %}
 {% get_value 'project/schedule/project_end' as release_date %}
 
-cff-version: 1.0.0&lt;br&gt;
+cff-version: 1.2.0&lt;br&gt;
 message: &quot;If you use this software, please cite it as below.&quot;&lt;br&gt;
 authors:
 &lt;ul&gt;
 {% for p in partners %}
-{% get_set_value p 'project/partner/family-name' as partner_family_name %}
-{% get_set_value p 'project/partner/given-name' as partner_given_name %}
-{% get_set_value p 'project/partner/orcid-id' as partner_orcid_id %}
-{% get_set_value p 'project/partner/affiliation' as partner_affiliation %}
-&lt;li&gt;family-names: &quot;{{ partner_family_name.value }}&quot;&lt;br&gt;
-given-names: &quot;{{ partner_given_name.value }}&quot;&lt;br&gt;
-orcid: &quot;{{ partner_orcid_id.value }}&quot;&lt;br&gt;
-affiliation: &quot;{{ partner_affiliation.value }}&quot;
+{% get_set_value p 'project/partner/family-name' as p_family_name %}
+{% get_set_value p 'project/partner/given-name' as p_given_name %}
+{% get_set_value p 'project/partner/orcid-id' as p_orcid_id %}
+{% get_set_values p 'project/partner/affiliation' as p_affiliations %}
+&lt;li&gt;{% if p_family_name.value %}family-names: &quot;{{ p_family_name.value }}&quot;&lt;br&gt;{% endif %}
+{% if p_given_name.value %}given-names: &quot;{{ p_given_name.value }}&quot;&lt;br&gt;{% endif %}
+{% if p_orcid_id.value %}orcid: &quot;{{ p_orcid_id.value }}&quot;&lt;br&gt;{% endif %}
+{% if p_affiliations %}affiliation: &quot;{% for a in p_affiliations %}{{ a.value }}{% if not forloop.last %} &amp; {% endif %}{% endfor %}&quot;{% endif %}
 &lt;/li&gt;
 {% endfor %}
 &lt;/ul&gt;
 title: &quot;{{ title.value }}&quot;&lt;br&gt;
 version: {here comes the software version}&lt;br&gt;
 doi: 10.5281/zenodo.1234&lt;br&gt;
-date-released: {{ release_date.value|date:&quot;Y-m-d&quot; }}
-
-</template>
-</view>
+date-released: {{ release_date.value|date:&quot;Y-m-d&quot; }}</template>
+	</view>
 </rdmo>
