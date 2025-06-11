@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-09T12:57:41.500485+02:00" version="2.2.1">
+	<optionset dc:uri="https://rdmo.mpdl.mpg.de/terms/options/orcid-provider">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
+		<uri_path>orcid-provider</uri_path>
+		<dc:comment/>
+		<provider_key>orcid-provider</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mpdl.mpg.de/terms/options/ror-provider">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
+		<uri_path>ror-provider</uri_path>
+		<dc:comment/>
+		<provider_key>ror-provider</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmorganiser.github.io/terms/options/access_authentication">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>access_authentication</uri_path>

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-09T12:57:08.939829+02:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-11T12:15:44.776037+02:00" version="2.2.2">
+	<condition dc:uri="https://rdmo.mpdl.mpg.de/terms/conditions/empty-project-partner-ror-id">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
+		<uri_path>empty-project-partner-ror-id</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation/ror-id"/>
+		<relation>empty</relation>
+		<target_text/>
+		<target_option/>
+	</condition>
 	<condition dc:uri="https://rdmo.mpdl.mpg.de/terms/conditions/smp_versioning_tool_undecided">
-		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>smp_versioning_tool_undecided</uri_path>
 		<dc:comment/>
 		<source dc:uri="https://rdmorganiser.github.io/terms/domain/smp/versioning"/>
@@ -55,7 +64,7 @@
 		<target_option/>
 	</condition>
 	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/data_published">
-		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>data_published</uri_path>
 		<dc:comment/>
 		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_publication_date"/>
@@ -154,7 +163,7 @@
 		<target_option/>
 	</condition>
 	<condition dc:uri="https://rdmorganiser.github.io/terms/conditions/publish-software">
-		<uri_prefix>https://rdmorganiser.github.io/terms/</uri_prefix>
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>publish-software</uri_path>
 		<dc:comment>introduced by the Max Planck Digital Library to implement the Software Management Plan</dc:comment>
 		<source dc:uri="https://rdmorganiser.github.io/terms/domain/smp/software-sharing"/>
