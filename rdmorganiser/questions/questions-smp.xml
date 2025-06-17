@@ -456,11 +456,11 @@ Folgende (ausgewählte) Plattformen können hierbei helfen:
 		<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/affiliation/ror-autocomplete"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Type a name or a ROR id and choose the right person from the matching options</help>
+		<help lang="en">Type a name or a ROR id and choose the right organization from the matching options</help>
 		<text lang="en">ROR search</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Geben Sie einen Namen oder eine ROR id ein und wählen Sie die richtige Person aus den passenden Optionen aus</help>
+		<help lang="de">Geben Sie einen Namen oder eine ROR id ein und wählen Sie die richtige Organisation aus den Optionen aus</help>
 		<text lang="de">ROR-Suche</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -545,7 +545,7 @@ Folgende (ausgewählte) Plattformen können hierbei helfen:
 		<text lang="en">ORCID search</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Geben Sie einen Namen und eine Affiliation oder eine ORCID id ein und wählen Sie die rightige Person aus den passenden Optionen aus</help>
+		<help lang="de">Geben Sie einen Namen und eine Affiliation oder eine ORCID id ein und wählen Sie die rightige Person aus den Optionen aus</help>
 		<text lang="de">ORCID-Suche</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
