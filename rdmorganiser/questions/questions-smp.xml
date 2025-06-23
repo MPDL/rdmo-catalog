@@ -545,7 +545,7 @@ Folgende (ausgewählte) Plattformen können hierbei helfen:
 		<text lang="en">ORCID search</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Geben Sie einen Namen und eine Affiliation oder eine ORCID id ein und wählen Sie die rightige Person aus den Optionen aus</help>
+		<help lang="de">Geben Sie einen Namen und eine Affiliation oder eine ORCID id ein und wählen Sie die richtige Person aus den Optionen aus</help>
 		<text lang="de">ORCID-Suche</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
