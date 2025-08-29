@@ -3,12 +3,12 @@
 	<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-citation">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>smp-citation</uri_path>
-		<dc:comment>This view is used to generate a citation file from the answers in the smp catalogue.</dc:comment>
+		<dc:comment>Helper view of a CITATION file for Research Software.</dc:comment>
 		<order>0</order>
 		<title lang="en">SMP Citation Template</title>
-		<help lang="en">for internal control</help>
+		<help lang="en">Helper view of a CITATION file for Research Software.</help>
 		<title lang="de">SMP Citation Template</title>
-		<help lang="de">für interne Kontrolle</help>
+		<help lang="de">Hilfe-Ansicht einer README-Datei für Forschungssoftware.</help>
 		<catalogs>
 			<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/smp"/>
 		</catalogs>

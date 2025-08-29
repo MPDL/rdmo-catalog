@@ -372,10 +372,10 @@ Folgende (ausgewählte) Plattformen können hierbei helfen:
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/id"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Software Project Partner(s)</title>
+		<title lang="en">Partner(s)</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Software-Projektpartner_innen</title>
+		<title lang="de">Partner_innen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<title lang="fr"/>
@@ -650,10 +650,10 @@ Folgende (ausgewählte) Plattformen können hierbei helfen:
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Software Project Funding</title>
+		<title lang="en">Funding</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Finanzierung des Software-Projekts</title>
+		<title lang="de">Finanzierung</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<title lang="fr"/>
@@ -738,10 +738,10 @@ Als weiterführenden Hinweise empfehlen wir diese Publikationen:
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Software Project Schedule</title>
+		<title lang="en">Schedule</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Zeitplan für Softwareprojekte</title>
+		<title lang="de">Zeitplan</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<title lang="fr"/>
@@ -848,10 +848,10 @@ Als weiterführenden Hinweise empfehlen wir diese Publikationen:
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Software Project Management</title>
+		<title lang="en">Project Management</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Software-Projekt-Management</title>
+		<title lang="de">Projekt-Management</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<title lang="fr"/>
@@ -1026,10 +1026,10 @@ Beispiele für Anwendungen sind etwa eigenständige Ticket-Systeme wie Jira oder
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Software Development Requirements</title>
+		<title lang="en">Development Requirements</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Anforderungen an die Softwareentwicklung</title>
+		<title lang="de">Anforderungen an die Entwicklung</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<title lang="fr"/>
@@ -1287,7 +1287,7 @@ An dieser Stelle bietet es sich zusätzlich an, zu dokumentieren, ob technische 
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Third Party Components and Libraries</title>
+		<title lang="en">Third-Party Components and Libraries</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
 		<title lang="de">Externe Komponenten und Bibliotheken</title>
@@ -3169,10 +3169,10 @@ Beispielsweise mit einer &lt;a href=&quot;https://citation-file-format.github.io
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">License</title>
+		<title lang="en">License(s)</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Lizenzen</title>
+		<title lang="de">Lizenz(en)</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<title lang="fr"/>
