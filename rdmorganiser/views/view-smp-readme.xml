@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-11T11:18:40.921812+02:00" version="2.2.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-09-16T17:18:24.743260+02:00" required="2.1.0" version="2.3.2">
 	<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-readme">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>smp-readme</uri_path>
@@ -13,24 +13,38 @@
 			<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/smp"/>
 		</catalogs>
 		<template>{% load view_tags %}
+
+{# ############# #}
+{# PROJECT TITLE #}
+{# ############# #}
+&lt;h1&gt;{% render_value 'project/title' %}&lt;/h1&gt;
+
+{# ################# #}
+{# RESEARCH FIELD(S) #}
+{# ################# #}
+{% get_values 'project/research_field' as research_fields %}
+&lt;p&gt;This software belongs to the research field{{ research_fields|pluralize }}: {% if research_fields|length == 1 %}{{ research_fields.0.value }}
+  {% elif research_fields|length &gt; 1 %}
+  &lt;ul&gt;
+  {% for rf in research_fields %}
+    &lt;li&gt;{{ rf.value }}&lt;/li&gt;
+  {% endfor %}
+  &lt;/ul&gt;
+  {% endif %}
+&lt;/p&gt;
+
+{# ######################################### #}
+{# INTENDED USE AND CONTRIBUTION TO RESEARCH #}
+{# ######################################### #}
+{% get_value 'project/research_question/title' as research_question_title %}
+&lt;p&gt;Its intended use and its contribution to research:&lt;/p&gt;
+&lt;p&gt;{{ research_question_title.value|linebreaks }}&lt;/p&gt;
+
+{# ############## #}
+{# CONTRIBUTOR(S) #}
+{# ############## #}
 {% get_set 'project/partner/id' as partners %}
-
-&lt;h1&gt;Readme created with RDMO&lt;/h1&gt;
-
-&lt;b&gt;What is the title of the software project? (project/title):&lt;/b&gt;
-
-{% render_value_list 'project/title' %}
-
-&lt;b&gt;Which research field(s) does this software belong to? (project/research_field):&lt;/b&gt;
-
-{% render_value_list 'project/research_field' %}
-
-&lt;b&gt;What is the intended use of the software? How will your software contribute to research? (project/research_question/title):&lt;/b&gt;
-
-{% render_value_list 'project/research_question/title' %}
-
-&lt;b&gt;Who are the project participants that deal with this software? (project/partner/id):&lt;/b&gt;
-
+&lt;p&gt;Contributor(s)
 &lt;ul&gt;
 {% for p in partners %}
   {% get_set_value p 'project/partner/orcid-id' as p_orcid_id %}
@@ -42,9 +56,32 @@
   &lt;li&gt;{% if p_given_name and p_family_name %}{{ p_given_name.value }} {{ p_family_name.value }}{% else %}{{ p.value }}{% endif %}{% if p_orcid_id.value %} ({{ p_orcid_id.value }}){% endif %}{% if p_affiliations %}, {% for a in p_affiliations %}{% for r in p_roles %}{% if r.set_index == a.set_index %}{{ r.value }} at {% endif %}{% endfor %}{{ a.value }}{% if not forloop.last %} &amp; {% endif %}{% endfor %}{% endif %}&lt;/li&gt;
 {% endfor %}
 &lt;/ul&gt;
+&lt;/p&gt;
 
-&lt;b&gt;What licences are on the third-party software components? (smp/software-license):&lt;/b&gt;
+{# ########## #}
+{# LICENSE(S) #}
+{# ########## #}
+{% get_values 'smp/software-license' as software_licenses %}
+&lt;p&gt;Software license{{ software_licenses|pluralize }}: {% if software_licenses|length == 1 %}{% if software_licenses.0.text %}{{ software_licenses.0.text }}{% else %}{{ software_licenses.0.option_text }}{% endif %}
+{% elif software_licenses|length &gt; 1 %}
+&lt;ul&gt;
+  {% for sl in software_licenses %}
+    &lt;li&gt;{% if sl.text %}{{ sl.text }}{% else %}{{ sl.option_text }}{% endif %}&lt;/li&gt;
+  {% endfor %}
+&lt;/ul&gt;
+{% endif %}
+&lt;/p&gt;
 
-{% render_value_list 'smp/software-license' %}</template>
+{# ##### #}
+{# SETUP #}
+{# ##### #}
+&lt;h3&gt;Setup&lt;/h3&gt;
+&lt;b&gt;[ToDo]&lt;/b&gt;
+
+{# ##### #}
+{# USAGE #}
+{# ##### #}
+&lt;h3&gt;Usage&lt;/h3&gt;
+&lt;b&gt;[ToDo]&lt;/b&gt;</template>
 	</view>
 </rdmo>
