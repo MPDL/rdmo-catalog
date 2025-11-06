@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-11T11:12:48.944158+02:00" version="2.2.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-11-06T15:52:52.579948+01:00" required="2.1.0" version="2.3.2">
 	<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-citation">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>smp-citation</uri_path>
@@ -16,6 +16,8 @@
 {% get_set 'project/partner/id' as partners %}
 {% get_value 'project/title' as title %}
 {% get_value 'project/schedule/project_end' as release_date %}
+{% get_values 'smp/software-pid' as software_pids %}
+{% get_values 'smp/software-license' as software_licenses %}
 
 cff-version: 1.2.0&lt;br&gt;
 message: &quot;If you use this software, please cite it as below.&quot;&lt;br&gt;
@@ -34,8 +36,53 @@ given-names: {% if p_given_name.value %}&quot;{{ p_given_name.value }}&quot;{% e
 {% endfor %}
 &lt;/ul&gt;
 title: &quot;{{ title.value }}&quot;&lt;br&gt;
-version: {here comes the software version}&lt;br&gt;
-doi: 10.5281/zenodo.1234&lt;br&gt;
+type: software&lt;br&gt;
+
+{# ## IDENTIFIERS ## #}
+
+{% if software_pids|length == 1 %}
+{% if software_pids.0.option_text == 'DOI' or software_pids.0.option_text == 'URL' %}
+  {{ software_pids.0.option_text|lower }}: {{ software_pids.0.text }}
+{% endif %}
+{% endif %}
+
+{% if software_pids|length == 1 and software_pids.0.option_text != &quot;DOI&quot; and software_pids.0.option_text != &quot;URL&quot; %}
+identifiers:
+&lt;ul&gt;
+&lt;li&gt;type: {% if software_pids.0.option_text == &quot;Software Heritage Identifier&quot;  %}swh{% else %}{{ software_pids.0.option_text|lower }}{% endif %}&lt;br&gt;
+value: {{ software_pids.0.text }}&lt;br&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+{% endif %}
+
+{% if software_pids|length &gt; 1 %}
+identifiers:
+&lt;ul&gt;
+  {% for sp in software_pids %}
+    &lt;li&gt;type: {% if sp.option_text == &quot;Software Heritage Identifier&quot; %}swh{% else %}{{ sp.option_text|lower }}{% endif %}&lt;br&gt;
+    value: {{ sp.text }}&lt;br&gt;
+    &lt;/li&gt;
+  {% endfor %}
+&lt;/ul&gt;
+{% endif %}
+
+{# ################# #}
+
+{# ## LICENSE ## #}
+
+license: {% if software_licenses|length == 1 %}{% if software_licenses.0.text %}{{ software_licenses.0.text }}{% else %}{{ software_licenses.0.option_text }}{% endif %}
+{% elif software_licenses|length &gt; 1 %}
+&lt;ul&gt;
+  {% for sl in software_licenses %}
+    &lt;li&gt;{% if sl.text %}{{ sl.text }}{% else %}{{ sl.option_text }}{% endif %}&lt;/li&gt;
+  {% endfor %}
+&lt;/ul&gt;
+{% endif %}
+&lt;/p&gt;
+
+{# ############# #}
+
+
 date-released: {{ release_date.value|date:&quot;Y-m-d&quot; }}</template>
 	</view>
 </rdmo>
