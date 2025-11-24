@@ -8,7 +8,7 @@
 		<title lang="en">SMP Citation Template</title>
 		<help lang="en">Helper view of a CITATION file for Research Software.</help>
 		<title lang="de">SMP Citation Template</title>
-		<help lang="de">Hilfe-Ansicht einer README-Datei für Forschungssoftware.</help>
+		<help lang="de">Hilfe-Ansicht einer CITATION-Datei für Forschungssoftware.</help>
 		<catalogs>
 			<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/smp"/>
 		</catalogs>
