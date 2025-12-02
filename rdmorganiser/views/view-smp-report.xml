@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-12-02T14:52:30.447228+01:00" required="2.1.0" version="2.3.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-12-02T17:41:47.125944+01:00" required="2.1.0" version="2.3.2">
 	<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-report">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>smp-report</uri_path>
 		<dc:comment/>
 		<order>0</order>
-		<title lang="de">SMP Report</title>
-		<help lang="de">View of all answers in SMP projects, in a report format</help>
-		<title lang="en">SMP-Report</title>
-		<help lang="en">Ansicht aller Antworten in einem SMP-Projekt, formatiert als Report</help>
-		<title lang="es"/>
-		<help lang="es"/>
-		<title lang="it"/>
-		<help lang="it"/>
-		<title lang="fr"/>
-		<help lang="fr"/>
+		<title lang="en">SMP Report</title>
+		<help lang="en">View of all answers in SMP projects, in a report format</help>
+		<title lang="de">SMP-Report</title>
+		<help lang="de">Ansicht aller Antworten in einem SMP-Projekt, formatiert als Report</help>
 		<catalogs/>
 		<template>{% load view_tags %}
 {% load core_tags %}
@@ -58,6 +52,7 @@
 {# VALUES OF SECTION GENERAL #}
 
 {# topic #}
+{% get_value 'https://rdmorganiser.github.io/terms/domain/project/title' as software_project_title  %}
 {% get_values 'project/research_field' as research_fields %}
 {% get_value 'smp/application-class' as application_class %}
 {% get_value 'project/research_question/title' as research_question_title %}
@@ -82,7 +77,7 @@
 {% get_value 'smp/institutional-requirements' as institutional_requirements %}
 {% get_value 'smp/community-requirements' as community_requirements %}
 
-{% if research_fields|length or application_class or research_question_title or buy_or_make or partners or funder or project_start_date or project_end_date or development_process or tracking_methods|length or ss or institutional_requirements or community_requirements %}
+{% if software_project_title or research_fields|length or application_class or research_question_title or buy_or_make or partners or funder or project_start_date or project_end_date or development_process or tracking_methods|length or ss or institutional_requirements or community_requirements %}
 &lt;h2&gt;General&lt;/h2&gt;
 {% with section_pages=sections.0.elements %}
   {% comment %}
@@ -107,8 +102,16 @@
     {% endcomment %}
 
     {% with page_questions=section_pages.0.elements %}
-    {% if research_fields|length or application_class or research_question_title or buy_or_make %}
-    &lt;h3&gt;Topic&lt;/h3&gt;    
+    {% if software_project_title or research_fields|length or application_class or research_question_title or buy_or_make %}
+    &lt;h3&gt;Topic&lt;/h3&gt;
+      
+      {% check_element page_questions.0 project=project as software_project_title_question_result %}
+      {% if software_project_title_question_result %}
+        {% if software_project_title %}
+        &lt;p&gt;The title of the software project is: {{ software_project_title.value }}&lt;/p&gt;
+        {% endif %}
+      {% endif %}
+
       {% check_element page_questions.1 project=project as rf_question_result %}
       {% if rf_question_result %}
         {% if research_fields|length %}
