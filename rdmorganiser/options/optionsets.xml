@@ -113,6 +113,17 @@
 		<view_text lang="es"/>
 		<additional_input/>
 	</option>
+	<optionset dc:uri="https://rdmo.mpdl.mpg.de/terms/options/partner-types">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
+		<uri_path>partner-types</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mpdl.mpg.de/terms/options/partner-types/person" order="1"/>
+			<option dc:uri="https://rdmo.mpdl.mpg.de/terms/options/partner-types/entity" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmorganiser.github.io/terms/options/application-class">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>application-class</uri_path>
