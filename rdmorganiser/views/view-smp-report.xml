@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-12-02T17:41:47.125944+01:00" required="2.1.0" version="2.3.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-12-03T17:34:33.512030+01:00" required="2.1.0" version="2.3.2">
 	<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-report">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>smp-report</uri_path>
@@ -157,16 +157,16 @@
   {% check_element section_pages.1 project=project as partner_page_result %}
   {% if partner_page_result %}
     {% if partners %}
-    &lt;h3&gt;Partner(s)&lt;/h3&gt;
+    &lt;h3&gt;Contributor{{ partners|pluralize }}&lt;/h3&gt;
       &lt;ul&gt;
       {% for p in partners %}
-        {% get_set_value p 'project/partner/orcid-id' as p_orcid_id %}
+        {% get_set_value p 'project/partner/orcid' as p_orcid %}
         {% get_set_value p 'project/partner/given-name' as p_given_name %}
         {% get_set_value p 'project/partner/family-name' as p_family_name %}
         {% get_values 'project/partner/affiliation' forloop.counter0 as p_affiliations %}
         {% get_values 'project/partner/role' forloop.counter0 as p_roles %}
       
-        &lt;li&gt;{% if p_given_name and p_family_name %}{{ p_given_name.value }} {{ p_family_name.value }}{% else %}{{ p.value }}{% endif %}{% if p_orcid_id.value %} ({{ p_orcid_id.value }}){% endif %}{% if p_affiliations %}, {% for a in p_affiliations %}{% for r in p_roles %}{% if r.set_index == a.set_index %}{{ r.value }} at {% endif %}{% endfor %}{{ a.value }}{% if not forloop.last %} &amp; {% endif %}{% endfor %}{% endif %}&lt;/li&gt;
+        &lt;li&gt;{% if p_given_name and p_family_name %}{{ p_given_name.value }} {{ p_family_name.value }}{% else %}{{ p.value }}{% endif %}{% if p_orcid.value %} ({{ p_orcid.value }}){% endif %}{% if p_affiliations %}, {% for a in p_affiliations %}{% for r in p_roles %}{% if r.set_index == a.set_index %}{{ r.value }} at {% endif %}{% endfor %}{{ a.value }}{% if not forloop.last %} &amp; {% endif %}{% endfor %}{% endif %}&lt;/li&gt;
       {% endfor %}
       &lt;/ul&gt;
     {% endif %}
@@ -209,14 +209,14 @@
       {% check_element page_questions.0 project=project as sd_question_result %}
       {% if sd_question_result %}
         {% if project_start_date %}
-        &lt;p&gt;Project's start date: {{ project_start_date }}&lt;/p&gt;
+        &lt;p&gt;Project's start date: {{ project_start_date.value }}&lt;/p&gt;
         {% endif %}
       {% endif %}
 
       {% check_element page_questions.1 project=project as ed_question_result %}
       {% if ed_question_result %}
         {% if project_end_date %}
-        &lt;p&gt;Project's end date: {{ project_end_date }}&lt;/p&gt;
+        &lt;p&gt;Project's end date: {{ project_end_date.value }}&lt;/p&gt;
         {% endif %}
       {% endif %}
 

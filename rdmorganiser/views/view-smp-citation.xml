@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-11-06T15:52:52.579948+01:00" required="2.1.0" version="2.3.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-12-03T17:34:23.980950+01:00" required="2.1.0" version="2.3.2">
 	<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-citation">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>smp-citation</uri_path>
@@ -24,13 +24,18 @@ message: &quot;If you use this software, please cite it as below.&quot;&lt;br&gt
 authors:
 &lt;ul&gt;
 {% for p in partners %}
+{% get_set_value p 'project/partner/type' as p_type %}
 {% get_set_value p 'project/partner/family-name' as p_family_name %}
 {% get_set_value p 'project/partner/given-name' as p_given_name %}
-{% get_set_value p 'project/partner/orcid-id' as p_orcid_id %}
+{% get_set_value p 'project/partner/name' as p_name %}
+{% get_set_value p 'project/partner/orcid' as p_orcid %}
 {% get_values 'project/partner/affiliation' forloop.counter0 as p_affiliations %}
-&lt;li&gt;family-names: {% if p_family_name.value %}&quot;{{ p_family_name.value }}&quot;{% endif %}&lt;br&gt;
+&lt;li&gt;{% if p_type.option_uri == 'https://rdmo.mpdl.mpg.de/terms/options/partner-types/person' %}
+family-names: {% if p_family_name.value %}&quot;{{ p_family_name.value }}&quot;{% endif %}&lt;br&gt;
 given-names: {% if p_given_name.value %}&quot;{{ p_given_name.value }}&quot;{% endif %}&lt;br&gt;
-{% if p_orcid_id.value %}orcid: &quot;{{ p_orcid_id.value }}&quot;&lt;br&gt;{% endif %}
+{% else %}name: {% if p_name.value %}&quot;{{ p_name.value }}&quot;{% endif %}&lt;br&gt;
+{% endif %}
+{% if p_orcid.value %}orcid: &quot;{{ p_orcid.value }}&quot;&lt;br&gt;{% endif %}
 {% if p_affiliations %}affiliation: &quot;{% for a in p_affiliations %}{{ a.value }}{% if not forloop.last %} &amp; {% endif %}{% endfor %}&quot;{% endif %}
 &lt;/li&gt;
 {% endfor %}
@@ -55,7 +60,6 @@ value: {{ software_pids.0.text }}&lt;br&gt;
 &lt;/ul&gt;
 {% endif %}
 
-{% if software_pids|length &gt; 1 %}
 identifiers:
 &lt;ul&gt;
   {% for sp in software_pids %}
@@ -64,7 +68,6 @@ identifiers:
     &lt;/li&gt;
   {% endfor %}
 &lt;/ul&gt;
-{% endif %}
 
 {# ################# #}
 
