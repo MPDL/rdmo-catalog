@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-11T12:15:44.776037+02:00" version="2.2.2">
+	<condition dc:uri="https://rdmo.mpdl.mpg.de/terms/conditions/author_has_type_person">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
+		<uri_path>author_has_type_person</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/type"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.mpdl.mpg.de/terms/options/partner-types/person"/>
+	</condition>
+	<condition dc:uri="https://rdmo.mpdl.mpg.de/terms/conditions/author_has_type_entity">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
+		<uri_path>author_has_type_entity</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/type"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.mpdl.mpg.de/terms/options/partner-types/entity"/>
+	</condition>
 	<condition dc:uri="https://rdmo.mpdl.mpg.de/terms/conditions/empty-project-partner-ror-id">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>empty-project-partner-ror-id</uri_path>
