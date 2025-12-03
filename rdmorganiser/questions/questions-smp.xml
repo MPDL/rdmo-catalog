@@ -619,7 +619,9 @@ Folgende (ausgewählte) Plattformen können hierbei helfen:
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpdl.mpg.de/terms/conditions/author_has_type_person"/>
+		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mpdl.mpg.de/terms/questions/smp/general/project-partner/given-name">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
@@ -646,7 +648,9 @@ Folgende (ausgewählte) Plattformen können hierbei helfen:
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mpdl.mpg.de/terms/conditions/author_has_type_person"/>
+		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mpdl.mpg.de/terms/questions/smp/general/project-partner/name">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
