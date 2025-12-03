@@ -1638,13 +1638,6 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner/contact_person"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/employment">
-		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
-		<key>employment</key>
-		<path>project/partner/employment</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner"/>
-	</attribute>
 	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/family-name">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<key>family-name</key>
@@ -1673,6 +1666,13 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner"/>
 	</attribute>
+	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/type">
+		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
+		<key>type</key>
+		<path>project/partner/type</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner"/>
+	</attribute>
 	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/orcid-autocomplete">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<key>orcid-autocomplete</key>
@@ -1680,10 +1680,10 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/orcid-id">
+	<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/orcid">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
-		<key>orcid-id</key>
-		<path>project/partner/orcid-id</path>
+		<key>orcid</key>
+		<path>project/partner/orcid</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/partner"/>
 	</attribute>
