@@ -407,7 +407,7 @@ Folgende (ausgewählte) Plattformen können hierbei helfen:
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
 		<uri_path>smp/general/project-partner/employment</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/employment"/>
+		<attribute/>
 		<is_collection>True</is_collection>
 		<title lang="en">Role(s) and Affiliation(s)</title>
 		<help lang="en"/>
@@ -543,11 +543,11 @@ Folgende (ausgewählte) Plattformen können hierbei helfen:
 		<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/orcid-autocomplete"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">Type a name and affiliation or an ORCID id and choose the right person from the matching options</help>
+		<help lang="en">Type a name and affiliation or an ORCID and choose the right person from the matching options</help>
 		<text lang="en">ORCID search</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Geben Sie einen Namen und eine Affiliation oder eine ORCID id ein und wählen Sie die richtige Person aus den Optionen aus</help>
+		<help lang="de">Geben Sie einen Namen und eine Affiliation oder eine ORCID ein und wählen Sie die richtige Person aus den Optionen aus</help>
 		<text lang="de">ORCID-Suche</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -679,7 +679,7 @@ Folgende (ausgewählte) Plattformen können hierbei helfen:
 	</question>
 	<question dc:uri="https://rdmo.mpdl.mpg.de/terms/questions/smp/general/project-partner/orcid">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms/</uri_prefix>
-		<uri_path>smp/general/project-partner/orcid-id</uri_path>
+		<uri_path>smp/general/project-partner/orcid</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mpdl.mpg.de/terms/domain/project/partner/orcid"/>
 		<is_collection>False</is_collection>
