@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-07T16:20:21.437503+01:00" required="2.1.0" version="2.3.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-02-03T15:13:44.864147+01:00" required="2.1.0" version="2.3.2">
 	<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-citation">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>smp-citation</uri_path>
@@ -32,10 +32,10 @@ authors:
 {% get_set_value p 'project/partner/website' as p_website %}
 {% get_values 'project/partner/affiliation' forloop.counter0 as p_affiliations %}
 &lt;li&gt;{% if p_type.option_uri == 'https://rdmo.mpdl.mpg.de/terms/options/partner-types/person' %}
-family-names: {% if p_family_name.value %}&quot;{{ p_family_name.value }}&quot;{% endif %}&lt;br&gt;
-given-names: {% if p_given_name.value %}&quot;{{ p_given_name.value }}&quot;{% endif %}&lt;br&gt;
+family-names: &quot;{% if p_family_name.value %}{{ p_family_name.value }}{% endif %}&quot;&lt;br&gt;
+given-names: &quot;{% if p_given_name.value %}{{ p_given_name.value }}{% endif %}&quot;&lt;br&gt;
 {% if p_orcid.value %}orcid: &quot;{{ p_orcid.value }}&quot;&lt;br&gt;{% endif %}
-{% else %}name: {% if p_name.value %}&quot;{{ p_name.value }}&quot;{% endif %}&lt;br&gt;
+{% else %}name: &quot;{% if p_name.value %}{{ p_name.value }}{% endif %}&quot;&lt;br&gt;
 {% if p_website.value %}website: &quot;{{ p_website.value }}&quot;&lt;br&gt;{% endif %}
 {% endif %}
 {% if p_affiliations %}affiliation: &quot;{% for a in p_affiliations %}{{ a.value }}{% if not forloop.last %} &amp; {% endif %}{% endfor %}&quot;{% endif %}
@@ -47,29 +47,32 @@ type: software&lt;br&gt;
 
 {# ## IDENTIFIERS ## #}
 
+{# if there is only one software pid and it is a doi or url, #}
+{# there is no need for title 'identifiers' #}
+
 {% if software_pids|length == 1 %}
-{% if software_pids.0.option_text == 'DOI' or software_pids.0.option_text == 'URL' %}
-  {{ software_pids.0.option_text|lower }}: {{ software_pids.0.text }}
-{% endif %}
-{% endif %}
-
-{% if software_pids|length == 1 and software_pids.0.option_text != &quot;DOI&quot; and software_pids.0.option_text != &quot;URL&quot; %}
-identifiers:
-&lt;ul&gt;
-&lt;li&gt;type: {% if software_pids.0.option_text == &quot;Software Heritage Identifier&quot;  %}swh{% else %}{{ software_pids.0.option_text|lower }}{% endif %}&lt;br&gt;
-value: {{ software_pids.0.text }}&lt;br&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-{% endif %}
-
+  {% if software_pids.0.option_text == 'DOI' or software_pids.0.option_text == 'URL' %}
+    {{ software_pids.0.option_text|lower }}: {% if software_pids.0.text and software_pids.0.text != '' %}{% if ' ' in software_pids.0.text %}&quot;{{ software_pids.0.text }}&quot;{% else %}{{ software_pids.0.text }}{% endif %}{% else %}&quot;&quot;{% endif %}&lt;br&gt;
+  {% else %}
+    identifiers:
+    &lt;ul&gt;
+      {% for sp in software_pids %}
+        &lt;li&gt;type: {% if sp.option_text == 'Software Heritage Identifier' %}swh{% else %}{{ sp.option_text|lower }}{% endif %}&lt;br&gt;
+        value: {% if sp.text and sp.text != '' %}{% if ' ' in sp.text %}&quot;{{ sp.text }}&quot;{% else %}{{ sp.text }}{% endif %}{% else %}&quot;&quot;{% endif %}&lt;br&gt;
+        &lt;/li&gt;
+      {% endfor %}
+    &lt;/ul&gt;
+  {% endif %}
+{% elif software_pids|length &gt; 1 %}
 identifiers:
 &lt;ul&gt;
   {% for sp in software_pids %}
-    &lt;li&gt;type: {% if sp.option_text == &quot;Software Heritage Identifier&quot; %}swh{% else %}{{ sp.option_text|lower }}{% endif %}&lt;br&gt;
-    value: {{ sp.text }}&lt;br&gt;
+    &lt;li&gt;type: {% if sp.option_text == 'Software Heritage Identifier' %}swh{% else %}{{ sp.option_text|lower }}{% endif %}&lt;br&gt;
+    value: {% if sp.text and sp.text != '' %}{% if ' ' in sp.text %}&quot;{{ sp.text }}&quot;{% else %}{{ sp.text }}{% endif %}{% else %}&quot;&quot;{% endif %}&lt;br&gt;
     &lt;/li&gt;
   {% endfor %}
 &lt;/ul&gt;
+{% endif %}
 
 {# ################# #}
 
