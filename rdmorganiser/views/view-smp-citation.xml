@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-02-03T15:13:44.864147+01:00" required="2.1.0" version="2.3.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-02-09T10:47:30.796060+01:00" required="2.1.0" version="2.3.2">
 	<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-citation">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>smp-citation</uri_path>
@@ -21,35 +21,45 @@
 
 cff-version: 1.2.0&lt;br&gt;
 message: &quot;If you use this software, please cite it as below.&quot;&lt;br&gt;
-authors:
-&lt;ul&gt;
-{% for p in partners %}
-{% get_set_value p 'project/partner/type' as p_type %}
-{% get_set_value p 'project/partner/family-name' as p_family_name %}
-{% get_set_value p 'project/partner/given-name' as p_given_name %}
-{% get_set_value p 'project/partner/name' as p_name %}
-{% get_set_value p 'project/partner/orcid' as p_orcid %}
-{% get_set_value p 'project/partner/website' as p_website %}
-{% get_values 'project/partner/affiliation' forloop.counter0 as p_affiliations %}
-&lt;li&gt;{% if p_type.option_uri == 'https://rdmo.mpdl.mpg.de/terms/options/partner-types/person' %}
-family-names: &quot;{% if p_family_name.value %}{{ p_family_name.value }}{% endif %}&quot;&lt;br&gt;
-given-names: &quot;{% if p_given_name.value %}{{ p_given_name.value }}{% endif %}&quot;&lt;br&gt;
-{% if p_orcid.value %}orcid: &quot;{{ p_orcid.value }}&quot;&lt;br&gt;{% endif %}
-{% else %}name: &quot;{% if p_name.value %}{{ p_name.value }}{% endif %}&quot;&lt;br&gt;
-{% if p_website.value %}website: &quot;{{ p_website.value }}&quot;&lt;br&gt;{% endif %}
+
+{# ############ #}
+{# CONTRIBUTORS #}
+{# ############ #}
+{% if partners %}
+  authors:
+  &lt;ul&gt;
+  {% for p in partners %}
+  {% get_set_value p 'project/partner/type' as p_type %}
+  {% get_set_value p 'project/partner/family-name' as p_family_name %}
+  {% get_set_value p 'project/partner/given-name' as p_given_name %}
+  {% get_set_value p 'project/partner/name' as p_name %}
+  {% get_set_value p 'project/partner/orcid' as p_orcid %}
+  {% get_set_value p 'project/partner/website' as p_website %}
+  {% get_values 'project/partner/affiliation' forloop.counter0 as p_affiliations %}
+  &lt;li&gt;{% if p_type.option_uri == 'https://rdmo.mpdl.mpg.de/terms/options/partner-types/person' %}
+    family-names: &quot;{% if p_family_name.value %}{{ p_family_name.value }}{% endif %}&quot;&lt;br&gt;
+    given-names: &quot;{% if p_given_name.value %}{{ p_given_name.value }}{% endif %}&quot;&lt;br&gt;
+    {% if p_orcid.value %}orcid: &quot;{{ p_orcid.value }}&quot;&lt;br&gt;{% endif %}
+  {% else %}name: &quot;{% if p_name.value %}{{ p_name.value }}{% endif %}&quot;&lt;br&gt;
+    {% if p_website.value %}website: &quot;{{ p_website.value }}&quot;&lt;br&gt;{% endif %}
+  {% endif %}
+  {% if p_affiliations %}affiliation: &quot;{% for a in p_affiliations %}{{ a.value }}{% if not forloop.last %} &amp; {% endif %}{% endfor %}&quot;{% endif %}
+  &lt;/li&gt;
+  {% endfor %}
+  &lt;/ul&gt;
 {% endif %}
-{% if p_affiliations %}affiliation: &quot;{% for a in p_affiliations %}{{ a.value }}{% if not forloop.last %} &amp; {% endif %}{% endfor %}&quot;{% endif %}
-&lt;/li&gt;
-{% endfor %}
-&lt;/ul&gt;
+
+{# ############# #}
+{# PROJECT TITLE #}
+{# ############# #}
 title: &quot;{{ title.value }}&quot;&lt;br&gt;
 type: software&lt;br&gt;
 
-{# ## IDENTIFIERS ## #}
-
+{# ############# #}
+{# SOFTWARE PID(S) #}
+{# ############# #}
 {# if there is only one software pid and it is a doi or url, #}
 {# there is no need for title 'identifiers' #}
-
 {% if software_pids|length == 1 %}
   {% if software_pids.0.option_text == 'DOI' or software_pids.0.option_text == 'URL' %}
     {{ software_pids.0.option_text|lower }}: {% if software_pids.0.text and software_pids.0.text != '' %}{% if ' ' in software_pids.0.text %}&quot;{{ software_pids.0.text }}&quot;{% else %}{{ software_pids.0.text }}{% endif %}{% else %}&quot;&quot;{% endif %}&lt;br&gt;
@@ -64,33 +74,35 @@ type: software&lt;br&gt;
     &lt;/ul&gt;
   {% endif %}
 {% elif software_pids|length &gt; 1 %}
-identifiers:
-&lt;ul&gt;
-  {% for sp in software_pids %}
-    &lt;li&gt;type: {% if sp.option_text == 'Software Heritage Identifier' %}swh{% else %}{{ sp.option_text|lower }}{% endif %}&lt;br&gt;
-    value: {% if sp.text and sp.text != '' %}{% if ' ' in sp.text %}&quot;{{ sp.text }}&quot;{% else %}{{ sp.text }}{% endif %}{% else %}&quot;&quot;{% endif %}&lt;br&gt;
-    &lt;/li&gt;
-  {% endfor %}
-&lt;/ul&gt;
+  identifiers:
+  &lt;ul&gt;
+    {% for sp in software_pids %}
+      &lt;li&gt;type: {% if sp.option_text == 'Software Heritage Identifier' %}swh{% else %}{{ sp.option_text|lower }}{% endif %}&lt;br&gt;
+      value: {% if sp.text and sp.text != '' %}{% if ' ' in sp.text %}&quot;{{ sp.text }}&quot;{% else %}{{ sp.text }}{% endif %}{% else %}&quot;&quot;{% endif %}&lt;br&gt;
+      &lt;/li&gt;
+    {% endfor %}
+  &lt;/ul&gt;
 {% endif %}
 
-{# ################# #}
-
-{# ## LICENSE ## #}
-
-license: {% if software_licenses|length == 1 %}{% if software_licenses.0.text %}{{ software_licenses.0.text }}{% else %}{{ software_licenses.0.option_text }}{% endif %}
-{% elif software_licenses|length &gt; 1 %}
-&lt;ul&gt;
-  {% for sl in software_licenses %}
-    &lt;li&gt;{% if sl.text %}{{ sl.text }}{% else %}{{ sl.option_text }}{% endif %}&lt;/li&gt;
-  {% endfor %}
-&lt;/ul&gt;
+{# ################### #}
+{# SOFTWARE LICENSE(S) #}
+{# ################### #}
+{% if software_licenses %}
+  license: {% if software_licenses|length == 1 %}{% if software_licenses.0.text %}{{ software_licenses.0.text }}{% else %}{{ software_licenses.0.option_text }}{% endif %}&lt;br&gt;
+  {% elif software_licenses|length &gt; 1 %}
+  &lt;ul&gt;
+    {% for sl in software_licenses %}
+      &lt;li&gt;{% if sl.text %}{{ sl.text }}{% else %}{{ sl.option_text }}{% endif %}&lt;/li&gt;
+    {% endfor %}
+  &lt;/ul&gt;
+  {% endif %}
 {% endif %}
-&lt;/p&gt;
 
-{# ############# #}
-
-
-date-released: {{ release_date.value|date:&quot;Y-m-d&quot; }}</template>
+{# ############ #}
+{# RELEASE DATE #}
+{# ############ #}
+{% if release_date %}
+  date-released: {{ release_date.value|date:&quot;Y-m-d&quot; }}
+{% endif %}</template>
 	</view>
 </rdmo>
