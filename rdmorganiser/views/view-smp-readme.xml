@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-26T17:32:44.505129+02:00" required="2.1.0" version="2.4.4">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-29T15:43:06.514036+02:00" required="2.1.0" version="2.4.4">
 	<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-readme">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>smp-readme</uri_path>
@@ -9,26 +9,24 @@
 		<help lang="en">Helper view of a README file for Research Software.</help>
 		<title lang="de">SMP Readme Template</title>
 		<help lang="de">Hilfe-Ansicht einer README-Datei für Forschungssoftware.</help>
-		<title lang="fr"/>
-		<help lang="fr"/>
-		<title lang="it"/>
-		<help lang="it"/>
-		<title lang="es"/>
-		<help lang="es"/>
 		<catalogs>
 			<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/smp"/>
 		</catalogs>
 		<template>{% load view_tags %}
+{% get_value 'project/title' as title %}
+{% get_values 'project/research_field' as research_fields %}
+{% get_value 'project/research_question/title' as research_question_title %}
+{% get_set 'project/partner/id' as partners %}
+{% get_values 'smp/software-license' as software_licenses %}
 
 {# ############# #}
 {# PROJECT TITLE #}
 {# ############# #}
-&lt;h1&gt;{% render_value 'project/title' %}&lt;/h1&gt;
+&lt;h1&gt;{{ title.value }}&lt;/h1&gt;
 
 {# ################# #}
 {# RESEARCH FIELD(S) #}
 {# ################# #}
-{% get_values 'project/research_field' as research_fields %}
 {% if research_fields|length %}
     &lt;p&gt;This software belongs to the research field{{ research_fields|pluralize }}: {% if research_fields|length == 1 %}{{ research_fields.0.value }}
         {% elif research_fields|length &gt; 1 %}
@@ -44,7 +42,6 @@
 {# ######################################### #}
 {# INTENDED USE AND CONTRIBUTION TO RESEARCH #}
 {# ######################################### #}
-{% get_value 'project/research_question/title' as research_question_title %}
 {% if research_question_title and research_question_title.value != '' %}
     &lt;p&gt;Its intended use and its contribution to research:&lt;/p&gt;
     &lt;p&gt;{{ research_question_title.value|linebreaks }}&lt;/p&gt;
@@ -53,12 +50,11 @@
 {# ############## #}
 {# CONTRIBUTOR(S) #}
 {# ############## #}
-{% get_set 'project/partner/id' as partners %}
 {% if partners|length %}
     &lt;p&gt;Contributor{{ partners|pluralize }}:
     &lt;ul&gt;
     {% for p in partners %}
-        {% with p_set_index_str=p.set_index|stringformat:&quot;s&quot; %}
+        {% with p_set_index_str=p.set_index|stringformat:'s' %}
         {% get_set_value p 'project/partner/type' as p_type %}
         {% get_set_value p 'project/partner/orcid' as p_orcid %}
         {% get_set_value p 'project/partner/website' as p_website %}
@@ -77,7 +73,6 @@
 {# ########## #}
 {# LICENSE(S) #}
 {# ########## #}
-{% get_values 'smp/software-license' as software_licenses %}
 {% if software_licenses|length %}
     &lt;p&gt;Software license{{ software_licenses|pluralize }}: {% if software_licenses|length == 1 %}{% if software_licenses.0.text %}{{ software_licenses.0.text }}{% else %}{{ software_licenses.0.option_text }}{% endif %}
     {% elif software_licenses|length &gt; 1 %}

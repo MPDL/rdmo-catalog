@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-26T17:33:23.347965+02:00" required="2.1.0" version="2.4.4">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-29T16:25:05.875188+02:00" required="2.1.0" version="2.4.4">
 	<view dc:uri="https://rdmo.mpdl.mpg.de/terms/views/smp-report">
 		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
 		<uri_path>smp-report</uri_path>
@@ -26,7 +26,8 @@
 
 {% else %}
 
-&lt;h1&gt;{% render_value 'project/title' %}&lt;/h1&gt;
+{% get_value 'project/title' as title %}
+&lt;h1&gt;{{ title.value }}&lt;/h1&gt;
 
 {% with sections=project.catalog.sections %}
 
@@ -144,7 +145,7 @@
       {% if rq_question_result %}
         {% if research_question_title %}
         &lt;p&gt;Its intended use and its contribution to research:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ research_question_title.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ research_question_title.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
       
@@ -152,7 +153,7 @@
       {% if novelty_question_result %}
         {% if buy_or_make %}
         &lt;p&gt;Its novelty:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ buy_or_make.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ buy_or_make.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -166,7 +167,7 @@
     &lt;h3&gt;Contributor{{ partners|pluralize }}&lt;/h3&gt;
       &lt;ul&gt;
       {% for p in partners %}
-        {% with p_set_index_str=p.set_index|stringformat:&quot;s&quot; %}
+        {% with p_set_index_str=p.set_index|stringformat:'s' %}
         {% get_set_value p 'project/partner/type' as p_type %}
         {% get_set_value p 'project/partner/orcid' as p_orcid %}
         {% get_set_value p 'project/partner/website' as p_website %}
@@ -198,7 +199,7 @@
       {% if funding_question_result %}
         {% if funder %}
         &lt;p&gt;Existing (financial or personnel) resources or specific funding for the software development:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ funder.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ funder.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
   
@@ -253,7 +254,7 @@
       {% if dp_question_result %}
         {% if development_process %}
         &lt;p&gt;Development process and roles:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ development_process.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ development_process.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
     
@@ -302,7 +303,7 @@
       {% if ir_question_result %}
         {% if institutional_requirements %}
         &lt;p&gt;Institutional requirements for software development:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ institutional_requirements.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ institutional_requirements.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -310,7 +311,7 @@
       {% if cr_question_result %}
         {% if community_requirements %}
         &lt;p&gt;Requirements for software development from other parties:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ community_requirements.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ community_requirements.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -416,7 +417,7 @@
         {% if versioning_question_result %}
           {% if versioning %}
           &lt;p&gt;Technology or process used for versioning:&lt;/p&gt;
-          &lt;div class=&quot;textarea&quot;&gt;{{ versioning.value|linebreaks }}&lt;/div&gt;
+          &lt;div class="textarea"&gt;{{ versioning.value|linebreaks }}&lt;/div&gt;
           {% endif %}
         {% endif %}
 
@@ -443,7 +444,7 @@
         {% if ec_question_result %}
           {% if external_components %}
           &lt;p&gt;Dependencies and documentation of used third-party software components and libraries:&lt;/p&gt;
-          &lt;div class=&quot;textarea&quot;&gt;{{ external_components.value|linebreaks }}&lt;/div&gt;
+          &lt;div class="textarea"&gt;{{ external_components.value|linebreaks }}&lt;/div&gt;
           {% endif %}
         {% endif %}
 
@@ -451,7 +452,7 @@
         {% if tpl_question_result %}
           {% if third_party_licenses %}
           &lt;p&gt;Licenses of used third-party software components:&lt;/p&gt;
-          &lt;div class=&quot;textarea&quot;&gt;{{ third_party_licenses.value|linebreaks }}&lt;/div&gt;
+          &lt;div class="textarea"&gt;{{ third_party_licenses.value|linebreaks }}&lt;/div&gt;
           {% endif %}
         {% endif %}
 
@@ -459,7 +460,7 @@
         {% if tes_question_result %}
           {% if track_external_software %}
           &lt;p&gt;Tracking of external software components and dependency mitigation/elimination:&lt;/p&gt;
-          &lt;div class=&quot;textarea&quot;&gt;{{ track_external_software.value|linebreaks }}&lt;/div&gt;
+          &lt;div class="textarea"&gt;{{ track_external_software.value|linebreaks }}&lt;/div&gt;
           {% endif %}
         {% endif %}
 
@@ -467,7 +468,7 @@
         {% if ws_question_result %}
           {% if web_services %}
           &lt;p&gt;Planned use of third-party web services:&lt;/p&gt;
-          &lt;div class=&quot;textarea&quot;&gt;{{ web_services.value|linebreaks }}&lt;/div&gt;
+          &lt;div class="textarea"&gt;{{ web_services.value|linebreaks }}&lt;/div&gt;
           {% endif %}
         {% endif %}
 
@@ -475,7 +476,7 @@
         {% if qr_question_result %}
           {% if qualified_references %}
           &lt;p&gt;Reference to other software or objects:&lt;/p&gt;
-          &lt;div class=&quot;textarea&quot;&gt;{{ qualified_references.value|linebreaks }}&lt;/div&gt;
+          &lt;div class="textarea"&gt;{{ qualified_references.value|linebreaks }}&lt;/div&gt;
           {% endif %}
         {% endif %}
 
@@ -500,7 +501,7 @@
         {% if ir_question_result %}
           {% if infrastructure_required %}
           &lt;p&gt;Needed infrastructure resources:&lt;/p&gt;
-          &lt;div class=&quot;textarea&quot;&gt;{{ infrastructure_required.value|linebreaks }}&lt;/div&gt;
+          &lt;div class="textarea"&gt;{{ infrastructure_required.value|linebreaks }}&lt;/div&gt;
           {% endif %}
         {% endif %}
 
@@ -508,7 +509,7 @@
         {% if ie_question_result %}
           {% if infrastructure_existing %}
           &lt;p&gt;Existing infrastructure for the software development:&lt;/p&gt;
-          &lt;div class=&quot;textarea&quot;&gt;{{ infrastructure_existing.value|linebreaks }}&lt;/div&gt;
+          &lt;div class="textarea"&gt;{{ infrastructure_existing.value|linebreaks }}&lt;/div&gt;
           {% endif %}
         {% endif %}
 
@@ -516,7 +517,7 @@
         {% if ts_question_result %}
           {% if technical_support %}
           &lt;p&gt;Needed technical training or code-reviewing process:&lt;/p&gt;
-          &lt;div class=&quot;textarea&quot;&gt;{{ technical_support.value|linebreaks }}&lt;/div&gt;
+          &lt;div class="textarea"&gt;{{ technical_support.value|linebreaks }}&lt;/div&gt;
           {% endif %}
         {% endif %}
     
@@ -540,7 +541,7 @@
         {% if reusable_question_result %}
           {% if reusable %}
           &lt;p&gt;Time horizon and taken measures for software reusability: &lt;/p&gt;
-          &lt;div class=&quot;textarea&quot;&gt;{{ reusable.value|linebreaks }}&lt;/div&gt;
+          &lt;div class="textarea"&gt;{{ reusable.value|linebreaks }}&lt;/div&gt;
           {% endif %}
         {% endif %}
 
@@ -548,7 +549,7 @@
         {% if preservation_question_result %}
           {% if preservation %}
           &lt;p&gt;Time horizon for software preservation:&lt;/p&gt;
-          &lt;div class=&quot;textarea&quot;&gt;{{ preservation.value|linebreaks }}&lt;/div&gt;
+          &lt;div class="textarea"&gt;{{ preservation.value|linebreaks }}&lt;/div&gt;
           {% endif %}
         {% endif %}
 
@@ -572,7 +573,7 @@
       {% if security_question_result %}
         {% if security %}
         &lt;p&gt;Measures or provisions in place to ensure software IT security:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ security.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ security.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -580,7 +581,7 @@
       {% if safety_question_result %}
         {% if safety %}
         &lt;p&gt;Measures to minimise risks in relation to software development:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ safety.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ safety.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -647,7 +648,7 @@
       {% if gm_question_result %}
         {% if governance_model %}
         &lt;p&gt;Governance model for software development:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ governance_model.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ governance_model.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -686,7 +687,7 @@
       {% if wir_question_result %}
         {% if who_is_responsible %}
         &lt;p&gt;Software documentation:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ who_is_responsible.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ who_is_responsible.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -694,7 +695,7 @@
       {% if ds_question_result %}
         {% if documentation_stored %}
         &lt;p&gt;Documentation storage and language:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ documentation_stored.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ documentation_stored.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -717,7 +718,7 @@
       {% check_element page_questions.0 project=project as ts_question_result %}
       {% if ts_question_result %}
         {% if test_strategies %}
-        &lt;p&gt;Test strateg{{ test_strategies|pluralize:&quot;y,ies&quot; }}: {% if test_strategies|length == 1 %}{% if test_strategies.0.text %}{{ test_strategies.0.text }}{% else %}{{ test_strategies.0.value }}{% endif %}
+        &lt;p&gt;Test strateg{{ test_strategies|pluralize:'y,ies' }}: {% if test_strategies|length == 1 %}{% if test_strategies.0.text %}{{ test_strategies.0.text }}{% else %}{{ test_strategies.0.value }}{% endif %}
           {% elif test_strategies|length &gt; 1 %}
           &lt;ul&gt;
           {% for ts in test_strategies %}
@@ -733,7 +734,7 @@
       {% if td_question_result %}
         {% if test_documentation %}
         &lt;p&gt;Test documentation:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ test_documentation.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ test_documentation.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -821,7 +822,7 @@
       {% if rw_question_result %}
         {% if releasing_who %}
         &lt;p&gt;Release process:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ releasing_who.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ releasing_who.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -829,7 +830,7 @@
       {% if dr_question_result %}
         {% if decision_releasing %}
         &lt;p&gt;Decision process for releasing and releasing frequency:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ decision_releasing.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ decision_releasing.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -837,7 +838,7 @@
       {% if ss_question_result %}
         {% if store_software %}
         &lt;p&gt;Software storage and preservation policy:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ store_software.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ store_software.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -873,7 +874,7 @@
       {% if sr_question_result %}
         {% if software_repository %}
         &lt;p&gt;Software repository or archive, findability and usability:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ software_repository.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ software_repository.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -881,7 +882,7 @@
       {% if cs_question_result %}
         {% if contribute_software %}
         &lt;p&gt;Software contributions from the community:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ contribute_software.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ contribute_software.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -889,7 +890,7 @@
       {% if pr_question_result %}
         {% if peer_review %}
         &lt;p&gt;Planned (Open) Peer Review for the software:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ peer_review.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ peer_review.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
     
@@ -913,7 +914,7 @@
       {% if am_question_result %}
         {% if software_metadata %}
         &lt;p&gt;Software's metadata assignment:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ software_metadata.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ software_metadata.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -964,7 +965,7 @@
       {% if fp_question_result %}
         {% if feedback_process %}
         &lt;p&gt;Support and feedback process with users:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ feedback_process.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ feedback_process.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -972,7 +973,7 @@
       {% if rsmpdmp_question_result %}
         {% if relation_smp_dmp %}
         &lt;p&gt;Relation of this Software Management Plan to other Software or Data Management Plan(s):&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ relation_smp_dmp.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ relation_smp_dmp.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -1045,7 +1046,7 @@
       {% if spr_question_result %}
         {% if property_rights %}
         &lt;p&gt;Legal ownership of the software:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ property_rights.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ property_rights.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -1053,7 +1054,7 @@
       {% if esr_question_result %}
         {% if external_software_rights %}
         &lt;p&gt;Third-party intellectual or industrial property rights:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ external_software_rights.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ external_software_rights.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
@@ -1075,7 +1076,7 @@
       {% check_element page_questions.0 project=project as sl_question_result %}
       {% if sl_question_result %}
         {% if software_licenses|length %}
-        &lt;p&gt;The software will be published under {{ software_licenses|pluralize:&quot;this,these&quot; }} license{{ software_licenses|pluralize }}: {% if software_licenses|length == 1 %}{% if software_licenses.0.text %}{{ software_licenses.0.text }}{% else %}{{ software_licenses.0.option_text }}{% endif %}
+        &lt;p&gt;The software will be published under {{ software_licenses|pluralize:'this,these' }} license{{ software_licenses|pluralize }}: {% if software_licenses|length == 1 %}{% if software_licenses.0.text %}{{ software_licenses.0.text }}{% else %}{{ software_licenses.0.option_text }}{% endif %}
         {% elif software_licenses|length &gt; 1 %}
         &lt;ul&gt;
           {% for sl in software_licenses %}
@@ -1106,7 +1107,7 @@
       {% if dus_question_result %}
         {% if dual_use %}
         &lt;p&gt;Software's use for military purposes:&lt;/p&gt;
-        &lt;div class=&quot;textarea&quot;&gt;{{ dual_use.value|linebreaks }}&lt;/div&gt;
+        &lt;div class="textarea"&gt;{{ dual_use.value|linebreaks }}&lt;/div&gt;
         {% endif %}
       {% endif %}
 
