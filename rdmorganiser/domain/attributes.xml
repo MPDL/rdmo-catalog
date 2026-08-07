@@ -49,6 +49,41 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination"/>
 	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination/email">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>email</key>
+		<path>project/coordination/email</path>
+		<dc:comment>E-mail address of the project coordinator.</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination/family_name">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>family_name</key>
+		<path>project/coordination/family_name</path>
+		<dc:comment>Family name of the coordinator of a project.</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination/given_name">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>given_name</key>
+		<path>project/coordination/given_name</path>
+		<dc:comment>Given name of the project coordinator.</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination/orcid">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>orcid</key>
+		<path>project/coordination/orcid</path>
+		<dc:comment>ORCID of the project coordinator.</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination/organization">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>organization</key>
+		<path>project/coordination/organization</path>
+		<dc:comment>Introduced to enable interoperability with different maDMP approaches. Equivalent to rda:dmp/contributor/affiliation/name and dataplan:$_PARTNERS.</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/coordination"/>
+	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>costs</key>
@@ -322,12 +357,26 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/usage"/>
 	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/value">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>value</key>
+		<path>project/costs/value</path>
+		<dc:comment>Total cost for RDM measures in the project. More detailed questions regarding cost by single RDM measures can use more specialized attributes such as `costs/creation/personnel`, `costs/preservation/non_personnel`. Introduced to enable interoperability with different maDMP approaches. Equivalent to rda:dmp/cost/value.</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs"/>
+	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>data_management</key>
 		<path>project/data_management</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management/mbox">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>mbox</key>
+		<path>project/data_management/mbox</path>
+		<dc:comment>Introduced to enable interoperability with different maDMP approaches. Equivalent to rda:dmp/contact/mbox and dataplan:$_EMAIL.</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management"/>
 	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/data_management/name">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -489,6 +538,13 @@
 		<path>project/dataset/data_security/access_permissions</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/backups/frequency">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>frequency</key>
+		<path>project/dataset/data_security/backups/frequency</path>
+		<dc:comment>Frequency of data backups (daily, monthly, ...). Introduced to enable interoperability with different maDMP approaches. Equivalent to rda:dmp/dataset/distribution/host/backup_frequency</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/backups"/>
 	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_security/backup_responsible">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -721,6 +777,13 @@
 		<dc:comment>Added for the question &quot;Will your data include qualified references to other data (e.g. other data from your project, or datasets from previous research)?&quot;, required in the Horizon Europe Data Management Plan Template, 05.05.2021, https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan-template_he_en.docx</dc:comment>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata"/>
 	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata/references_to_normdata">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>references_to_normdata</key>
+		<path>project/dataset/metadata/references_to_normdata</path>
+		<dc:comment>Added for the question "Welche Normdatenvokabulare werden zur eindeutigen Identifikation von Entitäten innerhalb des Datensatzes verwendet? in the Text+ catalog"</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata"/>
+	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/metadata/responsible_person">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>responsible_person</key>
@@ -775,6 +838,20 @@
 		<key>origin</key>
 		<path>project/dataset/origin</path>
 		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/origin/source_name">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>source_name</key>
+		<path>project/dataset/origin/source_name</path>
+		<dc:comment>Origin or provenance of reused datasets. Introduced to enable interoperability with different maDMP approaches. Equivalent to rda:dmp/dataset/is_reused_source_name and dataplan:list-reuse-en.</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/origin"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/origin_license">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>origin_license</key>
+		<path>project/dataset/origin_license</path>
+		<dc:comment>Added for the question "Wenn nachgenutzt, welcher Lizenz (z.B. Creative Commons) bzw. welchen Nutzungsbedingungen (Urheber-, Patent- oder andere Eigentumsrechte) unterliegt die Nachnutzung des Datensatzes?" of the Text+ catalog (asking under which license a reused dataset can be used)</dc:comment>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
 	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/pids">
@@ -1169,6 +1246,20 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing"/>
 	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/why_no">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>why_no</key>
+		<path>project/dataset/sharing/why_no</path>
+		<dc:comment>reasons for not sharing a dataset</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/why_yes">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>why_yes</key>
+		<path>project/dataset/sharing/why_yes</path>
+		<dc:comment>reasons for sharing a dataset</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing"/>
+	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>size</key>
@@ -1195,6 +1286,13 @@
 		<key>software_documentation</key>
 		<path>project/dataset/software_documentation</path>
 		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sources">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>sources</key>
+		<path>project/dataset/sources</path>
+		<dc:comment>Added for to the question "Welche (analogen) Quellen liegen dem Datensatz zugrunde?" of the Text+ catalog</dc:comment>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
 	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/storage">
@@ -1244,6 +1342,13 @@
 		<key>title</key>
 		<path>project/dataset/title</path>
 		<dc:comment/>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/type">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>type</key>
+		<path>project/dataset/type</path>
+		<dc:comment>Verbose description of a dataset type, e.g. "RNA sequency data". Introduced to enable interoperability with different maDMP approaches. Equivalent to rda:dmp/dataset/type and dataplan:list-dataType-en.</dc:comment>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
 	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/uri">
@@ -1341,7 +1446,14 @@
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>dmp_date</key>
 		<path>project/dmp/dmp_date</path>
-		<dc:comment>Date of this data management plan version, added for the text field &quot;Date&quot;, required in the Horizon Europe Data Management Plan Template, 05.05.2021, https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan-template_he_en.docx</dc:comment>
+		<dc:comment>Creation date of the data management plan, added for the text field &quot;Date&quot;, required in the Horizon Europe Data Management Plan Template, 05.05.2021, https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan-template_he_en.docx</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dmp"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dmp/dmp_date_modification">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>dmp_date_modification</key>
+		<path>project/dmp/dmp_date_modification</path>
+		<dc:comment>Date of this data management plan version. Introduced to enable interoperability with different maDMP approaches. Equivalent to rda:dmp/modified_date and dataplan:$_MODIFICATIONDATE.</dc:comment>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dmp"/>
 	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dmp/dmp_version">
@@ -1434,6 +1546,20 @@
 		<path>project/legal_aspects</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/ethical_issues">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>ethical_issues</key>
+		<path>project/legal_aspects/ethical_issues</path>
+		<dc:comment>Introduced to enable interoperability with different maDMP approaches. Parent to other attributes.</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/ethical_issues/description">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>description</key>
+		<path>project/legal_aspects/ethical_issues/description</path>
+		<dc:comment>Introduced to enable interoperability with different maDMP approaches. Equivalent to rda:dmp/ethical_issues_description and dataplan:text-ethical-en.</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/ethical_issues"/>
 	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/international_yesno">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -1806,6 +1932,13 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/preservation"/>
 	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/project_url">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>project_url</key>
+		<path>project/project_url</path>
+		<dc:comment>refers to the URL, where information about the project can be found</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project"/>
+	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_field">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<key>research_field</key>
@@ -1840,6 +1973,27 @@
 		<path>project/research_question/keywords</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords/gnd">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>gnd</key>
+		<path>project/research_question/keywords/gnd</path>
+		<dc:comment>controlled keywords taken out of the Gemeinsame Normdatei (GND)</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords/other">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>other</key>
+		<path>project/research_question/keywords/other</path>
+		<dc:comment>non-controlled keywords or controlled keywords from other vocabularies</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
+	</attribute>
+	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords/wikidata">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<key>wikidata</key>
+		<path>project/research_question/keywords/wikidata</path>
+		<dc:comment>controlled keywords taken out of Wikidata https://www.wikidata.org/w/index.php</dc:comment>
+		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/keywords"/>
 	</attribute>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_question/title">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
