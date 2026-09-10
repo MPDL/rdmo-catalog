@@ -1,10 +1,20 @@
 # DFG-Checkliste
 * Contact / Maintainer: RDMO community, rdmo-contact@listserv.dfn.de
+<<<<<<<< HEAD:rdmorganiser/questions/DFG-Checkliste/DFG-Checkliste.md
+* Version: 1.0
+* License: CC0
+
+# Changes from 2026-03-30
+There are now two versions of the xml file. Depending on your RDMO system, you should chose the appropriate one:
+* **DFG-Checkliste_greater_RDMO-Vers.2** for import in RDMO systems with versions greater than 2.0
+* **DFG-Checkliste_greater_RDMO-Vers.2** for import in RDMO systems with versions lower than 2.0
+========
 * Version: 1.1
 * License: CC0
 
 # Changes from 2026-03-30
 There are now two versions of the xml file. The default file to be used is **questions-DFGCheckliste-simple.xml**, which is also maintained on the long term. For RDMO _software_ versions between 2.0 and 2.5 excluded, it is recommended to use **questions-DFGCheckliste-fullexport.xml** which contains also the needed attributes, options and conditions.
+>>>>>>>> 406556d9ea4aa9dc2d21dc5aeb34f51463a52f2f:rdmorganiser/questions/DFG-Checkliste/readme-DFGCheckliste.md
 
 # Changes from 2023-06-60
 * Attribute "https://rdmorganiser.github.io/terms/domain/project/dataset/curation/responsible_person/name" added to question "Who is responsible for curating the data after the end of the project?"
@@ -15,6 +25,16 @@ This catalog is the [checklist published by the DFG](https://www.dfg.de/research
 # Import
 
 ## Files
+<<<<<<<< HEAD:rdmorganiser/questions/DFG-Checkliste/DFG-Checkliste.md
+* questions/DFG-Checkliste.xml
+
+## Dependencies
+RDMO standard domain and option sets required:
+* domain/rdmo.xml
+* options/rdmo.xml
+
+## Necessary instution-specific adjustments
+========
 * questions/questions-DFGCheckliste-simple.xml
 OR:
 * questions/questions-DFGCheckliste-fullexport.xml
@@ -26,6 +46,7 @@ RDMO standard domain and option sets required:
 * options/optionsets.xml
 
 ## Necessary institution-specific adjustments
+>>>>>>>> 406556d9ea4aa9dc2d21dc5aeb34f51463a52f2f:rdmorganiser/questions/DFG-Checkliste/readme-DFGCheckliste.md
 Several questions or linked optionsets of the catalog need institution-specific adjustements after import:
 * https://rdmorganiser.github.io/terms/questions/DFG-Checkliste/data_description/data_content
 * https://rdmorganiser.github.io/terms/questions/DFG-Checkliste/rights/publication_restrictions/publication_limitations
