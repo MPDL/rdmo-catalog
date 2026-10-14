@@ -366,8 +366,8 @@ Folgende (ausgewählte) Plattformen können hierbei helfen:
 		<optionsets/>
 		<conditions/>
 	</question>
-	<page dc:uri="https://rdmo.mpdl.mpg.de/terms/questions/smp/general/project-partner">
-		<uri_prefix>https://rdmo.mpdl.mpg.de/terms</uri_prefix>
+	<page dc:uri="https://rdmorganiser.github.io/terms/questions/smp/general/project-partner">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>smp/general/project-partner</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/contributor/id"/>
