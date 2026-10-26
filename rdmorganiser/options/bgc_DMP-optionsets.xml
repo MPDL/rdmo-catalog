@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-10-26T16:13:14.841738+01:00" required="2.1.0" version="2.5.2">
+	<optionset dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/checkbox">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>checkbox</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/checkbox-ok" order="1"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/checkbox-ok">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>checkbox-ok</uri_path>
+		<dc:comment/>
+		<text lang="en">Ok</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en">Ok</view_text>
+		<text lang="de">Ok</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de">Ok</view_text>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Data-owner">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>Data-owner</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Data-owner-PI" order="1"/>
+			<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Data-owner-DataSteward" order="2"/>
+			<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Data-owner-Director" order="3"/>
+			<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Data-owner-other" order="4"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Data-owner-PI">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>Data-owner-PI</uri_path>
+		<dc:comment/>
+		<text lang="en">Supervisor/ Principal Investigator</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en">Supervisor/ Principal Investigator</view_text>
+		<text lang="de">Betreuer/Projektleiter</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de">Betreuer/Projektleiter</view_text>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Data-owner-DataSteward">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>Data-owner-DataSteward</uri_path>
+		<dc:comment/>
+		<text lang="en">Data Steward</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en">Data Steward</view_text>
+		<text lang="de">Datenmanager</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de">Datenmanager</view_text>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Data-owner-Director">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>Data-owner-Director</uri_path>
+		<dc:comment/>
+		<text lang="en">Director</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en">Director</view_text>
+		<text lang="de">Direktor*in</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de">Direktor*in</view_text>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Data-owner-other">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>Data-owner-other</uri_path>
+		<dc:comment/>
+		<text lang="en">Other</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en">Other</view_text>
+		<text lang="de">Andere</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de">Andere</view_text>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Departments-list">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>Departments-list</uri_path>
+		<dc:comment>List of departments of MPI BGC Jena</dc:comment>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Departments-list-BGP" order="1"/>
+			<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Departments-list-BGI" order="2"/>
+			<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Departments-list-BGS" order="3"/>
+			<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Departments-list-group" order="4"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Departments-list-BGP">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>Departments-list-BGP</uri_path>
+		<dc:comment/>
+		<text lang="en">Department Biogeochemical Processes</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en">Department Biogeochemical Processes</view_text>
+		<text lang="de">Abteilung Biogeochemische Prozesse</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de">Abteilung Biogeochemische Prozesse</view_text>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Departments-list-BGI">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>Departments-list-BGI</uri_path>
+		<dc:comment/>
+		<text lang="en">Department Biogeochemical Integration</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en">Department Biogeochemical Integration</view_text>
+		<text lang="de">Abteilung Biogeochemische Integration</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de">Abteilung Biogeochemische Integration</view_text>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Departments-list-BGS">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>Departments-list-BGS</uri_path>
+		<dc:comment/>
+		<text lang="en">Department Biogeochemical Signals</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en">Department Biogeochemical Signals</view_text>
+		<text lang="de">Abteilung Biogeochemische Signale</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de">Abteilung Biogeochemische Signale</view_text>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Departments-list-group">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>Departments-list-group</uri_path>
+		<dc:comment/>
+		<text lang="en">Independent Research Group</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en">Research Group</view_text>
+		<text lang="de">Forschungsgruppe</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de">Forschungsgruppe</view_text>
+		<additional_input/>
+	</option>
+</rdmo>

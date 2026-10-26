@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-10-26T16:04:35.855376+01:00" required="2.1.0" version="2.5.2">
+	<catalog dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/bgc_DMP_vers1">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>bgc_DMP_vers1</uri_path>
+		<dc:comment/>
+		<order>1</order>
+		<title lang="en">MPI-BGC Data Management Plan (DMP) basic (Version 1.0)</title>
+		<help lang="en">This catalog is for research data management at the &lt;a href="https://www.bgc-jena.mpg.de/" target="_blank"&gt;Max Planck Institute for Biogeochemistry&lt;/a &gt;</help>
+		<title lang="de">MPI-BGC-Datenmanagementplan (DMP) – Basisversion (Version 1.0)</title>
+		<help lang="de">Dieser Katalog dient der Verwaltung von Forschungsdaten am &lt;a href="https://www.bgc-jena.mpg.de/" target="_blank"&gt;Max-Planck-Institut für Biogeochemie&lt;/a &gt;</help>
+		<sections>
+			<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/preface" order="1"/>
+			<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_overview" order="2"/>
+			<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_description_and_reuse" order="3"/>
+			<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/documentation_metadata" order="4"/>
+			<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_storage" order="5"/>
+			<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/requirements" order="6"/>
+			<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing" order="7"/>
+			<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/additional_information" order="8"/>
+			<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/final_considerations" order="9"/>
+		</sections>
+	</catalog>
+	<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/preface">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>preface</uri_path>
+		<dc:comment>1st test section</dc:comment>
+		<title lang="en">Preface</title>
+		<short_title lang="en">Preface</short_title>
+		<title lang="de">Preface</title>
+		<short_title lang="de">Preface</short_title>
+		<pages>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/preface_0" order="1"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/preface_0">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>preface_0</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Preface</title>
+		<short_title lang="en">Existing DMP?</short_title>
+		<help lang="en">An DMP is a living document, you can (and should) update your DMP anytime, if necessary. 
+
+A project is considered a collaborative project, PhD-project or similar.</help>
+		<verbose_name lang="en">Preface</verbose_name>
+		<title lang="de">Preface</title>
+		<short_title lang="de"/>
+		<help lang="de">Ein DMP ist ein dynamisches Dokument; Sie können (und sollten) Ihr DMP bei Bedarf jederzeit aktualisieren.
+
+Ein Projekt wäre Kooperationsprojekt, Promotionsprojekt oder Ähnliches.</help>
+		<verbose_name lang="de">Preface</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/preface_00" order="1"/>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/preface_filelink" order="4"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/preface_00">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>preface_00</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/preface_00"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Does a DMP exist for this project already?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Does a DMP exist for this project already?</verbose_name>
+		<help lang="de"/>
+		<text lang="de">Gibt es für dieses Projekt bereits einen DMP?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Gibt es für dieses Projekt bereits einen DMP?</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/preface_filelink">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>preface_filelink</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/preface_filelink"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please upload the existing DMP to &lt;a href="https://keeper.mpdl.mpg.de" target="_blank"&gt; Keeper&lt;/a &gt; or other file storage options and link it here.</help>
+		<text lang="en">Link existing DMP</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Upload DMP</verbose_name>
+		<help lang="de">Bitte laden Sie das vorhandene DMP auf &lt;a href="https://keeper.mpdl.mpg.de" target="_blank"&gt;Keeper&lt;/a &gt;  oder einen anderen Cloud-Speicher hoch und fügen Sie hier den Link ein.</help>
+		<text lang="de">Link zum vorhandenen DMP</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Upload DMP</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_overview">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>project_overview</uri_path>
+		<dc:comment>General information about the Project</dc:comment>
+		<title lang="en">Project Overview</title>
+		<short_title lang="en"/>
+		<title lang="de">Projektübersicht</title>
+		<short_title lang="de"/>
+		<pages>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_overview_title" order="0"/>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/contact" order="1"/>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/department" order="2"/>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_pi" order="3"/>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_funder" order="4"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_overview_title">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>project_overview_title</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Title</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en">Title</verbose_name>
+		<title lang="de">Titel</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de">Titel</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_overview_title_01" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_overview_title_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>project_overview_title_01</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/po_title_01"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">What is the official name of your research project?</help>
+		<text lang="en">Project name</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Project name</verbose_name>
+		<help lang="de">Wie lautet der offizielle Name Ihres Forschungsprojekts?</help>
+		<text lang="de">Projektname</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Projektname</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/contact">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>contact</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Project contact</title>
+		<short_title lang="en">Project contact</short_title>
+		<help lang="en">What is the contact person and address for the project (might be personal or functional E-Mail
+address)? Please provide your personal (...@bgc-jena.mpg.de) email address. You may also add a second person as a point of contact, and/ or a functional email address belonging to the project.</help>
+		<verbose_name lang="en">Project contact</verbose_name>
+		<title lang="de">Ansprechpartner für das Projekt</title>
+		<short_title lang="de">Ansprechpartner für das Projekt</short_title>
+		<help lang="de">Wie lauten der Name des Ansprechpartners und die Adresse für das Projekt (kann eine private oder geschäftliche E-Mail-
+Adresse sein)? Bitte geben Sie Ihre persönliche E-Mail-Adresse (...@bgc-jena.mpg.de) an. Sie können außerdem eine zweite Person als Ansprechpartner und/oder eine zum Projekt gehörende E-Mail-Adresse angeben.</help>
+		<verbose_name lang="de">Ansprechpartner für das Projekt</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_contact_name" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_contact_name">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>project_contact_name</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/project_contact_name"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please enter the fullname and email address of the contact person. You may use &lt;a href="https://orcid.org/" target="_blank"&gt;ORCID&lt;/a &gt; and &lt;a href="https://ror.org/" target="_blank"&gt;ROR&lt;/a &gt; IDs (For example: &lt;a href="https://ror.org/051yxp643" target="_blank"&gt;https://ror.org/051yxp643&lt;/a &gt; for Max Planck Institute for Biogeochemistry) for their affiliations to ensure a unique name assignment.</help>
+		<text lang="en">Project contact name</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Project contact name</verbose_name>
+		<help lang="de">Bitte geben Sie den vollständigen Namen und die E-Mail-Adresse der Kontaktperson ein. Sie können &lt;a href="https://orcid.org/" target="_blank"&gt;ORCID&lt;/a &gt;- und &lt;a href="https://ror.org/" target="_blank"&gt;ROR&lt;/a &gt;-IDs verwenden (Beispiel: &lt;a href="https://ror.org/051yxp643" target="_blank"&gt;https://ror.org/051yxp643&lt;/a &gt; für das Max-Planck-Institut für Biogeochemie), um eine eindeutige Namenszuordnung zu gewährleisten.</help>
+		<text lang="de">Name des Ansprechpartners</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Name des Ansprechpartners</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/department">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>department</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Department</title>
+		<short_title lang="en">Department</short_title>
+		<help lang="en">Which unit/department/group do you belong to? The supervisor can be added in the 'Group name' field under 'Department'.</help>
+		<verbose_name lang="en">Department</verbose_name>
+		<title lang="de">Abteilung</title>
+		<short_title lang="de">Abteilung</short_title>
+		<help lang="de">Zu welcher Abteilung/Einheit/Gruppe gehören Sie? Der Betreuer/Fachvorgesetzte kann im Feld „Gruppenname“ unter „Abteilung“ hinzugefügt werden.</help>
+		<verbose_name lang="de">Abteilung</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/department_group" order="1"/>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/department_group_name" order="2"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/department_group">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>department_group</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/department_group"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Department or Research Group</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Department or Research Group</verbose_name>
+		<help lang="de"/>
+		<text lang="de">Abteilung oder Forschungsgruppe</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Abteilung oder Forschungsgruppe</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Departments-list"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/department_group_name">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>department_group_name</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/department_group_name"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please enter the name of the research group to which you belong.</help>
+		<text lang="en">Group name</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Group name</verbose_name>
+		<help lang="de">Bitte geben Sie den Namen der Forschungsgruppe ein, der Sie angehören.</help>
+		<text lang="de">Name der Forschungsgruppe</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Name der Forschungsgruppe</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_pi">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>project_pi</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Who is/are the Principal Investigator(s)?</title>
+		<short_title lang="en">Project PIs</short_title>
+		<help lang="en">Please list all principal investigators of the project here. You may use &lt;a href="https://orcid.org/" target="_blank"&gt;ORCID&lt;/a &gt; and &lt;a href="https://ror.org/" target="_blank"&gt;ROR&lt;/a &gt; IDs (For example: &lt;a href="https://ror.org/051yxp643" target="_blank"&gt;https://ror.org/051yxp643&lt;/a &gt; for Max Planck Institute for Biogeochemistry) for their affiliations to ensure a unique name assignment.</help>
+		<verbose_name lang="en">Project PI</verbose_name>
+		<title lang="de">Wer ist/sind der/die Projektleiter?</title>
+		<short_title lang="de">Projektleiter</short_title>
+		<help lang="de">Bitte führen Sie hier alle Projektleiter des Projekts auf. Sie können &lt;a href="https://orcid.org/" target="_blank"&gt;ORCID&lt;/a &gt;- und &lt;a href="https://ror.org/" target="_blank"&gt;ROR&lt;/a &gt;-IDs verwenden (Beispiel: &lt;a href="https://ror.org/051yxp643" target="_blank"&gt;https://ror.org/051yxp643&lt;/a &gt; für das Max-Planck-Institut für Biogeochemie), um eine eindeutige Namenszuordnung zu gewährleisten.</help>
+		<verbose_name lang="de">Projekt PI</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_pi_name_01" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_pi_name_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>project_pi_name_01</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/po_piname_01"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please enter fullname of the respective PI</help>
+		<text lang="en">Please enter PI name</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">PI name</verbose_name>
+		<help lang="de">Bitte geben Sie den vollständigen Namen des jeweiligen PI ein.</help>
+		<text lang="de">Bitte geben Sie den Namen des PI ein</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">PI name</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_funder">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>project_funder</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Project funding</title>
+		<short_title lang="en">Project funder</short_title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project funding</verbose_name>
+		<title lang="de">Projektfinanzierung</title>
+		<short_title lang="de">Projektfinanzierung</short_title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projektfinanzierung</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_funder_external" order="1"/>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_funder_name" order="2"/>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_funder_awardnb" order="4"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_funder_external">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>project_funder_external</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/project_funder_external"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">If yes: add funder name and grant ID</help>
+		<text lang="en">Is the project funded by external grants?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Is the project funded by external grants?</verbose_name>
+		<help lang="de">Falls ja: Förderkennnummer angeben</help>
+		<text lang="de">Wird das Projekt durch externe Fördermittel finanziert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Wird das Projekt durch externe Fördermittel finanziert?</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_funder_name">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>project_funder_name</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/project_funder_name"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please use standard name given by the Research Organization Registry (&lt;a href="https://ror.org/" target="_blank"&gt;ror.org&lt;/a &gt;). E.g.: &lt;a href="https://ror.org/04pz7b180" target="_blank"&gt;Bundesministerium für Forschung, Technologie und Raumfahrt&lt;a &gt;.</help>
+		<text lang="en">Funder name</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Funder name</verbose_name>
+		<help lang="de">Verwenden Sie bitte die vom Research Organization Registry (&lt;a href="https://ror.org/" target="_blank"&gt;ror.org&lt;/a &gt;) angegebene Standardbezeichnung. Beispiel: &lt;a href="https://ror.org/04pz7b180" target="_blank"&gt;Bundesministerium für Forschung, Technologie und Raumfahrt&lt;a &gt;.</help>
+		<text lang="de">Name des Förderers</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Name des Förderers</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/project_funder_awardnb">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>project_funder_awardnb</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/project_funder_awardnb"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">The process number assigned by the funder to a sponsored grant.</help>
+		<text lang="en">Grant ID</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Grant ID</verbose_name>
+		<help lang="de">Die vom Förderer einem geförderten Zuschuss zugewiesene Fördernummer.</help>
+		<text lang="de">Fördernummer</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Fördernummer</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_description_and_reuse">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_description_and_reuse</uri_path>
+		<dc:comment/>
+		<title lang="en">Data description and reuse</title>
+		<short_title lang="en">Data description and reuse</short_title>
+		<title lang="de">Datenbeschreibung und Wiederverwendung</title>
+		<short_title lang="de">Datenbeschreibung</short_title>
+		<pages>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_type" order="1"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_type">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_type</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Data description and reuse</title>
+		<short_title lang="en">Data types</short_title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data description and reuse</verbose_name>
+		<title lang="de">Datenbeschreibung und Wiederverwendung</title>
+		<short_title lang="de">Datentypen</short_title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datenbeschreibung und Wiederverwendung</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_type_entries" order="1"/>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_reuse_yesno" order="2"/>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_reuse_text" order="3"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_type_entries">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_type_entries</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_type_entries"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Types could include e.g. numeric, textual, image, audio, video. The filename extension often indicates formats. Proprietary formats (created by scientific instruments and/or specific software applications) should be converted or at least be convertible into open and standard formats. Volume can be described in terms of the number of files as well as the total file size. 
+
+&lt;a href="https://rdm.mpdl.mpg.de/before-research/file-formats/" target=_blank"&gt;See file formats&lt;/a&gt; or &lt;a href="https://github.com/RDMJeanne/FolderStructure"  target=_blank"&gt;Github RDMPhD Project folder template&lt;/a &gt;.</help>
+		<text lang="en">Which data will be generated, integrated and collected, i.e. which types, formats and extensions will you use?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Which data will be generated, integrated and collected, i.e. which types, formats and extensions will you use?</verbose_name>
+		<help lang="de">Zu den Dateitypen zählen beispielsweise numerische, Text-, Bild-, Audio- und Videodateien. Die Dateiendung gibt oft Aufschluss über das Format. Proprietäre Formate (die von wissenschaftlichen Instrumenten und/oder bestimmten Softwareanwendungen erstellt wurden) sollten konvertiert werden oder zumindest in offene und standardisierte Formate konvertierbar sein. Der Umfang lässt sich sowohl anhand der Anzahl der Dateien als auch anhand der Gesamtdateigröße beschreiben.</help>
+		<text lang="de">Welche Daten werden generiert, integriert und erfasst, d. h. welche Datentypen, Formate und Dateiendungen werden Sie verwenden?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Welche Daten werden generiert, integriert und erfasst, d. h. welche Datentypen, Formate und Dateiendungen werden Sie verwenden?</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_reuse_yesno">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_reuse_yesno</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_reuse_yesno"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">If yes: describe types of data and the sources.</help>
+		<text lang="en">Do you intend to reuse existing data?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Do you intend to reuse existing data?</verbose_name>
+		<help lang="de">Falls ja: Beschreiben Sie die Arten der Daten und deren Quellen.</help>
+		<text lang="de">Beabsichtigen Sie, vorhandene Daten wiederzuverwenden?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Beabsichtigen Sie, vorhandene Daten wiederzuverwenden?</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_reuse_text">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_reuse_text</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_reuse_text"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Please describe the reused data (for example, the types, formats, and file extensions they have).</help>
+		<text lang="en">Description of reused data</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Description of reused data</verbose_name>
+		<help lang="de">Bitte beschreiben Sie die wiederverwendeten Daten (beispielsweise deren Typen, Formate und Dateiendungen).</help>
+		<text lang="de">Beschreibung der wiederverwendeten Daten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Beschreibung der wiederverwendeten Daten</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/documentation_metadata">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>documentation_metadata</uri_path>
+		<dc:comment/>
+		<title lang="en">Documentation, metadata and quality</title>
+		<short_title lang="en">Documentation</short_title>
+		<title lang="de">Dokumentation, Metadaten und Qualität</title>
+		<short_title lang="de">Dokumentation</short_title>
+		<pages>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/documentation_metadata_01" order="1"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/documentation_metadata_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>documentation_metadata_01</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Documentation, metadata and quality</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en">Documentation, metadata and quality</verbose_name>
+		<title lang="de">Dokumentation, Metadaten und Qualität</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de">Dokumentation, Metadaten und Qualität</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/documentation_metadata_02" order="1"/>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/documentation_metadata_03" order="2"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/documentation_metadata_02">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>documentation_metadata_02</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/documentation_metadata_02"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For examples see &lt;a href="https://rdm.mpdl.mpg.de/before-research/file-handling/"  target="_blank"&gt;RDM file handling&lt;/a &gt; or &lt;a href="https://github.com/RDMJeanne/FolderStructure/tree/main" target="_blank"&gt;Folderstructure naming scheme&lt;/a &gt; .</help>
+		<text lang="en">Describe file organization and naming conventions</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Describe file organization and naming conventions</verbose_name>
+		<help lang="de">Beispiele finden Sie unter &lt;a href="https://rdm.mpdl.mpg.de/before-research/file-handling/" target="_blank"&gt;Umgang mit RDM-Dateien oder &lt;a href="https://github.com/RDMJeanne/FolderStructure/tree/main" target="_blank"&gt;Namenskonventionen für die Ordnerstruktur.</help>
+		<text lang="de">Beschreiben Sie die Dateistruktur und die Namenskonventionen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Beschreiben Sie die Dateistruktur und die Namenskonventionen</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/documentation_metadata_03">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>documentation_metadata_03</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/documentation_metadata_03"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Metadata are structured data that describe your data, and are often necessary when publishing your data. We recommend using metadata standards like &lt;a href="https://cfconventions.org/" target="_blank"&gt;CF:Climate and Forest&lt;/a &gt; or &lt;a href="https://www.dublincore.org/resources/userguide/" target="_blank"&gt;Dublin Core&lt;/a &gt;, &lt;a href="https://datacite-metadata-schema.readthedocs.io/en/4.7/appendices/appendix-1/" target="_blank"&gt;DataCite&lt;/a &gt; or check &lt;a href="https://rdamsc.bath.ac.uk/" target="_blank"&gt;Metadata Standards Catalog&lt;/a &gt;, &lt;a href="https://rdamsc.bath.ac.uk/subject/Earth%20sciences" target="_blank"&gt;Earth Metada standards&lt;/a &gt;. Metadata can be documented in a &lt;a href="https://github.com/RDMJeanne/FolderStructure/blob/main/PhD/01_Documents/02_Administrative/01_DMP/G_DMP_README.md" target="_blank"&gt;readme-file &lt;/a &gt;.</help>
+		<text lang="en">How will metadata be documented?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">How will metadata be documented?</verbose_name>
+		<help lang="de">Metadaten sind strukturierte Daten, die Ihre Daten beschreiben und häufig für die Veröffentlichung Ihrer Daten erforderlich sind. Wir empfehlen die Verwendung von Metadatenstandards wie &lt;a href="https://cfconventions.org/" target="_blank"&gt;CF:Climate and Forest&lt;/a &gt; oder &lt;a href="https://www.dublincore.org/resources/userguide/" target="_blank"&gt;Dublin Core&lt;/a &gt;, &lt;a href="https://datacite-metadata-schema. readthedocs.io/en/4.7/appendices/appendix-1/„target=“_blank“&gt;DataCite&lt;/a&gt; oder sehen Sie im &lt;a href="https://rdamsc.bath.ac.uk/" target="_blank"&gt;Metadata Standards Catalog&lt;/a&gt; nach, &lt;a href="https://rdamsc.bath.ac.uk/subject/Earth%20sciences" target="_blank"&gt;Earth-Metadaten-Standards&lt;/a &gt;. Metadaten können in einer &lt;a href="https://github.com/RDMJeanne/FolderStructure/blob/main/PhD/01_Documents/02_Administrative/01_DMP/G_DMP_README.md" target="_blank"&gt;Readme-Datei&lt;/a &gt; dokumentiert werden.</help>
+		<text lang="de">Wie werden Metadaten dokumentiert?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Wie werden Metadaten dokumentiert?</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_storage">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_storage</uri_path>
+		<dc:comment/>
+		<title lang="en">Data storage</title>
+		<short_title lang="en">Data storage</short_title>
+		<title lang="de">Datenspeicherung</title>
+		<short_title lang="de">Datenspeicherung</short_title>
+		<pages>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_storage_01" order="1"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_storage_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_storage_01</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Storage and backup</title>
+		<short_title lang="en">Storage and backup</short_title>
+		<help lang="en"/>
+		<verbose_name lang="en">Storage and backup</verbose_name>
+		<title lang="de">Speicherung und Datensicherung</title>
+		<short_title lang="de">Speicherung und Datensicherung</short_title>
+		<help lang="de"/>
+		<verbose_name lang="de">Speicherung und Datensicherung</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_storage_02" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_storage_02">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_storage_02</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_storage_02"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Use the following options, to be on the safe side regarding backup and security:
+
+&lt;ul&gt;
+  &lt;li&gt;Local storage at the institute (group-wide shared storage in the &lt;a href="https://max.mpg.de/sites/bgc/Service-Groups/IT-Service/Pages/Services/data-storage-DE.aspx" target="_blank"&gt;central data storage system&lt;/a &gt;,  &lt;a href="https://max.mpg.de/sites/bgc/Service-Groups/IT-Service/Pages/Services/BGC-Cloud.aspx" target="_blank"&gt;BGC cloud&lt;/a &gt;)
+&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://keeper.mpdl.mpg.de/accounts/login/?next=/" target="_blank"&gt;Keeper&lt;/a &gt; (Max Planck Digital Library, MPDL)&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://gwdg.de/en/" target="_blank"&gt;GWDG&lt;/a &gt; (Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen)&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://docs.mpcdf.mpg.de/doc/data/backup-archive/backup-archive-system.html#backup-archive-for-all-max-planck-institutes" target="_blank"&gt;MPCDF&lt;/a &gt; (Max Planck Computing &amp; Data Facility)&lt;/li&gt;
+  &lt;li&gt;Other: please name the external service and describe its backup strategy.&lt;/li&gt;
+&lt;/ul&gt;</help>
+		<text lang="en">Where do you store your data during your project?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Where do you store your data during your project?</verbose_name>
+		<help lang="de">Nutzen Sie die folgenden Optionen, um in Bezug auf Datensicherung und Sicherheit auf der sicheren Seite zu sein:
+
+&lt;ul&gt;
+  &lt;li&gt;Lokaler Speicher am Institut (gruppenweiter gemeinsamer Speicher im &lt;a href="https://max.mpg.de/sites/bgc/Service-Groups/IT-Service/Pages/Services/data-storage-DE.aspx" target="_blank"&gt;zentralen Datenspeichersystem&lt;/a &gt;,  &lt;a href="https://max.mpg.de/sites/bgc/Service-Groups/IT-Service/Pages/Services/BGC-Cloud.aspx" target="_blank"&gt;BGC-Cloud&lt;/a &gt;)
+&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://keeper.mpdl.mpg.de/accounts/login/?next=/" target="_blank"&gt;Keeper&lt;/a &gt; (Max-Planck-Digitalbibliothek, MPDL)&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://gwdg.de/en/" target="_blank"&gt;GWDG&lt;/a &gt; (Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen)&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://docs.mpcdf.mpg.de/doc/data/backup-archive/backup-archive-system.html#backup-archive-for-all-max-planck-institutes" target="_blank"&gt;MPCDF&lt;/a &gt; (Max-Planck-Computing &amp; Data Facility)&lt;/li&gt;</help>
+		<text lang="de">Wo speichern Sie Ihre Daten während Ihres Projekts?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Wo speichern Sie Ihre Daten während Ihres Projekts?</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/requirements">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>requirements</uri_path>
+		<dc:comment/>
+		<title lang="en">Legal and ethical requirements, codes of conduct and compliance</title>
+		<short_title lang="en">Requirements</short_title>
+		<title lang="de">Rechtliche und ethische Anforderungen, Verhaltenskodizes und Compliance</title>
+		<short_title lang="de">Anforderungen</short_title>
+		<pages>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/requirements_personal_data" order="1"/>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/requirements_constraints" order="2"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/requirements_personal_data">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>requirements_personal_data</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Personal Data</title>
+		<short_title lang="en">Personal data</short_title>
+		<help lang="en"/>
+		<verbose_name lang="en">Personal Data</verbose_name>
+		<title lang="de">Personenbezogene Daten</title>
+		<short_title lang="de">Personenbezogene Daten</short_title>
+		<help lang="de"/>
+		<verbose_name lang="de">Personenbezogene Daten</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/requirements_personal_data_yesno" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/requirements_personal_data_yesno">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>requirements_personal_data_yesno</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/requirements_personal_data_yesno"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">If yes, contact your &lt;a href="https://www.bgc-jena.mpg.de/en/contact/commissioners" target="_blank"&gt;local data protection coordinator&lt;/a &gt; (mandatory) to make sure that you comply with the GDPR, DSGVO and &lt;a href="https://www.mpg.de/197494/rulesScientificPractice.pdf" target="_blank"&gt;MPG Rules of good scientific practice, 2.6 Research involving personal data&lt;/a &gt;.</help>
+		<text lang="en">Does your data include personal data?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Does your data include personal data?</verbose_name>
+		<help lang="de">Falls ja, wenden Sie sich bitte an Ihren &lt;a href="https://www.bgc-jena.mpg.de/en/contact/commissioners" target="_blank"&gt;lokalen Datenschutzkoordinator&lt;/a &gt; (obligatorisch), um sicherzustellen, dass Sie die DSGVO, die GDPR und die &lt;a href="https://www.mpg.de/197494/rulesScientificPractice.pdf" target="_blank"&gt;MPG-Regeln für gute wissenschaftliche Praxis, 2.6 Forschung mit personenbezogenen Daten&lt;/a &gt; einhalten.</help>
+		<text lang="de">Enthalten Ihre Daten personenbezogene Daten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Enthalten Ihre Daten personenbezogene Daten?</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/requirements_constraints">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>requirements_constraints</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Constraints</title>
+		<short_title lang="en">Constraints</short_title>
+		<help lang="en"/>
+		<verbose_name lang="en">Constraints</verbose_name>
+		<title lang="de">Einschränkungen</title>
+		<short_title lang="de">Einschränkungen</short_title>
+		<help lang="de"/>
+		<verbose_name lang="de">Einschränkungen</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="http://example.com/terms/questions/requirements_constraints_03" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="http://example.com/terms/questions/requirements_constraints_03">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>requirements_constraints_03</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/requirements_constraints_03"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">If yes, please describe the constraints.</help>
+		<text lang="en">Are there constraints to access your data, e.g. embargo, export control, restricted to certain communities or subject to data sharing agreements?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Are there constraints to access your data, e.g. embargo, export control, restricted to certain communities or subject to data sharing agreements?</verbose_name>
+		<help lang="de">Falls ja, beschreiben Sie bitte diese Einschränkungen.</help>
+		<text lang="de">Gibt es Einschränkungen beim Zugriff auf Ihre Daten, z. B. Sperrfristen, Exportkontrollen, Beschränkungen auf bestimmte Nutzergruppen oder Vereinbarungen zur Weitergabe von Daten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Gibt es Einschränkungen beim Zugriff auf Ihre Daten, z. B. Sperrfristen, Exportkontrollen, Beschränkungen auf bestimmte Nutzergruppen oder Vereinbarungen zur Weitergabe von Daten?</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_sharing</uri_path>
+		<dc:comment/>
+		<title lang="en">Data sharing, access and long-term preservation</title>
+		<short_title lang="en">Data sharing</short_title>
+		<title lang="de">Datenaustausch, Datenzugang und Langzeitarchivierung</title>
+		<short_title lang="de">Datenaustausch</short_title>
+		<pages>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_responsibility" order="1"/>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_longtermstorage" order="2"/>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_pids" order="3"/>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_licenses" order="4"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_responsibility">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_sharing_responsibility</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Data responsibility</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en">Data responsibility</verbose_name>
+		<title lang="de">Verantwortung für Daten</title>
+		<short_title lang="de">Verantwortung für Daten</short_title>
+		<help lang="de"/>
+		<verbose_name lang="de">Verantwortung für Daten</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="http://example.com/terms/questions/data_sharing_responsibility" order="1"/>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_responsibility_name" order="2"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="http://example.com/terms/questions/data_sharing_responsibility">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>data_sharing_responsibility</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_sharing_responsibility"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Who will be responsible for your data, when you leave the institute?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Who will be responsible for your data, when you leave the institute?</verbose_name>
+		<help lang="de"/>
+		<text lang="de">Wer ist für Ihre Daten verantwortlich, wenn Sie das Institut verlassen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Wer ist für Ihre Daten verantwortlich, wenn Sie das Institut verlassen?</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/Data-owner"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_responsibility_name">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_sharing_responsibility_name</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_sharing_responsibility_name"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">You may use &lt;a href="https://orcid.org/" target="_blank"&gt;ORCID&lt;/a &gt; and &lt;a href="https://ror.org/" target="_blank"&gt;ROR&lt;/a &gt; IDs (For example: &lt;a href="https://ror.org/051yxp643" target="_blank"&gt;https://ror.org/051yxp643&lt;/a &gt; for Max Planck Institute for Biogeochemistry) for their affiliations to ensure a unique name assignment.</help>
+		<text lang="en">Full name of responsible person</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Full name of responsible person</verbose_name>
+		<help lang="de">Sie können &lt;a href="https://orcid.org/" target="_blank"&gt;ORCID&lt;/a &gt;- und &lt;a href="https://ror.org/" target="_blank"&gt;ROR&lt;/a &gt;-IDs verwenden (Beispiel: &lt;a href="https://ror.org/051yxp643" target="_blank"&gt;https://ror.org/051yxp643&lt;/a &gt; für das Max-Planck-Institut für Biogeochemie), um eine eindeutige Namenszuordnung zu gewährleisten.</help>
+		<text lang="de">Vollständiger Name der verantwortlichen Person</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Vollständiger Name der verantwortlichen Person</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_longtermstorage">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_sharing_longtermstorage</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Long term storage</title>
+		<short_title lang="en">Long term storage</short_title>
+		<help lang="en"/>
+		<verbose_name lang="en">Long term storage</verbose_name>
+		<title lang="de">Langzeit-Speicherung von Daten</title>
+		<short_title lang="de">Langzeit-Speicherung von Daten</short_title>
+		<help lang="de"/>
+		<verbose_name lang="de">Langzeit-Speicherung von Daten</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_longtermstorage_01" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_longtermstorage_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_sharing_longtermstorage_01</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_sharing_longtermstorage_01"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">This applies to any data (raw and processed, including codes, scripts) associated with your publication and/or thesis.
+
+For longterm data that is not intended to be published, please use data archive servers that permit long-term (&gt;10 years) data archiving. For instance:
+
+&lt;ul&gt;
+  &lt;li&gt; &lt;a href="https://max.mpg.de/sites/bgc/Service-Groups/IT-Service/Pages/Services/Datenmanagement-EN.aspx" target="_blank"&gt;institutional archive&lt;/a &gt;&lt;/li&gt;
+  &lt;li&gt;
+ &lt;a href="https://keeper.mpdl.mpg.de/accounts/login/?next=/" target="_blank"&gt;Keeper&lt;/a &gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href="https://gwdg.de/en/" target="_blank"&gt;GWDG&lt;/a &gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href="https://docs.mpcdf.mpg.de/doc/data/backup-archive/backup-archive-system.html#backup-archive-for-all-max-planck-institutes" target="_blank"&gt;MPCDF&lt;/a &gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.dkrz.de/de" target="_blank"&gt;DKRZ Archive&lt;/a &gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+For data intended for publication: The MPG strongly encourages  &lt;a href="https://openaccess.mpg.de/" target="_blank"&gt;open data policies&lt;/a &gt;, so please consider to publish your data &lt;a href="https://rdm.mpdl.mpg.de/after-research/open-research-data/" target="_blank"&gt;open access&lt;/a &gt;.
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://edmond.mpg.de/" target="_blank"&gt;Edmond (Open Data repository MPDL, certified)&lt;/a &gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://zenodo.org/" target="_blank"&gt;Zenodo&lt;/a &gt;&lt;/li&gt;
+  &lt;li&gt;Others: please describe (check out &lt;a href="https://onestop4all.nfdi4earth.de/howtoentry/data" target="_blank"&gt;NFDI4Earth&lt;/a &gt; collection or &lt;a href="https://www.re3data.org/search?subjects[]=341" target="_blank"&gt;re3data&lt;/a &gt; geosciences collection to choose a trustworthy, ideally &lt;a href="https://amt.coretrustseal.org/certificates/" target="_blank"&gt; core-trust-seal certified&lt;/a &gt;, repository)&lt;/li&gt;
+&lt;/ul&gt;</help>
+		<text lang="en">Where do you plan to store your data longterm?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Where do you plan to store your data longterm?</verbose_name>
+		<help lang="de">Dies gilt für alle Daten (Rohdaten und verarbeitete Daten, einschließlich Codes und Skripte), die mit Ihrer Veröffentlichung und/oder Ihrer Dissertation in Zusammenhang stehen.
+
+Für Langzeitdaten, die nicht zur Veröffentlichung bestimmt sind, nutzen Sie bitte Datenarchivserver, die eine langfristige (&gt;10 Jahre) Datenarchivierung ermöglichen. Zum Beispiel:
+
+&lt;ul&gt;
+  &lt;li&gt; &lt;a href="https://max.mpg.de/sites/bgc/Service-Groups/IT-Service/Pages/Services/Datenmanagement-EN.aspx" target="_blank"&gt;Institutsarchiv&lt;/a &gt;&lt;/li&gt;
+  &lt;li&gt;
+ &lt;a href="https://keeper.mpdl.mpg.de/accounts/login/?next=/" target="_blank"&gt;Keeper&lt;/a &gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href="https://gwdg.de/en/" target="_blank"&gt;GWDG&lt;/a &gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href="https://docs.mpcdf.mpg.de/doc/data/backup-archive/backup-archive-system.html#backup-archive-for-all-max-planck-institutes" target="_blank"&gt;MPCDF&lt;/a &gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.dkrz.de/de" target="_blank"&gt;DKRZ-Archiv&lt;/a &gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+Für zur Veröffentlichung bestimmte Daten: Die MPG befürwortet nachdrücklich  &lt;a href="https://openaccess.mpg.de/" target="_blank"&gt;Open-Data-Richtlinien&lt;/a &gt;; bitte erwägen Sie daher, Ihre Daten &lt;a href="https://rdm.mpdl.mpg.de/after-research/open-research-data/" target="_blank"&gt;im Open Access&lt;/a &gt; zu veröffentlichen.
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://edmond.mpg.de/" target="_blank"&gt;Edmond (Open-Data-Repositorium MPDL, zertifiziert)&lt;/a &gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://zenodo.org/" target="_blank"&gt;Zenodo&lt;/a &gt;&lt;/li&gt;
+  &lt;li&gt;Sonstiges: Bitte beschreiben Sie dies (siehe &lt;a href="https://onestop4all.nfdi4earth.de/howtoentry/data" target="_blank"&gt;NFD</help>
+		<text lang="de">Wo möchten Sie Ihre Daten langfristig speichern?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Wo möchten Sie Ihre Daten langfristig speichern?</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_pids">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_sharing_pids</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Usage of persistent identifiers</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en">Usage of persistent identifiers</verbose_name>
+		<title lang="de">Verwendung persistenter Identifikatoren</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de">Verwendung persistenter Identifikatoren</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_pids_01" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_pids_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_sharing_pids_01</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_sharing_pids_01"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Which &lt;a href="https://pid.maxit.mpg.de/other-pids/" target="_blank"&gt;persistent identifiers&lt;/a &gt;  (e.g., DOI, &lt;a href="https://orcid.org/" target="_blank"&gt;ORCID&lt;/a &gt;, &lt;a href="https://ror.org/051yxp643" target="_blank"&gt;ROR&lt;/a &gt;) will be used for published data?</help>
+		<text lang="en">Which PIDs will be used?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Which PIDs will be used?</verbose_name>
+		<help lang="de">Welche &lt;a href="https://pid.maxit.mpg.de/other-pids/" target="_blank"&gt;permanente Identifikatoren&lt;/a &gt; (z. B. DOI, &lt;a href="https://orcid.org/" target="_blank"&gt;ORCID&lt;/a &gt;, &lt;a href="https://ror.org/051yxp643" target="_blank"&gt;ROR&lt;/a &gt;) werden für veröffentlichte Daten verwendet?</help>
+		<text lang="de">Welche PIDs werden verwendet?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Welche PIDs werden verwendet?</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_licenses">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_sharing_licenses</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Licenses</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en">Licenses</verbose_name>
+		<title lang="de">Lizenzen</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_licenses_01" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/data_sharing_licenses_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>data_sharing_licenses_01</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_sharing_licenses_01"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Not all licenses can be used for all kind of metadata/data/ software (see &lt;a href="https://www.clib-jena.mpg.de/25359/CC-and-other-licences" target="_blank"&gt;library homepage&lt;/a &gt;):
+
+&lt;ul&gt;
+  &lt;li&gt;Metadata: &lt;a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank"&gt;CCO&lt;/a &gt;&lt;/li&gt;
+  &lt;li&gt;Data: &lt;a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"&gt;CC-BY&lt;/a &gt;, &lt;a href="https://www.gnu.org/licenses/licenses.html.en" target="_blank"&gt;GNU&lt;/a &gt;, or &lt;a href="https://opendatacommons.org/" target="_blank"&gt;Open data commons&lt;/a &gt; licenses.&lt;/li&gt;
+  &lt;li&gt;Software or codes: &lt;a href="https://www.gnu.org/licenses/licenses.html.en" target="_blank"&gt;GNU&lt;/a &gt;, &lt;a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank"&gt;Apache&lt;/a &gt;, &lt;a href="https://tlo.mit.edu/understand-ip/exploring-mit-open-source-license-comprehensive-guide" target="_blank"&gt;MIT license&lt;/a &gt;.&lt;/li&gt;
+&lt;/ul&gt;</help>
+		<text lang="en">Which licenses will be used for your published data and published software/codes/ scripts?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Nicht alle Lizenzen können für alle Arten von Metadaten/Daten/Software verwendet werden (siehe &lt;a href="https://www.clib-jena.mpg.de/25359/CC-and-other-licences" target="_blank"&gt;Homepage der Bibliothek&lt;/a &gt;):
+
+&lt;ul&gt;
+  &lt;li&gt;Metadaten: CCO.&lt;/li&gt;
+  &lt;li&gt;Daten: &lt;a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"&gt;CC-BY&lt;/a &gt;, &lt;a href="https://www.gnu.org/licenses/licenses.html.en" target="_blank"&gt;GNU&lt;/a &gt; oder &lt;a href="https://opendatacommons.org/" target="_blank"&gt;Open Data Commons&lt;/a &gt;-Lizenzen.&lt;/li&gt;
+  &lt;li&gt;Software oder Codes: &lt;a href="https://www.gnu.org/licenses/licenses.html.en" target="_blank"&gt;GNU&lt;/a &gt;, &lt;a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank"&gt;Apache&lt;/a &gt;, &lt;a href="https://tlo.mit.edu/understand-ip/exploring-mit-open-source-license-comprehensive-guide" target="_blank"&gt;MIT-Lizenz&lt;/a &gt;.&lt;/li&gt;
+&lt;/ul&gt;</help>
+		<text lang="de">Welche Lizenzen werden für Ihre veröffentlichten Daten und Ihre veröffentlichte Software/Codes/Skripte verwendet?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Welche Lizenzen werden für Ihre veröffentlichten Daten und Ihre veröffentlichte Software/Codes/Skripte verwendet?</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/additional_information">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>additional_information</uri_path>
+		<dc:comment/>
+		<title lang="en">Additional Information</title>
+		<short_title lang="en">Additional Information</short_title>
+		<title lang="de">Weitere Informationen</title>
+		<short_title lang="de">Weitere Informationen</short_title>
+		<pages>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/additional_information_01" order="1"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/additional_information_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>additional_information_01</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Additional information</title>
+		<short_title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en">Additional information</verbose_name>
+		<title lang="de">Weitere Informationen</title>
+		<short_title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de">Weitere Informationen</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/additional_information_02" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/additional_information_02">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>additional_information_02</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/additional_information_02"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Here you can add additional information specific for your project.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Here you can add additional information specific for your project.</verbose_name>
+		<help lang="de"/>
+		<text lang="de">Hier können Sie zusätzliche Informationen hinzufügen, die speziell für Ihr Projekt gelten.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Hier können Sie zusätzliche Informationen hinzufügen, die speziell für Ihr Projekt gelten.</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/final_considerations">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>final_considerations</uri_path>
+		<dc:comment/>
+		<title lang="en">Final considerations</title>
+		<short_title lang="en">Final considerations</short_title>
+		<title lang="de">Abschließende Hinweise</title>
+		<short_title lang="de">Abschließende Hinweise</short_title>
+		<pages>
+			<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/final_considerations_01" order="1"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/final_considerations_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>final_considerations_01</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Final considerations</title>
+		<short_title lang="en">Final considerations</short_title>
+		<help lang="en"/>
+		<verbose_name lang="en">Final considerations</verbose_name>
+		<title lang="de">Abschließende Hinweise</title>
+		<short_title lang="de">Abschließende Hinweise</short_title>
+		<help lang="de"/>
+		<verbose_name lang="de">Abschließende Hinweise</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/final_considerations_03" order="0"/>
+			<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/final_considerations_02" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/final_considerations_03">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>final_considerations_03</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/final_considerations_03"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Please provide a statement on the use of AI tools for your DMP.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Please provide a statement on the use of AI tools for your DMP.</verbose_name>
+		<help lang="de"/>
+		<text lang="de">Bitte geben Sie eine Erklärung zur Nutzung von KI-Tools für die Erstellung Ihres DMP ab.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Bitte geben Sie eine Erklärung zur Nutzung von KI-Tools für die Erstellung Ihres DMP ab.</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.bgc-jena.mpg.de/terms/questions/final_considerations_02">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<uri_path>final_considerations_02</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/final_considerations_02"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Consider that the implementation of your DMP needs resources. You should start archiving your data in advance, we recommend 3 months before the end of your contract. 
+
+Please add the functional account "rdm-group@bgc-jena.mpg.de" as member to your project (upper panel: 'Back to my projects' -&gt; right panel: 'Add member'). Assign "rdm-group@bgc-jena.mpg.de" the role 'Guest'. This way, the RDM group can see but not edit your DMP.
+
+For questions please contact rdm-group@bgc-jena.mpg.de</help>
+		<text lang="en">Resources and final remarks</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Resources and final remarks</verbose_name>
+		<help lang="de">Bedenken Sie, dass die Umsetzung Ihres DMP Ressourcen erfordert. Sie sollten rechtzeitig mit der Archivierung Ihrer Daten beginnen; wir empfehlen, dies drei Monate vor Vertragsende zu tun. 
+
+Bitte fügen Sie das Funktionskonto „rdm-group@bgc-jena.mpg.de“ als Mitglied zu Ihrem Projekt hinzu (oberer Bereich: „Zurück zu meinen Projekten“ -&gt; rechter Bereich: „Mitglied hinzufügen“). Weisen Sie „rdm-group@bgc-jena.mpg.de“ die Rolle „Gast“ zu. Auf diese Weise kann die RDM-Gruppe Ihr DMP einsehen, aber nicht bearbeiten.
+
+Bei Fragen wenden Sie sich bitte an rdm-group@bgc-jena.mpg.de</help>
+		<text lang="de">Ressourcen und abschließende Bemerkungen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Ressourcen und abschließende Bemerkungen</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.bgc-jena.mpg.de/terms/options/checkbox"/>
+		</optionsets>
+		<conditions/>
+	</question>
+</rdmo>

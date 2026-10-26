@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-10-26T16:10:28.624387+01:00" required="2.1.0" version="2.5.2">
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>bgc_dmp_basic_vers1</key>
+		<path>bgc_dmp_basic_vers1</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/additional_information_02">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>additional_information_02</key>
+		<path>bgc_dmp_basic_vers1/additional_information_02</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_reuse_text">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>data_reuse_text</key>
+		<path>bgc_dmp_basic_vers1/data_reuse_text</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_reuse_yesno">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>data_reuse_yesno</key>
+		<path>bgc_dmp_basic_vers1/data_reuse_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_sharing_licenses_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>data_sharing_licenses_01</key>
+		<path>bgc_dmp_basic_vers1/data_sharing_licenses_01</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_sharing_longtermstorage_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>data_sharing_longtermstorage_01</key>
+		<path>bgc_dmp_basic_vers1/data_sharing_longtermstorage_01</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_sharing_pids_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>data_sharing_pids_01</key>
+		<path>bgc_dmp_basic_vers1/data_sharing_pids_01</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_sharing_responsibility">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>data_sharing_responsibility</key>
+		<path>bgc_dmp_basic_vers1/data_sharing_responsibility</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_sharing_responsibility_name">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>data_sharing_responsibility_name</key>
+		<path>bgc_dmp_basic_vers1/data_sharing_responsibility_name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_storage_02">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>data_storage_02</key>
+		<path>bgc_dmp_basic_vers1/data_storage_02</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/data_type_entries">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>data_type_entries</key>
+		<path>bgc_dmp_basic_vers1/data_type_entries</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/department_group">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>department_group</key>
+		<path>bgc_dmp_basic_vers1/department_group</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/department_group_name">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>department_group_name</key>
+		<path>bgc_dmp_basic_vers1/department_group_name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/documentation_metadata_02">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>documentation_metadata_02</key>
+		<path>bgc_dmp_basic_vers1/documentation_metadata_02</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/documentation_metadata_03">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>documentation_metadata_03</key>
+		<path>bgc_dmp_basic_vers1/documentation_metadata_03</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/final_considerations_02">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>final_considerations_02</key>
+		<path>bgc_dmp_basic_vers1/final_considerations_02</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/final_considerations_03">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>final_considerations_03</key>
+		<path>bgc_dmp_basic_vers1/final_considerations_03</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/po_piname_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>po_piname_01</key>
+		<path>bgc_dmp_basic_vers1/po_piname_01</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/po_title_01">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>po_title_01</key>
+		<path>bgc_dmp_basic_vers1/po_title_01</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/preface_02">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>preface_02</key>
+		<path>bgc_dmp_basic_vers1/preface_02</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/preface_03">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>preface_03</key>
+		<path>bgc_dmp_basic_vers1/preface_03</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/preface_filelink">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>preface_filelink</key>
+		<path>bgc_dmp_basic_vers1/preface_filelink</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/project_contact_name">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>project_contact_name</key>
+		<path>bgc_dmp_basic_vers1/project_contact_name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/project_funder_awardnb">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>project_funder_awardnb</key>
+		<path>bgc_dmp_basic_vers1/project_funder_awardnb</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/project_funder_external">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>project_funder_external</key>
+		<path>bgc_dmp_basic_vers1/project_funder_external</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/project_funder_name">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>project_funder_name</key>
+		<path>bgc_dmp_basic_vers1/project_funder_name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/requirements_constraints_03">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>requirements_constraints_03</key>
+		<path>bgc_dmp_basic_vers1/requirements_constraints_03</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1/requirements_personal_data_yesno">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>requirements_personal_data_yesno</key>
+		<path>bgc_dmp_basic_vers1/requirements_personal_data_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/bgc_dmp_basic_vers1"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/BGCDMPbasic_v1_department_group_name">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>BGCDMPbasic_v1_department_group_name</key>
+		<path>BGCDMPbasic_v1_department_group_name</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/preface_00">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>preface_00</key>
+		<path>preface_00</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/Project-name">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>Project-name</key>
+		<path>Project-name</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.bgc-jena.mpg.de/terms/domain/project/partner/PI-id">
+		<uri_prefix>https://rdmo.bgc-jena.mpg.de/terms</uri_prefix>
+		<key>PI-id</key>
+		<path>project/partner/PI-id</path>
+		<dc:comment>Short ID for a project partner, used as questionset attribute for project partner related questionsets.</dc:comment>
+		<parent/>
+	</attribute>
+</rdmo>
